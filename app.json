@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Bones & Beasts",
+    "slug": "bones-and-beasts",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#16241F",
+    "splash": {
+      "backgroundColor": "#16241F"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "backgroundColor": "#16241F"
+    },
+    "web": {
+      "bundler": "metro",
+      "backgroundColor": "#16241F",
+      "themeColor": "#16241F"
+    }
+  }
+}
