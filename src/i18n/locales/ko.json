@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "취소",
+    "save": "저장",
+    "back": "뒤로",
+    "delete": "삭제",
+    "reset": "초기화",
+    "you": "당신",
+    "explorer": "탐험가",
+    "didNotFinish": "완료하지 못함",
+    "or": "또는",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "사자",
+    "elephant": "코끼리",
+    "monkey": "원숭이",
+    "tiger": "호랑이",
+    "giraffe": "기린",
+    "zebra": "얼룩말"
+  },
+  "tabs": {
+    "home": "홈",
+    "play": "플레이",
+    "stats": "통계",
+    "settings": "설정"
+  },
+  "home": {
+    "welcome": "환영합니다, {{username}}님!",
+    "promptReady": "베팅할 준비가 되었나요?",
+    "promptWanna": "플레이하고 싶나요?",
+    "soloTitle": "솔로",
+    "soloBody": "주사위를 굴려 카드를 찾은 다음, 다른 야수의 세트가 먼저 완성되기 전에 보드에서 6개의 사본을 모두 찾아보세요. 오직 당신과 기억력, 그리고 해골뿐입니다.",
+    "playSolo": "솔로 플레이",
+    "groupTitle": "그룹",
+    "groupBody": "2~4명의 플레이어와 함께 누구보다 먼저 자신의 세트를 완성하세요. 그룹 모드는 온라인 전용입니다 — 실시간 로비에서 다른 플레이어와 매칭됩니다.",
+    "trialActive_one": "무료 체험 — {{count}}일 남음",
+    "trialActive_other": "무료 체험 — {{count}}일 남음",
+    "trialEnded": "무료 체험이 종료되었습니다 — 계속 플레이하려면 구독하세요",
+    "findGroup": "그룹 찾기"
+  },
+  "endScreen": {
+    "lossTitle": "신전에 묻혔습니다!",
+    "winTitle": "신전을 정복했습니다!",
+    "totalTime": "⏱ 총 플레이 시간: {{time}}",
+    "finalRanking": "최종 순위",
+    "setCompletionOrder": "세트 완성 순서",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "다시 플레이"
+  },
+  "bonus": {
+    "small": "보너스 보석",
+    "big": "고대 우상",
+    "found": "{{label}}을 찾았습니다!"
+  },
+  "gameOnline": {
+    "connecting": "연결 중...",
+    "aPlayer": "플레이어",
+    "huntingFor": "{{emoji}} {{faceName}}을 찾게 됩니다!",
+    "waiting": "대기 중",
+    "waitingForMove": "상대의 차례를 기다리는 중...",
+    "disconnectedName": "{{name}} (나감)"
+  },
+  "lobby": {
+    "couldNotReachServer": "서버에 연결할 수 없습니다.",
+    "couldntConnect": "연결할 수 없습니다",
+    "findingGroup": "그룹 찾는 중",
+    "you": "(나)",
+    "waitingForPlayer": "플레이어를 기다리는 중...",
+    "cancel": "취소"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "이미 등록된 이메일입니다 — 대신 로그인해 보세요.",
+    "invalidEmail": "유효한 이메일 주소가 아닌 것 같습니다.",
+    "missingEmail": "먼저 이메일 주소를 입력하세요.",
+    "weakPassword": "비밀번호는 최소 6자 이상이어야 합니다.",
+    "wrongPassword": "이메일 또는 비밀번호가 올바르지 않습니다.",
+    "userNotFound": "해당 이메일로 등록된 계정이 없습니다.",
+    "tooManyRequests": "시도가 너무 많습니다 — 잠시 기다린 후 다시 시도하세요.",
+    "networkError": "네트워크 오류 — 연결을 확인하고 다시 시도하세요.",
+    "requiresRecentLogin": "보안을 위해 로그아웃 후 다시 로그인한 다음 다시 시도하세요.",
+    "generic": "문제가 발생했습니다. 다시 시도하세요."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "구독 옵션을 불러올 수 없습니다.",
+    "purchaseFailed": "구매에 실패했습니다. 다시 시도하세요.",
+    "restoreFailed": "구매를 복원할 수 없습니다.",
+    "notSignedIn": "먼저 로그인하세요.",
+    "notAvailableOnWeb": "구독은 아직 웹에서 이용할 수 없습니다 — iOS 또는 Android 앱을 사용하세요.",
+    "checkoutFailed": "결제를 시작할 수 없습니다."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}님, 주사위를 굴려 카드를 찾으세요!",
+    "turnHuntFor": "{{name}}님의 차례 — {{faceName}} {{emoji}}을 찾으세요!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). 계속 뒤집으세요!",
+    "completedSet": "🏆 {{name}}님이 {{faceName}} 세트를 완성 — {{place}}위!",
+    "skullSolo": "💀 {{name}}님이 해골을 발견했습니다! 잠시 얼어붙습니다...",
+    "skullGroup": "💀 {{name}}님이 해골을 발견했습니다! 차례를 잃고, 다음 차례도 건너뜁니다. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}}님이 {{label}}을 발견 — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}}님이 {{label}}을 발견했지만 더 이상 공개할 것이 없었습니다!",
+    "bonusLabelSmall": "보너스 보석",
+    "bonusLabelBig": "고대 우상",
+    "foundFaceLead": "{{name}}님이 {{faceName}}을 발견",
+    "wrongTileLoss": "💀 자신의 {{targetFace}} 세트를 완성하기 전에 모든 {{wrongFace}} 타일이 발견되었습니다 — 패배입니다!",
+    "wrongTilePass": "{{name}}님이 잘못된 타일을 공개했습니다. {{nextTurn}}",
+    "everyoneFound": "모두 자신의 카드를 찾았습니다! 게임 종료.",
+    "tabletCleared": "보드가 모두 공개되었습니다! 게임 종료."
+  },
+  "skullPause": {
+    "title": "얼어붙음!"
+  },
+  "specialTiles": {
+    "traps": "함정 {{found}}/{{total}} 발견",
+    "gems": "보석 {{found}}/{{total}} 발견",
+    "idols": "우상 {{found}}/{{total}} 발견"
+  },
+  "yourTurn": {
+    "banner": "👉 당신의 차례입니다!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}}님이 세트를 완성했습니다 ({{place}}위)! {{status}}",
+    "othersRemaining_one": "{{count}}명의 플레이어가 아직 플레이 중입니다.",
+    "othersRemaining_other": "{{count}}명의 플레이어가 아직 플레이 중입니다.",
+    "everyoneDone": "모두 완료했습니다!"
+  },
+  "gameResult": {
+    "wonTitle": "{{cardName}} 카드 {{count}}장을 모두 찾았습니다!",
+    "lostTitle": "패배했습니다!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}님, 주사위를 굴려 카드를 찾으세요!",
+    "rollingPrompt": "{{playerName}}님이 주사위를 굴리는 중...",
+    "roll": "굴리기",
+    "yourCardIs": "당신의 카드는 {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "진행 중인 게임이 없습니다. 홈에서 시작하세요!"
+  },
+  "appSettings": {
+    "theme": "테마",
+    "themeDark": "다크",
+    "themeLight": "라이트",
+    "language": "언어",
+    "languageSystem": "시스템",
+    "data": "데이터",
+    "dataBody": "로그아웃하고 이 기기의 통계 기록을 삭제합니다. 이 작업은 취소할 수 없습니다.",
+    "signOutReset": "로그아웃 및 로컬 데이터 초기화",
+    "confirmResetTitle": "로그아웃하고 로컬 데이터를 초기화하시겠습니까?",
+    "confirmResetBody": "이 기기의 통계 기록을 삭제하고 로그아웃합니다. 이 작업은 취소할 수 없습니다.",
+    "reset": "초기화"
+  },
+  "profile": {
+    "displayNamePlaceholder": "표시 이름",
+    "save": "저장",
+    "cancel": "취소",
+    "signOut": "로그아웃",
+    "deleteAccount": "계정 삭제",
+    "confirmDeleteTitle": "계정을 삭제하시겠습니까?",
+    "confirmDeleteBody": "이 작업은 계정을 영구적으로 삭제합니다. 취소할 수 없습니다.",
+    "delete": "삭제",
+    "emailPlaceholder": "이메일",
+    "passwordPlaceholder": "비밀번호",
+    "forgotPassword": "비밀번호를 잊으셨나요?",
+    "resetSent": "재설정 이메일을 보냈습니다 — 받은 편지함을 확인하세요.",
+    "signUp": "회원가입",
+    "signIn": "로그인",
+    "switchToSignIn": "이미 계정이 있으신가요? 로그인",
+    "switchToSignUp": "계정이 필요하신가요? 회원가입",
+    "or": "또는",
+    "continueWithGoogle": "G  Google로 계속하기",
+    "continueWithApple": "􀣺  Apple로 계속하기",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "계정을 만들고 플레이를 시작하세요",
+    "onboardingSignInSubtitle": "로그인하여 계속하세요",
+    "proBadge": "✨ Pro 회원",
+    "upgradeToPro": "Pro로 업그레이드"
+  },
+  "staticInfo": {
+    "lastUpdated": "마지막 업데이트: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts는 메모리와 주사위가 결합된 게임입니다 — 주사위를 굴려 자신의 야수를 찾고, 해골(또는 다른 사람의 야수)에게 잡히기 전에 보드에서 그것을 찾아보세요.",
+    "howToPlayHeading": "플레이 방법",
+    "howToPlayBody": "솔로 모드는 오직 당신과 보드의 대결입니다: 주사위를 굴려 고정된 목표 동물을 정하고, 다른 동물의 세트가 완전히 공개되기 전에 타일을 뒤집어 그 사본을 모두 모으세요. 그룹 모드는 2~4명의 플레이어가 온라인에서 만나 각자의 세트 완성을 두고 경쟁합니다 — 도중에 보너스 보석과 우상을 발견하면 발견한 사람에게 즉시 추가 사본을 공개해 줍니다.",
+    "builtWithHeading": "사용 기술",
+    "builtWithBody": "클라이언트는 Expo, React Native, TypeScript로 구축되었으며, Colyseus가 실시간 온라인 그룹 플레이를 지원합니다.",
+    "versionHeading": "버전",
+    "noteHeading": "참고",
+    "noteBody": "이 프로젝트는 활발히 개발 중인 독립 프로젝트입니다 — 시간이 지나면서 새로운 기능과 규칙 조정이 있을 수 있습니다. 플레이해 주셔서 감사합니다!"
+  },
+  "privacyPolicy": {
+    "intro": "이 정책은 Bones & Beasts가 수집하는 정보와 그 사용 방법을 설명합니다. 아래 설명된 것 외에는 광고나 분석, 추적이 없습니다.",
+    "accountHeading": "계정",
+    "accountBody": "플레이하려면 계정 생성(이메일/비밀번호, Google, 또는 Apple로 로그인)이 필요합니다. 로그인 관리를 위해 Firebase Authentication을 사용하며, 이메일 주소와 표시 이름을 저장합니다(Google/Apple의 경우 해당 제공업체가 공유하는 기본 프로필 정보 — 일반적으로 이름과 이메일만 해당). 이메일/비밀번호 계정의 경우 비밀번호 자체는 당사가 보거나 저장하지 않습니다. Firebase가 직접 처리합니다. 프로필 페이지에서 언제든지 계정을 삭제할 수 있습니다.",
+    "soloHeading": "솔로 플레이",
+    "soloBody": "솔로 게임은 전적으로 기기에서 실행됩니다. 통계 탭의 게임 기록(플레이한 게임, 승리, 완성한 세트, 시간)은 기기에 로컬로 저장되며, 로그인 여부와 관계없이 당사나 다른 누구에게도 전송되지 않습니다.",
+    "groupHeading": "온라인 그룹 플레이",
+    "groupBody": "그룹 게임에 참여하면 표시 이름과 게임 내 행동(주사위 굴리기, 카드 뒤집기)이 당사의 게임 서버로 전송되어 해당 게임의 모든 참가자를 위해 공유 보드를 동기화합니다. 이 데이터는 해당 게임 세션 동안만 존재하며 — 이후 저장, 판매, 제3자 공유되지 않습니다.",
+    "childrenHeading": "아동 개인정보 보호",
+    "childrenBody": "Bones & Beasts는 13세 미만 아동을 대상으로 하지 않으며, 당사는 그들로부터 고의로 정보를 수집하지 않습니다.",
+    "changesHeading": "이 정책의 변경",
+    "changesBody": "앱이 데이터를 처리하는 방식이 변경되는 경우 — 예를 들어 충돌 보고, 푸시 알림, 유료 구독이 추가되는 경우 — 이 페이지를 업데이트하여 이를 설명합니다.",
+    "questionsHeading": "문의",
+    "questionsBody": "이 정책에 대해 질문이 있으시면 이 앱을 다운로드한 곳을 통해 문의해 주세요."
+  },
+  "termsOfService": {
+    "intro": "Bones & Beasts를 사용함으로써 이 약관에 동의하게 됩니다. 동의하지 않으면 앱을 사용하지 마세요.",
+    "gameHeading": "게임",
+    "gameBody": "Bones & Beasts(게임에 대한 설명과 플레이 방법은 소개 페이지 참조)는 오락 목적으로만 제공됩니다.",
+    "fairPlayHeading": "공정한 플레이",
+    "fairPlayBody": "그룹 게임에서는 공정하게 플레이해 주세요 — 버그 악용, 차례 자동화, 다른 플레이어의 게임 방해를 하지 마세요. 방해 행위에 대해 게임이나 로비에서 플레이어를 제거할 권리를 보유합니다.",
+    "noWarrantyHeading": "보증 없음",
+    "noWarrantyBody": "본 앱은 \"있는 그대로\" 제공되며 어떠한 종류의 보증도 없습니다. 중단 없이, 오류 없이, 항상 이용 가능하다는 것을 보장하지 않습니다 — 특히 온라인 그룹 모드는 예고 없이 업데이트, 재시작 또는 오프라인될 수 있는 게임 서버에 의존합니다.",
+    "liabilityHeading": "책임의 제한",
+    "liabilityBody": "법률이 허용하는 최대 범위 내에서, 앱 사용 또는 사용할 수 없음으로 인해 발생하는 어떠한 손해에 대해서도 당사는 책임을 지지 않습니다.",
+    "changesHeading": "변경 사항",
+    "changesBody": "이 약관은 앱이 변경됨에 따라 업데이트될 수 있습니다. 업데이트 후에도 앱을 계속 사용하면 변경된 약관에 동의하는 것으로 간주됩니다."
+  },
+  "settingsNav": {
+    "profile": "프로필",
+    "appSettings": "앱 설정",
+    "privacyPolicy": "개인정보 보호정책",
+    "termsOfService": "서비스 약관",
+    "about": "소개",
+    "settings": "설정"
+  },
+  "stats": {
+    "title": "통계",
+    "gamesPlayed": "플레이한 게임",
+    "yourWins": "승리 수",
+    "setsCompleted": "완성한 세트",
+    "avgSetsPerGame": "게임당 평균 세트",
+    "bestSoloTime": "최고 솔로 기록",
+    "noBestTime": "–",
+    "recentGames": "최근 게임",
+    "noGamesYet": "아직 플레이한 게임이 없습니다 — 시작해 보세요!",
+    "modeSolo": "솔로",
+    "modeGroup": "그룹 ({{count}}명)",
+    "placeWin": "🏆 {{place}}위",
+    "place": "{{place}}위"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "그룹 모드는 앞으로 {{count}}일 동안 무료입니다 — 언제든지 구독하여 계속 플레이하세요.",
+    "trialActiveSubtitle_other": "그룹 모드는 앞으로 {{count}}일 동안 무료입니다 — 언제든지 구독하여 계속 플레이하세요.",
+    "trialEndedSubtitle": "그룹 모드 무료 체험이 종료되었습니다. 구독하여 다른 플레이어들과 온라인 경쟁을 계속하세요.",
+    "monthly": "월간",
+    "yearly": "연간",
+    "lifetime": "평생",
+    "restorePurchases": "구매 복원",
+    "notNow": "나중에"
+  },
+  "avatar": {
+    "pageTitle": "아바타",
+    "subtitle": "프로필에 사용할 아바타를 선택하세요"
+  }
+}

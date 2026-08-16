@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "Batal",
+    "save": "Simpan",
+    "back": "Kembali",
+    "delete": "Hapus",
+    "reset": "Atur Ulang",
+    "you": "Kamu",
+    "explorer": "Penjelajah",
+    "didNotFinish": "Belum selesai",
+    "or": "atau",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Singa",
+    "elephant": "Gajah",
+    "monkey": "Monyet",
+    "tiger": "Harimau",
+    "giraffe": "Jerapah",
+    "zebra": "Zebra"
+  },
+  "tabs": {
+    "home": "Beranda",
+    "play": "Main",
+    "stats": "Statistik",
+    "settings": "Pengaturan"
+  },
+  "home": {
+    "welcome": "Selamat datang, {{username}}!",
+    "promptReady": "Siap bertaruh?",
+    "promptWanna": "Mau main?",
+    "soloTitle": "Solo",
+    "soloBody": "Lempar dadu untuk menemukan kartumu, lalu buru keenam salinannya di papan sebelum set hewan lain lebih dulu lengkap. Cuma kamu, memorimu, dan tengkorak-tengkorak itu.",
+    "playSolo": "Main Solo",
+    "groupTitle": "Grup",
+    "groupBody": "Gabung dengan 2-4 pemain dan berlomba menyelesaikan setmu sendiri lebih dulu. Mode Grup hanya online — kami akan mencarikan pemain lain di lobi live.",
+    "trialActive_one": "Uji coba gratis — {{count}} hari lagi",
+    "trialActive_other": "Uji coba gratis — {{count}} hari lagi",
+    "trialEnded": "Uji coba gratis berakhir — berlangganan untuk terus bermain",
+    "findGroup": "Cari Grup"
+  },
+  "endScreen": {
+    "lossTitle": "Terkubur di Kuil!",
+    "winTitle": "Kuil Berhasil Dibersihkan!",
+    "totalTime": "⏱ Total waktu permainan: {{time}}",
+    "finalRanking": "Peringkat akhir",
+    "setCompletionOrder": "Urutan penyelesaian set",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Main Lagi"
+  },
+  "bonus": {
+    "small": "Batu Permata Bonus",
+    "big": "Berhala Kuno",
+    "found": "Kamu menemukan {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Menghubungkan...",
+    "aPlayer": "Seorang pemain",
+    "huntingFor": "Kamu akan memburu {{emoji}} {{faceName}}!",
+    "waiting": "Menunggu",
+    "waitingForMove": "Menunggu giliran mereka...",
+    "disconnectedName": "{{name}} (keluar)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Tidak dapat menghubungi server.",
+    "couldntConnect": "Gagal terhubung",
+    "findingGroup": "Mencari Grup",
+    "you": "(kamu)",
+    "waitingForPlayer": "Menunggu pemain lain...",
+    "cancel": "Batal"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Email itu sudah terdaftar — coba masuk saja.",
+    "invalidEmail": "Itu bukan alamat email yang valid.",
+    "missingEmail": "Masukkan alamat emailmu dulu.",
+    "weakPassword": "Kata sandi harus minimal 6 karakter.",
+    "wrongPassword": "Email atau kata sandi salah.",
+    "userNotFound": "Tidak ada akun dengan email tersebut.",
+    "tooManyRequests": "Terlalu banyak percobaan — tunggu sebentar lalu coba lagi.",
+    "networkError": "Kesalahan jaringan — periksa koneksimu dan coba lagi.",
+    "requiresRecentLogin": "Demi keamananmu, silakan keluar dan masuk lagi, lalu coba lagi.",
+    "generic": "Terjadi kesalahan. Silakan coba lagi."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Tidak dapat memuat opsi berlangganan.",
+    "purchaseFailed": "Pembelian gagal. Silakan coba lagi.",
+    "restoreFailed": "Tidak dapat memulihkan pembelian.",
+    "notSignedIn": "Silakan masuk dulu.",
+    "notAvailableOnWeb": "Berlangganan belum tersedia di web — gunakan aplikasi iOS atau Android.",
+    "checkoutFailed": "Tidak dapat memulai checkout."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, lempar dadu untuk menemukan kartumu!",
+    "turnHuntFor": "Giliran {{name}} — buru {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Balik lagi!",
+    "completedSet": "🏆 {{name}} menyelesaikan set {{faceName}} — peringkat {{place}}!",
+    "skullSolo": "💀 {{name}} kena tengkorak! Beku sesaat...",
+    "skullGroup": "💀 {{name}} kena tengkorak! Giliran hilang, giliran berikutnya dilewati. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} menemukan {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} menemukan {{label}}, tapi tidak ada lagi yang bisa dibuka!",
+    "bonusLabelSmall": "batu permata bonus",
+    "bonusLabelBig": "berhala kuno",
+    "foundFaceLead": "{{name}} menemukan {{faceName}}",
+    "wrongTileLoss": "💀 Semua ubin {{wrongFace}} ditemukan sebelum kamu menyelesaikan set {{targetFace}} milikmu — kamu kalah!",
+    "wrongTilePass": "{{name}} membuka ubin yang salah. {{nextTurn}}",
+    "everyoneFound": "Semua orang menemukan kartunya! Permainan selesai.",
+    "tabletCleared": "Papan sudah bersih! Permainan selesai."
+  },
+  "skullPause": {
+    "title": "Beku!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} jebakan ditemukan",
+    "gems": "{{found}}/{{total}} permata ditemukan",
+    "idols": "{{found}}/{{total}} berhala ditemukan"
+  },
+  "yourTurn": {
+    "banner": "👉 Giliranmu!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} menyelesaikan setnya (peringkat {{place}})! {{status}}",
+    "othersRemaining_one": "{{count}} pemain masih bermain.",
+    "othersRemaining_other": "{{count}} pemain masih bermain.",
+    "everyoneDone": "Semua sudah selesai!"
+  },
+  "gameResult": {
+    "wonTitle": "Kamu menemukan semua {{count}} kartu {{cardName}}!",
+    "lostTitle": "Kamu Kalah!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, lempar dadu untuk menemukan kartumu!",
+    "rollingPrompt": "{{playerName}}, melempar dadu...",
+    "roll": "Lempar",
+    "yourCardIs": "Kartumu adalah {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Tidak ada permainan yang berlangsung. Mulai dari Beranda!"
+  },
+  "appSettings": {
+    "theme": "Tema",
+    "themeDark": "Gelap",
+    "themeLight": "Terang",
+    "language": "Bahasa",
+    "languageSystem": "Sistem",
+    "data": "Data",
+    "dataBody": "Mengeluarkanmu dan menghapus riwayat Statistik di perangkat ini. Tindakan ini tidak dapat dibatalkan.",
+    "signOutReset": "Keluar & atur ulang data lokal",
+    "confirmResetTitle": "Keluar dan atur ulang data lokal?",
+    "confirmResetBody": "Ini akan menghapus riwayat Statistikmu di perangkat ini dan mengeluarkanmu. Tindakan ini tidak dapat dibatalkan.",
+    "reset": "Atur Ulang"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Nama tampilan",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "signOut": "Keluar",
+    "deleteAccount": "Hapus Akun",
+    "confirmDeleteTitle": "Hapus akunmu?",
+    "confirmDeleteBody": "Ini akan menghapus akunmu secara permanen. Tindakan ini tidak dapat dibatalkan.",
+    "delete": "Hapus",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Kata sandi",
+    "forgotPassword": "Lupa kata sandi?",
+    "resetSent": "Email reset kata sandi telah dikirim — periksa kotak masukmu.",
+    "signUp": "Daftar",
+    "signIn": "Masuk",
+    "switchToSignIn": "Sudah punya akun? Masuk",
+    "switchToSignUp": "Belum punya akun? Daftar",
+    "or": "atau",
+    "continueWithGoogle": "G  Lanjutkan dengan Google",
+    "continueWithApple": "􀣺  Lanjutkan dengan Apple",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Buat akun untuk mulai bermain",
+    "onboardingSignInSubtitle": "Masuk untuk melanjutkan",
+    "proBadge": "✨ Anggota Pro",
+    "upgradeToPro": "Tingkatkan ke Pro"
+  },
+  "staticInfo": {
+    "lastUpdated": "Terakhir diperbarui: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts adalah perpaduan permainan memori dan dadu — lempar dadu untuk menemukan hewanmu, lalu buru di seluruh papan sebelum tengkorak (atau hewan orang lain) menangkapmu.",
+    "howToPlayHeading": "Cara bermain",
+    "howToPlayBody": "Mode Solo hanya kamu melawan papan: lempar dadu untuk hewan target tetap, lalu balik ubin untuk mengumpulkan semua salinannya sebelum set hewan lain terbuka penuh lebih dulu. Mode Grup mempertemukan 2-4 pemain online, berlomba menyelesaikan set mereka masing-masing — dengan permata bonus dan berhala di sepanjang jalan yang langsung membuka salinan tambahan bagi siapa pun yang menemukannya.",
+    "builtWithHeading": "Dibuat dengan",
+    "builtWithBody": "Expo, React Native, dan TypeScript di sisi klien; Colyseus menggerakkan mode Grup online secara real-time.",
+    "versionHeading": "Versi",
+    "noteHeading": "Catatan",
+    "noteBody": "Ini adalah proyek independen yang terus dikembangkan — nantikan fitur baru dan penyesuaian aturan dari waktu ke waktu. Terima kasih telah bermain!"
+  },
+  "privacyPolicy": {
+    "intro": "Kebijakan ini menjelaskan informasi apa yang dikumpulkan Bones & Beasts dan bagaimana informasi itu digunakan. Tidak ada iklan dan tidak ada analitik atau pelacakan selain yang dijelaskan di bawah ini.",
+    "accountHeading": "Akunmu",
+    "accountBody": "Membuat akun (email/kata sandi, Google, atau Sign in with Apple) diperlukan untuk bermain. Kami menggunakan Firebase Authentication untuk mengelola proses masuk, yang menyimpan alamat email dan nama tampilanmu (dan, untuk Google/Apple, informasi profil dasar apa pun yang dibagikan penyedia tersebut kepada kami — biasanya hanya nama dan email). Kami tidak melihat atau menyimpan kata sandi itu sendiri untuk akun email/kata sandi; Firebase menanganinya secara langsung. Kamu dapat menghapus akunmu kapan saja dari halaman Profil.",
+    "soloHeading": "Permainan Solo",
+    "soloBody": "Permainan Solo berjalan sepenuhnya di perangkatmu. Riwayat permainanmu di tab Statistik (permainan dimainkan, kemenangan, set diselesaikan, waktu) disimpan secara lokal di perangkat dan tidak pernah dikirimkan kepada kami atau siapa pun, terlepas dari status masukmu.",
+    "groupHeading": "Permainan Grup Online",
+    "groupBody": "Saat kamu bergabung dalam permainan Grup, nama tampilan dan tindakan dalam permainanmu (lemparan dadu, membuka kartu) dikirim ke server permainan kami sehingga papan bersama dapat tetap sinkron untuk semua orang di permainan itu. Data ini hanya ada selama sesi permainan tersebut berlangsung — tidak disimpan setelahnya, tidak dijual, dan tidak dibagikan kepada pihak ketiga.",
+    "childrenHeading": "Privasi anak-anak",
+    "childrenBody": "Bones & Beasts tidak ditujukan untuk anak-anak di bawah 13 tahun, dan kami tidak dengan sengaja mengumpulkan informasi dari mereka.",
+    "changesHeading": "Perubahan pada kebijakan ini",
+    "changesBody": "Jika cara aplikasi ini menangani data berubah — misalnya, jika pelaporan crash, notifikasi push, atau langganan berbayar ditambahkan — halaman ini akan diperbarui untuk menjelaskannya.",
+    "questionsHeading": "Pertanyaan",
+    "questionsBody": "Jika kamu memiliki pertanyaan tentang kebijakan ini, silakan hubungi kami melalui tempat kamu mengunduh aplikasi ini."
+  },
+  "termsOfService": {
+    "intro": "Dengan menggunakan Bones & Beasts, kamu menyetujui ketentuan ini. Jika kamu tidak setuju, mohon jangan gunakan aplikasi ini.",
+    "gameHeading": "Permainan",
+    "gameBody": "Bones & Beasts (lihat halaman Tentang untuk mengetahui apa itu dan cara memainkannya) disediakan hanya untuk tujuan hiburan.",
+    "fairPlayHeading": "Bermain adil",
+    "fairPlayBody": "Dalam permainan Grup, mohon bermain dengan adil — jangan mengeksploitasi bug, mengotomatiskan giliranmu, atau mengganggu permainan pemain lain. Kami berhak mengeluarkan pemain dari permainan atau lobi karena perilaku yang mengganggu.",
+    "noWarrantyHeading": "Tanpa garansi",
+    "noWarrantyBody": "Aplikasi ini disediakan \"sebagaimana adanya,\" tanpa garansi apa pun. Kami tidak menjamin aplikasi ini akan berjalan tanpa gangguan, bebas dari kesalahan, atau tersedia setiap saat — terutama mode Grup online, yang bergantung pada server permainan yang dapat diperbarui, dimulai ulang, atau dinonaktifkan tanpa pemberitahuan.",
+    "liabilityHeading": "Batasan tanggung jawab",
+    "liabilityBody": "Sejauh yang diizinkan oleh hukum, kami tidak bertanggung jawab atas kerugian apa pun yang timbul dari penggunaanmu, atau ketidakmampuanmu menggunakan, aplikasi ini.",
+    "changesHeading": "Perubahan",
+    "changesBody": "Ketentuan ini dapat diperbarui seiring perubahan aplikasi. Melanjutkan penggunaan aplikasi setelah pembaruan berarti kamu menyetujui ketentuan yang direvisi."
+  },
+  "settingsNav": {
+    "profile": "Profil",
+    "appSettings": "Pengaturan Aplikasi",
+    "privacyPolicy": "Kebijakan Privasi",
+    "termsOfService": "Ketentuan Layanan",
+    "about": "Tentang",
+    "settings": "Pengaturan"
+  },
+  "stats": {
+    "title": "Statistik",
+    "gamesPlayed": "Permainan dimainkan",
+    "yourWins": "Kemenanganmu",
+    "setsCompleted": "Set diselesaikan",
+    "avgSetsPerGame": "Rata-rata set / permainan",
+    "bestSoloTime": "Waktu solo terbaik",
+    "noBestTime": "–",
+    "recentGames": "Permainan terbaru",
+    "noGamesYet": "Belum ada permainan — ayo mulai satu!",
+    "modeSolo": "Solo",
+    "modeGroup": "Grup ({{count}})",
+    "placeWin": "🏆 Peringkat {{place}}",
+    "place": "Peringkat {{place}}"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "Mode Grup gratis untuk {{count}} hari lagi — berlangganan kapan saja untuk terus bermain setelahnya.",
+    "trialActiveSubtitle_other": "Mode Grup gratis untuk {{count}} hari lagi — berlangganan kapan saja untuk terus bermain setelahnya.",
+    "trialEndedSubtitle": "Uji coba gratis mode Grup telah berakhir. Berlangganan untuk terus berlomba dengan pemain lain secara online.",
+    "monthly": "Bulanan",
+    "yearly": "Tahunan",
+    "lifetime": "Selamanya",
+    "restorePurchases": "Pulihkan Pembelian",
+    "notNow": "Nanti saja"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Pilih avatar untuk profil Anda"
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "Batal",
+    "save": "Simpan",
+    "back": "Kembali",
+    "delete": "Padam",
+    "reset": "Set semula",
+    "you": "Anda",
+    "explorer": "Penjelajah",
+    "didNotFinish": "Tidak selesai",
+    "or": "atau",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Singa",
+    "elephant": "Gajah",
+    "monkey": "Monyet",
+    "tiger": "Harimau",
+    "giraffe": "Zirafah",
+    "zebra": "Zebra"
+  },
+  "tabs": {
+    "home": "Utama",
+    "play": "Main",
+    "stats": "Statistik",
+    "settings": "Tetapan"
+  },
+  "home": {
+    "welcome": "Selamat datang, {{username}}!",
+    "promptReady": "Sedia untuk bertaruh?",
+    "promptWanna": "Nak main?",
+    "soloTitle": "Solo",
+    "soloBody": "Baling untuk mencari kad anda, kemudian buru di atas tablet untuk semua enam salinan sebelum set haiwan lain siap dahulu. Hanya anda, ingatan anda, dan tengkorak.",
+    "playSolo": "Main Solo",
+    "groupTitle": "Kumpulan",
+    "groupBody": "Bergabung dengan 2-4 pemain dan berlumba untuk melengkapkan set anda sendiri dahulu. Permainan berkumpulan hanya dalam talian — kami akan padankan anda dengan pemain lain dalam lobi langsung.",
+    "trialActive_one": "Percubaan percuma — {{count}} hari lagi",
+    "trialActive_other": "Percubaan percuma — {{count}} hari lagi",
+    "trialEnded": "Percubaan percuma telah tamat — langgan untuk terus bermain",
+    "findGroup": "Cari Kumpulan"
+  },
+  "endScreen": {
+    "lossTitle": "Terkambus di Kuil!",
+    "winTitle": "Kuil Dibersihkan!",
+    "totalTime": "⏱ Jumlah masa permainan: {{time}}",
+    "finalRanking": "Kedudukan akhir",
+    "setCompletionOrder": "Susunan penyiapan set",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Main Semula"
+  },
+  "bonus": {
+    "small": "Gem Bonus",
+    "big": "Berhala Purba",
+    "found": "Anda menemui {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Menyambung...",
+    "aPlayer": "Seorang pemain",
+    "huntingFor": "Anda akan memburu {{emoji}} {{faceName}}!",
+    "waiting": "Menunggu",
+    "waitingForMove": "Menunggu giliran mereka...",
+    "disconnectedName": "{{name}} (telah keluar)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Tidak dapat menghubungi pelayan.",
+    "couldntConnect": "Gagal menyambung",
+    "findingGroup": "Mencari Kumpulan",
+    "you": "(anda)",
+    "waitingForPlayer": "Menunggu pemain...",
+    "cancel": "Batal"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "E-mel itu sudah didaftarkan — cuba log masuk sebaliknya.",
+    "invalidEmail": "Itu bukan alamat e-mel yang sah.",
+    "missingEmail": "Masukkan alamat e-mel anda dahulu.",
+    "weakPassword": "Kata laluan mestilah sekurang-kurangnya 6 aksara.",
+    "wrongPassword": "E-mel atau kata laluan salah.",
+    "userNotFound": "Tidak ada akaun ditemui dengan e-mel itu.",
+    "tooManyRequests": "Terlalu banyak percubaan — sila tunggu sebentar dan cuba lagi.",
+    "networkError": "Ralat rangkaian — semak sambungan anda dan cuba lagi.",
+    "requiresRecentLogin": "Untuk keselamatan anda, sila log keluar dan log masuk semula, kemudian cuba lagi.",
+    "generic": "Sesuatu tidak kena. Sila cuba lagi."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Tidak dapat memuatkan pilihan langganan.",
+    "purchaseFailed": "Pembelian gagal. Sila cuba lagi.",
+    "restoreFailed": "Tidak dapat memulihkan pembelian.",
+    "notSignedIn": "Sila log masuk dahulu.",
+    "notAvailableOnWeb": "Langganan belum tersedia di web — sila gunakan aplikasi iOS atau Android.",
+    "checkoutFailed": "Tidak dapat memulakan checkout."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, baling untuk mencari kad anda!",
+    "turnHuntFor": "Giliran {{name}} — buru {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Balik lagi!",
+    "completedSet": "🏆 {{name}} melengkapkan set {{faceName}} — tempat ke-{{place}}!",
+    "skullSolo": "💀 {{name}} terkena tengkorak! Terbeku seketika...",
+    "skullGroup": "💀 {{name}} terkena tengkorak! Giliran hilang, giliran seterusnya dilangkau. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} menemui {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} menemui {{label}}, tetapi tidak ada apa lagi untuk didedahkan!",
+    "bonusLabelSmall": "gem bonus",
+    "bonusLabelBig": "berhala purba",
+    "foundFaceLead": "{{name}} menemui {{faceName}}",
+    "wrongTileLoss": "💀 Semua jubin {{wrongFace}} ditemui sebelum anda melengkapkan set {{targetFace}} anda sendiri — anda tewas!",
+    "wrongTilePass": "{{name}} mendedahkan jubin yang salah. {{nextTurn}}",
+    "everyoneFound": "Semua orang menemui kad mereka! Permainan tamat.",
+    "tabletCleared": "Tablet telah dibersihkan! Permainan tamat."
+  },
+  "skullPause": {
+    "title": "Terbeku!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} perangkap ditemui",
+    "gems": "{{found}}/{{total}} gem ditemui",
+    "idols": "{{found}}/{{total}} berhala ditemui"
+  },
+  "yourTurn": {
+    "banner": "👉 Giliran anda!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} melengkapkan set mereka (tempat ke-{{place}})! {{status}}",
+    "othersRemaining_one": "{{count}} pemain masih bermain.",
+    "othersRemaining_other": "{{count}} pemain masih bermain.",
+    "everyoneDone": "Itu semua orang!"
+  },
+  "gameResult": {
+    "wonTitle": "Anda menemui semua {{count}} kad {{cardName}}!",
+    "lostTitle": "Anda Tewas!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, baling untuk mencari kad anda!",
+    "rollingPrompt": "{{playerName}}, membaling...",
+    "roll": "Baling",
+    "yourCardIs": "Kad anda ialah {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Tiada permainan sedang berlangsung. Mulakan satu dari Utama!"
+  },
+  "appSettings": {
+    "theme": "Tema",
+    "themeDark": "Gelap",
+    "themeLight": "Terang",
+    "language": "Bahasa",
+    "languageSystem": "Sistem",
+    "data": "Data",
+    "dataBody": "Ini akan log keluar anda dan memadam sejarah Statistik anda pada peranti ini. Ini tidak boleh dibuat asal.",
+    "signOutReset": "Log keluar & set semula data tempatan",
+    "confirmResetTitle": "Log keluar dan set semula data tempatan?",
+    "confirmResetBody": "Ini memadam sejarah Statistik anda pada peranti ini dan log keluar anda. Ini tidak boleh dibuat asal.",
+    "reset": "Set semula"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Nama paparan",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "signOut": "Log Keluar",
+    "deleteAccount": "Padam Akaun",
+    "confirmDeleteTitle": "Padam akaun anda?",
+    "confirmDeleteBody": "Ini memadamkan akaun anda secara kekal. Ini tidak boleh dibuat asal.",
+    "delete": "Padam",
+    "emailPlaceholder": "E-mel",
+    "passwordPlaceholder": "Kata laluan",
+    "forgotPassword": "Lupa kata laluan?",
+    "resetSent": "E-mel set semula kata laluan telah dihantar — semak peti masuk anda.",
+    "signUp": "Daftar",
+    "signIn": "Log Masuk",
+    "switchToSignIn": "Sudah ada akaun? Log Masuk",
+    "switchToSignUp": "Perlukan akaun? Daftar",
+    "or": "atau",
+    "continueWithGoogle": "G  Teruskan dengan Google",
+    "continueWithApple": "􀣺  Teruskan dengan Apple",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Cipta akaun untuk mula bermain",
+    "onboardingSignInSubtitle": "Log masuk untuk meneruskan",
+    "proBadge": "✨ Ahli Pro",
+    "upgradeToPro": "Naik taraf ke Pro"
+  },
+  "staticInfo": {
+    "lastUpdated": "Terakhir dikemas kini: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts ialah permainan hibrid ingatan/dadu — baling untuk mencari haiwan anda, kemudian buru untuk mencarinya di seluruh tablet sebelum tengkorak (atau haiwan orang lain) menangkap anda.",
+    "howToPlayHeading": "Cara bermain",
+    "howToPlayBody": "Mod Solo hanyalah anda melawan tablet: baling untuk haiwan sasaran yang ditetapkan, kemudian balikkan jubin untuk mengumpul semua salinannya sebelum set haiwan lain terdedah sepenuhnya dahulu. Mod Kumpulan memadankan 2-4 pemain dalam talian, berlumba untuk melengkapkan set mereka sendiri — dengan gem bonus dan berhala di sepanjang jalan yang serta-merta mendedahkan salinan tambahan kepada sesiapa yang menemuinya.",
+    "builtWithHeading": "Dibina dengan",
+    "builtWithBody": "Expo, React Native, dan TypeScript pada klien; Colyseus menggerakkan permainan Kumpulan dalam talian masa nyata.",
+    "versionHeading": "Versi",
+    "noteHeading": "Catatan",
+    "noteBody": "Ini adalah projek bebas yang sedang dibangunkan secara aktif — jangkakan ciri baharu dan perubahan peraturan dari semasa ke semasa. Terima kasih kerana bermain!"
+  },
+  "privacyPolicy": {
+    "intro": "Dasar ini menerangkan maklumat yang dikumpulkan oleh Bones & Beasts dan bagaimana ia digunakan. Tiada pengiklanan dan tiada analitik atau penjejakan selain daripada yang diterangkan di bawah.",
+    "accountHeading": "Akaun anda",
+    "accountBody": "Mencipta akaun (e-mel/kata laluan, Google, atau Sign in with Apple) diperlukan untuk bermain. Kami menggunakan Firebase Authentication untuk menguruskan log masuk, yang menyimpan alamat e-mel dan nama paparan anda (dan, untuk Google/Apple, apa-apa maklumat profil asas yang dikongsi oleh pembekal itu dengan kami — biasanya hanya nama dan e-mel anda). Kami tidak melihat atau menyimpan kata laluan anda sendiri untuk akaun e-mel/kata laluan; Firebase mengendalikan itu secara terus. Anda boleh memadam akaun anda pada bila-bila masa dari halaman Profil.",
+    "soloHeading": "Permainan Solo",
+    "soloBody": "Permainan Solo berjalan sepenuhnya pada peranti anda. Sejarah permainan anda dalam tab Statistik (permainan dimainkan, kemenangan, set yang dilengkapkan, masa) disimpan secara tempatan pada peranti dan tidak sekali-kali dihantar kepada kami atau sesiapa sahaja, tidak kira sama ada anda log masuk.",
+    "groupHeading": "Permainan Kumpulan dalam talian",
+    "groupBody": "Apabila anda menyertai permainan Kumpulan, nama paparan anda dan tindakan dalam permainan anda (balingan dadu, balikan kad) dihantar ke pelayan permainan kami supaya ia boleh memastikan papan bersama itu segerak untuk semua orang dalam permainan tersebut. Data ini wujud hanya untuk tempoh sesi permainan itu — ia tidak disimpan selepas itu, dijual, atau dikongsi dengan pihak ketiga.",
+    "childrenHeading": "Privasi kanak-kanak",
+    "childrenBody": "Bones & Beasts tidak ditujukan kepada kanak-kanak bawah umur 13 tahun, dan kami tidak dengan sengaja mengumpul maklumat daripada mereka.",
+    "changesHeading": "Perubahan kepada dasar ini",
+    "changesBody": "Jika cara aplikasi mengendalikan data berubah — contohnya, jika laporan ranap, pemberitahuan tolak, atau langganan berbayar ditambah — halaman ini akan dikemas kini untuk menerangkannya.",
+    "questionsHeading": "Soalan",
+    "questionsBody": "Jika anda mempunyai soalan tentang dasar ini, sila hubungi melalui tempat anda memuat turun aplikasi ini."
+  },
+  "termsOfService": {
+    "intro": "Dengan menggunakan Bones & Beasts, anda bersetuju dengan terma ini. Jika anda tidak bersetuju, sila jangan gunakan aplikasi ini.",
+    "gameHeading": "Permainan",
+    "gameBody": "Bones & Beasts (lihat halaman Tentang untuk apa itu dan bagaimana ia dimainkan) ditawarkan untuk tujuan hiburan sahaja.",
+    "fairPlayHeading": "Permainan adil",
+    "fairPlayBody": "Dalam permainan Kumpulan, sila bermain secara adil — jangan eksploitasi pepijat, automasikan giliran anda, atau mengganggu permainan pemain lain. Kami berhak untuk mengeluarkan pemain daripada permainan atau lobi kerana tingkah laku yang mengganggu.",
+    "noWarrantyHeading": "Tiada waranti",
+    "noWarrantyBody": "Aplikasi ini disediakan \"seadanya,\" tanpa sebarang jenis waranti. Kami tidak menjamin ia akan tidak terganggu, tanpa ralat, atau tersedia pada setiap masa — terutamanya mod Kumpulan dalam talian, yang bergantung pada pelayan permainan yang boleh dikemas kini, dimulakan semula, atau diambil offline tanpa notis.",
+    "liabilityHeading": "Had liabiliti",
+    "liabilityBody": "Setakat yang dibenarkan oleh undang-undang, kami tidak bertanggungjawab atas sebarang kerosakan yang timbul daripada penggunaan anda, atau ketidakupayaan untuk menggunakan, aplikasi ini.",
+    "changesHeading": "Perubahan",
+    "changesBody": "Terma ini boleh dikemas kini apabila aplikasi berubah. Terus menggunakan aplikasi selepas kemas kini bermakna anda menerima terma yang disemak semula."
+  },
+  "settingsNav": {
+    "profile": "Profil",
+    "appSettings": "Tetapan Aplikasi",
+    "privacyPolicy": "Dasar Privasi",
+    "termsOfService": "Terma Perkhidmatan",
+    "about": "Tentang",
+    "settings": "Tetapan"
+  },
+  "stats": {
+    "title": "Statistik",
+    "gamesPlayed": "Permainan dimainkan",
+    "yourWins": "Kemenangan anda",
+    "setsCompleted": "Set dilengkapkan",
+    "avgSetsPerGame": "Purata set / permainan",
+    "bestSoloTime": "Masa solo terbaik",
+    "noBestTime": "–",
+    "recentGames": "Permainan terkini",
+    "noGamesYet": "Belum ada permainan dimainkan — mulakan satu!",
+    "modeSolo": "Solo",
+    "modeGroup": "Kumpulan ({{count}})",
+    "placeWin": "🏆 Tempat ke-{{place}}",
+    "place": "Tempat ke-{{place}}"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "Permainan Kumpulan adalah percuma untuk {{count}} hari lagi — langgan pada bila-bila masa untuk terus bermain selepas itu.",
+    "trialActiveSubtitle_other": "Permainan Kumpulan adalah percuma untuk {{count}} hari lagi — langgan pada bila-bila masa untuk terus bermain selepas itu.",
+    "trialEndedSubtitle": "Percubaan percuma permainan Kumpulan anda telah tamat. Langgan untuk terus berlumba dengan pemain lain dalam talian.",
+    "monthly": "Bulanan",
+    "yearly": "Tahunan",
+    "lifetime": "Seumur hidup",
+    "restorePurchases": "Pulihkan Pembelian",
+    "notNow": "Bukan sekarang"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Pilih avatar untuk profil anda"
+  }
+}

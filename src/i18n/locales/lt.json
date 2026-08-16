@@ -1,0 +1,263 @@
+{
+  "common": {
+    "cancel": "Atšaukti",
+    "save": "Išsaugoti",
+    "back": "Atgal",
+    "delete": "Ištrinti",
+    "reset": "Atstatyti",
+    "you": "Tu",
+    "explorer": "Tyrinėtojas",
+    "didNotFinish": "Nebaigė",
+    "or": "arba",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Liūtas",
+    "elephant": "Dramblys",
+    "monkey": "Beždžionė",
+    "tiger": "Tigras",
+    "giraffe": "Žirafa",
+    "zebra": "Zebras"
+  },
+  "tabs": {
+    "home": "Pradžia",
+    "play": "Žaisti",
+    "stats": "Statistika",
+    "settings": "Nustatymai"
+  },
+  "home": {
+    "welcome": "Sveiki, {{username}}!",
+    "promptReady": "Pasiruošęs statyti?",
+    "promptWanna": "Nori žaisti?",
+    "soloTitle": "Vienas",
+    "soloBody": "Mesk kauliuką, kad rastum savo kortą, tada ieškok lentelėje visų šešių kopijų, kol kito žvėries rinkinys bus baigtas pirmas. Tik tu, tavo atmintis ir kaukolės.",
+    "playSolo": "Žaisti vienam",
+    "groupTitle": "Grupė",
+    "groupBody": "Prisijunk su 2-4 žaidėjais ir lenktyniauk, kad pirmas baigtum savo rinkinį. Grupinis žaidimas tik internetu — mes tave suporuosime su kitais žaidėjais gyvame lobiu.",
+    "trialActive_one": "Nemokamas bandomasis laikotarpis — liko {{count}} diena",
+    "trialActive_few": "Nemokamas bandomasis laikotarpis — liko {{count}} dienos",
+    "trialActive_many": "Nemokamas bandomasis laikotarpis — liko {{count}} dienos",
+    "trialActive_other": "Nemokamas bandomasis laikotarpis — liko {{count}} dienų",
+    "trialEnded": "Nemokamas bandomasis laikotarpis baigėsi — prenumeruok, kad tęstum žaidimą",
+    "findGroup": "Rasti grupę"
+  },
+  "endScreen": {
+    "lossTitle": "Palaidotas šventykloje!",
+    "winTitle": "Šventykla išvalyta!",
+    "totalTime": "⏱ Bendras žaidimo laikas: {{time}}",
+    "finalRanking": "Galutinis reitingas",
+    "setCompletionOrder": "Rinkinių baigimo tvarka",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Žaisti dar kartą"
+  },
+  "bonus": {
+    "small": "premijos brangakmenis",
+    "big": "senovinis stabas",
+    "found": "Radai {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Jungiamasi...",
+    "aPlayer": "Žaidėjas",
+    "huntingFor": "Ieškosi {{emoji}} {{faceName}}!",
+    "waiting": "Laukiama",
+    "waitingForMove": "Laukiama jo ėjimo...",
+    "disconnectedName": "{{name}} (išėjo)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Nepavyko pasiekti serverio.",
+    "couldntConnect": "Nepavyko prisijungti",
+    "findingGroup": "Ieškoma grupė",
+    "you": "(tu)",
+    "waitingForPlayer": "Laukiama žaidėjo...",
+    "cancel": "Atšaukti"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Šis el. paštas jau užregistruotas — pabandyk prisijungti.",
+    "invalidEmail": "Tai nepanašu į galiojantį el. pašto adresą.",
+    "missingEmail": "Pirmiausia įvesk savo el. pašto adresą.",
+    "weakPassword": "Slaptažodis turėtų būti bent 6 simbolių.",
+    "wrongPassword": "Neteisingas el. paštas arba slaptažodis.",
+    "userNotFound": "Su tuo el. paštu paskyra nerasta.",
+    "tooManyRequests": "Per daug bandymų — palauk akimirką ir bandyk dar kartą.",
+    "networkError": "Tinklo klaida — patikrink ryšį ir bandyk dar kartą.",
+    "requiresRecentLogin": "Dėl saugumo, prašome atsijungti ir vėl prisijungti, tada bandyti dar kartą.",
+    "generic": "Kažkas nutiko ne taip. Bandyk dar kartą."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Nepavyko įkelti prenumeratos parinkčių.",
+    "purchaseFailed": "Pirkimas nepavyko. Bandyk dar kartą.",
+    "restoreFailed": "Nepavyko atkurti pirkinių.",
+    "notSignedIn": "Pirmiausia prisijunk.",
+    "notAvailableOnWeb": "Prenumeratos internete dar negalimos — naudok iOS arba Android programėlę.",
+    "checkoutFailed": "Nepavyko pradėti atsiskaitymo."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, mesk kauliuką, kad rastum savo kortą!",
+    "turnHuntFor": "{{name}} eilė — ieškok {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Vartyk toliau!",
+    "completedSet": "🏆 {{name}} baigė {{faceName}} rinkinį — {{place}} vieta!",
+    "skullSolo": "💀 {{name}} pataikė ant kaukolės! Sustingęs akimirkai...",
+    "skullGroup": "💀 {{name}} pataikė ant kaukolės! Ėjimas prarastas, kitas ėjimas praleistas. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} rado {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} rado {{label}}, bet nebeliko ką atskleisti!",
+    "bonusLabelSmall": "premijos brangakmenį",
+    "bonusLabelBig": "senovinį stabą",
+    "foundFaceLead": "{{name}} rado {{faceName}}",
+    "wrongTileLoss": "💀 Visos {{wrongFace}} plytelės buvo rastos anksčiau, nei baigei savo {{targetFace}} rinkinį — pralaimėjai!",
+    "wrongTilePass": "{{name}} atskleidė ne tą plytelę. {{nextTurn}}",
+    "everyoneFound": "Visi rado savo kortą! Žaidimas baigtas.",
+    "tabletCleared": "Lentelė išvalyta! Žaidimas baigtas."
+  },
+  "skullPause": {
+    "title": "Sustingęs!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} spąstų rasta",
+    "gems": "{{found}}/{{total}} brangakmenių rasta",
+    "idols": "{{found}}/{{total}} stabų rasta"
+  },
+  "yourTurn": {
+    "banner": "👉 Tavo eilė!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} baigė savo rinkinį ({{place}} vieta)! {{status}}",
+    "othersRemaining_one": "Dar {{count}} žaidėjas žaidžia.",
+    "othersRemaining_few": "Dar {{count}} žaidėjai žaidžia.",
+    "othersRemaining_many": "Dar {{count}} žaidėjo žaidžia.",
+    "othersRemaining_other": "Dar {{count}} žaidėjų žaidžia.",
+    "everyoneDone": "Tai visi!"
+  },
+  "gameResult": {
+    "wonTitle": "Radai visas {{count}} {{cardName}} kortas!",
+    "lostTitle": "Pralaimėjai!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, mesk kauliuką, kad rastum savo kortą!",
+    "rollingPrompt": "{{playerName}} meta...",
+    "roll": "Mesti",
+    "yourCardIs": "Tavo korta yra {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Nėra vykstančio žaidimo. Pradėk vieną iš Pradžios!"
+  },
+  "appSettings": {
+    "theme": "Tema",
+    "themeDark": "Tamsi",
+    "themeLight": "Šviesi",
+    "language": "Kalba",
+    "languageSystem": "Sistemos",
+    "data": "Duomenys",
+    "dataBody": "Atsijungia ir ištrina tavo statistikos istoriją šiame įrenginyje. To negalima anuliuoti.",
+    "signOutReset": "Atsijungti ir atstatyti vietinius duomenis",
+    "confirmResetTitle": "Atsijungti ir atstatyti vietinius duomenis?",
+    "confirmResetBody": "Tai ištrina tavo statistikos istoriją šiame įrenginyje ir atsijungia. To negalima anuliuoti.",
+    "reset": "Atstatyti"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Rodomas vardas",
+    "save": "Išsaugoti",
+    "cancel": "Atšaukti",
+    "signOut": "Atsijungti",
+    "deleteAccount": "Ištrinti paskyrą",
+    "confirmDeleteTitle": "Ištrinti tavo paskyrą?",
+    "confirmDeleteBody": "Tai visam laikui ištrina tavo paskyrą. To negalima anuliuoti.",
+    "delete": "Ištrinti",
+    "emailPlaceholder": "El. paštas",
+    "passwordPlaceholder": "Slaptažodis",
+    "forgotPassword": "Pamiršai slaptažodį?",
+    "resetSent": "Slaptažodžio atstatymo el. laiškas išsiųstas — patikrink savo pašto dėžutę.",
+    "signUp": "Registruotis",
+    "signIn": "Prisijungti",
+    "switchToSignIn": "Jau turi paskyrą? Prisijungti",
+    "switchToSignUp": "Reikia paskyros? Registruotis",
+    "or": "arba",
+    "continueWithGoogle": "G  Tęsti su Google",
+    "continueWithApple": "􀣺  Tęsti su Apple",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Sukurk paskyrą, kad pradėtum žaisti",
+    "onboardingSignInSubtitle": "Prisijunk, kad tęstum",
+    "proBadge": "✨ Pro narys",
+    "upgradeToPro": "Atnaujinti į Pro"
+  },
+  "staticInfo": {
+    "lastUpdated": "Paskutinį kartą atnaujinta: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts yra atminties/kauliukų hibridinis žaidimas — mesk kauliuką, kad rastum savo žvėrį, tada ieškok jo lentelėje, kol kaukolės (ar kito žaidėjo žvėris) tavęs nepagavo.",
+    "howToPlayHeading": "Kaip žaisti",
+    "howToPlayBody": "Vieno žaidėjo režimas yra tik tu prieš lentelę: mesk fiksuoto tikslo gyvūnui, tada versk plyteles, kad surinktum visas jo kopijas, kol kito gyvūno rinkinys bus visiškai atskleistas. Grupinis režimas sujungia 2-4 žaidėjus internetu, kurie lenktyniauja baigti savo rinkinius — su premijos brangakmeniais ir stabais pakeliui, kurie akimirksniu atskleidžia papildomas kopijas tam, kas juos randa.",
+    "builtWithHeading": "Sukurta su",
+    "builtWithBody": "Expo, React Native ir TypeScript kliento pusėje; Colyseus varo realaus laiko grupinį žaidimą internetu.",
+    "versionHeading": "Versija",
+    "noteHeading": "Pastaba",
+    "noteBody": "Tai nepriklausomas, aktyviai kuriamas projektas — tikėkis naujų funkcijų ir taisyklių pakeitimų laikui bėgant. Ačiū, kad žaidei!"
+  },
+  "privacyPolicy": {
+    "intro": "Ši politika paaiškina, kokią informaciją renka Bones & Beasts ir kaip ji naudojama. Nėra jokios reklamos ir jokios analizės ar sekimo, viršijančio tai, kas aprašyta žemiau.",
+    "accountHeading": "Tavo paskyra",
+    "accountBody": "Norint žaisti, reikia susikurti paskyrą (el. paštas/slaptažodis, Google, arba prisijungimas su Apple). Prisijungimui valdyti naudojame Firebase Authentication, kuri saugo tavo el. pašto adresą ir rodomą vardą (o Google/Apple atveju — bet kokią pagrindinę profilio informaciją, kurią tas teikėjas dalinasi su mumis — paprastai tik tavo vardą ir el. paštą). El. paštu/slaptažodžiu paremtoms paskyroms mes nematome ir nesaugome paties slaptažodžio; tai tiesiogiai tvarko Firebase. Savo paskyrą gali ištrinti bet kada iš Profilio puslapio.",
+    "soloHeading": "Vieno žaidėjo žaidimas",
+    "soloBody": "Vieno žaidėjo žaidimai vyksta visiškai tavo įrenginyje. Tavo žaidimo istorija Statistikos skirtuke (žaisti žaidimai, pergalės, baigti rinkiniai, laikai) saugoma vietoje įrenginyje ir niekada neperduodama mums ar kam nors kitam, nepriklausomai nuo to, ar esi prisijungęs.",
+    "groupHeading": "Grupinis žaidimas internetu",
+    "groupBody": "Kai prisijungi prie grupinio žaidimo, tavo rodomas vardas ir žaidimo veiksmai (kauliukų metimai, kortų vertimai) siunčiami į mūsų žaidimo serverį, kad jis galėtų sinchronizuotą bendrą lentą palaikyti visiems tame žaidime. Šie duomenys egzistuoja tik tos žaidimo sesijos metu — jie vėliau neišsaugomi, neparduodami ir nesidalinama su trečiosiomis šalimis.",
+    "childrenHeading": "Vaikų privatumas",
+    "childrenBody": "Bones & Beasts nėra skirtas jaunesniems nei 13 metų vaikams, ir mes sąmoningai nerenkame iš jų informacijos.",
+    "changesHeading": "Šios politikos pakeitimai",
+    "changesBody": "Jei pasikeis, kaip programėlė tvarko duomenis — pavyzdžiui, jei bus pridėtas gedimų pranešimas, „push“ pranešimai ar mokama prenumerata — šis puslapis bus atnaujintas tai aprašyti.",
+    "questionsHeading": "Klausimai",
+    "questionsBody": "Jei turi klausimų apie šią politiką, prašome susisiekti per tą vietą, iš kurios atsisiuntei šią programėlę."
+  },
+  "termsOfService": {
+    "intro": "Naudodamasis Bones & Beasts, sutinki su šiomis sąlygomis. Jei nesutinki, prašome nenaudoti programėlės.",
+    "gameHeading": "Žaidimas",
+    "gameBody": "Bones & Beasts (žr. puslapį Apie, kad sužinotum, kas tai yra ir kaip žaidžiama) siūlomas tik pramogos tikslais.",
+    "fairPlayHeading": "Sąžiningas žaidimas",
+    "fairPlayBody": "Grupiniuose žaidimuose, prašome žaisti sąžiningai — nesinaudok klaidomis, neautomatizuok savo ėjimų ir netrukdyk kitų žaidėjų žaidimams. Pasiliekame teisę pašalinti žaidėjus iš žaidimo ar lobio už trikdantį elgesį.",
+    "noWarrantyHeading": "Jokios garantijos",
+    "noWarrantyBody": "Programėlė teikiama „tokia, kokia yra“, be jokių garantijų. Negarantuojame, kad ji bus nepertraukiama, be klaidų ar visada prieinama — ypač internetinis grupinis režimas, kuris priklauso nuo žaidimo serverio, kuris gali būti atnaujintas, paleistas iš naujo ar atjungtas be įspėjimo.",
+    "liabilityHeading": "Atsakomybės apribojimas",
+    "liabilityBody": "Maksimalia įstatymų leidžiama apimtimi mes nesame atsakingi už jokią žalą, kylančią iš tavo programėlės naudojimo ar negalėjimo ja naudotis.",
+    "changesHeading": "Pakeitimai",
+    "changesBody": "Šios sąlygos gali būti atnaujintos, keičiantis programėlei. Tolesnis programėlės naudojimas po atnaujinimo reiškia, kad sutinki su pataisytomis sąlygomis."
+  },
+  "settingsNav": {
+    "profile": "Profilis",
+    "appSettings": "Programėlės nustatymai",
+    "privacyPolicy": "Privatumo politika",
+    "termsOfService": "Paslaugų teikimo sąlygos",
+    "about": "Apie",
+    "settings": "Nustatymai"
+  },
+  "stats": {
+    "title": "Statistika",
+    "gamesPlayed": "Žaisti žaidimai",
+    "yourWins": "Tavo pergalės",
+    "setsCompleted": "Baigti rinkiniai",
+    "avgSetsPerGame": "Vid. rinkiniai / žaidime",
+    "bestSoloTime": "Geriausias vieno žaidėjo laikas",
+    "noBestTime": "–",
+    "recentGames": "Naujausi žaidimai",
+    "noGamesYet": "Dar nežaista nė vieno žaidimo — pradėk vieną!",
+    "modeSolo": "Vienas",
+    "modeGroup": "Grupė ({{count}})",
+    "placeWin": "🏆 {{place}} vieta",
+    "place": "{{place}} vieta"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "Grupinis žaidimas nemokamas dar {{count}} dieną — prenumeruok bet kada, kad tęstum žaisti po to.",
+    "trialActiveSubtitle_few": "Grupinis žaidimas nemokamas dar {{count}} dienas — prenumeruok bet kada, kad tęstum žaisti po to.",
+    "trialActiveSubtitle_many": "Grupinis žaidimas nemokamas dar {{count}} dienos — prenumeruok bet kada, kad tęstum žaisti po to.",
+    "trialActiveSubtitle_other": "Grupinis žaidimas nemokamas dar {{count}} dienų — prenumeruok bet kada, kad tęstum žaisti po to.",
+    "trialEndedSubtitle": "Tavo nemokamas grupinio žaidimo bandomasis laikotarpis baigėsi. Prenumeruok, kad tęstum lenktyniauti su kitais žaidėjais internetu.",
+    "monthly": "Mėnesinis",
+    "yearly": "Metinis",
+    "lifetime": "Visam gyvenimui",
+    "restorePurchases": "Atkurti pirkinius",
+    "notNow": "Ne dabar"
+  },
+  "avatar": {
+    "pageTitle": "Avataras",
+    "subtitle": "Pasirink savo profilio avatarą"
+  }
+}

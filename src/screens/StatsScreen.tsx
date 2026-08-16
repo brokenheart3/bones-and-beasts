@@ -1,24 +1,29 @@
 import React from "react";
 import { SafeAreaView, ScrollView, StyleSheet, Text, View } from "react-native";
+import { useTranslation } from "react-i18next";
 import { Theme, useTheme } from "../theme";
 import { useStatsStore } from "../store/useStatsStore";
-import { useProfileStore } from "../store/useProfileStore";
+import { ordinal } from "../utils/gameSetup";
 import { formatElapsed } from "../utils/time";
 
 export default function StatsScreen() {
   const theme = useTheme();
   const styles = getStyles(theme);
+  const { t } = useTranslation();
   const history = useStatsStore((s) => s.history);
-  const username = useProfileStore((s) => s.username);
 
   const gamesPlayed = history.length;
-  const wins = history.filter((g) => g.winnerName === username).length;
+  // Each device's history only ever records this player's own games, so
+  // "wins" is just how many of those this player personally finished 1st —
+  // no need to match against a stored name (which also broke if you renamed
+  // yourself later).
+  const wins = history.filter((g) => g.myRank === 1).length;
   const totalSets = history.reduce((sum, g) => sum + g.setsCompleted, 0);
   const avgSets = gamesPlayed > 0 ? (totalSets / gamesPlayed).toFixed(1) : "0";
 
   const soloWinTimes = history
-    .filter((g) => g.mode === "solo" && g.winnerName === username && g.durationMs != null)
-    .map((g) => g.durationMs as number);
+    .filter((g) => g.mode === "solo" && g.myRank === 1 && g.myFinishMs != null)
+    .map((g) => g.myFinishMs as number);
   const bestSoloTime = soloWinTimes.length > 0 ? Math.min(...soloWinTimes) : null;
 
   const recent = [...history].reverse().slice(0, 10);
@@ -27,41 +32,45 @@ export default function StatsScreen() {
     <SafeAreaView style={styles.wrap}>
       <ScrollView contentContainerStyle={styles.content}>
         <View style={styles.inner}>
-          <Text style={styles.title}>Stats</Text>
+          <Text style={styles.title}>{t("stats.title")}</Text>
 
           <View style={styles.statRow}>
-            <StatTile styles={styles} label="Games played" value={String(gamesPlayed)} />
-            <StatTile styles={styles} label="Your wins" value={String(wins)} />
+            <StatTile styles={styles} label={t("stats.gamesPlayed")} value={String(gamesPlayed)} />
+            <StatTile styles={styles} label={t("stats.yourWins")} value={String(wins)} />
           </View>
           <View style={styles.statRow}>
-            <StatTile styles={styles} label="Sets completed" value={String(totalSets)} />
-            <StatTile styles={styles} label="Avg sets / game" value={avgSets} />
+            <StatTile styles={styles} label={t("stats.setsCompleted")} value={String(totalSets)} />
+            <StatTile styles={styles} label={t("stats.avgSetsPerGame")} value={avgSets} />
           </View>
           <View style={styles.statRow}>
             <StatTile
               styles={styles}
-              label="Best solo time"
-              value={bestSoloTime !== null ? formatElapsed(bestSoloTime) : "–"}
+              label={t("stats.bestSoloTime")}
+              value={bestSoloTime !== null ? formatElapsed(bestSoloTime) : t("stats.noBestTime")}
             />
           </View>
 
-          <Text style={styles.sectionLabel}>Recent games</Text>
+          <Text style={styles.sectionLabel}>{t("stats.recentGames")}</Text>
           {recent.length === 0 ? (
-            <Text style={styles.empty}>No games played yet — go start one!</Text>
+            <Text style={styles.empty}>{t("stats.noGamesYet")}</Text>
           ) : (
             <View style={styles.section}>
               {recent.map((g, i) => (
                 <View key={i} style={styles.gameRow}>
-                  <Text style={styles.gameMode}>{g.mode === "solo" ? "Solo" : `Group (${g.playerCount})`}</Text>
+                  <Text style={styles.gameMode}>
+                    {g.mode === "solo" ? t("stats.modeSolo") : t("stats.modeGroup", { count: g.playerCount })}
+                  </Text>
                   <Text style={styles.gameWinner}>
-                    {g.winnerName ? `🏆 ${g.winnerName}` : "No winner"}
+                    {g.myRank != null
+                      ? t(g.myRank === 1 ? "stats.placeWin" : "stats.place", { place: ordinal(g.myRank) })
+                      : t("common.didNotFinish")}
                   </Text>
                   <View>
                     <Text style={styles.gameDate}>
                       {new Date(g.date).toLocaleDateString()}
                     </Text>
-                    {g.durationMs != null && (
-                      <Text style={styles.gameDuration}>⏱ {formatElapsed(g.durationMs)}</Text>
+                    {g.myFinishMs != null && (
+                      <Text style={styles.gameDuration}>⏱ {formatElapsed(g.myFinishMs)}</Text>
                     )}
                   </View>
                 </View>

@@ -49,6 +49,7 @@ export interface SetCompletion {
   faceId: FaceId;
   playerId: string;
   order: number; // 1st, 2nd, 3rd... set completed in the whole game
+  finishedAt: number; // epoch ms — when this player actually completed their set
 }
 
 // assigningTargets: each player rolls once, in turn, to lock in their target face.

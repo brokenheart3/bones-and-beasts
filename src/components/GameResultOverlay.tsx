@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { Animated, StyleSheet, Text } from "react-native";
+import { useTranslation } from "react-i18next";
 import { formatElapsed } from "../utils/time";
 
 interface Props {
@@ -13,6 +14,7 @@ interface Props {
 const HOLD_MS = 5000;
 
 export default function GameResultOverlay({ won, cardName, cardCount, elapsedMs, onDone }: Props) {
+  const { t } = useTranslation();
   const scale = useRef(new Animated.Value(0.4)).current;
   const opacity = useRef(new Animated.Value(0)).current;
 
@@ -34,8 +36,8 @@ export default function GameResultOverlay({ won, cardName, cardCount, elapsedMs,
 
   const emoji = won ? "🏆" : "💀";
   const title = won
-    ? `You found all ${cardCount ?? 6} ${cardName} cards!`
-    : "You Lost!";
+    ? t("gameResult.wonTitle", { count: cardCount ?? 6, cardName })
+    : t("gameResult.lostTitle");
 
   return (
     <Animated.View style={[styles.overlay, { opacity }]} pointerEvents="none">

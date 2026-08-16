@@ -1,7 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Animated, Easing, Pressable, StyleSheet, Text, View } from "react-native";
+import { useTranslation } from "react-i18next";
 import { Theme, useTheme } from "../theme";
-import { FaceId, FACE_EMOJIS, FACE_NAMES } from "../types";
+import { getFaceName } from "../i18n";
+import { FaceId, FACE_EMOJIS } from "../types";
 import DiceFace from "./DiceFace";
 
 interface Props {
@@ -22,6 +24,7 @@ const REVEAL_HOLD_MS = 1000;
 export default function DiceRollStage({ playerName, onRoll, onFinished }: Props) {
   const theme = useTheme();
   const styles = getStyles(theme);
+  const { t } = useTranslation();
   const [stage, setStage] = useState<Stage>("idle");
   const [displayFace, setDisplayFace] = useState<FaceId>(1);
   const [resultFace, setResultFace] = useState<FaceId | null>(null);
@@ -129,10 +132,10 @@ export default function DiceRollStage({ playerName, onRoll, onFinished }: Props)
 
   return (
     <View style={styles.wrap}>
-      <Text style={styles.turnLabel}>{playerName}, roll to find your card!</Text>
+      <Text style={styles.turnLabel}>{t("dice.rollPrompt", { playerName })}</Text>
       <Pressable style={styles.idleDice} onPress={handleRoll} disabled={stage !== "idle"}>
         <DiceFace value={1} size={IDLE_DICE_SIZE} />
-        <Text style={styles.idleLabel}>Roll</Text>
+        <Text style={styles.idleLabel}>{t("dice.roll")}</Text>
       </Pressable>
 
       {stage !== "idle" && (
@@ -160,9 +163,9 @@ export default function DiceRollStage({ playerName, onRoll, onFinished }: Props)
               ]}
             >
               <Text style={styles.resultText}>
-                Your card is {FACE_EMOJIS[resultFace]}
+                {t("dice.yourCardIs", { emoji: FACE_EMOJIS[resultFace] })}
               </Text>
-              <Text style={styles.resultName}>{FACE_NAMES[resultFace]}</Text>
+              <Text style={styles.resultName}>{getFaceName(resultFace)}</Text>
             </Animated.View>
           )}
         </Animated.View>

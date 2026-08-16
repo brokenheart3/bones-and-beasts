@@ -1,0 +1,263 @@
+{
+  "common": {
+    "cancel": "Zrušiť",
+    "save": "Uložiť",
+    "back": "Späť",
+    "delete": "Odstrániť",
+    "reset": "Resetovať",
+    "you": "Ty",
+    "explorer": "Prieskumník",
+    "didNotFinish": "Nedokončil",
+    "or": "alebo",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Lev",
+    "elephant": "Slon",
+    "monkey": "Opica",
+    "tiger": "Tiger",
+    "giraffe": "Žirafa",
+    "zebra": "Zebra"
+  },
+  "tabs": {
+    "home": "Domov",
+    "play": "Hra",
+    "stats": "Štatistiky",
+    "settings": "Nastavenia"
+  },
+  "home": {
+    "welcome": "Vitaj, {{username}}!",
+    "promptReady": "Si pripravený staviť?",
+    "promptWanna": "Chceš hrať?",
+    "soloTitle": "Solo",
+    "soloBody": "Hoď kockou a nájdi svoju kartu, potom lov na tabuli všetkých šesť kópií, kým sa niekomu inému nedokončí jeho súprava. Len ty, tvoja pamäť a lebky.",
+    "playSolo": "Hrať Solo",
+    "groupTitle": "Skupina",
+    "groupBody": "Spoj sa s 2-4 hráčmi a pretekajte sa o to, kto ako prvý dokončí svoju súpravu. Skupinová hra je len online — priradíme ťa k ostatným hráčom v živej čakárni.",
+    "trialActive_one": "Bezplatná skúšobná verzia — zostáva {{count}} deň",
+    "trialActive_few": "Bezplatná skúšobná verzia — zostávajú {{count}} dni",
+    "trialActive_many": "Bezplatná skúšobná verzia — zostáva {{count}} dňa",
+    "trialActive_other": "Bezplatná skúšobná verzia — zostáva {{count}} dní",
+    "trialEnded": "Bezplatná skúšobná verzia skončila — prihlás sa na odber a pokračuj v hraní",
+    "findGroup": "Nájsť Skupinu"
+  },
+  "endScreen": {
+    "lossTitle": "Zahrabaný v Chráme!",
+    "winTitle": "Chrám Vyčistený!",
+    "totalTime": "⏱ Celkový čas hry: {{time}}",
+    "finalRanking": "Konečné poradie",
+    "setCompletionOrder": "Poradie dokončenia súprav",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Hrať Znova"
+  },
+  "bonus": {
+    "small": "Bonusový Drahokam",
+    "big": "Starobylý Idol",
+    "found": "Našiel si {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Pripája sa...",
+    "aPlayer": "Hráč",
+    "huntingFor": "Budeš loviť {{emoji}} {{faceName}}!",
+    "waiting": "Čaká sa",
+    "waitingForMove": "Čaká sa na jeho ťah...",
+    "disconnectedName": "{{name}} (odišiel)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Nepodarilo sa spojiť so serverom.",
+    "couldntConnect": "Nepodarilo sa pripojiť",
+    "findingGroup": "Vyhľadávanie Skupiny",
+    "you": "(ty)",
+    "waitingForPlayer": "Čaká sa na hráča...",
+    "cancel": "Zrušiť"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Tento e-mail je už zaregistrovaný — skús sa prihlásiť.",
+    "invalidEmail": "To nevyzerá ako platná e-mailová adresa.",
+    "missingEmail": "Najprv zadaj svoju e-mailovú adresu.",
+    "weakPassword": "Heslo by malo mať aspoň 6 znakov.",
+    "wrongPassword": "Nesprávny e-mail alebo heslo.",
+    "userNotFound": "Nenašiel sa žiadny účet s týmto e-mailom.",
+    "tooManyRequests": "Príliš mnoho pokusov — počkaj chvíľu a skús to znova.",
+    "networkError": "Chyba siete — skontroluj pripojenie a skús to znova.",
+    "requiresRecentLogin": "Pre tvoju bezpečnosť sa odhlás a znova prihlás, potom to skús znova.",
+    "generic": "Niečo sa pokazilo. Skús to znova."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Nepodarilo sa načítať možnosti predplatného.",
+    "purchaseFailed": "Nákup sa nepodaril. Skús to znova.",
+    "restoreFailed": "Nepodarilo sa obnoviť nákupy.",
+    "notSignedIn": "Najprv sa prihlás.",
+    "notAvailableOnWeb": "Predplatné ešte nie je dostupné na webe — použi aplikáciu pre iOS alebo Android.",
+    "checkoutFailed": "Nepodarilo sa spustiť platbu."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, hoď kockou a nájdi svoju kartu!",
+    "turnHuntFor": "Ťah hráča {{name}} — lov {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Otoč znova!",
+    "completedSet": "🏆 {{name}} dokončil súpravu {{faceName}} — {{place}}. miesto!",
+    "skullSolo": "💀 {{name}} narazil na lebku! Na chvíľu zamrznutý...",
+    "skullGroup": "💀 {{name}} narazil na lebku! Ťah stratený, ďalší ťah sa vynecháva. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} našiel {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} našiel {{label}}, ale nemal už čo odhaliť!",
+    "bonusLabelSmall": "bonusový drahokam",
+    "bonusLabelBig": "starobylého idola",
+    "foundFaceLead": "{{name}} našiel {{faceName}}",
+    "wrongTileLoss": "💀 Všetky dlaždice {{wrongFace}} boli nájdené skôr, než si dokončil svoju súpravu {{targetFace}} — prehrávaš!",
+    "wrongTilePass": "{{name}} odhalil nesprávnu dlaždicu. {{nextTurn}}",
+    "everyoneFound": "Všetci našli svoju kartu! Koniec hry.",
+    "tabletCleared": "Tabuľa je vyčistená! Koniec hry."
+  },
+  "skullPause": {
+    "title": "Zamrznutý!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} nájdených nástrah",
+    "gems": "{{found}}/{{total}} nájdených drahokamov",
+    "idols": "{{found}}/{{total}} nájdených idolov"
+  },
+  "yourTurn": {
+    "banner": "👉 Tvoj ťah!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} dokončil svoju súpravu ({{place}}. miesto)! {{status}}",
+    "othersRemaining_one": "{{count}} hráč ešte hrá.",
+    "othersRemaining_few": "{{count}} hráči ešte hrajú.",
+    "othersRemaining_many": "{{count}} hráča ešte hrá.",
+    "othersRemaining_other": "{{count}} hráčov ešte hrá.",
+    "everyoneDone": "To je všetko!"
+  },
+  "gameResult": {
+    "wonTitle": "Našiel si všetky {{count}} kariet {{cardName}}!",
+    "lostTitle": "Prehral si!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, hoď kockou a nájdi svoju kartu!",
+    "rollingPrompt": "{{playerName}} hádže kockou...",
+    "roll": "Hodiť",
+    "yourCardIs": "Tvoja karta je {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Žiadna hra neprebieha. Začni jednu z Domova!"
+  },
+  "appSettings": {
+    "theme": "Téma",
+    "themeDark": "Tmavá",
+    "themeLight": "Svetlá",
+    "language": "Jazyk",
+    "languageSystem": "Systémový",
+    "data": "Údaje",
+    "dataBody": "Odhlási ťa a vymaže históriu Štatistík na tomto zariadení. Túto akciu nie je možné vrátiť späť.",
+    "signOutReset": "Odhlásiť sa a resetovať lokálne údaje",
+    "confirmResetTitle": "Odhlásiť sa a resetovať lokálne údaje?",
+    "confirmResetBody": "Toto vymaže históriu Štatistík na tomto zariadení a odhlási ťa. Túto akciu nie je možné vrátiť späť.",
+    "reset": "Resetovať"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Zobrazované meno",
+    "save": "Uložiť",
+    "cancel": "Zrušiť",
+    "signOut": "Odhlásiť sa",
+    "deleteAccount": "Odstrániť Účet",
+    "confirmDeleteTitle": "Odstrániť svoj účet?",
+    "confirmDeleteBody": "Toto natrvalo odstráni tvoj účet. Túto akciu nie je možné vrátiť späť.",
+    "delete": "Odstrániť",
+    "emailPlaceholder": "E-mail",
+    "passwordPlaceholder": "Heslo",
+    "forgotPassword": "Zabudol si heslo?",
+    "resetSent": "E-mail na obnovenie hesla bol odoslaný — skontroluj si doručenú poštu.",
+    "signUp": "Registrácia",
+    "signIn": "Prihlásenie",
+    "switchToSignIn": "Už máš účet? Prihlás sa",
+    "switchToSignUp": "Potrebuješ účet? Zaregistruj sa",
+    "or": "alebo",
+    "continueWithGoogle": "G  Pokračovať s Google",
+    "continueWithApple": "􀣺  Pokračovať s Apple",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Vytvor si účet a začni hrať",
+    "onboardingSignInSubtitle": "Prihlás sa a pokračuj",
+    "proBadge": "✨ Pro člen",
+    "upgradeToPro": "Prejsť na Pro"
+  },
+  "staticInfo": {
+    "lastUpdated": "Posledná aktualizácia: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts je hybrid pamäťovej a kockovej hry — hoď kockou a nájdi svoju šelmu, potom ju lov na tabuli, kým ťa nedostanú lebky (alebo šelma niekoho iného).",
+    "howToPlayHeading": "Ako hrať",
+    "howToPlayBody": "Solo režim je len ty proti tabuli: hoď kockou na pevne určené cieľové zviera, potom otáčaj dlaždice, aby si zozbieral všetky jeho kópie skôr, než sa ako prvá úplne odhalí súprava iného zvieraťa. Skupinový režim spája 2-4 hráčov online, ktorí sa pretekajú v dokončení svojich vlastných súprav — s bonusovými drahokamami a idolmi po ceste, ktoré okamžite odhalia extra kópie tomu, kto ich nájde.",
+    "builtWithHeading": "Vytvorené s",
+    "builtWithBody": "Expo, React Native a TypeScript na strane klienta; Colyseus poháňa online Skupinovú hru v reálnom čase.",
+    "versionHeading": "Verzia",
+    "noteHeading": "Poznámka",
+    "noteBody": "Toto je nezávislý, aktívne vyvíjaný projekt — očakávaj časom nové funkcie a úpravy pravidiel. Ďakujeme, že hráš!"
+  },
+  "privacyPolicy": {
+    "intro": "Táto politika vysvetľuje, aké informácie zhromažďuje Bones & Beasts a ako sa používajú. Nie je tu žiadna reklama ani žiadna analytika alebo sledovanie nad rámec toho, čo je popísané nižšie.",
+    "accountHeading": "Tvoj účet",
+    "accountBody": "Na hranie je potrebné vytvoriť účet (e-mail/heslo, Google alebo Prihlásenie cez Apple). Na správu prihlásenia používame Firebase Authentication, ktorý uchováva tvoju e-mailovú adresu a zobrazované meno (a v prípade Google/Apple akékoľvek základné profilové informácie, ktoré nám daný poskytovateľ zdieľa — obvykle len meno a e-mail). Tvoje heslo pri účtoch e-mail/heslo nevidíme ani neuchovávame — to zabezpečuje priamo Firebase. Svoj účet môžeš kedykoľvek odstrániť na stránke Profilu.",
+    "soloHeading": "Solo hra",
+    "soloBody": "Solo hry prebiehajú výhradne na tvojom zariadení. Tvoja história hier na karte Štatistiky (odohrané hry, výhry, dokončené súpravy, časy) sa uchováva lokálne na zariadení a nikdy sa neprenáša k nám ani nikomu inému, bez ohľadu na to, či si prihlásený.",
+    "groupHeading": "Online Skupinová hra",
+    "groupBody": "Keď sa pripojíš ku Skupinovej hre, tvoje zobrazované meno a tvoje herné akcie (hody kockou, otáčanie kariet) sa odosielajú na náš herný server, aby mohol synchronizovať spoločnú hraciu plochu pre všetkých v danej hre. Tieto údaje existujú len počas trvania danej hernej relácie — potom sa neukladajú, nepredávajú ani nezdieľajú s tretími stranami.",
+    "childrenHeading": "Ochrana súkromia detí",
+    "childrenBody": "Bones & Beasts nie je určené deťom mladším ako 13 rokov a vedome od nich nezhromažďujeme žiadne informácie.",
+    "changesHeading": "Zmeny tejto politiky",
+    "changesBody": "Ak sa zmení spôsob, akým aplikácia spracúva údaje — napríklad ak sa doplní hlásenie chýb, push notifikácie alebo platné predplatné — táto stránka bude aktualizovaná, aby to popisovala.",
+    "questionsHeading": "Otázky",
+    "questionsBody": "Ak máš otázky týkajúce sa tejto politiky, ozvi sa nám prostredníctvom miesta, odkiaľ si si túto aplikáciu stiahol."
+  },
+  "termsOfService": {
+    "intro": "Používaním Bones & Beasts súhlasíš s týmito podmienkami. Ak nesúhlasíš, prosím, nepoužívaj túto aplikáciu.",
+    "gameHeading": "Hra",
+    "gameBody": "Bones & Beasts (pozri stránku O aplikácii, čo to je a ako sa hrá) je poskytovaná výhradne na zábavné účely.",
+    "fairPlayHeading": "Fair play",
+    "fairPlayBody": "V Skupinových hrách hraj férovo — bez zneužívania chýb, automatizovania svojich ťahov alebo narúšania hier iných hráčov. Vyhradzujeme si právo odstrániť hráčov z hry alebo čakárne za rušivé správanie.",
+    "noWarrantyHeading": "Žiadna záruka",
+    "noWarrantyBody": "Aplikácia je poskytovaná \"tak, ako je\", bez akýchkoľvek záruk. Nezaručujeme, že bude nepretržitá, bezchybná alebo dostupná po celý čas — najmä online Skupinový režim, ktorý závisí od herného servera, ktorý môže byť aktualizovaný, reštartovaný alebo vypnutý bez upozornenia.",
+    "liabilityHeading": "Obmedzenie zodpovednosti",
+    "liabilityBody": "V najväčšom rozsahu povolenom zákonom nezodpovedáme za žiadne škody vyplývajúce z používania alebo nemožnosti používať aplikáciu.",
+    "changesHeading": "Zmeny",
+    "changesBody": "Tieto podmienky môžu byť aktualizované so zmenami aplikácie. Ďalšie používanie aplikácie po aktualizácii znamená, že akceptuješ upravené podmienky."
+  },
+  "settingsNav": {
+    "profile": "Profil",
+    "appSettings": "Nastavenia Aplikácie",
+    "privacyPolicy": "Ochrana Osobných Údajov",
+    "termsOfService": "Podmienky Používania",
+    "about": "O Aplikácii",
+    "settings": "Nastavenia"
+  },
+  "stats": {
+    "title": "Štatistiky",
+    "gamesPlayed": "Odohrané hry",
+    "yourWins": "Tvoje výhry",
+    "setsCompleted": "Dokončené súpravy",
+    "avgSetsPerGame": "Priem. súprav / hra",
+    "bestSoloTime": "Najlepší solo čas",
+    "noBestTime": "–",
+    "recentGames": "Nedávne hry",
+    "noGamesYet": "Ešte neboli odohrané žiadne hry — začni jednu!",
+    "modeSolo": "Solo",
+    "modeGroup": "Skupina ({{count}})",
+    "placeWin": "🏆 {{place}}. miesto",
+    "place": "{{place}}. miesto"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "Skupinová hra je zdarma na ďalší {{count}} deň — kedykoľvek sa môžeš prihlásiť na odber a pokračovať v hraní.",
+    "trialActiveSubtitle_few": "Skupinová hra je zdarma na ďalšie {{count}} dni — kedykoľvek sa môžeš prihlásiť na odber a pokračovať v hraní.",
+    "trialActiveSubtitle_many": "Skupinová hra je zdarma na ďalšie {{count}} dňa — kedykoľvek sa môžeš prihlásiť na odber a pokračovať v hraní.",
+    "trialActiveSubtitle_other": "Skupinová hra je zdarma na ďalších {{count}} dní — kedykoľvek sa môžeš prihlásiť na odber a pokračovať v hraní.",
+    "trialEndedSubtitle": "Tvoja bezplatná skúšobná verzia Skupinovej hry sa skončila. Prihlás sa na odber a pokračuj v pretekaní s ostatnými hráčmi online.",
+    "monthly": "Mesačne",
+    "yearly": "Ročne",
+    "lifetime": "Doživotne",
+    "restorePurchases": "Obnoviť Nákupy",
+    "notNow": "Teraz nie"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Vyber si avatar pre svoj profil"
+  }
+}

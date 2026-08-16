@@ -1,5 +1,6 @@
 import React from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
+import { useTranslation } from "react-i18next";
 import { Theme, useTheme } from "../theme";
 
 export interface StaticInfoSection {
@@ -17,9 +18,10 @@ interface Props {
 export default function StaticInfoScreen({ sections, updated }: Props) {
   const theme = useTheme();
   const styles = getStyles(theme);
+  const { t } = useTranslation();
   return (
     <ScrollView style={styles.wrap} contentContainerStyle={styles.content}>
-      {updated && <Text style={styles.updated}>Last updated: {updated}</Text>}
+      {updated && <Text style={styles.updated}>{t("staticInfo.lastUpdated", { date: updated })}</Text>}
       {sections.map((s, i) => (
         <View key={i} style={styles.section}>
           {s.heading && <Text style={styles.heading}>{s.heading}</Text>}

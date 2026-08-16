@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "back": "Geri",
+    "delete": "Sil",
+    "reset": "Sıfırla",
+    "you": "Sen",
+    "explorer": "Kaşif",
+    "didNotFinish": "Bitirmedi",
+    "or": "veya",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Aslan",
+    "elephant": "Fil",
+    "monkey": "Maymun",
+    "tiger": "Kaplan",
+    "giraffe": "Zürafa",
+    "zebra": "Zebra"
+  },
+  "tabs": {
+    "home": "Ana Sayfa",
+    "play": "Oyna",
+    "stats": "İstatistikler",
+    "settings": "Ayarlar"
+  },
+  "home": {
+    "welcome": "Hoş geldin, {{username}}!",
+    "promptReady": "Bahse girmeye hazır mısın?",
+    "promptWanna": "Oynamak ister misin?",
+    "soloTitle": "Solo",
+    "soloBody": "Kartını bulmak için zar at, sonra başka bir canavarın seti tamamlanmadan önce tüm altı kopyayı bulmak için tableti araştır. Sadece sen, hafızan ve kafatasları.",
+    "playSolo": "Solo Oyna",
+    "groupTitle": "Grup",
+    "groupBody": "2-4 oyuncuyla takım kur ve kendi setini ilk tamamlamak için yarış. Grup modu sadece çevrimiçi oynanır — seni canlı bir lobide diğer oyuncularla eşleştireceğiz.",
+    "trialActive_one": "Ücretsiz deneme — {{count}} gün kaldı",
+    "trialActive_other": "Ücretsiz deneme — {{count}} gün kaldı",
+    "trialEnded": "Ücretsiz deneme sona erdi — oynamaya devam etmek için abone ol",
+    "findGroup": "Grup Bul"
+  },
+  "endScreen": {
+    "lossTitle": "Tapınakta Gömüldün!",
+    "winTitle": "Tapınak Temizlendi!",
+    "totalTime": "⏱ Toplam oyun süresi: {{time}}",
+    "finalRanking": "Son sıralama",
+    "setCompletionOrder": "Set tamamlama sırası",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Yeniden Oyna"
+  },
+  "bonus": {
+    "small": "bir Bonus Mücevher",
+    "big": "bir Antik İdol",
+    "found": "{{label}} buldun!"
+  },
+  "gameOnline": {
+    "connecting": "Bağlanıyor...",
+    "aPlayer": "Bir oyuncu",
+    "huntingFor": "{{emoji}} {{faceName}} arayacaksın!",
+    "waiting": "Bekleniyor",
+    "waitingForMove": "Hamlelerini bekliyor...",
+    "disconnectedName": "{{name}} (ayrıldı)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Sunucuya erişilemedi.",
+    "couldntConnect": "Bağlanılamadı",
+    "findingGroup": "Grup Bulunuyor",
+    "you": "(sen)",
+    "waitingForPlayer": "Bir oyuncu bekleniyor...",
+    "cancel": "İptal"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Bu e-posta zaten kayıtlı — bunun yerine giriş yapmayı dene.",
+    "invalidEmail": "Bu geçerli bir e-posta adresine benzemiyor.",
+    "missingEmail": "Önce e-posta adresini gir.",
+    "weakPassword": "Şifre en az 6 karakter olmalı.",
+    "wrongPassword": "Hatalı e-posta veya şifre.",
+    "userNotFound": "Bu e-posta ile kayıtlı bir hesap bulunamadı.",
+    "tooManyRequests": "Çok fazla deneme yapıldı — lütfen biraz bekleyip tekrar dene.",
+    "networkError": "Ağ hatası — bağlantını kontrol edip tekrar dene.",
+    "requiresRecentLogin": "Güvenliğin için lütfen çıkış yapıp yeniden giriş yap, sonra tekrar dene.",
+    "generic": "Bir şeyler ters gitti. Lütfen tekrar dene."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Abonelik seçenekleri yüklenemedi.",
+    "purchaseFailed": "Satın alma başarısız oldu. Lütfen tekrar dene.",
+    "restoreFailed": "Satın alımlar geri yüklenemedi.",
+    "notSignedIn": "Lütfen önce giriş yap.",
+    "notAvailableOnWeb": "Abonelikler henüz web'de kullanılamıyor — lütfen iOS veya Android uygulamasını kullan.",
+    "checkoutFailed": "Ödeme başlatılamadı."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, kartını bulmak için zar at!",
+    "turnHuntFor": "{{name}}'in sırası — {{faceName}} {{emoji}} ara!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Tekrar çevir!",
+    "completedSet": "🏆 {{name}} {{faceName}} setini tamamladı — {{place}}. sıra!",
+    "skullSolo": "💀 {{name}} bir kafatasına çarptı! Bir an için dondu...",
+    "skullGroup": "💀 {{name}} bir kafatasına çarptı! Sıra kaybedildi, bir sonraki sıra atlanacak. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} {{label}} buldu — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} {{label}} buldu, ama açığa çıkaracak bir şey kalmamıştı!",
+    "bonusLabelSmall": "bir bonus mücevher",
+    "bonusLabelBig": "bir antik idol",
+    "foundFaceLead": "{{name}} {{faceName}} buldu",
+    "wrongTileLoss": "💀 Kendi {{targetFace}} setini tamamlamadan önce tüm {{wrongFace}} karoları bulundu — kaybettin!",
+    "wrongTilePass": "{{name}} yanlış karoyu açtı. {{nextTurn}}",
+    "everyoneFound": "Herkes kartını buldu! Oyun bitti.",
+    "tabletCleared": "Tablet temizlendi! Oyun bitti."
+  },
+  "skullPause": {
+    "title": "Donduruldu!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} tuzak bulundu",
+    "gems": "{{found}}/{{total}} mücevher bulundu",
+    "idols": "{{found}}/{{total}} idol bulundu"
+  },
+  "yourTurn": {
+    "banner": "👉 Sıra sende!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} setini tamamladı ({{place}}. sıra)! {{status}}",
+    "othersRemaining_one": "{{count}} oyuncu hâlâ oynuyor.",
+    "othersRemaining_other": "{{count}} oyuncu hâlâ oynuyor.",
+    "everyoneDone": "Hepsi bu kadar!"
+  },
+  "gameResult": {
+    "wonTitle": "Tüm {{count}} {{cardName}} kartını buldun!",
+    "lostTitle": "Kaybettin!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, kartını bulmak için zar at!",
+    "rollingPrompt": "{{playerName}}, zar atıyor...",
+    "roll": "Zar At",
+    "yourCardIs": "Kartın {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Sürmekte olan bir oyun yok. Ana Sayfa'dan bir oyun başlat!"
+  },
+  "appSettings": {
+    "theme": "Tema",
+    "themeDark": "Koyu",
+    "themeLight": "Açık",
+    "language": "Dil",
+    "languageSystem": "Sistem",
+    "data": "Veri",
+    "dataBody": "Bu cihazda oturumunu kapatır ve İstatistik geçmişini temizler. Bu işlem geri alınamaz.",
+    "signOutReset": "Çıkış yap ve yerel verileri sıfırla",
+    "confirmResetTitle": "Çıkış yapılıp yerel veriler sıfırlansın mı?",
+    "confirmResetBody": "Bu, bu cihazdaki İstatistik geçmişini temizler ve oturumunu kapatır. Bu işlem geri alınamaz.",
+    "reset": "Sıfırla"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Görünen ad",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "signOut": "Çıkış Yap",
+    "deleteAccount": "Hesabı Sil",
+    "confirmDeleteTitle": "Hesabın silinsin mi?",
+    "confirmDeleteBody": "Bu, hesabını kalıcı olarak siler. Bu işlem geri alınamaz.",
+    "delete": "Sil",
+    "emailPlaceholder": "E-posta",
+    "passwordPlaceholder": "Şifre",
+    "forgotPassword": "Şifreni mi unuttun?",
+    "resetSent": "Şifre sıfırlama e-postası gönderildi — gelen kutunu kontrol et.",
+    "signUp": "Kayıt Ol",
+    "signIn": "Giriş Yap",
+    "switchToSignIn": "Zaten bir hesabın var mı? Giriş Yap",
+    "switchToSignUp": "Hesabın yok mu? Kayıt Ol",
+    "or": "veya",
+    "continueWithGoogle": "G  Google ile devam et",
+    "continueWithApple": "􀣺  Apple ile devam et",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Oynamaya başlamak için bir hesap oluştur",
+    "onboardingSignInSubtitle": "Devam etmek için giriş yap",
+    "proBadge": "✨ Pro Üye",
+    "upgradeToPro": "Pro'ya Yükselt"
+  },
+  "staticInfo": {
+    "lastUpdated": "Son güncelleme: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts, hafıza ve zar oyununu birleştiren bir hibrit oyundur — canavarını bulmak için zar at, sonra kafataslarından (veya başka birinin canavarından) önce onu tablette ara.",
+    "howToPlayHeading": "Nasıl oynanır",
+    "howToPlayBody": "Solo mod, sadece senin tablete karşı olduğun bir moddur: sabit bir hedef hayvan için zar at, sonra başka bir hayvanın seti tamamen açığa çıkmadan önce tüm kopyalarını toplamak için karoları çevir. Grup modu, çevrimiçi 2-4 oyuncuyu eşleştirir ve herkes kendi setini tamamlamak için yarışır — yol boyunca bulanlara anında ekstra kopyalar açan bonus mücevherler ve idoller de vardır.",
+    "builtWithHeading": "Şununla geliştirildi",
+    "builtWithBody": "İstemci tarafında Expo, React Native ve TypeScript; gerçek zamanlı çevrimiçi Grup oyununu Colyseus destekliyor.",
+    "versionHeading": "Sürüm",
+    "noteHeading": "Bir not",
+    "noteBody": "Bu, bağımsız ve aktif olarak geliştirilen bir projedir — zaman içinde yeni özellikler ve kural değişiklikleri bekleyebilirsin. Oynadığın için teşekkürler!"
+  },
+  "privacyPolicy": {
+    "intro": "Bu politika, Bones & Beasts'in hangi bilgileri topladığını ve bunların nasıl kullanıldığını açıklar. Reklam yoktur ve aşağıda açıklananların dışında analiz veya takip yapılmaz.",
+    "accountHeading": "Hesabın",
+    "accountBody": "Oynamak için bir hesap oluşturman gerekir (e-posta/şifre, Google veya Apple ile Oturum Aç). Girişi yönetmek için Firebase Authentication kullanıyoruz; bu, e-posta adresini ve görünen adını saklar (Google/Apple için ise o sağlayıcının bizimle paylaştığı temel profil bilgilerini — genellikle sadece adını ve e-postanı). E-posta/şifre hesapları için şifrenin kendisini görmeyiz veya saklamayız; bunu doğrudan Firebase yönetir. Hesabını istediğin zaman Profil sayfasından silebilirsin.",
+    "soloHeading": "Solo oyun",
+    "soloBody": "Solo oyunlar tamamen cihazında çalışır. İstatistikler sekmesindeki oyun geçmişin (oynanan oyunlar, kazanmalar, tamamlanan setler, süreler) cihazda yerel olarak saklanır ve giriş yapmış olup olmadığından bağımsız olarak bize veya başka birine hiçbir zaman iletilmez.",
+    "groupHeading": "Çevrimiçi Grup oyunu",
+    "groupBody": "Bir Grup oyununa katıldığında, görünen adın ve oyun içi hareketlerin (zar atışları, kart çevirmeleri) o oyundaki herkes için paylaşılan tahtayı senkronize tutabilmesi için oyun sunucumuza gönderilir. Bu veri yalnızca o oyun oturumunun süresi boyunca var olur — daha sonra kaydedilmez, satılmaz veya üçüncü taraflarla paylaşılmaz.",
+    "childrenHeading": "Çocukların gizliliği",
+    "childrenBody": "Bones & Beasts, 13 yaşın altındaki çocuklara yönelik değildir ve onlardan bilerek bilgi toplamayız.",
+    "changesHeading": "Bu politikadaki değişiklikler",
+    "changesBody": "Uygulamanın verileri ele alış şekli değişirse — örneğin çökme raporlama, push bildirimleri veya ücretli bir abonelik eklenirse — bu sayfa bunu açıklamak için güncellenecektir.",
+    "questionsHeading": "Sorular",
+    "questionsBody": "Bu politikayla ilgili soruların varsa, lütfen bu uygulamayı indirdiğin yer üzerinden bizimle iletişime geç."
+  },
+  "termsOfService": {
+    "intro": "Bones & Beasts'i kullanarak bu şartları kabul edersin. Kabul etmiyorsan, lütfen uygulamayı kullanma.",
+    "gameHeading": "Oyun",
+    "gameBody": "Bones & Beasts (ne olduğu ve nasıl oynandığı hakkında bilgi için Hakkında sayfasına bak) yalnızca eğlence amaçlıdır.",
+    "fairPlayHeading": "Adil oyun",
+    "fairPlayBody": "Grup oyunlarında lütfen adil oyna — hataları kullanma, sıranı otomatikleştirme veya diğer oyuncuların oyunlarını bozma. Rahatsız edici davranışlar nedeniyle oyuncuları bir oyundan veya lobiden çıkarma hakkımızı saklı tutarız.",
+    "noWarrantyHeading": "Garanti yok",
+    "noWarrantyBody": "Uygulama \"olduğu gibi\" sunulur, hiçbir türde garanti verilmez. Kesintisiz, hatasız veya her zaman erişilebilir olacağını garanti etmiyoruz — özellikle bildirimde bulunmadan güncellenebilecek, yeniden başlatılabilecek veya çevrimdışı alınabilecek bir oyun sunucusuna bağlı olan çevrimiçi Grup modu için.",
+    "liabilityHeading": "Sorumluluğun sınırlandırılması",
+    "liabilityBody": "Yasaların izin verdiği en geniş ölçüde, uygulamayı kullanmandan veya kullanamamandan kaynaklanan zararlardan sorumlu değiliz.",
+    "changesHeading": "Değişiklikler",
+    "changesBody": "Bu şartlar, uygulama değiştikçe güncellenebilir. Bir güncellemeden sonra uygulamayı kullanmaya devam etmen, revize edilmiş şartları kabul ettiğin anlamına gelir."
+  },
+  "settingsNav": {
+    "profile": "Profil",
+    "appSettings": "Uygulama Ayarları",
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfService": "Kullanım Şartları",
+    "about": "Hakkında",
+    "settings": "Ayarlar"
+  },
+  "stats": {
+    "title": "İstatistikler",
+    "gamesPlayed": "Oynanan oyunlar",
+    "yourWins": "Kazandıkların",
+    "setsCompleted": "Tamamlanan setler",
+    "avgSetsPerGame": "Ort. set/oyun",
+    "bestSoloTime": "En iyi solo süresi",
+    "noBestTime": "–",
+    "recentGames": "Son oyunlar",
+    "noGamesYet": "Henüz oyun oynanmadı — bir tane başlat!",
+    "modeSolo": "Solo",
+    "modeGroup": "Grup ({{count}})",
+    "placeWin": "🏆 {{place}}. sıra",
+    "place": "{{place}}. sıra"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "Grup oyunu ilk {{count}} gün daha ücretsiz — sonrasında oynamaya devam etmek için istediğin zaman abone olabilirsin.",
+    "trialActiveSubtitle_other": "Grup oyunu ilk {{count}} gün daha ücretsiz — sonrasında oynamaya devam etmek için istediğin zaman abone olabilirsin.",
+    "trialEndedSubtitle": "Grup oyununun ücretsiz deneme süresi sona erdi. Diğer oyuncularla çevrimiçi yarışmaya devam etmek için abone ol.",
+    "monthly": "Aylık",
+    "yearly": "Yıllık",
+    "lifetime": "Ömür Boyu",
+    "restorePurchases": "Satın Alımları Geri Yükle",
+    "notNow": "Şimdi değil"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Profilin için bir avatar seç"
+  }
+}

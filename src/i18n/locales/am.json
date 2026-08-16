@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "ይቅር",
+    "save": "አስቀምጥ",
+    "back": "ተመለስ",
+    "delete": "አጥፋ",
+    "reset": "ዳግም አስጀምር",
+    "you": "እርስዎ",
+    "explorer": "አሳሽ",
+    "didNotFinish": "አልተጠናቀቀም",
+    "or": "ወይም",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "አንበሳ",
+    "elephant": "ዝሆን",
+    "monkey": "ጦጣ",
+    "tiger": "ነብር",
+    "giraffe": "ቀጭኔ",
+    "zebra": "ዝብራ"
+  },
+  "tabs": {
+    "home": "መነሻ",
+    "play": "ተጫወት",
+    "stats": "ስታትስቲክስ",
+    "settings": "ማስተካከያዎች"
+  },
+  "home": {
+    "welcome": "እንኳን ደህና መጡ፣ {{username}}!",
+    "promptReady": "ለውርርድ ተዘጋጅተዋል?",
+    "promptWanna": "መጫወት ይፈልጋሉ?",
+    "soloTitle": "ብቸኛ",
+    "soloBody": "ካርድዎን ለማግኘት ይንከባለሉ፣ ከዚያ ሌላ አውሬ ስብስቡን ከመጨረሱ በፊት ሁሉንም ስድስት ቅጂዎች ለማግኘት ጠረጴዛውን ይፈልጉ። እርስዎ፣ የእርስዎ ትውስታ፣ እና የራስ ቅሎች ብቻ።",
+    "playSolo": "ብቸኛ ተጫወት",
+    "groupTitle": "ቡድን",
+    "groupBody": "ከ2-4 ተጫዋቾች ጋር ይተባበሩ እና ስብስብዎን መጀመሪያ ለማጠናቀቅ ይሽቀዳደሙ። የቡድን ጨዋታ የመስመር ላይ ብቻ ነው — በቀጥታ አዳራሽ ውስጥ ከሌሎች ተጫዋቾች ጋር እናጣምርዎታለን።",
+    "trialActive_one": "ነጻ ሙከራ — {{count}} ቀን ቀርቷል",
+    "trialActive_other": "ነጻ ሙከራ — {{count}} ቀናት ቀርተዋል",
+    "trialEnded": "ነጻ ሙከራ ጊዜው አልቋል — ለመቀጠል ይመዝገቡ",
+    "findGroup": "ቡድን ፍለግ"
+  },
+  "endScreen": {
+    "lossTitle": "በቤተመቅደሱ ውስጥ ተቀብረዋል!",
+    "winTitle": "ቤተመቅደሱ ጸድቷል!",
+    "totalTime": "⏱ ጠቅላላ የጨዋታ ጊዜ፦ {{time}}",
+    "finalRanking": "የመጨረሻ ደረጃ",
+    "setCompletionOrder": "የስብስብ ማጠናቀቅ ቅደም ተከተል",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "እንደገና ተጫወት"
+  },
+  "bonus": {
+    "small": "የጉርሻ ዕንቁ",
+    "big": "ጥንታዊ ጣኦት",
+    "found": "{{label}} አግኝተዋል!"
+  },
+  "gameOnline": {
+    "connecting": "በመገናኘት ላይ...",
+    "aPlayer": "አንድ ተጫዋች",
+    "huntingFor": "{{emoji}} {{faceName}}ን ይፈልጋሉ!",
+    "waiting": "በመጠበቅ ላይ",
+    "waitingForMove": "የእነሱን ተራ በመጠበቅ ላይ...",
+    "disconnectedName": "{{name}} (ወጥቷል)"
+  },
+  "lobby": {
+    "couldNotReachServer": "ሰርቨሩን ማግኘት አልተቻለም።",
+    "couldntConnect": "መገናኘት አልተቻለም",
+    "findingGroup": "ቡድን በመፍለግ ላይ",
+    "you": "(እርስዎ)",
+    "waitingForPlayer": "ተጫዋች በመጠበቅ ላይ...",
+    "cancel": "ይቅር"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "ይህ ኢሜይል አስቀድሞ ተመዝግቧል — በምትኩ ይግቡ።",
+    "invalidEmail": "ይህ ትክክለኛ የኢሜይል አድራሻ አይመስልም።",
+    "missingEmail": "መጀመሪያ የኢሜይል አድራሻዎን ያስገቡ።",
+    "weakPassword": "የይለፍ ቃል ቢያንስ 6 ቁምፊዎች መሆን አለበት።",
+    "wrongPassword": "የተሳሳተ ኢሜይል ወይም የይለፍ ቃል።",
+    "userNotFound": "በዚህ ኢሜይል የተመዘገበ መለያ አልተገኘም።",
+    "tooManyRequests": "በጣም ብዙ ሙከራዎች — እባክዎ ትንሽ ይጠብቁና እንደገና ይሞክሩ።",
+    "networkError": "የግንኙነት ስህተት — ግንኙነትዎን ያረጋግጡና እንደገና ይሞክሩ።",
+    "requiresRecentLogin": "ለደህንነትዎ፣ እባክዎ ይውጡና እንደገና ይግቡ፣ ከዚያ እንደገና ይሞክሩ።",
+    "generic": "የሆነ ችግር ተከስቷል። እባክዎ እንደገና ይሞክሩ።"
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "የደንበኝነት ምዝገባ አማራጮችን መጫን አልተቻለም።",
+    "purchaseFailed": "ግዢው አልተሳካም። እባክዎ እንደገና ይሞክሩ።",
+    "restoreFailed": "ግዢዎችን መመለስ አልተቻለም።",
+    "notSignedIn": "እባክዎ መጀመሪያ ይግቡ።",
+    "notAvailableOnWeb": "የደንበኝነት ምዝገባዎች በዌብ ላይ እስካሁን አይገኙም — እባክዎ የiOS ወይም Android መተግበሪያውን ይጠቀሙ።",
+    "checkoutFailed": "ክፍያውን መጀመር አልተቻለም።"
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}፣ ካርድዎን ለማግኘት ይንከባለሉ!",
+    "turnHuntFor": "የ{{name}} ተራ — {{faceName}} {{emoji}}ን ይፈልጉ!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}})። እንደገና ያዙሩ!",
+    "completedSet": "🏆 {{name}} የ{{faceName}} ስብስብን አጠናቅቋል — {{place}} ደረጃ!",
+    "skullSolo": "💀 {{name}} የራስ ቅል መታ! ለትንሽ ጊዜ ቀዘቀዘ...",
+    "skullGroup": "💀 {{name}} የራስ ቅል መታ! ተራ ጠፋ፣ የሚቀጥለው ተራ ይዘላል። {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} {{label}}ን አግኝቷል — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} {{label}}ን አግኝቷል፣ ነገር ግን ምንም የሚገለጥ አልቀረም!",
+    "bonusLabelSmall": "የጉርሻ ዕንቁ",
+    "bonusLabelBig": "ጥንታዊ ጣኦት",
+    "foundFaceLead": "{{name}} {{faceName}}ን አግኝቷል",
+    "wrongTileLoss": "💀 ሁሉም {{wrongFace}} ካርዶች የራስዎን የ{{targetFace}} ስብስብ ከመጨረስዎ በፊት ተገኝተዋል — ተሸንፈዋል!",
+    "wrongTilePass": "{{name}} የተሳሳተ ካርድ ገለጠ። {{nextTurn}}",
+    "everyoneFound": "ሁሉም ካርዳቸውን አግኝተዋል! ጨዋታው ተጠናቅቋል።",
+    "tabletCleared": "ጠረጴዛው ጸድቷል! ጨዋታው ተጠናቅቋል።"
+  },
+  "skullPause": {
+    "title": "ቀዝቅዟል!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} ወጥመዶች ተገኝተዋል",
+    "gems": "{{found}}/{{total}} ዕንቁዎች ተገኝተዋል",
+    "idols": "{{found}}/{{total}} ጣኦታት ተገኝተዋል"
+  },
+  "yourTurn": {
+    "banner": "👉 የእርስዎ ተራ ነው!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} ስብስቡን አጠናቅቋል ({{place}} ደረጃ)! {{status}}",
+    "othersRemaining_one": "{{count}} ተጫዋች አሁንም እየተጫወተ ነው።",
+    "othersRemaining_other": "{{count}} ተጫዋቾች አሁንም እየተጫወቱ ናቸው።",
+    "everyoneDone": "ሁሉም ጨርሰዋል!"
+  },
+  "gameResult": {
+    "wonTitle": "ሁሉንም {{count}} {{cardName}} ካርዶች አግኝተዋል!",
+    "lostTitle": "ተሸንፈዋል!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}፣ ካርድዎን ለማግኘት ይንከባለሉ!",
+    "rollingPrompt": "{{playerName}}፣ በመንከባለል ላይ...",
+    "roll": "አንከባልል",
+    "yourCardIs": "የእርስዎ ካርድ {{emoji}} ነው"
+  },
+  "playScreen": {
+    "noGame": "ምንም ጨዋታ በሂደት ላይ የለም። ከመነሻ ገጽ ጀምር!"
+  },
+  "appSettings": {
+    "theme": "ገጽታ",
+    "themeDark": "ጨለማ",
+    "themeLight": "ብርሃን",
+    "language": "ቋንቋ",
+    "languageSystem": "ስርዓት",
+    "data": "ውሂብ",
+    "dataBody": "ከዚህ መሣሪያ ያስወጣዎታል እና የስታትስቲክስ ታሪክዎን ያጠፋል። ይህ መመለስ አይቻልም።",
+    "signOutReset": "ውጣ እና የመሣሪያ ውሂብ አጥፋ",
+    "confirmResetTitle": "ውጡ እና የመሣሪያ ውሂብ ይጠፉ?",
+    "confirmResetBody": "ይህ በዚህ መሣሪያ ላይ ያለውን የስታትስቲክስ ታሪክዎን ያጠፋል እና ያስወጣዎታል። ይህ መመለስ አይቻልም።",
+    "reset": "አጥፋ"
+  },
+  "profile": {
+    "displayNamePlaceholder": "የሚታይ ስም",
+    "save": "አስቀምጥ",
+    "cancel": "ይቅር",
+    "signOut": "ውጣ",
+    "deleteAccount": "መለያ አጥፋ",
+    "confirmDeleteTitle": "መለያዎን ማጥፋት ይፈልጋሉ?",
+    "confirmDeleteBody": "ይህ መለያዎን በቋሚነት ያጠፋል። ይህ መመለስ አይቻልም።",
+    "delete": "አጥፋ",
+    "emailPlaceholder": "ኢሜይል",
+    "passwordPlaceholder": "የይለፍ ቃል",
+    "forgotPassword": "የይለፍ ቃል ረሱ?",
+    "resetSent": "የይለፍ ቃል መልሶ ማስጀመሪያ ኢሜይል ተልኳል — የገቢ መልእክት ሳጥንዎን ያረጋግጡ።",
+    "signUp": "ተመዝገብ",
+    "signIn": "ግባ",
+    "switchToSignIn": "አስቀድሞ መለያ አለዎት? ግባ",
+    "switchToSignUp": "መለያ ይፈልጋሉ? ተመዝገብ",
+    "or": "ወይም",
+    "continueWithGoogle": "G  ከGoogle ጋር ቀጥል",
+    "continueWithApple": "􀣺  ከApple ጋር ቀጥል",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "መጫወት ለመጀመር መለያ ይፍጠሩ",
+    "onboardingSignInSubtitle": "ለመቀጠል ይግቡ",
+    "proBadge": "✨ ፕሮ አባል",
+    "upgradeToPro": "ወደ ፕሮ አሻሽል"
+  },
+  "staticInfo": {
+    "lastUpdated": "መጨረሻ የተዘመነው፦ {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts የትውስታ/የዳይስ ድብልቅ ጨዋታ ነው — አውሬዎን ለማግኘት ይንከባለሉ፣ ከዚያ የራስ ቅሎች (ወይም የሌላ ሰው አውሬ) ከመያዝዎ በፊት በጠረጴዛው ላይ ይፈልጉት።",
+    "howToPlayHeading": "እንዴት እንደሚጫወት",
+    "howToPlayBody": "የብቸኛ ሁነታ እርስዎ ብቻ በጠረጴዛው ላይ ነው፦ ለተወሰነ ዒላማ እንስሳ ይንከባለሉ፣ ከዚያ ሌላ እንስሳ ስብስቡ ሙሉ በሙሉ ከመገለጡ በፊት ሁሉንም ቅጂዎቹን ለመሰብሰብ ካርዶችን ይገልጡ። የቡድን ሁነታ 2-4 ተጫዋቾችን በመስመር ላይ ያገናኛል፣ የራሳቸውን ስብስብ ለማጠናቀቅ ይሽቀዳደማሉ — ከጉርሻ ዕንቁዎችና ጣኦታት ጋር በመንገዱ ላይ ለተገኙላቸው ተጨማሪ ቅጂዎችን በቅጽበት የሚገልጡ።",
+    "builtWithHeading": "የተገነባው በ",
+    "builtWithBody": "Expo፣ React Native፣ እና TypeScript በደንበኛው ላይ፤ Colyseus የቀጥታ የመስመር ላይ የቡድን ጨዋታን ያንቀሳቅሳል።",
+    "versionHeading": "ስሪት",
+    "noteHeading": "ማስታወሻ",
+    "noteBody": "ይህ ራሱን ችሎ በንቃት እየተገነባ ያለ ፕሮጀክት ነው — በጊዜ ሂደት አዳዲስ ባህሪያትን እና የህግ ማስተካከያዎችን ይጠብቁ። ስለተጫወቱ እናመስግናለን!"
+  },
+  "privacyPolicy": {
+    "intro": "ይህ ፖሊሲ Bones & Beasts ምን መረጃ እንደሚሰበስብ እና እንዴት እንደሚጠቀም ያብራራል። ምንም ማስታወቂያ የለም እና ከዚህ በታች ከተገለጸው በላይ ምንም ትንታኔ ወይም ክትትል የለም።",
+    "accountHeading": "የእርስዎ መለያ",
+    "accountBody": "መለያ መፍጠር (ኢሜይል/የይለፍ ቃል፣ Google፣ ወይም Sign in with Apple) ለመጫወት ያስፈልጋል። ግንኙነትን ለማስተዳደር Firebase Authentication እንጠቀማለን፣ ይህም የኢሜይል አድራሻዎን እና የሚታይ ስምዎን ያከማቻል (እና ለGoogle/Apple፣ ያ አቅራቢ ከእኛ ጋር የሚያጋራውን መሠረታዊ የመገለጫ መረጃ — በተለምዶ ስምዎና ኢሜይልዎ ብቻ)። ለኢሜይል/የይለፍ ቃል መለያዎች የይለፍ ቃልዎን አናይም ወይም አናከማችም፤ Firebase ይህንን በቀጥታ ያስተናግዳል። ከመገለጫ ገጹ ላይ በማንኛውም ጊዜ መለያዎን ማጥፋት ይችላሉ።",
+    "soloHeading": "ብቸኛ ጨዋታ",
+    "soloBody": "የብቸኛ ጨዋታዎች ሙሉ በሙሉ በመሣሪያዎ ላይ ይሰራሉ። በስታትስቲክስ ትር ውስጥ ያለው የጨዋታ ታሪክዎ (የተጫወቱ ጨዋታዎች፣ ድሎች፣ የተጠናቀቁ ስብስቦች፣ ጊዜያት) በመሣሪያው ላይ በአካባቢያዊነት ይከማቻል እና ገብተው ወይም ባልገባ ለእኛም ለማንም ሌላ ሰው በፍጹም አይተላለፍም።",
+    "groupHeading": "የመስመር ላይ የቡድን ጨዋታ",
+    "groupBody": "የቡድን ጨዋታ ላይ ሲቀላቀሉ፣ የሚታይ ስምዎና በጨዋታ ውስጥ ያሉ ድርጊቶችዎ (የዳይስ ንከባለሎች፣ የካርድ ገለጣዎች) በዚያ ጨዋታ ውስጥ ላሉት ሁሉ የተጋራውን ሰሌዳ በሲንክ ለማድረግ ወደ ጨዋታ ሰርቨራችን ይላካሉ። ይህ መረጃ የሚኖረው ለዚያ የጨዋታ ክፍለ ጊዜ ብቻ ነው — ከዚያ በኋላ አይቀመጥም፣ አይሸጥም፣ ወይም ለሶስተኛ ወገኖች አይጋራም።",
+    "childrenHeading": "የልጆች ግላዊነት",
+    "childrenBody": "Bones & Beasts ከ13 ዓመት በታች ላሉ ልጆች ያልታሰበ ነው፣ እናም ከእነሱ መረጃ ሆን ብለን አንሰበስብም።",
+    "changesHeading": "በዚህ ፖሊሲ ላይ የሚደረጉ ለውጦች",
+    "changesBody": "መተግበሪያው ውሂብን የሚያስተናግድበት መንገድ ከተለወጠ — ለምሳሌ፣ የክራሽ ሪፖርት፣ የግፋ ማሳወቂያዎች፣ ወይም የተከፈለ ደንበኝነት ምዝገባ ከተጨመረ — ይህ ገጽ ይህንን ለመግለጽ ይዘመናል።",
+    "questionsHeading": "ጥያቄዎች",
+    "questionsBody": "ስለዚህ ፖሊሲ ጥያቄ ካለዎት፣ እባክዎ ይህን መተግበሪያ ካወረዱበት ቦታ ያግኙን።"
+  },
+  "termsOfService": {
+    "intro": "Bones & Beastsን በመጠቀም፣ ከዚህ ደንብ ጋር ተስማምተዋል። ካልተስማሙ፣ እባክዎ መተግበሪያውን አይጠቀሙ።",
+    "gameHeading": "ጨዋታው",
+    "gameBody": "Bones & Beasts (ምን እንደሆነ እና እንዴት እንደሚጫወት ለማወቅ የስለ ገጽን ይመልከቱ) ለመዝናኛ ዓላማ ብቻ ቀርቧል።",
+    "fairPlayHeading": "ፍትሃዊ ጨዋታ",
+    "fairPlayBody": "በቡድን ጨዋታዎች ውስጥ፣ እባክዎ በፍትሃዊነት ይጫወቱ — ምንም ጉድለቶችን አለመጠቀም፣ ተራዎችዎን አለማራመድ፣ ወይም የሌሎች ተጫዋቾችን ጨዋታ አለማወክ። አስቸጋሪ ጠባይ ላላቸው ተጫዋቾችን ከጨዋታ ወይም አዳራሽ የማስወገድ መብት አለን።",
+    "noWarrantyHeading": "ምንም ማረጋገጫ የለም",
+    "noWarrantyBody": "መተግበሪያው “እንደ ነው” ቀርቧል፣ ምንም ዓይነት ማረጋገጫ የለውም። ያለማቋረጥ፣ ስህተት-አልባ፣ ወይም በሁሉም ጊዜ የሚገኝ እንደሆነ አናረጋግጥም — በተለይ የመስመር ላይ የቡድን ሁነታ፣ ማስታወቂያ ሳይሰጥ ሊዘመን፣ እንደገና ሊጀመር፣ ወይም ሊጠፋ የሚችል የጨዋታ ሰርቨር ላይ የተመሠረተ ነው።",
+    "liabilityHeading": "የተጠያቂነት ገደብ",
+    "liabilityBody": "በህግ በተፈቀደው ከፍተኛ መጠን፣ መተግበሪያውን ከመጠቀምዎ ወይም ካለመቻልዎ ለሚነሱ ጉዳቶች ተጠያቂ አይደለንም።",
+    "changesHeading": "ለውጦች",
+    "changesBody": "እነዚህ ደንቦች መተግበሪያው እየተለወጠ ሲሄድ ሊዘመኑ ይችላሉ። ከዘመነ በኋላ መተግበሪያውን መጠቀም መቀጠል የተከለሱትን ደንቦች መቀበልን ያመለክታል።"
+  },
+  "settingsNav": {
+    "profile": "መገለጫ",
+    "appSettings": "የመተግበሪያ ማስተካከያዎች",
+    "privacyPolicy": "የግላዊነት ፖሊሲ",
+    "termsOfService": "የአገልግሎት ደንቦች",
+    "about": "ስለ",
+    "settings": "ማስተካከያዎች"
+  },
+  "stats": {
+    "title": "ስታትስቲክስ",
+    "gamesPlayed": "የተጫወቱ ጨዋታዎች",
+    "yourWins": "የእርስዎ ድሎች",
+    "setsCompleted": "የተጠናቀቁ ስብስቦች",
+    "avgSetsPerGame": "አማካይ ስብስቦች / ጨዋታ",
+    "bestSoloTime": "ምርጥ የብቸኛ ጊዜ",
+    "noBestTime": "–",
+    "recentGames": "የቅርብ ጊዜ ጨዋታዎች",
+    "noGamesYet": "እስካሁን ምንም ጨዋታ አልተጫወተም — አንድ ጀምር!",
+    "modeSolo": "ብቸኛ",
+    "modeGroup": "ቡድን ({{count}})",
+    "placeWin": "🏆 {{place}} ደረጃ",
+    "place": "{{place}} ደረጃ"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "የቡድን ጨዋታ ለመጀመሪያዎቹ {{count}} ተጨማሪ ቀን ነጻ ነው — ከዚያ በኋላ መጫወት ለመቀጠል በማንኛውም ጊዜ ይመዝገቡ።",
+    "trialActiveSubtitle_other": "የቡድን ጨዋታ ለመጀመሪያዎቹ {{count}} ተጨማሪ ቀናት ነጻ ነው — ከዚያ በኋላ መጫወት ለመቀጠል በማንኛውም ጊዜ ይመዝገቡ።",
+    "trialEndedSubtitle": "የቡድን ጨዋታ ነጻ ሙከራዎ አልቋል። ሌሎች ተጫዋቾችን በመስመር ላይ መሽቀዳደም ለመቀጠል ይመዝገቡ።",
+    "monthly": "ወራዊ",
+    "yearly": "ዓመታዊ",
+    "lifetime": "የዘላለም",
+    "restorePurchases": "ግዢዎችን መልስ",
+    "notNow": "አሁን አይደለም"
+  },
+  "avatar": {
+    "pageTitle": "አምሳያ",
+    "subtitle": "ለመገለጫህ አምሳያ ምረጥ"
+  }
+}

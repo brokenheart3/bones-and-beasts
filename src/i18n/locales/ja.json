@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "キャンセル",
+    "save": "保存",
+    "back": "戻る",
+    "delete": "削除",
+    "reset": "リセット",
+    "you": "あなた",
+    "explorer": "探検家",
+    "didNotFinish": "未完了",
+    "or": "または",
+    "unknownPlayer": "？"
+  },
+  "faces": {
+    "lion": "ライオン",
+    "elephant": "ゾウ",
+    "monkey": "サル",
+    "tiger": "トラ",
+    "giraffe": "キリン",
+    "zebra": "シマウマ"
+  },
+  "tabs": {
+    "home": "ホーム",
+    "play": "プレイ",
+    "stats": "統計",
+    "settings": "設定"
+  },
+  "home": {
+    "welcome": "{{username}}さん、ようこそ！",
+    "promptReady": "賭ける準備はできた？",
+    "promptWanna": "遊びたい？",
+    "soloTitle": "ソロ",
+    "soloBody": "サイコロを振ってカードを見つけ、他のビーストのセットが先に完成する前に、盤上で6枚すべてのコピーを探そう。あなたの記憶力と骸骨だけが相手だ。",
+    "playSolo": "ソロプレイ",
+    "groupTitle": "グループ",
+    "groupBody": "2〜4人のプレイヤーと組んで、誰よりも早く自分のセットを完成させよう。グループモードはオンライン限定 — ライブロビーで他のプレイヤーとマッチングします。",
+    "trialActive_one": "無料トライアル — 残り{{count}}日",
+    "trialActive_other": "無料トライアル — 残り{{count}}日",
+    "trialEnded": "無料トライアルが終了しました — サブスクリプションでプレイを続けよう",
+    "findGroup": "グループを探す"
+  },
+  "endScreen": {
+    "lossTitle": "神殿に埋もれた！",
+    "winTitle": "神殿を制覇した！",
+    "totalTime": "⏱ 合計プレイ時間: {{time}}",
+    "finalRanking": "最終ランキング",
+    "setCompletionOrder": "セット完成順",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "もう一度プレイ"
+  },
+  "bonus": {
+    "small": "ボーナスジェム",
+    "big": "古代の像",
+    "found": "{{label}}を見つけた！"
+  },
+  "gameOnline": {
+    "connecting": "接続中...",
+    "aPlayer": "プレイヤー",
+    "huntingFor": "{{emoji}} {{faceName}}を探すことになります！",
+    "waiting": "待機中",
+    "waitingForMove": "相手の手番を待っています...",
+    "disconnectedName": "{{name}}（退出）"
+  },
+  "lobby": {
+    "couldNotReachServer": "サーバーに接続できませんでした。",
+    "couldntConnect": "接続できませんでした",
+    "findingGroup": "グループを検索中",
+    "you": "（あなた）",
+    "waitingForPlayer": "プレイヤーを待っています...",
+    "cancel": "キャンセル"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "そのメールアドレスは既に登録されています — 代わりにログインしてください。",
+    "invalidEmail": "有効なメールアドレスではないようです。",
+    "missingEmail": "先にメールアドレスを入力してください。",
+    "weakPassword": "パスワードは6文字以上にしてください。",
+    "wrongPassword": "メールアドレスまたはパスワードが正しくありません。",
+    "userNotFound": "そのメールアドレスのアカウントが見つかりません。",
+    "tooManyRequests": "試行回数が多すぎます — しばらく待ってから再度お試しください。",
+    "networkError": "ネットワークエラー — 接続を確認して再度お試しください。",
+    "requiresRecentLogin": "セキュリティのため、ログアウトしてから再度ログインし、もう一度お試しください。",
+    "generic": "問題が発生しました。もう一度お試しください。"
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "サブスクリプションのオプションを読み込めませんでした。",
+    "purchaseFailed": "購入に失敗しました。もう一度お試しください。",
+    "restoreFailed": "購入内容を復元できませんでした。",
+    "notSignedIn": "先にログインしてください。",
+    "notAvailableOnWeb": "サブスクリプションはまだWebでは利用できません — iOSまたはAndroidアプリをご利用ください。",
+    "checkoutFailed": "決済を開始できませんでした。"
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}さん、サイコロを振ってカードを見つけよう！",
+    "turnHuntFor": "{{name}}さんの番 — {{faceName}} {{emoji}}を探そう！",
+    "foundProgress": "{{lead}}（{{collected}}/{{total}}）。続けてめくろう！",
+    "completedSet": "🏆 {{name}}さんが{{faceName}}のセットを完成 — {{place}}位！",
+    "skullSolo": "💀 {{name}}さんが骸骨を見つけた！しばらく動けない...",
+    "skullGroup": "💀 {{name}}さんが骸骨を見つけた！手番を失い、次の手番もスキップ。{{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}}さんが{{label}}を見つけた — +{{count}} {{faceName}}！",
+    "bonusFoundNothingLead": "{{glyph}} {{name}}さんが{{label}}を見つけたが、めくれるものは残っていなかった！",
+    "bonusLabelSmall": "ボーナスジェム",
+    "bonusLabelBig": "古代の像",
+    "foundFaceLead": "{{name}}さんが{{faceName}}を見つけた",
+    "wrongTileLoss": "💀 自分の{{targetFace}}セットを完成させる前に、{{wrongFace}}のタイルが全て見つかりました — 負けです！",
+    "wrongTilePass": "{{name}}さんが違うタイルをめくった。{{nextTurn}}",
+    "everyoneFound": "全員がカードを見つけた！ゲーム終了。",
+    "tabletCleared": "盤面がクリアされた！ゲーム終了。"
+  },
+  "skullPause": {
+    "title": "フリーズ！"
+  },
+  "specialTiles": {
+    "traps": "トラップ {{found}}/{{total}} 発見",
+    "gems": "ジェム {{found}}/{{total}} 発見",
+    "idols": "像 {{found}}/{{total}} 発見"
+  },
+  "yourTurn": {
+    "banner": "👉 あなたの番です！"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}}さんがセットを完成（{{place}}位）！{{status}}",
+    "othersRemaining_one": "残り{{count}}人がプレイ中です。",
+    "othersRemaining_other": "残り{{count}}人がプレイ中です。",
+    "everyoneDone": "全員完了しました！"
+  },
+  "gameResult": {
+    "wonTitle": "{{cardName}}のカードを{{count}}枚すべて見つけた！",
+    "lostTitle": "負けました！"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}さん、サイコロを振ってカードを見つけよう！",
+    "rollingPrompt": "{{playerName}}さんがサイコロを振っています...",
+    "roll": "振る",
+    "yourCardIs": "あなたのカードは{{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "進行中のゲームがありません。ホームから始めよう！"
+  },
+  "appSettings": {
+    "theme": "テーマ",
+    "themeDark": "ダーク",
+    "themeLight": "ライト",
+    "language": "言語",
+    "languageSystem": "システム",
+    "data": "データ",
+    "dataBody": "ログアウトし、このデバイスの統計履歴を消去します。この操作は元に戻せません。",
+    "signOutReset": "ログアウトしてローカルデータをリセット",
+    "confirmResetTitle": "ログアウトしてローカルデータをリセットしますか？",
+    "confirmResetBody": "このデバイスの統計履歴を消去し、ログアウトします。この操作は元に戻せません。",
+    "reset": "リセット"
+  },
+  "profile": {
+    "displayNamePlaceholder": "表示名",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "signOut": "ログアウト",
+    "deleteAccount": "アカウントを削除",
+    "confirmDeleteTitle": "アカウントを削除しますか？",
+    "confirmDeleteBody": "これによりアカウントが永久に削除されます。この操作は元に戻せません。",
+    "delete": "削除",
+    "emailPlaceholder": "メールアドレス",
+    "passwordPlaceholder": "パスワード",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "resetSent": "リセット用のメールを送信しました — 受信ボックスをご確認ください。",
+    "signUp": "登録",
+    "signIn": "ログイン",
+    "switchToSignIn": "既にアカウントをお持ちですか？ログイン",
+    "switchToSignUp": "アカウントが必要ですか？登録する",
+    "or": "または",
+    "continueWithGoogle": "G  Googleで続ける",
+    "continueWithApple": "􀣺  Appleで続ける",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "アカウントを作成してプレイを始めよう",
+    "onboardingSignInSubtitle": "ログインして続ける",
+    "proBadge": "✨ Proメンバー",
+    "upgradeToPro": "Proにアップグレード"
+  },
+  "staticInfo": {
+    "lastUpdated": "最終更新: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beastsは、記憶力とサイコロを組み合わせたゲームです — サイコロを振ってビーストを見つけ、骸骨（や他のプレイヤーのビースト）に捕まる前に盤上でそれを探しましょう。",
+    "howToPlayHeading": "遊び方",
+    "howToPlayBody": "ソロモードはあなたと盤面との一対一の対決です：サイコロを振って固定の対象動物を決め、その動物のセットが他の動物によって完全に公開される前に、全てのコピーを集めるためタイルをめくっていきます。グループモードは2〜4人のプレイヤーがオンラインで対戦し、自分のセットを完成させることを競います — 途中で見つけたボーナスジェムや像は、見つけた本人に即座に追加のコピーを明かします。",
+    "builtWithHeading": "使用技術",
+    "builtWithBody": "クライアント側はExpo、React Native、TypeScript。Colyseusがリアルタイムのオンライングループプレイを支えています。",
+    "versionHeading": "バージョン",
+    "noteHeading": "補足",
+    "noteBody": "これは現在も活発に開発が続いている独立したプロジェクトです — 今後、新機能やルール調整が加わる可能性があります。プレイしてくれてありがとう！"
+  },
+  "privacyPolicy": {
+    "intro": "このポリシーでは、Bones & Beastsが収集する情報とその使用方法について説明します。以下に記載する内容を超えた広告、解析、トラッキングは行いません。",
+    "accountHeading": "あなたのアカウント",
+    "accountBody": "プレイするには、アカウント作成（メール/パスワード、Google、またはApple でサインイン）が必要です。ログイン管理にはFirebase Authenticationを使用しており、メールアドレスと表示名を保存します（Google/Appleの場合は、そのプロバイダーが共有する基本的なプロフィール情報 — 通常は名前とメールのみ）。メール/パスワード方式のアカウントでは、パスワード自体は当社側では見ることも保存することもありません。Firebaseが直接処理します。アカウントはプロフィールページからいつでも削除できます。",
+    "soloHeading": "ソロプレイ",
+    "soloBody": "ソロゲームはすべてお使いのデバイス上で実行されます。統計タブのプレイ履歴（プレイ数、勝利数、完成セット数、時間）はデバイスにローカル保存され、ログインの有無にかかわらず当社や他の誰にも送信されません。",
+    "groupHeading": "オンライングループプレイ",
+    "groupBody": "グループゲームに参加すると、表示名とゲーム内の操作（サイコロを振る、カードをめくる）が当社のゲームサーバーに送信され、そのゲームの参加者全員の共有盤面を同期します。このデータはそのゲームセッション中のみ存在し、終了後に保存・販売・第三者への共有はされません。",
+    "childrenHeading": "児童のプライバシー",
+    "childrenBody": "Bones & Beastsは13歳未満の児童を対象としておらず、故意に児童から情報を収集することはありません。",
+    "changesHeading": "本ポリシーの変更",
+    "changesBody": "アプリのデータ取り扱いに変更があった場合（例：クラッシュレポート、プッシュ通知、有料サブスクリプションの追加など）、このページを更新してその内容を説明します。",
+    "questionsHeading": "質問",
+    "questionsBody": "このポリシーについて質問がある場合は、このアプリをダウンロードした場所からお問い合わせください。"
+  },
+  "termsOfService": {
+    "intro": "Bones & Beastsを利用することで、これらの規約に同意したことになります。同意しない場合は、本アプリを使用しないでください。",
+    "gameHeading": "ゲームについて",
+    "gameBody": "Bones & Beasts（詳細と遊び方は「アプリについて」ページを参照）は、娯楽目的のみで提供されています。",
+    "fairPlayHeading": "フェアプレー",
+    "fairPlayBody": "グループゲームでは公正にプレイしてください — バグの悪用、手番の自動化、他のプレイヤーのゲームの妨害は禁止です。迷惑行為があった場合、ゲームやロビーからプレイヤーを削除する権利を留保します。",
+    "noWarrantyHeading": "保証なし",
+    "noWarrantyBody": "本アプリは「現状のまま」提供され、いかなる保証もありません。中断なく、エラーなく、常時利用可能であることは保証されません — 特にオンラインのグループモードは、予告なく更新、再起動、オフラインになる可能性のあるゲームサーバーに依存しています。",
+    "liabilityHeading": "責任の制限",
+    "liabilityBody": "法律で許容される最大限の範囲において、本アプリの使用または使用できないことから生じる損害について、当社は責任を負いません。",
+    "changesHeading": "変更",
+    "changesBody": "本規約はアプリの変更に応じて更新される場合があります。更新後もアプリを使い続けることは、改定された規約に同意したことを意味します。"
+  },
+  "settingsNav": {
+    "profile": "プロフィール",
+    "appSettings": "アプリ設定",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "about": "アプリについて",
+    "settings": "設定"
+  },
+  "stats": {
+    "title": "統計",
+    "gamesPlayed": "プレイ数",
+    "yourWins": "勝利数",
+    "setsCompleted": "完成セット数",
+    "avgSetsPerGame": "1ゲームあたりの平均セット数",
+    "bestSoloTime": "ソロ最速タイム",
+    "noBestTime": "–",
+    "recentGames": "最近のゲーム",
+    "noGamesYet": "まだプレイしていません — 始めてみよう！",
+    "modeSolo": "ソロ",
+    "modeGroup": "グループ（{{count}}人）",
+    "placeWin": "🏆 {{place}}位",
+    "place": "{{place}}位"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "グループモードはあと{{count}}日間無料です — いつでもサブスクリプションに登録して続けられます。",
+    "trialActiveSubtitle_other": "グループモードはあと{{count}}日間無料です — いつでもサブスクリプションに登録して続けられます。",
+    "trialEndedSubtitle": "グループモードの無料トライアルが終了しました。サブスクリプションに登録して、オンラインで他のプレイヤーと対戦を続けよう。",
+    "monthly": "月額",
+    "yearly": "年額",
+    "lifetime": "永久ライセンス",
+    "restorePurchases": "購入を復元",
+    "notNow": "今はしない"
+  },
+  "avatar": {
+    "pageTitle": "アバター",
+    "subtitle": "プロフィール用のアバターを選ぼう"
+  }
+}

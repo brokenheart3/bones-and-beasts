@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "Peruuta",
+    "save": "Tallenna",
+    "back": "Takaisin",
+    "delete": "Poista",
+    "reset": "Palauta",
+    "you": "Sinä",
+    "explorer": "Tutkija",
+    "didNotFinish": "Ei saanut valmiiksi",
+    "or": "tai",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Leijona",
+    "elephant": "Norsu",
+    "monkey": "Apina",
+    "tiger": "Tiikeri",
+    "giraffe": "Kirahvi",
+    "zebra": "Seepra"
+  },
+  "tabs": {
+    "home": "Koti",
+    "play": "Pelaa",
+    "stats": "Tilastot",
+    "settings": "Asetukset"
+  },
+  "home": {
+    "welcome": "Tervetuloa, {{username}}!",
+    "promptReady": "Oletko valmis lyömään vetoa?",
+    "promptWanna": "Haluatko pelata?",
+    "soloTitle": "Yksin",
+    "soloBody": "Heitä noppaa löytääksesi korttisi, ja jahtaa sitten taulua kaikkien kuuden kopion löytämiseksi, ennen kuin jonkun toisen olennon sarja täyttyy ensin. Vain sinä, muistisi ja pääkallot.",
+    "playSolo": "Pelaa yksin",
+    "groupTitle": "Ryhmä",
+    "groupBody": "Liity 2-4 pelaajan joukkoon ja kilpaile omasta sarjastasi ensimmäisenä. Ryhmäpeli on vain verkossa — yhdistämme sinut muihin pelaajiin live-lobbyssa.",
+    "trialActive_one": "Ilmainen kokeilu — {{count}} päivä jäljellä",
+    "trialActive_other": "Ilmainen kokeilu — {{count}} päivää jäljellä",
+    "trialEnded": "Ilmainen kokeilu päättyi — tilaa jatkaaksesi pelaamista",
+    "findGroup": "Etsi ryhmä"
+  },
+  "endScreen": {
+    "lossTitle": "Haudattu temppeliin!",
+    "winTitle": "Temppeli tyhjennetty!",
+    "totalTime": "⏱ Kokonaispeliaika: {{time}}",
+    "finalRanking": "Loppusijoitus",
+    "setCompletionOrder": "Sarjojen valmistumisjärjestys",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Pelaa uudelleen"
+  },
+  "bonus": {
+    "small": "bonusjalokivi",
+    "big": "muinainen epäjumalankuva",
+    "found": "Löysit {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Yhdistetään...",
+    "aPlayer": "Pelaaja",
+    "huntingFor": "Metsästät {{emoji}} {{faceName}}!",
+    "waiting": "Odotetaan",
+    "waitingForMove": "Odotetaan heidän siirtoaan...",
+    "disconnectedName": "{{name}} (poistui)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Palvelimeen ei saatu yhteyttä.",
+    "couldntConnect": "Yhteyden muodostaminen epäonnistui",
+    "findingGroup": "Etsitään ryhmää",
+    "you": "(sinä)",
+    "waitingForPlayer": "Odotetaan pelaajaa...",
+    "cancel": "Peruuta"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Tämä sähköposti on jo rekisteröity — kokeile kirjautua sisään sen sijaan.",
+    "invalidEmail": "Tämä ei näytä olevan kelvollinen sähköpostiosoite.",
+    "missingEmail": "Anna ensin sähköpostiosoitteesi.",
+    "weakPassword": "Salasanan tulee olla vähintään 6 merkkiä.",
+    "wrongPassword": "Väärä sähköposti tai salasana.",
+    "userNotFound": "Tällä sähköpostilla ei löytynyt tiliä.",
+    "tooManyRequests": "Liian monta yritystä — odota hetki ja yritä uudelleen.",
+    "networkError": "Verkkovirhe — tarkista yhteytesi ja yritä uudelleen.",
+    "requiresRecentLogin": "Turvallisuussyistä kirjaudu ulos ja takaisin sisään, sitten yritä uudelleen.",
+    "generic": "Jotain menikin pieleen. Yritä uudelleen."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Tilausvaihtoehtojen lataaminen epäonnistui.",
+    "purchaseFailed": "Ostaminen epäonnistui. Yritä uudelleen.",
+    "restoreFailed": "Ostojen palauttaminen epäonnistui.",
+    "notSignedIn": "Kirjaudu ensin sisään.",
+    "notAvailableOnWeb": "Tilaukset eivät ole vielä käytettävissä verkossa — käytä iOS- tai Android-sovellusta.",
+    "checkoutFailed": "Kassalle siirtyminen epäonnistui."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, heitä noppaa löytääksesi korttisi!",
+    "turnHuntFor": "{{name}}n vuoro — metsästä {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Käännä lisää!",
+    "completedSet": "🏆 {{name}} täytti {{faceName}}-sarjan — {{place}}. sija!",
+    "skullSolo": "💀 {{name}} osui pääkalloon! Jäätyi hetkeksi...",
+    "skullGroup": "💀 {{name}} osui pääkalloon! Vuoro menetetty, seuraava vuoro ohitetaan. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} löysi {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} löysi {{label}}, mutta ei ollut enää mitään paljastettavaa!",
+    "bonusLabelSmall": "bonusjalokivi",
+    "bonusLabelBig": "muinainen epäjumalankuva",
+    "foundFaceLead": "{{name}} löysi {{faceName}}",
+    "wrongTileLoss": "💀 Kaikki {{wrongFace}}-laatat löytyivät ennen kuin sait oman {{targetFace}}-sarjasi valmiiksi — hävisit!",
+    "wrongTilePass": "{{name}} paljasti väärän laatan. {{nextTurn}}",
+    "everyoneFound": "Kaikki löysivät korttinsa! Peli päättyi.",
+    "tabletCleared": "Taulu on tyhjennetty! Peli päättyi."
+  },
+  "skullPause": {
+    "title": "Jäätynyt!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} ansaa löydetty",
+    "gems": "{{found}}/{{total}} jalokiveä löydetty",
+    "idols": "{{found}}/{{total}} epäjumalankuvaa löydetty"
+  },
+  "yourTurn": {
+    "banner": "👉 Sinun vuorosi!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} täytti sarjansa ({{place}}. sija)! {{status}}",
+    "othersRemaining_one": "{{count}} pelaaja pelaa yhä.",
+    "othersRemaining_other": "{{count}} pelaajaa pelaa yhä.",
+    "everyoneDone": "Siinä kaikki!"
+  },
+  "gameResult": {
+    "wonTitle": "Löysit kaikki {{count}} {{cardName}}-korttia!",
+    "lostTitle": "Hävisit!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, heitä noppaa löytääksesi korttisi!",
+    "rollingPrompt": "{{playerName}} heittää noppaa...",
+    "roll": "Heitä",
+    "yourCardIs": "Korttisi on {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Ei käynnissä olevaa peliä. Aloita uusi Kotisivulta!"
+  },
+  "appSettings": {
+    "theme": "Teema",
+    "themeDark": "Tumma",
+    "themeLight": "Vaalea",
+    "language": "Kieli",
+    "languageSystem": "Järjestelmä",
+    "data": "Tiedot",
+    "dataBody": "Kirjaa sinut ulos ja tyhjentää tilastohistoriasi tällä laitteella. Tätä ei voi kumota.",
+    "signOutReset": "Kirjaudu ulos ja palauta paikalliset tiedot",
+    "confirmResetTitle": "Kirjaudu ulos ja palauta paikalliset tiedot?",
+    "confirmResetBody": "Tämä tyhjentää tilastohistoriasi tällä laitteella ja kirjaa sinut ulos. Tätä ei voi kumota.",
+    "reset": "Palauta"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Näyttönimi",
+    "save": "Tallenna",
+    "cancel": "Peruuta",
+    "signOut": "Kirjaudu ulos",
+    "deleteAccount": "Poista tili",
+    "confirmDeleteTitle": "Poistetaanko tilisi?",
+    "confirmDeleteBody": "Tämä poistaa tilisi pysyvästi. Tätä ei voi kumota.",
+    "delete": "Poista",
+    "emailPlaceholder": "Sähköposti",
+    "passwordPlaceholder": "Salasana",
+    "forgotPassword": "Unohtuiko salasana?",
+    "resetSent": "Salasanan palautussähköposti lähetetty — tarkista postilaatikkosi.",
+    "signUp": "Luo tili",
+    "signIn": "Kirjaudu sisään",
+    "switchToSignIn": "Onko sinulla jo tili? Kirjaudu sisään",
+    "switchToSignUp": "Tarvitsetko tilin? Luo tili",
+    "or": "tai",
+    "continueWithGoogle": "G  Jatka Googlella",
+    "continueWithApple": "􀣺  Jatka Applella",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Luo tili aloittaaksesi pelaamisen",
+    "onboardingSignInSubtitle": "Kirjaudu sisään jatkaaksesi",
+    "proBadge": "✨ Pro-jäsen",
+    "upgradeToPro": "Päivitä Pro-versioon"
+  },
+  "staticInfo": {
+    "lastUpdated": "Viimeksi päivitetty: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts on muisti- ja noppapelin yhdistelmä — heitä noppaa löytääksesi olentosi, ja metsästä sitä sitten taulun poikki, ennen kuin pääkallot (tai jonkun toisen olento) saavat sinut kiinni.",
+    "howToPlayHeading": "Kuinka pelataan",
+    "howToPlayBody": "Yksinpeli on vain sinä taulua vastaan: heitä noppaa kiinteää kohde-eläintä varten, sitten käännä laattoja kerätäksesi kaikki sen kopiot ennen kuin jonkun toisen eläimen sarja paljastuu kokonaan ensin. Ryhmätila yhdistää 2-4 pelaajaa verkossa kilpailemaan omien sarjojensa täyttämisestä — matkan varrella on bonusjalokiviä ja epäjumalankuvia, jotka paljastavat välittömästi lisäkopioita niille, jotka löytävät ne.",
+    "builtWithHeading": "Tehty käyttäen",
+    "builtWithBody": "Expo, React Native ja TypeScript asiakaspuolella; Colyseus mahdollistaa reaaliaikaisen verkkoryhmäpelin.",
+    "versionHeading": "Versio",
+    "noteHeading": "Huomautus",
+    "noteBody": "Tämä on itsenäinen, aktiivisesti kehitettävä projekti — odota uusia ominaisuuksia ja säännönmuutoksia ajan mittaan. Kiitos, että pelaat!"
+  },
+  "privacyPolicy": {
+    "intro": "Tämä käytäntö selittää, mitä tietoja Bones & Beasts kerää ja miten niitä käytetään. Mainontaa ei ole, eikä analytiikkaa tai seurantaa muuten kuin alla kuvatulla tavalla.",
+    "accountHeading": "Tilisi",
+    "accountBody": "Tilin luominen (sähköposti/salasana, Google tai Kirjaudu Applella) vaaditaan pelaamiseen. Käytämme Firebase Authenticationia kirjautumisen hallintaan, joka tallentaa sähköpostiosoitteesi ja näyttönimesi (ja Google/Apple-tileille mitä tahansa perusprofiilitietoja, joita palveluntarjoaja jakaa kanssamme — tavallisesti vain nimesi ja sähköpostisi). Emme näe tai tallenna itse salasanaasi sähköposti/salasana-tileillä; Firebase hoitaa sen suoraan. Voit poistaa tilisi milloin tahansa Profiili-sivulta.",
+    "soloHeading": "Yksinpeli",
+    "soloBody": "Yksinpelit toimivat kokonaan laitteellasi. Pelihistoriasi Tilastot-välilehdellä (pelatut pelit, voitot, valmistuneet sarjat, ajat) tallennetaan paikallisesti laitteelle, ja sitä ei koskaan lähetetä meille tai kenelle muullekaan, oletpa kirjautunut sisään tai ei.",
+    "groupHeading": "Verkkoryhmäpeli",
+    "groupBody": "Kun liityt ryhmäpeliin, näyttönimesi ja pelitoimintosi (noppaheitot, korttien kääntämiset) lähetetään pelipalvelimellemme, jotta se voi pitää jaetun pelilaudan synkronoituna kaikille kyseisessä pelissä. Näitä tietoja säilytetään vain sen pelikerran ajan — niitä ei tallenneta jälkikäteen, myydä eikä jaeta kolmansille osapuolille.",
+    "childrenHeading": "Lasten yksityisyys",
+    "childrenBody": "Bones & Beasts ei ole suunnattu alle 13-vuotiaille lapsille, ja emme kerää tietoisesti tietoja heiltä.",
+    "changesHeading": "Muutokset tähän käytäntöön",
+    "changesBody": "Jos sovelluksen tietojenkäsittelytapa muuttuu — esimerkiksi jos kaatumisraportointi, push-ilmoitukset tai maksullinen tilaus lisätään — tämä sivu päivitetään kuvaamaan sitä.",
+    "questionsHeading": "Kysymyksiä",
+    "questionsBody": "Jos sinulla on kysyttävää tästä käytännöstä, ota yhteyttä sen kautta, mistä latasit tämän sovelluksen."
+  },
+  "termsOfService": {
+    "intro": "Käyttämällä Bones & Beasts -sovellusta hyväksyt nämä ehdot. Jos et hyväksy niitä, älä käytä sovellusta.",
+    "gameHeading": "Peli",
+    "gameBody": "Bones & Beasts (katso Tietoja-sivulta, mikä se on ja miten sitä pelataan) tarjotaan vain viihdetarkoituksiin.",
+    "fairPlayHeading": "Reilu peli",
+    "fairPlayBody": "Ryhmäpeleissä pelaa reilusti — älä hyödynnä bugeja, automatisoi vuorojasi tai häiritse muiden pelaajien pelejä. Pidätämme oikeuden poistaa pelaajia pelistä tai lobbystä häiritsevän käytöksen vuoksi.",
+    "noWarrantyHeading": "Ei takuuta",
+    "noWarrantyBody": "Sovellus tarjotaan \"sellaisenaan\", ilman minkäänlaisia takuita. Emme takaa, että se on keskeytymätön, virheetön tai käytettävissä koko ajan — varsinkaan verkkoryhmätila, joka riippuu pelipalvelimesta, joka voidaan päivittää, käynnistää uudelleen tai ottaa pois käytöstä ilman ennakkoilmoitusta.",
+    "liabilityHeading": "Vastuunrajoitus",
+    "liabilityBody": "Lain sallimissa täysimääräisissä rajoissa emme ole vastuussa vahingoista, jotka johtuvat sovelluksen käytöstä tai kyvyttömyydestä käyttää sitä.",
+    "changesHeading": "Muutokset",
+    "changesBody": "Näitä ehtoja voidaan päivittää sovelluksen muuttuessa. Sovelluksen käytön jatkaminen päivityksen jälkeen tarkoittaa, että hyväksyt tarkistetut ehdot."
+  },
+  "settingsNav": {
+    "profile": "Profiili",
+    "appSettings": "Sovelluksen asetukset",
+    "privacyPolicy": "Tietosuojakäytäntö",
+    "termsOfService": "Käyttöehdot",
+    "about": "Tietoja",
+    "settings": "Asetukset"
+  },
+  "stats": {
+    "title": "Tilastot",
+    "gamesPlayed": "Pelatut pelit",
+    "yourWins": "Voittosi",
+    "setsCompleted": "Valmistuneet sarjat",
+    "avgSetsPerGame": "Keskim. sarjaa / peli",
+    "bestSoloTime": "Paras yksinpeliaika",
+    "noBestTime": "–",
+    "recentGames": "Viimeisimmät pelit",
+    "noGamesYet": "Ei pelejä vielä — aloita yksi!",
+    "modeSolo": "Yksin",
+    "modeGroup": "Ryhmä ({{count}})",
+    "placeWin": "🏆 {{place}}. sija",
+    "place": "{{place}}. sija"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "Ryhmäpeli on ilmainen vielä {{count}} päivä — tilaa milloin tahansa jatkaaksesi pelaamista sen jälkeen.",
+    "trialActiveSubtitle_other": "Ryhmäpeli on ilmainen vielä {{count}} päivää — tilaa milloin tahansa jatkaaksesi pelaamista sen jälkeen.",
+    "trialEndedSubtitle": "Ryhmäpelin ilmainen kokeilujaksosi on päättynyt. Tilaa jatkaaksesi kilpailua muiden pelaajien kanssa verkossa.",
+    "monthly": "Kuukausittainen",
+    "yearly": "Vuosittainen",
+    "lifetime": "Elinikäinen",
+    "restorePurchases": "Palauta ostokset",
+    "notNow": "Ei nyt"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Valitse profiilillesi avatar"
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "back": "Back",
+    "delete": "Delete",
+    "reset": "Reset",
+    "you": "You",
+    "explorer": "Explorer",
+    "didNotFinish": "Did not finish",
+    "or": "or",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Lion",
+    "elephant": "Elephant",
+    "monkey": "Monkey",
+    "tiger": "Tiger",
+    "giraffe": "Giraffe",
+    "zebra": "Zebra"
+  },
+  "tabs": {
+    "home": "Home",
+    "play": "Play",
+    "stats": "Stats",
+    "settings": "Settings"
+  },
+  "home": {
+    "welcome": "Welcome, {{username}}!",
+    "promptReady": "Are you ready to bet?",
+    "promptWanna": "Wanna play?",
+    "soloTitle": "Solo",
+    "soloBody": "Roll to find your card, then hunt the tablet for all six copies before some other beast's set gets completed first. Just you, your memory, and the skulls.",
+    "playSolo": "Play Solo",
+    "groupTitle": "Group",
+    "groupBody": "Team up with 2-4 players and race to complete your own set first. Group play is online only — we'll match you with other players in a live lobby.",
+    "trialActive_one": "Free trial — {{count}} day left",
+    "trialActive_other": "Free trial — {{count}} days left",
+    "trialEnded": "Free trial ended — subscribe to keep playing",
+    "findGroup": "Find a Group"
+  },
+  "endScreen": {
+    "lossTitle": "Buried in the Temple!",
+    "winTitle": "Temple Cleared!",
+    "totalTime": "⏱ Total game time: {{time}}",
+    "finalRanking": "Final ranking",
+    "setCompletionOrder": "Set completion order",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Play Again"
+  },
+  "bonus": {
+    "small": "a Bonus Gem",
+    "big": "an Ancient Idol",
+    "found": "You found {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Connecting...",
+    "aPlayer": "A player",
+    "huntingFor": "You'll be hunting for {{emoji}} {{faceName}}!",
+    "waiting": "Waiting",
+    "waitingForMove": "Waiting for their move...",
+    "disconnectedName": "{{name}} (left)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Could not reach the server.",
+    "couldntConnect": "Couldn't connect",
+    "findingGroup": "Finding a Group",
+    "you": "(you)",
+    "waitingForPlayer": "Waiting for a player...",
+    "cancel": "Cancel"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "That email is already registered — try signing in instead.",
+    "invalidEmail": "That doesn't look like a valid email address.",
+    "missingEmail": "Enter your email address first.",
+    "weakPassword": "Password should be at least 6 characters.",
+    "wrongPassword": "Incorrect email or password.",
+    "userNotFound": "No account found with that email.",
+    "tooManyRequests": "Too many attempts — please wait a moment and try again.",
+    "networkError": "Network error — check your connection and try again.",
+    "requiresRecentLogin": "For your security, please sign out and sign back in, then try again.",
+    "generic": "Something went wrong. Please try again."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Couldn't load subscription options.",
+    "purchaseFailed": "Purchase failed. Please try again.",
+    "restoreFailed": "Couldn't restore purchases.",
+    "notSignedIn": "Please sign in first.",
+    "notAvailableOnWeb": "Subscriptions aren't available on web yet — please use the iOS or Android app.",
+    "checkoutFailed": "Couldn't start checkout."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, roll to find your card!",
+    "turnHuntFor": "{{name}}'s turn — hunt for {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Flip again!",
+    "completedSet": "🏆 {{name}} completed the {{faceName}} set — {{place}} place!",
+    "skullSolo": "💀 {{name}} hit a skull! Frozen for a moment...",
+    "skullGroup": "💀 {{name}} hit a skull! Turn lost, next turn skipped. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} found {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} found {{label}}, but had nothing left to reveal!",
+    "bonusLabelSmall": "a bonus gem",
+    "bonusLabelBig": "an ancient idol",
+    "foundFaceLead": "{{name}} found {{faceName}}",
+    "wrongTileLoss": "💀 All {{wrongFace}} tiles were found before you finished your own {{targetFace}} set — you lose!",
+    "wrongTilePass": "{{name}} revealed the wrong tile. {{nextTurn}}",
+    "everyoneFound": "Everyone found their card! Game over.",
+    "tabletCleared": "The tablet is cleared! Game over."
+  },
+  "skullPause": {
+    "title": "Frozen!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} traps found",
+    "gems": "{{found}}/{{total}} gems found",
+    "idols": "{{found}}/{{total}} idols found"
+  },
+  "yourTurn": {
+    "banner": "👉 Your turn!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} finished their set ({{place}} place)! {{status}}",
+    "othersRemaining_one": "{{count}} player still playing.",
+    "othersRemaining_other": "{{count}} players still playing.",
+    "everyoneDone": "That's everyone!"
+  },
+  "gameResult": {
+    "wonTitle": "You found all {{count}} {{cardName}} cards!",
+    "lostTitle": "You Lost!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, roll to find your card!",
+    "rollingPrompt": "{{playerName}}, rolling...",
+    "roll": "Roll",
+    "yourCardIs": "Your card is {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "No game in progress. Start one from Home!"
+  },
+  "appSettings": {
+    "theme": "Theme",
+    "themeDark": "Dark",
+    "themeLight": "Light",
+    "language": "Language",
+    "languageSystem": "System",
+    "data": "Data",
+    "dataBody": "Signs you out and clears your Stats history on this device. This can't be undone.",
+    "signOutReset": "Sign out & reset local data",
+    "confirmResetTitle": "Sign out and reset local data?",
+    "confirmResetBody": "This clears your Stats history on this device and signs you out. This can't be undone.",
+    "reset": "Reset"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Display name",
+    "save": "Save",
+    "cancel": "Cancel",
+    "signOut": "Sign Out",
+    "deleteAccount": "Delete Account",
+    "confirmDeleteTitle": "Delete your account?",
+    "confirmDeleteBody": "This permanently deletes your account. This can't be undone.",
+    "delete": "Delete",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "forgotPassword": "Forgot password?",
+    "resetSent": "Password reset email sent — check your inbox.",
+    "signUp": "Sign Up",
+    "signIn": "Sign In",
+    "switchToSignIn": "Already have an account? Sign In",
+    "switchToSignUp": "Need an account? Sign Up",
+    "or": "or",
+    "continueWithGoogle": "G  Continue with Google",
+    "continueWithApple": "􀣺  Continue with Apple",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Create an account to start playing",
+    "onboardingSignInSubtitle": "Sign in to continue",
+    "proBadge": "✨ Pro Member",
+    "upgradeToPro": "Upgrade to Pro"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Pick an avatar for your profile"
+  },
+  "staticInfo": {
+    "lastUpdated": "Last updated: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts is a memory/dice hybrid game — roll to find your beast, then hunt for it across the tablet before the skulls (or someone else's beast) catch you.",
+    "howToPlayHeading": "How to play",
+    "howToPlayBody": "Solo mode is just you against the tablet: roll for a fixed target animal, then flip tiles to collect all of its copies before another animal's set gets fully revealed first. Group mode matches 2-4 players online, racing to complete their own sets — with bonus gems and idols along the way that instantly reveal extra copies for whoever finds them.",
+    "builtWithHeading": "Built with",
+    "builtWithBody": "Expo, React Native, and TypeScript on the client; Colyseus powers real-time online Group play.",
+    "versionHeading": "Version",
+    "noteHeading": "A note",
+    "noteBody": "This is an independent, actively-developed project — expect new features and rule tweaks over time. Thanks for playing!"
+  },
+  "privacyPolicy": {
+    "intro": "This policy explains what information Bones & Beasts collects and how it's used. There's no advertising and no analytics or tracking beyond what's described below.",
+    "accountHeading": "Your account",
+    "accountBody": "Creating an account (email/password, Google, or Sign in with Apple) is required to play. We use Firebase Authentication to manage sign-in, which stores your email address and display name (and, for Google/Apple, whatever basic profile info that provider shares with us — typically just your name and email). We don't see or store your password itself for email/password accounts; Firebase handles that directly. You can delete your account at any time from the Profile page.",
+    "soloHeading": "Solo play",
+    "soloBody": "Solo games run entirely on your device. Your game history in the Stats tab (games played, wins, sets completed, times) is stored locally on-device and is never transmitted to us or anyone else, regardless of being signed in.",
+    "groupHeading": "Online Group play",
+    "groupBody": "When you join a Group game, your display name and your in-game actions (dice rolls, card flips) are sent to our game server so it can keep the shared board in sync for everyone in that game. This data exists only for the life of that game session — it's not saved afterward, sold, or shared with third parties.",
+    "childrenHeading": "Children's privacy",
+    "childrenBody": "Bones & Beasts is not directed at children under 13, and we do not knowingly collect information from them.",
+    "changesHeading": "Changes to this policy",
+    "changesBody": "If how the app handles data changes — for example, if crash reporting, push notifications, or a paid subscription are added — this page will be updated to describe it.",
+    "questionsHeading": "Questions",
+    "questionsBody": "If you have questions about this policy, please reach out through wherever you downloaded this app."
+  },
+  "termsOfService": {
+    "intro": "By using Bones & Beasts, you agree to these terms. If you don't agree, please don't use the app.",
+    "gameHeading": "The game",
+    "gameBody": "Bones & Beasts (see the About page for what it is and how it plays) is offered for entertainment purposes only.",
+    "fairPlayHeading": "Fair play",
+    "fairPlayBody": "In Group games, please play fairly — no exploiting bugs, automating your turns, or disrupting other players' games. We reserve the right to remove players from a game or lobby for disruptive behavior.",
+    "noWarrantyHeading": "No warranty",
+    "noWarrantyBody": "The app is provided \"as is,\" without warranties of any kind. We don't guarantee it will be uninterrupted, error-free, or available at all times — especially the online Group mode, which depends on a game server that may be updated, restarted, or taken offline without notice.",
+    "liabilityHeading": "Limitation of liability",
+    "liabilityBody": "To the fullest extent permitted by law, we aren't liable for any damages arising from your use of, or inability to use, the app.",
+    "changesHeading": "Changes",
+    "changesBody": "These terms may be updated as the app changes. Continuing to use the app after an update means you accept the revised terms."
+  },
+  "settingsNav": {
+    "profile": "Profile",
+    "appSettings": "App Settings",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "about": "About",
+    "settings": "Settings"
+  },
+  "stats": {
+    "title": "Stats",
+    "gamesPlayed": "Games played",
+    "yourWins": "Your wins",
+    "setsCompleted": "Sets completed",
+    "avgSetsPerGame": "Avg sets / game",
+    "bestSoloTime": "Best solo time",
+    "noBestTime": "–",
+    "recentGames": "Recent games",
+    "noGamesYet": "No games played yet — go start one!",
+    "modeSolo": "Solo",
+    "modeGroup": "Group ({{count}})",
+    "placeWin": "🏆 {{place}} place",
+    "place": "{{place}} place"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "Group play is free for your first {{count}} more day — subscribe anytime to keep playing after that.",
+    "trialActiveSubtitle_other": "Group play is free for your first {{count}} more days — subscribe anytime to keep playing after that.",
+    "trialEndedSubtitle": "Your free trial of Group play has ended. Subscribe to keep racing other players online.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "lifetime": "Lifetime",
+    "restorePurchases": "Restore Purchases",
+    "notNow": "Not now"
+  }
+}

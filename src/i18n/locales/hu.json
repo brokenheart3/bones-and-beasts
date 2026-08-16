@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "Mégse",
+    "save": "Mentés",
+    "back": "Vissza",
+    "delete": "Törlés",
+    "reset": "Visszaállítás",
+    "you": "Te",
+    "explorer": "Felfedező",
+    "didNotFinish": "Nem fejezte be",
+    "or": "vagy",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Oroszlán",
+    "elephant": "Elefánt",
+    "monkey": "Majom",
+    "tiger": "Tigris",
+    "giraffe": "Zsiráf",
+    "zebra": "Zebra"
+  },
+  "tabs": {
+    "home": "Kezdőlap",
+    "play": "Játék",
+    "stats": "Statisztika",
+    "settings": "Beállítások"
+  },
+  "home": {
+    "welcome": "Üdvözlünk, {{username}}!",
+    "promptReady": "Készen állsz a tétre?",
+    "promptWanna": "Van kedved játszani?",
+    "soloTitle": "Egyjátékos",
+    "soloBody": "Dobj a kockával, hogy megtaláld a lapodat, majd keresd meg a táblán mind a hat példányt, mielőtt egy másik vadállat készlete elkészülne. Csak te, az emlékezeted, és a koponyák.",
+    "playSolo": "Egyjátékos mód",
+    "groupTitle": "Csoport",
+    "groupBody": "Csatlakozz 2-4 játékossal, és versenyezz, hogy elsőként fejezd be a saját készletedet. A csoportos mód csak online — élő váróteremben párosítunk más játékosokkal.",
+    "trialActive_one": "Ingyenes próbaidőszak — {{count}} nap van hátra",
+    "trialActive_other": "Ingyenes próbaidőszak — {{count}} nap van hátra",
+    "trialEnded": "Az ingyenes próbaidőszak lejárt — fizess elő a folytatáshoz",
+    "findGroup": "Csoport keresése"
+  },
+  "endScreen": {
+    "lossTitle": "Eltemetve a templomban!",
+    "winTitle": "A templom megtisztítva!",
+    "totalTime": "⏱ Teljes játékidő: {{time}}",
+    "finalRanking": "Végső rangsor",
+    "setCompletionOrder": "Készletek befejezési sorrendje",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Újra játszom"
+  },
+  "bonus": {
+    "small": "egy bónusz drágakő",
+    "big": "egy ősi bálvány",
+    "found": "Megtaláltad: {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Csatlakozás...",
+    "aPlayer": "Egy játékos",
+    "huntingFor": "{{emoji}} {{faceName}} lapot fogod keresni!",
+    "waiting": "Várakozás",
+    "waitingForMove": "Várakozás a lépésére...",
+    "disconnectedName": "{{name}} (kilépett)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Nem sikerült elérni a szervert.",
+    "couldntConnect": "Nem sikerült csatlakozni",
+    "findingGroup": "Csoport keresése",
+    "you": "(te)",
+    "waitingForPlayer": "Várakozás egy játékosra...",
+    "cancel": "Mégse"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Ez az e-mail cím már regisztrálva van — inkább jelentkezz be.",
+    "invalidEmail": "Ez nem tűnik érvényes e-mail címnek.",
+    "missingEmail": "Először add meg az e-mail címedet.",
+    "weakPassword": "A jelszónak legalább 6 karakterből kell állnia.",
+    "wrongPassword": "Hibás e-mail cím vagy jelszó.",
+    "userNotFound": "Nem található fiók ezzel az e-mail címmel.",
+    "tooManyRequests": "Túl sok próbálkozás — kérjük, várj egy kicsit, és próbáld újra.",
+    "networkError": "Hálózati hiba — ellenőrizd a kapcsolatot, és próbáld újra.",
+    "requiresRecentLogin": "Biztonsági okokból kérjük, jelentkezz ki és be újra, majd próbáld újra.",
+    "generic": "Valami hiba történt. Kérjük, próbáld újra."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Nem sikerült betölteni az előfizetési lehetőségeket.",
+    "purchaseFailed": "A vásárlás sikertelen. Próbáld újra.",
+    "restoreFailed": "Nem sikerült helyreállítani a vásárlásokat.",
+    "notSignedIn": "Először jelentkezz be.",
+    "notAvailableOnWeb": "Az előfizetések még nem érhetők el a weben — használd az iOS vagy Android alkalmazást.",
+    "checkoutFailed": "Nem sikerült elindítani a fizetést."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, dobj a kockával, hogy megtaláld a lapodat!",
+    "turnHuntFor": "{{name}} következik — keresd: {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Fordíts tovább!",
+    "completedSet": "🏆 {{name}} befejezte a(z) {{faceName}} készletet — {{place}}. helyezés!",
+    "skullSolo": "💀 {{name}} koponyát talált! Egy pillanatra megdermed...",
+    "skullGroup": "💀 {{name}} koponyát talált! Elveszíti a kört, a következő kör is kimarad. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} megtalálta: {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} megtalálta: {{label}}, de már nem maradt semmi felfedezni való!",
+    "bonusLabelSmall": "egy bónusz drágakövet",
+    "bonusLabelBig": "egy ősi bálványt",
+    "foundFaceLead": "{{name}} megtalálta: {{faceName}}",
+    "wrongTileLoss": "💀 Az összes {{wrongFace}} csempét megtalálták, mielőtt befejezted volna a saját {{targetFace}} készletedet — vesztettél!",
+    "wrongTilePass": "{{name}} rossz csempét fordított fel. {{nextTurn}}",
+    "everyoneFound": "Mindenki megtalálta a lapját! Vége a játéknak.",
+    "tabletCleared": "A tábla kiürült! Vége a játéknak."
+  },
+  "skullPause": {
+    "title": "Megdermedve!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} csapda megtalálva",
+    "gems": "{{found}}/{{total}} drágakő megtalálva",
+    "idols": "{{found}}/{{total}} bálvány megtalálva"
+  },
+  "yourTurn": {
+    "banner": "👉 Te következel!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} befejezte a készletét ({{place}}. helyezés)! {{status}}",
+    "othersRemaining_one": "Még {{count}} játékos játszik.",
+    "othersRemaining_other": "Még {{count}} játékos játszik.",
+    "everyoneDone": "Ennyi az összes!"
+  },
+  "gameResult": {
+    "wonTitle": "Megtaláltad mind a(z) {{count}} {{cardName}} lapot!",
+    "lostTitle": "Vesztettél!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, dobj a kockával, hogy megtaláld a lapodat!",
+    "rollingPrompt": "{{playerName}} dob...",
+    "roll": "Dobás",
+    "yourCardIs": "A lapod: {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Nincs folyamatban lévő játék. Indíts egyet a Kezdőlapról!"
+  },
+  "appSettings": {
+    "theme": "Téma",
+    "themeDark": "Sötét",
+    "themeLight": "Világos",
+    "language": "Nyelv",
+    "languageSystem": "Rendszer",
+    "data": "Adatok",
+    "dataBody": "Kijelentkeztet, és törli a statisztika előzményeidet ezen az eszközön. Ez nem vonható vissza.",
+    "signOutReset": "Kijelentkezés és helyi adatok visszaállítása",
+    "confirmResetTitle": "Kijelentkezel és visszaállítod a helyi adatokat?",
+    "confirmResetBody": "Ez törli a statisztika előzményeidet ezen az eszközön, és kijelentkeztet. Ez nem vonható vissza.",
+    "reset": "Visszaállítás"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Megjelenített név",
+    "save": "Mentés",
+    "cancel": "Mégse",
+    "signOut": "Kijelentkezés",
+    "deleteAccount": "Fiók törlése",
+    "confirmDeleteTitle": "Törlöd a fiókodat?",
+    "confirmDeleteBody": "Ez véglegesen törli a fiókodat. Ez nem vonható vissza.",
+    "delete": "Törlés",
+    "emailPlaceholder": "E-mail",
+    "passwordPlaceholder": "Jelszó",
+    "forgotPassword": "Elfelejtetted a jelszavad?",
+    "resetSent": "Jelszó-visszaállító e-mail elküldve — nézd meg a postaládádat.",
+    "signUp": "Regisztráció",
+    "signIn": "Bejelentkezés",
+    "switchToSignIn": "Már van fiókod? Bejelentkezés",
+    "switchToSignUp": "Fiók kell? Regisztráció",
+    "or": "vagy",
+    "continueWithGoogle": "G  Folytatás Google-lal",
+    "continueWithApple": "􀣺  Folytatás Apple-lel",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Hozz létre fiókot a játék megkezdéséhez",
+    "onboardingSignInSubtitle": "Jelentkezz be a folytatáshoz",
+    "proBadge": "✨ Pro tag",
+    "upgradeToPro": "Frissítés Pro-ra"
+  },
+  "staticInfo": {
+    "lastUpdated": "Utolsó frissítés: {{date}}"
+  },
+  "about": {
+    "intro": "A Bones & Beasts egy memória/kocka hibrid játék — dobj a kockával, hogy megtaláld a vadállatodat, majd keresd meg a táblán, mielőtt a koponyák (vagy valaki más vadállata) elkapnak.",
+    "howToPlayHeading": "Hogyan kell játszani",
+    "howToPlayBody": "Az egyjátékos mód csak te vagy a tábla ellen: dobj egy rögzített célállatért, majd fordíts csempéket, hogy összegyűjtsd az összes példányát, mielőtt egy másik állat készlete teljesen feltárulna. A csoportos mód 2-4 játékost gyűjt össze online, akik versenyeznek a saját készletük befejezéséért — útközben bónusz drágakövekkel és bálványokkal, amelyek azonnal további példányokat tárnak fel annak, aki megtalálja őket.",
+    "builtWithHeading": "Készült ezekkel",
+    "builtWithBody": "Expo, React Native és TypeScript a kliens oldalon; a Colyseus hajtja a valós idejű online csoportos játékot.",
+    "versionHeading": "Verzió",
+    "noteHeading": "Egy megjegyzés",
+    "noteBody": "Ez egy független, aktívan fejlesztett projekt — idővel számíts új funkciókra és szabálymódosításokra. Köszönjük, hogy játszottál!"
+  },
+  "privacyPolicy": {
+    "intro": "Ez az irányelv elmagyarázza, milyen adatokat gyűjt a Bones & Beasts, és hogyan használja azokat. Nincs reklám, és az alább leírtakon kívül nincs elemzés vagy nyomon követés sem.",
+    "accountHeading": "A fiókod",
+    "accountBody": "A játékhoz fiók létrehozása szükséges (e-mail/jelszó, Google, vagy Bejelentkezés Apple-lel). A bejelentkezés kezelésére a Firebase Authentication-t használjuk, amely tárolja az e-mail címedet és megjelenített neved (és Google/Apple esetén bármilyen alapvető profilinformációt, amelyet az adott szolgáltató megoszt velünk — jellemzően csak a nevedet és e-mail címedet). Az e-mail/jelszavas fiókok esetében nem látjuk és nem tároljuk magát a jelszavadat; ezt közvetlenül a Firebase kezeli. A fiókodat bármikor törölheted a Profil oldalról.",
+    "soloHeading": "Egyjátékos mód",
+    "soloBody": "Az egyjátékos játékok teljes egészében az eszközödön futnak. A Statisztika fülön található játéktörténeted (lejátszott játékok, győzelmek, befejezett készletek, idők) helyileg, az eszközön tárolódik, és soha nem kerül átvitelre hozzánk vagy bárki máshoz, függetlenül attól, hogy be vagy-e jelentkezve.",
+    "groupHeading": "Online csoportos játék",
+    "groupBody": "Amikor csatlakozol egy csoportos játékhoz, a megjelenített neved és a játékon belüli műveleteid (kockadobások, lapfordítások) elküldésre kerülnek a játékszerverünkre, hogy az szinkronban tarthassa a megosztott táblát mindenki számára abban a játékban. Ezek az adatok csak a játékmenet időtartamára léteznek — utólag nem kerülnek mentésre, eladásra vagy harmadik felekkel megosztásra.",
+    "childrenHeading": "Gyermekek adatvédelme",
+    "childrenBody": "A Bones & Beasts nem 13 éven aluli gyermekeknek szól, és tudatosan nem gyűjtünk tőlük információt.",
+    "changesHeading": "Ezen irányelv változásai",
+    "changesBody": "Ha megváltozik az adatkezelés módja az alkalmazásban — például ha hibajelentések, push értesítések vagy fizetős előfizetés kerül bevezetésre — ez az oldal frissül, hogy leírja ezt.",
+    "questionsHeading": "Kérdések",
+    "questionsBody": "Ha kérdésed van ezzel az irányelvvel kapcsolatban, kérjük, vedd fel velünk a kapcsolatot azon a helyen keresztül, ahonnan letöltötted ezt az alkalmazást."
+  },
+  "termsOfService": {
+    "intro": "A Bones & Beasts használatával elfogadod ezeket a feltételeket. Ha nem értesz egyet, kérjük, ne használd az alkalmazást.",
+    "gameHeading": "A játék",
+    "gameBody": "A Bones & Beasts (lásd az Aplikációról oldalt, hogy mi ez és hogyan kell játszani) kizárólag szórakoztatási célokra szolgál.",
+    "fairPlayHeading": "Tisztességes játék",
+    "fairPlayBody": "A csoportos játékokban kérjük, játssz tisztességesen — ne használj ki hibákat, ne automatizáld a köreidet, és ne zavard más játékosok játékát. Fenntartjuk a jogot, hogy zavaró viselkedés miatt eltávolítsunk játékosokat egy játékból vagy váróteremből.",
+    "noWarrantyHeading": "Nincs garancia",
+    "noWarrantyBody": "Az alkalmazás \"jelen állapotában\" kerül biztosításra, mindenféle garancia nélkül. Nem garantáljuk, hogy megszakítás nélküli, hibamentes vagy mindig elérhető lesz — különösen az online csoportos mód, amely egy olyan játékszervertől függ, amelyet előzetes értesítés nélkül frissíthetnek, újraindíthatnak vagy offline állapotba helyezhetnek.",
+    "liabilityHeading": "Felelősség korlátozása",
+    "liabilityBody": "A törvény által megengedett legteljesebb mértékben nem vállalunk felelősséget az alkalmazás használatából vagy használatának lehetetlenségéből eredő károkért.",
+    "changesHeading": "Változások",
+    "changesBody": "Ezek a feltételek frissülhetnek, ahogy az alkalmazás változik. Az alkalmazás frissítés utáni további használata azt jelenti, hogy elfogadod a felülvizsgált feltételeket."
+  },
+  "settingsNav": {
+    "profile": "Profil",
+    "appSettings": "Alkalmazás beállításai",
+    "privacyPolicy": "Adatvédelmi irányelv",
+    "termsOfService": "Felhasználási feltételek",
+    "about": "Az alkalmazásról",
+    "settings": "Beállítások"
+  },
+  "stats": {
+    "title": "Statisztika",
+    "gamesPlayed": "Lejátszott játékok",
+    "yourWins": "Győzelmeid",
+    "setsCompleted": "Befejezett készletek",
+    "avgSetsPerGame": "Átl. készlet / játék",
+    "bestSoloTime": "Legjobb egyjátékos idő",
+    "noBestTime": "–",
+    "recentGames": "Legutóbbi játékok",
+    "noGamesYet": "Még nincs lejátszott játék — indíts egyet!",
+    "modeSolo": "Egyjátékos",
+    "modeGroup": "Csoport ({{count}})",
+    "placeWin": "🏆 {{place}}. helyezés",
+    "place": "{{place}}. helyezés"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "A csoportos mód még {{count}} napig ingyenes — iratkozz fel bármikor, hogy utána is folytathasd a játékot.",
+    "trialActiveSubtitle_other": "A csoportos mód még {{count}} napig ingyenes — iratkozz fel bármikor, hogy utána is folytathasd a játékot.",
+    "trialEndedSubtitle": "A csoportos mód ingyenes próbaidőszaka lejárt. Iratkozz fel, hogy tovább versenyezhess más játékosokkal online.",
+    "monthly": "Havi",
+    "yearly": "Éves",
+    "lifetime": "Élethosszig tartó",
+    "restorePurchases": "Vásárlások visszaállítása",
+    "notNow": "Most nem"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Válassz avatart a profilodhoz"
+  }
+}

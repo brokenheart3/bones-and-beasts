@@ -1,6 +1,7 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Text } from "react-native";
+import { useTranslation } from "react-i18next";
 import { useTheme } from "../theme";
 import { MainTabParamList } from "./types";
 import HomeScreen from "../screens/HomeScreen";
@@ -19,6 +20,7 @@ const TAB_ICONS: Record<keyof MainTabParamList, string> = {
 
 export default function MainTabs() {
   const theme = useTheme();
+  const { t } = useTranslation();
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
@@ -39,13 +41,13 @@ export default function MainTabs() {
         ),
       })}
     >
-      <Tab.Screen name="Home" component={HomeScreen} />
-      <Tab.Screen name="Play" component={PlayStack} />
-      <Tab.Screen name="Stats" component={StatsScreen} />
+      <Tab.Screen name="Home" component={HomeScreen} options={{ title: t("tabs.home") }} />
+      <Tab.Screen name="Play" component={PlayStack} options={{ title: t("tabs.play") }} />
+      <Tab.Screen name="Stats" component={StatsScreen} options={{ title: t("tabs.stats") }} />
       <Tab.Screen
         name="SettingsTab"
         component={SettingsStack}
-        options={{ title: "Settings" }}
+        options={{ title: t("tabs.settings") }}
       />
     </Tab.Navigator>
   );

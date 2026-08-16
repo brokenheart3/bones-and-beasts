@@ -1,22 +1,24 @@
 import React from "react";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { Pressable, StyleSheet, Text, View } from "react-native";
+import { useTranslation } from "react-i18next";
 import { Theme, useTheme } from "../../theme";
 import { SettingsStackParamList } from "../../navigation/types";
 
 type Props = NativeStackScreenProps<SettingsStackParamList, "SettingsHome">;
 
-const LINKS: { label: string; screen: keyof SettingsStackParamList; icon: string }[] = [
-  { label: "Profile", screen: "Profile", icon: "👤" },
-  { label: "App Settings", screen: "AppSettings", icon: "🎨" },
-  { label: "Privacy Policy", screen: "PrivacyPolicy", icon: "🔒" },
-  { label: "Terms of Service", screen: "TermsOfService", icon: "📜" },
-  { label: "About", screen: "About", icon: "🏺" },
+const LINKS: { labelKey: string; screen: keyof SettingsStackParamList; icon: string }[] = [
+  { labelKey: "settingsNav.profile", screen: "Profile", icon: "👤" },
+  { labelKey: "settingsNav.appSettings", screen: "AppSettings", icon: "🎨" },
+  { labelKey: "settingsNav.privacyPolicy", screen: "PrivacyPolicy", icon: "🔒" },
+  { labelKey: "settingsNav.termsOfService", screen: "TermsOfService", icon: "📜" },
+  { labelKey: "settingsNav.about", screen: "About", icon: "🏺" },
 ];
 
 export default function SettingsHomeScreen({ navigation }: Props) {
   const theme = useTheme();
   const styles = getStyles(theme);
+  const { t } = useTranslation();
   return (
     <View style={styles.wrap}>
       <View style={styles.section}>
@@ -27,7 +29,7 @@ export default function SettingsHomeScreen({ navigation }: Props) {
             onPress={() => navigation.navigate(link.screen)}
           >
             <Text style={styles.icon}>{link.icon}</Text>
-            <Text style={styles.rowLabel}>{link.label}</Text>
+            <Text style={styles.rowLabel}>{t(link.labelKey)}</Text>
             <Text style={styles.chevron}>›</Text>
           </Pressable>
         ))}

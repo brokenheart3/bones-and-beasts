@@ -7,14 +7,24 @@ export interface GameRecord {
   date: string; // ISO timestamp
   mode: "solo" | "group";
   playerCount: number;
-  winnerName: string | null; // null if nobody completed a set
+  // This device's own player, not a shared "the game's winner" value — every
+  // participant's device records this same game independently, and each
+  // should see its own placement/time, not identical results for everyone.
+  myRank: number | null; // 1st, 2nd, ... — null if this player didn't finish
+  myFinishMs?: number; // this player's own elapsed time when they finished
   setsCompleted: number; // total sets completed by anyone that game
-  durationMs?: number; // wall-clock time from game start to game over
+  durationMs?: number; // whole game's wall-clock time, start to game over
 }
 
 interface StatsState {
   history: GameRecord[];
-  recordGame: (players: Player[], completions: SetCompletion[], durationMs?: number) => void;
+  recordGame: (
+    players: Player[],
+    completions: SetCompletion[],
+    myPlayerId: string,
+    startedAt: number | null,
+    endedAt: number | null
+  ) => void;
   clearHistory: () => void;
 }
 
@@ -22,26 +32,18 @@ export const useStatsStore = create<StatsState>()(
   persist(
     (set) => ({
       history: [],
-      recordGame: (players: Player[], completions: SetCompletion[], durationMs?: number) => {
-        const counts = new Map<string, number>();
-        completions.forEach((c) => {
-          counts.set(c.playerId, (counts.get(c.playerId) ?? 0) + 1);
-        });
-        let winnerId: string | null = null;
-        let bestCount = 0;
-        counts.forEach((count, playerId) => {
-          if (count > bestCount) {
-            bestCount = count;
-            winnerId = playerId;
-          }
-        });
-        const winner = players.find((p) => p.id === winnerId);
+      recordGame: (players, completions, myPlayerId, startedAt, endedAt) => {
+        const myCompletion = completions.find((c) => c.playerId === myPlayerId);
+        const durationMs = startedAt != null && endedAt != null ? endedAt - startedAt : undefined;
+        const myFinishMs =
+          myCompletion && startedAt != null ? myCompletion.finishedAt - startedAt : undefined;
 
         const record: GameRecord = {
           date: new Date().toISOString(),
           mode: players.length > 1 ? "group" : "solo",
           playerCount: players.length,
-          winnerName: winner?.name ?? null,
+          myRank: myCompletion?.order ?? null,
+          myFinishMs,
           setsCompleted: completions.length,
           durationMs,
         };

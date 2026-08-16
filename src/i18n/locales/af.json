@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "Kanselleer",
+    "save": "Stoor",
+    "back": "Terug",
+    "delete": "Verwyder",
+    "reset": "Herstel",
+    "you": "Jy",
+    "explorer": "Ontdekker",
+    "didNotFinish": "Nie voltooi nie",
+    "or": "of",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Leeu",
+    "elephant": "Olifant",
+    "monkey": "Aap",
+    "tiger": "Tier",
+    "giraffe": "Kameelperd",
+    "zebra": "Sebra"
+  },
+  "tabs": {
+    "home": "Tuis",
+    "play": "Speel",
+    "stats": "Statistieke",
+    "settings": "Instellings"
+  },
+  "home": {
+    "welcome": "Welkom, {{username}}!",
+    "promptReady": "Gereed om te waag?",
+    "promptWanna": "Wil jy speel?",
+    "soloTitle": "Solo",
+    "soloBody": "Rol die dobbelsteen om jou kaart te vind, soek dan op die bord al ses kopieë voordat 'n ander dier se stel eerste voltooi word. Net jy, jou geheue, en die skedels.",
+    "playSolo": "Speel Solo",
+    "groupTitle": "Groep",
+    "groupBody": "Sluit aan met 2-4 speurs en wedloop om jou eie stel eerste te voltooi. Groepmodus is aanlyn-alleen — ons sal jou met ander speurs in 'n regstreekse lobby pas.",
+    "trialActive_one": "Gratis proeftydperk — {{count}} dag oor",
+    "trialActive_other": "Gratis proeftydperk — {{count}} dae oor",
+    "trialEnded": "Gratis proeftydperk het verstryk — teken in om aan te hou speel",
+    "findGroup": "Vind 'n groep"
+  },
+  "endScreen": {
+    "lossTitle": "Begrawe in die tempel!",
+    "winTitle": "Tempel is skoon!",
+    "totalTime": "⏱ Totale speeltyd: {{time}}",
+    "finalRanking": "Finale rangorde",
+    "setCompletionOrder": "Stel-voltooiingsvolgorde",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Speel weer"
+  },
+  "bonus": {
+    "small": "'n bonus-edelsteen",
+    "big": "'n antieke afgodsbeeld",
+    "found": "Jy het {{label}} gevind!"
+  },
+  "gameOnline": {
+    "connecting": "Verbind...",
+    "aPlayer": "'n Speler",
+    "huntingFor": "Jy sal soek na {{emoji}} {{faceName}}!",
+    "waiting": "Wag",
+    "waitingForMove": "Wag vir hulle skuif...",
+    "disconnectedName": "{{name}} (verlaat)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Kon nie die bediener bereik nie.",
+    "couldntConnect": "Kon nie verbind nie",
+    "findingGroup": "Soek 'n groep",
+    "you": "(jy)",
+    "waitingForPlayer": "Wag vir 'n speler...",
+    "cancel": "Kanselleer"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Dié e-pos is reeds geregistreer — probeer eerder inteken.",
+    "invalidEmail": "Dit lyk nie na 'n geldige e-posadres nie.",
+    "missingEmail": "Voer eers jou e-posadres in.",
+    "weakPassword": "Wagwoord moet ten minste 6 karakters wees.",
+    "wrongPassword": "Verkeerde e-pos of wagwoord.",
+    "userNotFound": "Geen rekening met dié e-pos gevind nie.",
+    "tooManyRequests": "Te veel poging — wag 'n oomblik en probeer weer.",
+    "networkError": "Netwerkfout — kontroleer jou verbinding en probeer weer.",
+    "requiresRecentLogin": "Vir jou sekuriteit, teken asseblief uit en weer in, en probeer weer.",
+    "generic": "Iets het verkeerd geloop. Probeer asseblief weer."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Kon nie intekeningopsies laai nie.",
+    "purchaseFailed": "Aankoop het misluk. Probeer weer.",
+    "restoreFailed": "Kon nie aankope herstel nie.",
+    "notSignedIn": "Teken eers in.",
+    "notAvailableOnWeb": "Intekeninge is nog nie op die web beskikbaar nie — gebruik die iOS- of Android-app.",
+    "checkoutFailed": "Kon nie betaling begin nie."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, rol die dobbelsteen om jou kaart te vind!",
+    "turnHuntFor": "{{name}} se beurt — soek {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Hou aan draai!",
+    "completedSet": "🏆 {{name}} het die {{faceName}}-stel voltooi — {{place}} plek!",
+    "skullSolo": "💀 {{name}} het 'n skedel gevind! Vasgevries vir 'n oomblik...",
+    "skullGroup": "💀 {{name}} het 'n skedel gevind! Beurt verloor, volgende beurt oorgeslaan. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} het {{label}} gevind — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} het {{label}} gevind, maar niks was oor om te onthul nie!",
+    "bonusLabelSmall": "'n bonus-edelsteen",
+    "bonusLabelBig": "'n antieke afgodsbeeld",
+    "foundFaceLead": "{{name}} het {{faceName}} gevind",
+    "wrongTileLoss": "💀 Alle {{wrongFace}}-teëls is gevind voordat jy jou eie {{targetFace}}-stel voltooi het — jy verloor!",
+    "wrongTilePass": "{{name}} het die verkeerde teël onthul. {{nextTurn}}",
+    "everyoneFound": "Almal het hul kaart gevind! Spel verby.",
+    "tabletCleared": "Die bord is skoon! Spel verby."
+  },
+  "skullPause": {
+    "title": "Vasgevries!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} strikke gevind",
+    "gems": "{{found}}/{{total}} edelstene gevind",
+    "idols": "{{found}}/{{total}} afgodsbeelde gevind"
+  },
+  "yourTurn": {
+    "banner": "👉 Jou beurt!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} het hul stel voltooi ({{place}} plek)! {{status}}",
+    "othersRemaining_one": "{{count}} speler speel nog.",
+    "othersRemaining_other": "{{count}} speurs speel nog.",
+    "everyoneDone": "Dit is almal!"
+  },
+  "gameResult": {
+    "wonTitle": "Jy het al {{count}} {{cardName}}-kaarte gevind!",
+    "lostTitle": "Jy het verloor!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, rol die dobbelsteen om jou kaart te vind!",
+    "rollingPrompt": "{{playerName}} rol...",
+    "roll": "Rol",
+    "yourCardIs": "Jou kaart is {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Geen spel aan die gang nie. Begin een vanaf Tuis!"
+  },
+  "appSettings": {
+    "theme": "Tema",
+    "themeDark": "Donker",
+    "themeLight": "Lig",
+    "language": "Taal",
+    "languageSystem": "Stelsel",
+    "data": "Data",
+    "dataBody": "Teken jou uit en verwyder jou statistiekgeskiedenis op dié toestel. Dit kan nie ontdaan word nie.",
+    "signOutReset": "Teken uit & herstel plaaslike data",
+    "confirmResetTitle": "Teken uit en herstel plaaslike data?",
+    "confirmResetBody": "Dit verwyder jou statistiekgeskiedenis op dié toestel en teken jou uit. Dit kan nie ontdaan word nie.",
+    "reset": "Herstel"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Vertoonnaam",
+    "save": "Stoor",
+    "cancel": "Kanselleer",
+    "signOut": "Teken uit",
+    "deleteAccount": "Verwyder rekening",
+    "confirmDeleteTitle": "Verwyder jou rekening?",
+    "confirmDeleteBody": "Dit verwyder jou rekening permanent. Dit kan nie ontdaan word nie.",
+    "delete": "Verwyder",
+    "emailPlaceholder": "E-pos",
+    "passwordPlaceholder": "Wagwoord",
+    "forgotPassword": "Wagwoord vergeet?",
+    "resetSent": "Herstel-e-pos gestuur — kyk jou inbox.",
+    "signUp": "Registreer",
+    "signIn": "Teken in",
+    "switchToSignIn": "Het reeds 'n rekening? Teken in",
+    "switchToSignUp": "Benodig 'n rekening? Registreer",
+    "or": "of",
+    "continueWithGoogle": "G  Gaan voort met Google",
+    "continueWithApple": "􀣺  Gaan voort met Apple",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Skep 'n rekening om te begin speel",
+    "onboardingSignInSubtitle": "Teken in om voort te gaan",
+    "proBadge": "✨ Pro-lid",
+    "upgradeToPro": "Gradeer na Pro"
+  },
+  "staticInfo": {
+    "lastUpdated": "Laas opgedateer: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts is 'n geheue/dobbelsteen-hibriedspel — rol die dobbelsteen om jou dier te vind, soek dit dan op die bord voordat die skedels (of iemand anders se dier) jou vang.",
+    "howToPlayHeading": "Hoe om te speel",
+    "howToPlayBody": "Solo-modus is net jy teen die bord: rol vir 'n vaste teiken-dier, draai dan teëls om om al sy kopieë te versamel voordat 'n ander dier se stel volledig onthul word. Groepmodus verbind 2-4 speurs aanlyn wat wedloop om hul eie stelle te voltooi — met bonus-edelstene en afgodsbeelde op die pad wat onmiddellik ekstra kopieë vir wie dit ook al vind, onthul.",
+    "builtWithHeading": "Gebou met",
+    "builtWithBody": "Expo, React Native en TypeScript op die kliënt; Colyseus dryf intydse aanlyn Groepspel aan.",
+    "versionHeading": "Weergawe",
+    "noteHeading": "'n Nota",
+    "noteBody": "Dit is 'n onafhanklike, aktief-ontwikkelde projek — verwag nuwe funksies en reëlveranderinge oor tyd. Dankie dat jy gespeel het!"
+  },
+  "privacyPolicy": {
+    "intro": "Dié beleid verduidelik watter inligting Bones & Beasts insamel en hoe dit gebruik word. Daar is geen advertensies en geen ontleding of opsporing verder as wat hieronder beskryf word nie.",
+    "accountHeading": "Jou rekening",
+    "accountBody": "'n Rekening skep (e-pos/wagwoord, Google, of Teken in met Apple) is nodig om te speel. Ons gebruik Firebase Authentication om intekening te bestuur, wat jou e-posadres en vertoonnaam stoor (en, vir Google/Apple, enige basiese profielinligting wat dié verskaffer met ons deel — tipies net jou naam en e-pos). Ons sien of stoor nie jou wagwoord self vir e-pos/wagwoord-rekeninge nie; Firebase hanteer dit direk. Jy kan jou rekening enige tyd vanaf die Profielblad verwyder.",
+    "soloHeading": "Solo-spel",
+    "soloBody": "Solo-speletjies loop heeltemal op jou toestel. Jou speelgeskiedenis in die Statistiek-oortjie (speletjies gespeel, oorwinnings, voltooide stelle, tye) word plaaslik op die toestel gestoor en word nooit aan ons of enigiemand anders oorgedra nie, ongeag of jy ingeteken is.",
+    "groupHeading": "Aanlyn Groepspel",
+    "groupBody": "Wanneer jy by 'n Groepspel aansluit, word jou vertoonnaam en jou in-spel-aksies (dobbelsteenrol, kaartomswaai) na ons speelbediener gestuur sodat dit die gedeelde bord in sinchronisasie kan hou vir almal in dié spel. Dié data bestaan slegs vir die duur van dié speelsessie — dit word nie daarna gestoor, verkoop, of met derde partye gedeel nie.",
+    "childrenHeading": "Kinders se privaatheid",
+    "childrenBody": "Bones & Beasts is nie op kinders onder 13 gerig nie, en ons samel nie bewustelik inligting van hulle in nie.",
+    "changesHeading": "Veranderinge aan dié beleid",
+    "changesBody": "As die manier waarop die app data hanteer verander — byvoorbeeld, as ineenstortingsverslae, stoot-kennisgewings, of 'n betaalde intekening bygevoeg word — sal dié blad opgedateer word om dit te beskryf.",
+    "questionsHeading": "Vrae",
+    "questionsBody": "As jy vrae oor dié beleid het, kontak ons asseblief deur waar jy dié app afgelaai het."
+  },
+  "termsOfService": {
+    "intro": "Deur Bones & Beasts te gebruik, stem jy in tot dié voorwaardes. As jy nie saamstem nie, gebruik asseblief nie die app nie.",
+    "gameHeading": "Die spel",
+    "gameBody": "Bones & Beasts (sien die Aangaande-blad vir wat dit is en hoe dit gespeel word) word slegs vir vermaakdoeleindes aangebied.",
+    "fairPlayHeading": "Regverdige spel",
+    "fairPlayBody": "In Groepspeletjies, speel asseblief regverdig — moenie foute uitbuit, jou beurte outomatiseer, of ander speurs se speletjies ontwrig nie. Ons behou die reg om speurs vir ontwrigtende gedrag uit 'n spel of lobby te verwyder.",
+    "noWarrantyHeading": "Geen waarborg nie",
+    "noWarrantyBody": "Die app word \"as is\" verskaf, sonder enige waarborge. Ons waarborg nie dat dit ononderbroke, foutvry, of altyd beskikbaar sal wees nie — spesifiek die aanlyn Groepmodus, wat afhang van 'n speelbediener wat sonder kennisgewing opgedateer, herbegin, of aflyn geneem kan word.",
+    "liabilityHeading": "Beperking van aanspreeklikheid",
+    "liabilityBody": "Tot die volste omvang toegelaat deur wet, is ons nie aanspreeklik vir enige skade wat voortspruit uit jou gebruik van, of onvermoë om te gebruik, die app nie.",
+    "changesHeading": "Veranderinge",
+    "changesBody": "Dié voorwaardes kan opgedateer word soos die app verander. Om die app na 'n opdatering aan te hou gebruik beteken jy aanvaar die hersiene voorwaardes."
+  },
+  "settingsNav": {
+    "profile": "Profiel",
+    "appSettings": "App-instellings",
+    "privacyPolicy": "Privaatheidsbeleid",
+    "termsOfService": "Diensvoorwaardes",
+    "about": "Aangaande",
+    "settings": "Instellings"
+  },
+  "stats": {
+    "title": "Statistieke",
+    "gamesPlayed": "Speletjies gespeel",
+    "yourWins": "Jou oorwinnings",
+    "setsCompleted": "Stelle voltooi",
+    "avgSetsPerGame": "Gem. stelle / spel",
+    "bestSoloTime": "Beste solo-tyd",
+    "noBestTime": "–",
+    "recentGames": "Onlangse speletjies",
+    "noGamesYet": "Nog geen speletjies gespeel nie — begin een!",
+    "modeSolo": "Solo",
+    "modeGroup": "Groep ({{count}})",
+    "placeWin": "🏆 {{place}} plek",
+    "place": "{{place}} plek"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "Groepmodus is gratis vir nog {{count}} dag — teken enige tyd in om daarna aan te hou speel.",
+    "trialActiveSubtitle_other": "Groepmodus is gratis vir nog {{count}} dae — teken enige tyd in om daarna aan te hou speel.",
+    "trialEndedSubtitle": "Jou gratis proeftydperk van Groepmodus het verstryk. Teken in om aan te hou meeding met ander speurs aanlyn.",
+    "monthly": "Maandeliks",
+    "yearly": "Jaarliks",
+    "lifetime": "Lewenslank",
+    "restorePurchases": "Herstel aankope",
+    "notNow": "Nie nou nie"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Kies 'n avatar vir jou profiel"
+  }
+}

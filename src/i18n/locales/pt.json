@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "back": "Voltar",
+    "delete": "Excluir",
+    "reset": "Redefinir",
+    "you": "Você",
+    "explorer": "Explorador",
+    "didNotFinish": "Não terminou",
+    "or": "ou",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Leão",
+    "elephant": "Elefante",
+    "monkey": "Macaco",
+    "tiger": "Tigre",
+    "giraffe": "Girafa",
+    "zebra": "Zebra"
+  },
+  "tabs": {
+    "home": "Início",
+    "play": "Jogar",
+    "stats": "Estatísticas",
+    "settings": "Configurações"
+  },
+  "home": {
+    "welcome": "Bem-vindo, {{username}}!",
+    "promptReady": "Pronto para apostar?",
+    "promptWanna": "Quer jogar?",
+    "soloTitle": "Individual",
+    "soloBody": "Jogue o dado para encontrar sua carta e depois procure no tabuleiro as seis cópias antes que o conjunto de outra fera seja completado primeiro. Só você, sua memória e as caveiras.",
+    "playSolo": "Jogar Individual",
+    "groupTitle": "Grupo",
+    "groupBody": "Junte-se a 2-4 jogadores e corra para completar seu próprio conjunto primeiro. O modo Grupo é apenas online — vamos te combinar com outros jogadores em uma sala em tempo real.",
+    "trialActive_one": "Teste gratuito — resta {{count}} dia",
+    "trialActive_other": "Teste gratuito — restam {{count}} dias",
+    "trialEnded": "O teste gratuito terminou — assine para continuar jogando",
+    "findGroup": "Encontrar um grupo"
+  },
+  "endScreen": {
+    "lossTitle": "Enterrado no templo!",
+    "winTitle": "Templo limpo!",
+    "totalTime": "⏱ Tempo total de jogo: {{time}}",
+    "finalRanking": "Classificação final",
+    "setCompletionOrder": "Ordem de conclusão dos conjuntos",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Jogar novamente"
+  },
+  "bonus": {
+    "small": "uma gema bônus",
+    "big": "um ídolo antigo",
+    "found": "Você encontrou {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Conectando...",
+    "aPlayer": "Um jogador",
+    "huntingFor": "Você vai procurar {{emoji}} {{faceName}}!",
+    "waiting": "Aguardando",
+    "waitingForMove": "Aguardando a jogada dele...",
+    "disconnectedName": "{{name}} (saiu)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Não foi possível conectar ao servidor.",
+    "couldntConnect": "Não foi possível conectar",
+    "findingGroup": "Procurando um grupo",
+    "you": "(você)",
+    "waitingForPlayer": "Aguardando um jogador...",
+    "cancel": "Cancelar"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Esse e-mail já está registrado — tente entrar em vez disso.",
+    "invalidEmail": "Isso não parece um endereço de e-mail válido.",
+    "missingEmail": "Digite seu e-mail primeiro.",
+    "weakPassword": "A senha deve ter pelo menos 6 caracteres.",
+    "wrongPassword": "E-mail ou senha incorretos.",
+    "userNotFound": "Nenhuma conta encontrada com esse e-mail.",
+    "tooManyRequests": "Muitas tentativas — aguarde um momento e tente novamente.",
+    "networkError": "Erro de rede — verifique sua conexão e tente novamente.",
+    "requiresRecentLogin": "Por segurança, saia e entre novamente, depois tente de novo.",
+    "generic": "Algo deu errado. Tente novamente."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Não foi possível carregar as opções de assinatura.",
+    "purchaseFailed": "A compra falhou. Tente novamente.",
+    "restoreFailed": "Não foi possível restaurar as compras.",
+    "notSignedIn": "Entre na sua conta primeiro.",
+    "notAvailableOnWeb": "As assinaturas ainda não estão disponíveis na web — use o app do iOS ou Android.",
+    "checkoutFailed": "Não foi possível iniciar o pagamento."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, jogue o dado para encontrar sua carta!",
+    "turnHuntFor": "Vez de {{name}} — procure {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Continue jogando!",
+    "completedSet": "🏆 {{name}} completou o conjunto {{faceName}} — {{place}} lugar!",
+    "skullSolo": "💀 {{name}} encontrou uma caveira! Congelado por um momento...",
+    "skullGroup": "💀 {{name}} encontrou uma caveira! Turno perdido, próximo turno pulado. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} encontrou {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} encontrou {{label}}, mas não havia mais nada para revelar!",
+    "bonusLabelSmall": "uma gema bônus",
+    "bonusLabelBig": "um ídolo antigo",
+    "foundFaceLead": "{{name}} encontrou {{faceName}}",
+    "wrongTileLoss": "💀 Todas as peças de {{wrongFace}} foram encontradas antes de você terminar seu próprio conjunto de {{targetFace}} — você perdeu!",
+    "wrongTilePass": "{{name}} revelou a peça errada. {{nextTurn}}",
+    "everyoneFound": "Todos encontraram sua carta! Fim de jogo.",
+    "tabletCleared": "O tabuleiro está limpo! Fim de jogo."
+  },
+  "skullPause": {
+    "title": "Congelado!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} armadilhas encontradas",
+    "gems": "{{found}}/{{total}} gemas encontradas",
+    "idols": "{{found}}/{{total}} ídolos encontrados"
+  },
+  "yourTurn": {
+    "banner": "👉 Sua vez!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} completou seu conjunto ({{place}} lugar)! {{status}}",
+    "othersRemaining_one": "{{count}} jogador ainda jogando.",
+    "othersRemaining_other": "{{count}} jogadores ainda jogando.",
+    "everyoneDone": "Isso é todo mundo!"
+  },
+  "gameResult": {
+    "wonTitle": "Você encontrou todas as {{count}} cartas de {{cardName}}!",
+    "lostTitle": "Você perdeu!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, jogue o dado para encontrar sua carta!",
+    "rollingPrompt": "{{playerName}}, jogando...",
+    "roll": "Jogar",
+    "yourCardIs": "Sua carta é {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Nenhum jogo em andamento. Comece um a partir do Início!"
+  },
+  "appSettings": {
+    "theme": "Tema",
+    "themeDark": "Escuro",
+    "themeLight": "Claro",
+    "language": "Idioma",
+    "languageSystem": "Sistema",
+    "data": "Dados",
+    "dataBody": "Desconecta você e limpa seu histórico de estatísticas neste dispositivo. Isso não pode ser desfeito.",
+    "signOutReset": "Sair e redefinir dados locais",
+    "confirmResetTitle": "Sair e redefinir dados locais?",
+    "confirmResetBody": "Isso limpa seu histórico de estatísticas neste dispositivo e encerra sua sessão. Isso não pode ser desfeito.",
+    "reset": "Redefinir"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Nome de exibição",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "signOut": "Sair",
+    "deleteAccount": "Excluir conta",
+    "confirmDeleteTitle": "Excluir sua conta?",
+    "confirmDeleteBody": "Isso exclui permanentemente sua conta. Isso não pode ser desfeito.",
+    "delete": "Excluir",
+    "emailPlaceholder": "E-mail",
+    "passwordPlaceholder": "Senha",
+    "forgotPassword": "Esqueceu a senha?",
+    "resetSent": "E-mail de redefinição enviado — verifique sua caixa de entrada.",
+    "signUp": "Cadastrar-se",
+    "signIn": "Entrar",
+    "switchToSignIn": "Já tem uma conta? Entrar",
+    "switchToSignUp": "Precisa de uma conta? Cadastre-se",
+    "or": "ou",
+    "continueWithGoogle": "G  Continuar com o Google",
+    "continueWithApple": "􀣺  Continuar com a Apple",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Crie uma conta para começar a jogar",
+    "onboardingSignInSubtitle": "Entre para continuar",
+    "proBadge": "✨ Membro Pro",
+    "upgradeToPro": "Atualizar para Pro"
+  },
+  "staticInfo": {
+    "lastUpdated": "Última atualização: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts é um jogo híbrido de memória e dados — jogue o dado para encontrar sua fera e depois procure por ela no tabuleiro antes que as caveiras (ou a fera de outra pessoa) te peguem.",
+    "howToPlayHeading": "Como jogar",
+    "howToPlayBody": "O modo Individual é só você contra o tabuleiro: jogue o dado para obter um animal alvo fixo e depois vire peças para coletar todas as suas cópias antes que o conjunto de outro animal seja totalmente revelado. O modo Grupo reúne 2-4 jogadores online, competindo para completar seus próprios conjuntos — com gemas bônus e ídolos pelo caminho que revelam instantaneamente cópias extras para quem os encontrar.",
+    "builtWithHeading": "Construído com",
+    "builtWithBody": "Expo, React Native e TypeScript no cliente; o Colyseus alimenta o modo Grupo online em tempo real.",
+    "versionHeading": "Versão",
+    "noteHeading": "Uma observação",
+    "noteBody": "Este é um projeto independente em desenvolvimento ativo — espere novos recursos e ajustes de regras ao longo do tempo. Obrigado por jogar!"
+  },
+  "privacyPolicy": {
+    "intro": "Esta política explica quais informações o Bones & Beasts coleta e como são usadas. Não há publicidade nem análises ou rastreamento além do descrito abaixo.",
+    "accountHeading": "Sua conta",
+    "accountBody": "Criar uma conta (e-mail/senha, Google ou Entrar com a Apple) é necessário para jogar. Usamos o Firebase Authentication para gerenciar o login, que armazena seu endereço de e-mail e nome de exibição (e, para Google/Apple, quaisquer informações básicas de perfil que esse provedor compartilhe conosco — geralmente apenas seu nome e e-mail). Não vemos nem armazenamos sua senha para contas de e-mail/senha; o Firebase lida com isso diretamente. Você pode excluir sua conta a qualquer momento na página Perfil.",
+    "soloHeading": "Jogo Individual",
+    "soloBody": "Os jogos Individuais são executados totalmente no seu dispositivo. Seu histórico de jogo na aba Estatísticas (jogos jogados, vitórias, conjuntos completados, tempos) é armazenado localmente no dispositivo e nunca é transmitido para nós ou qualquer outra pessoa, independentemente de estar conectado.",
+    "groupHeading": "Jogo em Grupo online",
+    "groupBody": "Quando você entra em um jogo em Grupo, seu nome de exibição e suas ações no jogo (jogadas de dados, viradas de cartas) são enviados ao nosso servidor de jogo para manter o tabuleiro compartilhado sincronizado para todos naquele jogo. Esses dados existem apenas durante a sessão daquele jogo — eles não são salvos depois, vendidos ou compartilhados com terceiros.",
+    "childrenHeading": "Privacidade infantil",
+    "childrenBody": "O Bones & Beasts não é direcionado a crianças menores de 13 anos, e não coletamos informações delas intencionalmente.",
+    "changesHeading": "Alterações nesta política",
+    "changesBody": "Se a forma como o app trata os dados mudar — por exemplo, se relatórios de falhas, notificações push ou uma assinatura paga forem adicionados — esta página será atualizada para descrever isso.",
+    "questionsHeading": "Perguntas",
+    "questionsBody": "Se você tiver dúvidas sobre esta política, entre em contato através de onde baixou este app."
+  },
+  "termsOfService": {
+    "intro": "Ao usar o Bones & Beasts, você concorda com estes termos. Se não concordar, não use o app.",
+    "gameHeading": "O jogo",
+    "gameBody": "O Bones & Beasts (veja a página Sobre para saber o que é e como se joga) é oferecido apenas para fins de entretenimento.",
+    "fairPlayHeading": "Jogo limpo",
+    "fairPlayBody": "Em jogos em Grupo, jogue de forma justa — não explore bugs, automatize seus turnos ou perturbe os jogos de outros jogadores. Reservamos o direito de remover jogadores de um jogo ou sala por comportamento perturbador.",
+    "noWarrantyHeading": "Sem garantia",
+    "noWarrantyBody": "O app é fornecido \"como está\", sem garantias de qualquer tipo. Não garantimos que ele será ininterrupto, livre de erros ou disponível a todo momento — especialmente o modo Grupo online, que depende de um servidor de jogo que pode ser atualizado, reiniciado ou colocado offline sem aviso prévio.",
+    "liabilityHeading": "Limitação de responsabilidade",
+    "liabilityBody": "Na máxima extensão permitida por lei, não somos responsáveis por quaisquer danos decorrentes do seu uso, ou incapacidade de uso, do app.",
+    "changesHeading": "Alterações",
+    "changesBody": "Estes termos podem ser atualizados conforme o app muda. Continuar usando o app após uma atualização significa que você aceita os termos revisados."
+  },
+  "settingsNav": {
+    "profile": "Perfil",
+    "appSettings": "Configurações do app",
+    "privacyPolicy": "Política de privacidade",
+    "termsOfService": "Termos de serviço",
+    "about": "Sobre",
+    "settings": "Configurações"
+  },
+  "stats": {
+    "title": "Estatísticas",
+    "gamesPlayed": "Jogos jogados",
+    "yourWins": "Suas vitórias",
+    "setsCompleted": "Conjuntos completados",
+    "avgSetsPerGame": "Méd. conjuntos / jogo",
+    "bestSoloTime": "Melhor tempo individual",
+    "noBestTime": "–",
+    "recentGames": "Jogos recentes",
+    "noGamesYet": "Nenhum jogo ainda — comece um!",
+    "modeSolo": "Individual",
+    "modeGroup": "Grupo ({{count}})",
+    "placeWin": "🏆 {{place}} lugar",
+    "place": "{{place}} lugar"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "O modo Grupo é gratuito por mais {{count}} dia — assine quando quiser para continuar jogando depois.",
+    "trialActiveSubtitle_other": "O modo Grupo é gratuito por mais {{count}} dias — assine quando quiser para continuar jogando depois.",
+    "trialEndedSubtitle": "Seu teste gratuito do modo Grupo terminou. Assine para continuar competindo com outros jogadores online.",
+    "monthly": "Mensal",
+    "yearly": "Anual",
+    "lifetime": "Vitalício",
+    "restorePurchases": "Restaurar compras",
+    "notNow": "Agora não"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Escolha um avatar para o seu perfil"
+  }
+}

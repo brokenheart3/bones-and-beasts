@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "back": "Quay lại",
+    "delete": "Xóa",
+    "reset": "Đặt lại",
+    "you": "Bạn",
+    "explorer": "Nhà thám hiểm",
+    "didNotFinish": "Chưa hoàn thành",
+    "or": "hoặc",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Sư tử",
+    "elephant": "Voi",
+    "monkey": "Khỉ",
+    "tiger": "Hổ",
+    "giraffe": "Hươu cao cổ",
+    "zebra": "Ngựa vằn"
+  },
+  "tabs": {
+    "home": "Trang chủ",
+    "play": "Chơi",
+    "stats": "Thống kê",
+    "settings": "Cài đặt"
+  },
+  "home": {
+    "welcome": "Chào mừng, {{username}}!",
+    "promptReady": "Bạn đã sẵn sàng cược chưa?",
+    "promptWanna": "Chơi không nào?",
+    "soloTitle": "Đơn",
+    "soloBody": "Đổ xúc xắc để tìm lá của bạn, sau đó lật khắp bảng để tìm đủ sáu bản trước khi bộ của con thú khác hoàn thành. Chỉ có bạn, trí nhớ của bạn, và những đầu lâu.",
+    "playSolo": "Chơi Đơn",
+    "groupTitle": "Nhóm",
+    "groupBody": "Kết hợp với 2-4 người chơi và đua nhau hoàn thành bộ của mình trước. Chơi nhóm chỉ có trực tuyến — chúng tôi sẽ ghép bạn với người chơi khác trong phòng chờ trực tiếp.",
+    "trialActive_one": "Dùng thử miễn phí — còn {{count}} ngày",
+    "trialActive_other": "Dùng thử miễn phí — còn {{count}} ngày",
+    "trialEnded": "Đã hết thời gian dùng thử miễn phí — đăng ký để tiếp tục chơi",
+    "findGroup": "Tìm Nhóm"
+  },
+  "endScreen": {
+    "lossTitle": "Bị chôn trong đền thờ!",
+    "winTitle": "Đền thờ đã được dọn sạch!",
+    "totalTime": "⏱ Tổng thời gian chơi: {{time}}",
+    "finalRanking": "Xếp hạng chung cuộc",
+    "setCompletionOrder": "Thứ tự hoàn thành bộ",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Chơi lại"
+  },
+  "bonus": {
+    "small": "một Viên Ngọc Thưởng",
+    "big": "một Tượng Thần Cổ",
+    "found": "Bạn đã tìm thấy {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Đang kết nối...",
+    "aPlayer": "Một người chơi",
+    "huntingFor": "Bạn sẽ đi tìm {{emoji}} {{faceName}}!",
+    "waiting": "Đang chờ",
+    "waitingForMove": "Đang chờ họ đi...",
+    "disconnectedName": "{{name}} (đã rời)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Không thể kết nối đến máy chủ.",
+    "couldntConnect": "Không thể kết nối",
+    "findingGroup": "Đang tìm Nhóm",
+    "you": "(bạn)",
+    "waitingForPlayer": "Đang chờ người chơi...",
+    "cancel": "Hủy"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Email này đã được đăng ký — hãy thử đăng nhập thay vì đăng ký.",
+    "invalidEmail": "Địa chỉ email này có vẻ không hợp lệ.",
+    "missingEmail": "Hãy nhập địa chỉ email của bạn trước.",
+    "weakPassword": "Mật khẩu phải có ít nhất 6 ký tự.",
+    "wrongPassword": "Email hoặc mật khẩu không đúng.",
+    "userNotFound": "Không tìm thấy tài khoản với email này.",
+    "tooManyRequests": "Quá nhiều lần thử — vui lòng đợi một chút rồi thử lại.",
+    "networkError": "Lỗi kết nối mạng — hãy kiểm tra kết nối và thử lại.",
+    "requiresRecentLogin": "Để đảm bảo an toàn, vui lòng đăng xuất rồi đăng nhập lại, sau đó thử lại.",
+    "generic": "Đã có lỗi xảy ra. Vui lòng thử lại."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Không thể tải các lựa chọn đăng ký.",
+    "purchaseFailed": "Mua không thành công. Vui lòng thử lại.",
+    "restoreFailed": "Không thể khôi phục các giao dịch mua.",
+    "notSignedIn": "Vui lòng đăng nhập trước.",
+    "notAvailableOnWeb": "Đăng ký chưa khả dụng trên web — vui lòng dùng ứng dụng iOS hoặc Android.",
+    "checkoutFailed": "Không thể bắt đầu thanh toán."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, hãy đổ xúc xắc để tìm lá của bạn!",
+    "turnHuntFor": "Lượt của {{name}} — tìm {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Lật tiếp!",
+    "completedSet": "🏆 {{name}} đã hoàn thành bộ {{faceName}} — hạng {{place}}!",
+    "skullSolo": "💀 {{name}} trúng đầu lâu! Bị đóng băng một chút...",
+    "skullGroup": "💀 {{name}} trúng đầu lâu! Mất lượt, lượt kế tiếp bị bỏ qua. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} tìm thấy {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} tìm thấy {{label}}, nhưng không còn gì để lộ ra nữa!",
+    "bonusLabelSmall": "một viên ngọc thưởng",
+    "bonusLabelBig": "một tượng thần cổ",
+    "foundFaceLead": "{{name}} đã tìm thấy {{faceName}}",
+    "wrongTileLoss": "💀 Tất cả các ô {{wrongFace}} đã được tìm thấy trước khi bạn hoàn thành bộ {{targetFace}} của mình — bạn đã thua!",
+    "wrongTilePass": "{{name}} đã lật trúng ô sai. {{nextTurn}}",
+    "everyoneFound": "Mọi người đã tìm thấy lá của mình! Trò chơi kết thúc.",
+    "tabletCleared": "Bảng đã được dọn sạch! Trò chơi kết thúc."
+  },
+  "skullPause": {
+    "title": "Đóng băng!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} cái bẫy đã tìm thấy",
+    "gems": "{{found}}/{{total}} viên ngọc đã tìm thấy",
+    "idols": "{{found}}/{{total}} tượng thần đã tìm thấy"
+  },
+  "yourTurn": {
+    "banner": "👉 Lượt của bạn!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} đã hoàn thành bộ của họ (hạng {{place}})! {{status}}",
+    "othersRemaining_one": "Còn {{count}} người chơi đang chơi.",
+    "othersRemaining_other": "Còn {{count}} người chơi đang chơi.",
+    "everyoneDone": "Vậy là xong hết rồi!"
+  },
+  "gameResult": {
+    "wonTitle": "Bạn đã tìm thấy đủ {{count}} lá {{cardName}}!",
+    "lostTitle": "Bạn đã thua!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, hãy đổ xúc xắc để tìm lá của bạn!",
+    "rollingPrompt": "{{playerName}} đang đổ xúc xắc...",
+    "roll": "Đổ xúc xắc",
+    "yourCardIs": "Lá của bạn là {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Không có trò chơi nào đang diễn ra. Hãy bắt đầu một trò chơi từ Trang chủ!"
+  },
+  "appSettings": {
+    "theme": "Giao diện",
+    "themeDark": "Tối",
+    "themeLight": "Sáng",
+    "language": "Ngôn ngữ",
+    "languageSystem": "Theo hệ thống",
+    "data": "Dữ liệu",
+    "dataBody": "Đăng xuất và xóa lịch sử Thống kê của bạn trên thiết bị này. Hành động này không thể hoàn tác.",
+    "signOutReset": "Đăng xuất & đặt lại dữ liệu trên máy",
+    "confirmResetTitle": "Đăng xuất và đặt lại dữ liệu trên máy?",
+    "confirmResetBody": "Việc này sẽ xóa lịch sử Thống kê của bạn trên thiết bị này và đăng xuất bạn. Hành động này không thể hoàn tác.",
+    "reset": "Đặt lại"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Tên hiển thị",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "signOut": "Đăng xuất",
+    "deleteAccount": "Xóa tài khoản",
+    "confirmDeleteTitle": "Xóa tài khoản của bạn?",
+    "confirmDeleteBody": "Hành động này sẽ xóa vĩnh viễn tài khoản của bạn. Không thể hoàn tác.",
+    "delete": "Xóa",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Mật khẩu",
+    "forgotPassword": "Quên mật khẩu?",
+    "resetSent": "Đã gửi email đặt lại mật khẩu — hãy kiểm tra hộp thư của bạn.",
+    "signUp": "Đăng ký",
+    "signIn": "Đăng nhập",
+    "switchToSignIn": "Đã có tài khoản? Đăng nhập",
+    "switchToSignUp": "Cần tài khoản? Đăng ký",
+    "or": "hoặc",
+    "continueWithGoogle": "G  Tiếp tục với Google",
+    "continueWithApple": "􀣺  Tiếp tục với Apple",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Tạo tài khoản để bắt đầu chơi",
+    "onboardingSignInSubtitle": "Đăng nhập để tiếp tục",
+    "proBadge": "✨ Thành viên Pro",
+    "upgradeToPro": "Nâng cấp lên Pro"
+  },
+  "staticInfo": {
+    "lastUpdated": "Cập nhật lần cuối: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts là một trò chơi kết hợp giữa trí nhớ và xúc xắc — đổ xúc xắc để tìm con thú của bạn, sau đó truy tìm nó trên toàn bảng trước khi những đầu lâu (hoặc con thú của người khác) bắt được bạn.",
+    "howToPlayHeading": "Cách chơi",
+    "howToPlayBody": "Chế độ Đơn chỉ có bạn đối đầu với bảng chơi: đổ xúc xắc để nhận một con vật mục tiêu cố định, sau đó lật các ô để thu thập đủ tất cả các bản của nó trước khi bộ của con vật khác được lộ ra hoàn toàn trước. Chế độ Nhóm ghép 2-4 người chơi trực tuyến, đua nhau hoàn thành bộ của riêng mình — với các viên ngọc thưởng và tượng thần trên đường đi, ngay lập tức lộ ra thêm bản sao cho ai tìm thấy chúng.",
+    "builtWithHeading": "Được xây dựng bằng",
+    "builtWithBody": "Expo, React Native và TypeScript ở phía client; Colyseus vận hành chế độ chơi Nhóm trực tuyến theo thời gian thực.",
+    "versionHeading": "Phiên bản",
+    "noteHeading": "Một lưu ý",
+    "noteBody": "Đây là một dự án độc lập, đang được phát triển tích cực — hãy chờ đợi những tính năng mới và các điều chỉnh quy tắc theo thời gian. Cảm ơn bạn đã chơi!"
+  },
+  "privacyPolicy": {
+    "intro": "Chính sách này giải thích thông tin nào Bones & Beasts thu thập và cách sử dụng nó. Không có quảng cáo và không có phân tích hay theo dõi nào ngoài những gì được mô tả dưới đây.",
+    "accountHeading": "Tài khoản của bạn",
+    "accountBody": "Việc tạo tài khoản (email/mật khẩu, Google, hoặc Đăng nhập bằng Apple) là bắt buộc để chơi. Chúng tôi sử dụng Firebase Authentication để quản lý đăng nhập, việc này lưu trữ địa chỉ email và tên hiển thị của bạn (và, đối với Google/Apple, bất kỳ thông tin hồ sơ cơ bản nào mà nhà cung cấp đó chia sẻ với chúng tôi — thường chỉ là tên và email của bạn). Chúng tôi không xem hoặc lưu trữ mật khẩu của bạn đối với các tài khoản email/mật khẩu; Firebase xử lý điều đó trực tiếp. Bạn có thể xóa tài khoản của mình bất cứ lúc nào từ trang Hồ sơ.",
+    "soloHeading": "Chơi Đơn",
+    "soloBody": "Các trò chơi Đơn chạy hoàn toàn trên thiết bị của bạn. Lịch sử trò chơi của bạn trong tab Thống kê (số trận đã chơi, số trận thắng, số bộ đã hoàn thành, thời gian) được lưu trữ cục bộ trên thiết bị và không bao giờ được truyền đến chúng tôi hoặc bất kỳ ai khác, bất kể bạn có đăng nhập hay không.",
+    "groupHeading": "Chơi Nhóm trực tuyến",
+    "groupBody": "Khi bạn tham gia một trận Nhóm, tên hiển thị của bạn và các hành động trong trò chơi của bạn (đổ xúc xắc, lật lá) được gửi đến máy chủ trò chơi của chúng tôi để nó có thể đồng bộ bảng chơi chung cho mọi người trong trận đó. Dữ liệu này chỉ tồn tại trong thời gian của phiên chơi đó — nó không được lưu lại sau đó, không bị bán, và không được chia sẻ với bên thứ ba.",
+    "childrenHeading": "Quyền riêng tư của trẻ em",
+    "childrenBody": "Bones & Beasts không hướng đến trẻ em dưới 13 tuổi, và chúng tôi không cố ý thu thập thông tin từ các em.",
+    "changesHeading": "Thay đổi đối với chính sách này",
+    "changesBody": "Nếu cách ứng dụng xử lý dữ liệu thay đổi — ví dụ, nếu báo cáo lỗi sự cố, thông báo đẩy, hoặc một gói đăng ký trả phí được thêm vào — trang này sẽ được cập nhật để mô tả điều đó.",
+    "questionsHeading": "Câu hỏi",
+    "questionsBody": "Nếu bạn có câu hỏi về chính sách này, vui lòng liên hệ qua nơi bạn đã tải ứng dụng này."
+  },
+  "termsOfService": {
+    "intro": "Khi sử dụng Bones & Beasts, bạn đồng ý với các điều khoản này. Nếu bạn không đồng ý, vui lòng không sử dụng ứng dụng.",
+    "gameHeading": "Trò chơi",
+    "gameBody": "Bones & Beasts (xem trang Giới thiệu để biết đó là gì và cách chơi) chỉ được cung cấp cho mục đích giải trí.",
+    "fairPlayHeading": "Chơi công bằng",
+    "fairPlayBody": "Trong các trận Nhóm, vui lòng chơi công bằng — không lợi dụng lỗi, không tự động hóa lượt chơi của bạn, hoặc gây rối trò chơi của người khác. Chúng tôi có quyền loại người chơi khỏi một trận hoặc phòng chờ vì hành vi gây rối.",
+    "noWarrantyHeading": "Không bảo hành",
+    "noWarrantyBody": "Ứng dụng được cung cấp \"nguyên trạng\", không có bảo hành dưới bất kỳ hình thức nào. Chúng tôi không đảm bảo nó sẽ hoạt động liên tục, không có lỗi, hoặc luôn khả dụng — đặc biệt là chế độ Nhóm trực tuyến, vốn phụ thuộc vào một máy chủ trò chơi có thể được cập nhật, khởi động lại, hoặc ngừng hoạt động mà không cần báo trước.",
+    "liabilityHeading": "Giới hạn trách nhiệm",
+    "liabilityBody": "Trong phạm vi tối đa được pháp luật cho phép, chúng tôi không chịu trách nhiệm về bất kỳ thiệt hại nào phát sinh từ việc bạn sử dụng, hoặc không thể sử dụng, ứng dụng.",
+    "changesHeading": "Thay đổi",
+    "changesBody": "Các điều khoản này có thể được cập nhật khi ứng dụng thay đổi. Việc tiếp tục sử dụng ứng dụng sau khi cập nhật có nghĩa là bạn chấp nhận các điều khoản đã sửa đổi."
+  },
+  "settingsNav": {
+    "profile": "Hồ sơ",
+    "appSettings": "Cài đặt ứng dụng",
+    "privacyPolicy": "Chính sách quyền riêng tư",
+    "termsOfService": "Điều khoản dịch vụ",
+    "about": "Giới thiệu",
+    "settings": "Cài đặt"
+  },
+  "stats": {
+    "title": "Thống kê",
+    "gamesPlayed": "Số trận đã chơi",
+    "yourWins": "Số trận thắng của bạn",
+    "setsCompleted": "Số bộ đã hoàn thành",
+    "avgSetsPerGame": "Số bộ TB / trận",
+    "bestSoloTime": "Thời gian Đơn tốt nhất",
+    "noBestTime": "–",
+    "recentGames": "Các trận gần đây",
+    "noGamesYet": "Chưa có trận nào được chơi — hãy bắt đầu một trận!",
+    "modeSolo": "Đơn",
+    "modeGroup": "Nhóm ({{count}})",
+    "placeWin": "🏆 Hạng {{place}}",
+    "place": "Hạng {{place}}"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "Chơi Nhóm miễn phí cho {{count}} ngày tiếp theo — hãy đăng ký bất cứ lúc nào để tiếp tục chơi sau đó.",
+    "trialActiveSubtitle_other": "Chơi Nhóm miễn phí cho {{count}} ngày tiếp theo — hãy đăng ký bất cứ lúc nào để tiếp tục chơi sau đó.",
+    "trialEndedSubtitle": "Thời gian dùng thử miễn phí chơi Nhóm của bạn đã kết thúc. Đăng ký để tiếp tục đua cùng người chơi khác trực tuyến.",
+    "monthly": "Hàng tháng",
+    "yearly": "Hàng năm",
+    "lifetime": "Vĩnh viễn",
+    "restorePurchases": "Khôi phục giao dịch mua",
+    "notNow": "Chưa phải lúc này"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Chọn một avatar cho hồ sơ của bạn"
+  }
+}

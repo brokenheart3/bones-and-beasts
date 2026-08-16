@@ -13,7 +13,9 @@
     "@colyseus/ws-transport": "^0.16.5",
     "colyseus": "^0.16.5",
     "cors": "^2.8.5",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "firebase-admin": "^14.2.0",
+    "stripe": "^22.4.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",

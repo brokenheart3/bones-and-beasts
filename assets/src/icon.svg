@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <g id="bab-art">
+      <!-- Mirrored first B, flipped horizontally around x=242 -->
+      <g transform="translate(484,0) scale(-1,1)">
+        <text x="242" y="650" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="380" fill="#C9A227" text-anchor="middle">B</text>
+      </g>
+      <text x="512" y="650" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="380" fill="#E9DCC0" text-anchor="middle">A</text>
+      <text x="782" y="650" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="380" fill="#C9A227" text-anchor="middle">B</text>
+    </g>
+  </defs>
+  <rect width="1024" height="1024" fill="#16241F"/>
+  <use href="#bab-art"/>
+</svg>

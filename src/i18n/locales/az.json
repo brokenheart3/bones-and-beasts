@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "Ləğv et",
+    "save": "Yadda saxla",
+    "back": "Geri",
+    "delete": "Sil",
+    "reset": "Sıfırla",
+    "you": "Siz",
+    "explorer": "Kəşfiyyatçı",
+    "didNotFinish": "Tamamlamadı",
+    "or": "və ya",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Aslan",
+    "elephant": "Fil",
+    "monkey": "Meymun",
+    "tiger": "Pələng",
+    "giraffe": "Zürafə",
+    "zebra": "Zebra"
+  },
+  "tabs": {
+    "home": "Ana səhifə",
+    "play": "Oyna",
+    "stats": "Statistika",
+    "settings": "Ayarlar"
+  },
+  "home": {
+    "welcome": "Xoş gəldiniz, {{username}}!",
+    "promptReady": "Mərc etməyə hazırsınız?",
+    "promptWanna": "Oynamaq istəyirsiniz?",
+    "soloTitle": "Tək",
+    "soloBody": "Kartınızı tapmaq üçün zər atın, sonra başqa heyvanın dəsti tamamlanmadan bütün altı nüsxəni tapmaq üçün lövhəni araşdırın. Yalnız siz, yaddaşınız və kəllələr.",
+    "playSolo": "Tək oyna",
+    "groupTitle": "Qrup",
+    "groupBody": "2-4 oyunçu ilə birləşin və öz dəstinizi birinci tamamlamaq üçün yarışın. Qrup oyunu yalnız onlayndır — sizi canlı lobbidə digər oyunçularla uyğunlaşdıracağıq.",
+    "trialActive_one": "Pulsuz sınaq — {{count}} gün qaldı",
+    "trialActive_other": "Pulsuz sınaq — {{count}} gün qaldı",
+    "trialEnded": "Pulsuz sınaq bitdi — oynamağa davam etmək üçün abunə olun",
+    "findGroup": "Qrup tap"
+  },
+  "endScreen": {
+    "lossTitle": "Məbəddə basdırıldınız!",
+    "winTitle": "Məbəd təmizləndi!",
+    "totalTime": "⏱ Ümumi oyun vaxtı: {{time}}",
+    "finalRanking": "Yekun sıralama",
+    "setCompletionOrder": "Dəst tamamlama ardıcıllığı",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Yenidən oyna"
+  },
+  "bonus": {
+    "small": "Bonus Ləl",
+    "big": "Qədim Büt",
+    "found": "{{label}} tapdınız!"
+  },
+  "gameOnline": {
+    "connecting": "Qoşulur...",
+    "aPlayer": "Bir oyunçu",
+    "huntingFor": "Siz {{emoji}} {{faceName}} axtaracaqsınız!",
+    "waiting": "Gözləyir",
+    "waitingForMove": "Onların hərəkətini gözləyir...",
+    "disconnectedName": "{{name}} (ayrıldı)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Serverə qoşulmaq mümkün olmadı.",
+    "couldntConnect": "Qoşulmaq alınmadı",
+    "findingGroup": "Qrup tapılır",
+    "you": "(siz)",
+    "waitingForPlayer": "Oyunçu gözlənilir...",
+    "cancel": "Ləğv et"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Bu e-poçt artıq qeydiyyatdan keçib — bunun əvəzinə daxil olmağı sınayın.",
+    "invalidEmail": "Bu düzgün e-poçt ünvanına oxşamır.",
+    "missingEmail": "Əvvəlcə e-poçt ünvanınızı daxil edin.",
+    "weakPassword": "Şifrə ən azı 6 simvoldan ibarət olmalıdır.",
+    "wrongPassword": "Yanlış e-poçt və ya şifrə.",
+    "userNotFound": "Bu e-poçtla qeydiyyatdan keçmiş hesab tapılmadı.",
+    "tooManyRequests": "Çox sayda cəhd — zəhmət olmasa bir az gözləyin və yenidən cəhd edin.",
+    "networkError": "Şəbəkə xətası — bağlantınızı yoxlayın və yenidən cəhd edin.",
+    "requiresRecentLogin": "Təhlükəsizliyiniz üçün, zəhmət olmasa çıxış edib yenidən daxil olun, sonra yenidən cəhd edin.",
+    "generic": "Nəsə səhv getdi. Zəhmət olmasa yenidən cəhd edin."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Abunəlik seçimləri yüklənə bilmədi.",
+    "purchaseFailed": "Alış uğursuz oldu. Zəhmət olmasa yenidən cəhd edin.",
+    "restoreFailed": "Alışlar bərpa edilə bilmədi.",
+    "notSignedIn": "Zəhmət olmasa əvvəlcə daxil olun.",
+    "notAvailableOnWeb": "Abunəliklər hələ veb versiyada mövcud deyil — zəhmət olmasa iOS və ya Android tətbiqini istifadə edin.",
+    "checkoutFailed": "Ödəniş başladıla bilmədi."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, kartınızı tapmaq üçün zər atın!",
+    "turnHuntFor": "{{name}} növbəsi — {{faceName}} {{emoji}} axtarın!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Yenidən çevirin!",
+    "completedSet": "🏆 {{name}} {{faceName}} dəstini tamamladı — {{place}} yer!",
+    "skullSolo": "💀 {{name}} kəlləyə düşdü! Bir müddət donub qaldı...",
+    "skullGroup": "💀 {{name}} kəlləyə düşdü! Növbə itirildi, növbəti növbə keçildi. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} {{label}} tapdı — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} {{label}} tapdı, amma açmaq üçün heç nə qalmamışdı!",
+    "bonusLabelSmall": "bonus ləl",
+    "bonusLabelBig": "qədim büt",
+    "foundFaceLead": "{{name}} {{faceName}} tapdı",
+    "wrongTileLoss": "💀 Siz öz {{targetFace}} dəstinizi tamamlamazdan əvvəl bütün {{wrongFace}} kartları tapıldı — uduzdunuz!",
+    "wrongTilePass": "{{name}} səhv kartı açdı. {{nextTurn}}",
+    "everyoneFound": "Hamı öz kartını tapdı! Oyun bitdi.",
+    "tabletCleared": "Lövhə təmizləndi! Oyun bitdi."
+  },
+  "skullPause": {
+    "title": "Dondu!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} tələ tapıldı",
+    "gems": "{{found}}/{{total}} ləl tapıldı",
+    "idols": "{{found}}/{{total}} büt tapıldı"
+  },
+  "yourTurn": {
+    "banner": "👉 Sizin növbəniz!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} dəstini tamamladı ({{place}} yer)! {{status}}",
+    "othersRemaining_one": "{{count}} oyunçu hələ oynayır.",
+    "othersRemaining_other": "{{count}} oyunçu hələ oynayır.",
+    "everyoneDone": "Hamısı bu qədər!"
+  },
+  "gameResult": {
+    "wonTitle": "Bütün {{count}} {{cardName}} kartını tapdınız!",
+    "lostTitle": "Uduzdunuz!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, kartınızı tapmaq üçün zər atın!",
+    "rollingPrompt": "{{playerName}}, zər atılır...",
+    "roll": "Zər at",
+    "yourCardIs": "Kartınız {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Davam edən oyun yoxdur. Ana səhifədən başlayın!"
+  },
+  "appSettings": {
+    "theme": "Tema",
+    "themeDark": "Qaranlıq",
+    "themeLight": "Açıq",
+    "language": "Dil",
+    "languageSystem": "Sistem",
+    "data": "Məlumat",
+    "dataBody": "Sizi çıxış etdirir və bu cihazdakı Statistika tarixçənizi silir. Bu geri qaytarıla bilməz.",
+    "signOutReset": "Çıxış et və yerli məlumatları sıfırla",
+    "confirmResetTitle": "Çıxış edilsin və yerli məlumatlar sıfırlansın?",
+    "confirmResetBody": "Bu, bu cihazdakı Statistika tarixçənizi silir və sizi çıxış etdirir. Bu geri qaytarıla bilməz.",
+    "reset": "Sıfırla"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Görünən ad",
+    "save": "Yadda saxla",
+    "cancel": "Ləğv et",
+    "signOut": "Çıxış",
+    "deleteAccount": "Hesabı sil",
+    "confirmDeleteTitle": "Hesabınızı silmək istəyirsiniz?",
+    "confirmDeleteBody": "Bu, hesabınızı həmişəlik siləcək. Bu geri qaytarıla bilməz.",
+    "delete": "Sil",
+    "emailPlaceholder": "E-poçt",
+    "passwordPlaceholder": "Şifrə",
+    "forgotPassword": "Şifrəni unutmusunuz?",
+    "resetSent": "Şifrə sıfırlama e-poçtu göndərildi — poçt qutunuzu yoxlayın.",
+    "signUp": "Qeydiyyatdan keç",
+    "signIn": "Daxil ol",
+    "switchToSignIn": "Artıq hesabınız var? Daxil olun",
+    "switchToSignUp": "Hesab lazımdır? Qeydiyyatdan keçin",
+    "or": "və ya",
+    "continueWithGoogle": "G  Google ilə davam et",
+    "continueWithApple": "􀣺  Apple ilə davam et",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Oynamağa başlamaq üçün hesab yaradın",
+    "onboardingSignInSubtitle": "Davam etmək üçün daxil olun",
+    "proBadge": "✨ Pro Üzv",
+    "upgradeToPro": "Pro-ya yüksəlt"
+  },
+  "staticInfo": {
+    "lastUpdated": "Son yenilənmə: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts yaddaş/zər hibrid oyunudur — heyvanınızı tapmaq üçün zər atın, sonra kəllələr (və ya başqasının heyvanı) sizi tutmadan onu lövhədə axtarın.",
+    "howToPlayHeading": "Necə oynamalı",
+    "howToPlayBody": "Tək rejimi sadəcə sizin lövhəyə qarşı olmağınızdır: sabit hədəf heyvan üçün zər atın, sonra başqa bir heyvanın dəsti tam açılmadan bütün nüsxələrini toplamaq üçün kartları çevirin. Qrup rejimi 2-4 oyunçunu onlayn birləşdirir, öz dəstlərini tamamlamaq üçün yarışır — yol boyunca tapan kəsə əlavə nüsxələri dərhal açan bonus ləllər və bütlərlə birlikdə.",
+    "builtWithHeading": "Nə ilə hazırlanıb",
+    "builtWithBody": "Müştəri tərəfində Expo, React Native və TypeScript; Colyseus real vaxtlı onlayn Qrup oyununu işə salır.",
+    "versionHeading": "Versiya",
+    "noteHeading": "Qeyd",
+    "noteBody": "Bu, müstəqil, aktiv şəkildə inkişaf etdirilən bir layihədir — zamanla yeni funksiyalar və qayda dəyişiklikləri gözləyin. Oynadığınız üçün təşəkkürlər!"
+  },
+  "privacyPolicy": {
+    "intro": "Bu siyasət Bones & Beasts-in hansı məlumatları topladığını və necə istifadə etdiyini izah edir. Heç bir reklam və aşağıda təsvir olunandan başqa heç bir analitika və ya izləmə yoxdur.",
+    "accountHeading": "Hesabınız",
+    "accountBody": "Oynamaq üçün hesab yaratmaq (e-poçt/şifrə, Google, və ya Apple ilə daxil olma) tələb olunur. Girişi idarə etmək üçün Firebase Authentication istifadə edirik, bu da e-poçt ünvanınızı və görünən adınızı saxlayır (Google/Apple üçün isə həmin təchizatçının bizimlə paylaşdığı əsas profil məlumatlarını — adətən sadəcə adınız və e-poçtunuz). E-poçt/şifrə hesabları üçün şifrənizi özünü görmürük və ya saxlamırıq; Firebase bunu birbaşa idarə edir. Hesabınızı istənilən vaxt Profil səhifəsindən silə bilərsiniz.",
+    "soloHeading": "Tək oyun",
+    "soloBody": "Tək oyunlar tamamilə cihazınızda işləyir. Statistika bölməsindəki oyun tarixçəniz (oynanan oyunlar, qələbələr, tamamlanan dəstlər, vaxtlar) cihazda yerli olaraq saxlanılır və daxil olub-olmamağınızdan asılı olmayaraq bizə və ya heç kimə ötürülmür.",
+    "groupHeading": "Onlayn Qrup oyunu",
+    "groupBody": "Qrup oyununa qoşulduqda, görünən adınız və oyun daxilindəki hərəkətləriniz (zər atmaları, kart çevirmələri) həmin oyundaki hər kəs üçün paylaşılan lövhəni sinxronlaşdırmaq üçün oyun serverimizə göndərilir. Bu məlumat yalnız o oyun sessiyasının müddəti üçün mövcuddur — sonradan saxlanılmır, satılmır və ya üçüncü tərəflərlə paylaşılmır.",
+    "childrenHeading": "Uşaqların məxfiliyi",
+    "childrenBody": "Bones & Beasts 13 yaşından kiçik uşaqlar üçün nəzərdə tutulmayıb və biz onlardan bilərəkdən məlumat toplamırıq.",
+    "changesHeading": "Bu siyasətdə dəyişikliklər",
+    "changesBody": "Tətbiqin məlumatları necə idarə etdiyi dəyişərsə — məsələn, qəza hesabatı, push bildirişləri, və ya ödənişli abunəlik əlavə olunarsa — bu səhifə bunu təsvir etmək üçün yenilənəcək.",
+    "questionsHeading": "Suallar",
+    "questionsBody": "Bu siyasət haqqında sualınız varsa, zəhmət olmasa bu tətbiqi yüklədiyiniz yer vasitəsilə bizimlə əlaqə saxlayın."
+  },
+  "termsOfService": {
+    "intro": "Bones & Beasts-dən istifadə edərək, bu şərtlərlə razılaşırsınız. Razı deyilsinizsə, zəhmət olmasa tətbiqi istifadə etməyin.",
+    "gameHeading": "Oyun",
+    "gameBody": "Bones & Beasts (nə olduğunu və necə oynandığını bilmək üçün Haqqında səhifəsinə baxın) yalnız əyləncə məqsədi ilə təklif olunur.",
+    "fairPlayHeading": "Ədalətli oyun",
+    "fairPlayBody": "Qrup oyunlarında, zəhmət olmasa ədalətli oynayın — heç bir səhvdən istifadə etməyin, növbələrinizi avtomatlaşdırmayın, və ya digər oyunçuların oyunlarını pozmayın. Pozucu davranışa görə oyunçuları oyundan və ya lobbidən çıxarmaq hüququmuzu qoruyuruq.",
+    "noWarrantyHeading": "Zəmanət yoxdur",
+    "noWarrantyBody": "Tətbiq \"olduğu kimi\" təqdim olunur, heç bir növ zəmanət olmadan. Fasiləsiz, xətasız, və ya hər zaman mövcud olacağına zəmanət vermirik — xüsusilə xəbərdarlıq etmədən yenilənə, yenidən başladıla, və ya oflayn edilə bilən oyun serverindən asılı olan onlayn Qrup rejimi.",
+    "liabilityHeading": "Məsuliyyət məhdudiyyəti",
+    "liabilityBody": "Qanunla icazə verilən ən yüksək dərəcədə, tətbiqi istifadə etməyinizdən və ya edə bilməməyinizdən yaranan hər hansı zərərə görə məsuliyyət daşımırıq.",
+    "changesHeading": "Dəyişikliklər",
+    "changesBody": "Bu şərtlər tətbiq dəyişdikcə yenilənə bilər. Yeniləmədən sonra tətbiqi istifadə etməyə davam etmək yenilənmiş şərtləri qəbul etdiyiniz anlamına gəlir."
+  },
+  "settingsNav": {
+    "profile": "Profil",
+    "appSettings": "Tətbiq ayarları",
+    "privacyPolicy": "Məxfilik siyasəti",
+    "termsOfService": "Xidmət şərtləri",
+    "about": "Haqqında",
+    "settings": "Ayarlar"
+  },
+  "stats": {
+    "title": "Statistika",
+    "gamesPlayed": "Oynanan oyunlar",
+    "yourWins": "Qələbələriniz",
+    "setsCompleted": "Tamamlanan dəstlər",
+    "avgSetsPerGame": "Orta dəst / oyun",
+    "bestSoloTime": "Ən yaxşı tək vaxtı",
+    "noBestTime": "–",
+    "recentGames": "Son oyunlar",
+    "noGamesYet": "Hələ heç bir oyun oynanılmayıb — bir oyun başladın!",
+    "modeSolo": "Tək",
+    "modeGroup": "Qrup ({{count}})",
+    "placeWin": "🏆 {{place}} yer",
+    "place": "{{place}} yer"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "Qrup oyunu ilk {{count}} əlavə gün üçün pulsuzdur — sonra oynamağa davam etmək üçün istənilən vaxt abunə olun.",
+    "trialActiveSubtitle_other": "Qrup oyunu ilk {{count}} əlavə gün üçün pulsuzdur — sonra oynamağa davam etmək üçün istənilən vaxt abunə olun.",
+    "trialEndedSubtitle": "Qrup oyununun pulsuz sınaq müddəti bitdi. Digər oyunçularla onlayn yarışmağa davam etmək üçün abunə olun.",
+    "monthly": "Aylıq",
+    "yearly": "İllik",
+    "lifetime": "Ömürlük",
+    "restorePurchases": "Alışları bərpa et",
+    "notNow": "İndi yox"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Profiliniz üçün avatar seçin"
+  }
+}

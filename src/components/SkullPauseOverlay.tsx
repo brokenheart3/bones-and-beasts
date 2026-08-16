@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
+import { useTranslation } from "react-i18next";
 import { SKULL_EMOJI } from "../types";
 
 interface Props {
@@ -8,6 +9,7 @@ interface Props {
 }
 
 export default function SkullPauseOverlay({ seconds, onDone }: Props) {
+  const { t } = useTranslation();
   const [remaining, setRemaining] = useState(seconds);
 
   useEffect(() => {
@@ -28,7 +30,7 @@ export default function SkullPauseOverlay({ seconds, onDone }: Props) {
   return (
     <View style={styles.overlay}>
       <Text style={styles.skull}>{SKULL_EMOJI}</Text>
-      <Text style={styles.title}>Frozen!</Text>
+      <Text style={styles.title}>{t("skullPause.title")}</Text>
       <Text style={styles.count}>{Math.max(remaining, 0)}</Text>
     </View>
   );

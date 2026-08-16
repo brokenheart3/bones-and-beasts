@@ -1,37 +1,65 @@
 import React, { useState } from "react";
-import { Pressable, SafeAreaView, ScrollView, StyleSheet, Text, View } from "react-native";
+import { FlatList, Modal, Pressable, SafeAreaView, ScrollView, StyleSheet, Text, View } from "react-native";
+import { useTranslation } from "react-i18next";
 import { Theme, useTheme } from "../../theme";
-import { useSettingsStore, ThemeMode } from "../../store/useSettingsStore";
+import { useSettingsStore, ThemeMode, LanguageSetting } from "../../store/useSettingsStore";
 import { useStatsStore } from "../../store/useStatsStore";
 import { useProfileStore } from "../../store/useProfileStore";
+import { useAuthStore } from "../../store/useAuthStore";
+import { SUPPORTED_LANGUAGES } from "../../i18n";
 
-const THEME_OPTIONS: { mode: ThemeMode; label: string; emoji: string }[] = [
-  { mode: "dark", label: "Dark", emoji: "🌙" },
-  { mode: "light", label: "Light", emoji: "☀️" },
-];
+type LanguageOption = { code: LanguageSetting; label: string };
 
 export default function AppSettingsScreen() {
   const theme = useTheme();
   const styles = getStyles(theme);
+  const { t } = useTranslation();
+  const THEME_OPTIONS: { mode: ThemeMode; label: string; emoji: string }[] = [
+    { mode: "dark", label: t("appSettings.themeDark"), emoji: "🌙" },
+    { mode: "light", label: t("appSettings.themeLight"), emoji: "☀️" },
+  ];
   const themeMode = useSettingsStore((s) => s.themeMode);
   const setThemeMode = useSettingsStore((s) => s.setThemeMode);
+  const language = useSettingsStore((s) => s.language);
+  const setLanguage = useSettingsStore((s) => s.setLanguage);
   const clearHistory = useStatsStore((s) => s.clearHistory);
   const resetProfile = useProfileStore((s) => s.resetProfile);
+  const signOut = useAuthStore((s) => s.signOut);
+
+  const LANGUAGE_OPTIONS: LanguageOption[] = [
+    { code: "system", label: t("appSettings.languageSystem") },
+    ...SUPPORTED_LANGUAGES.map((l) => ({ code: l.code as LanguageSetting, label: l.label })),
+  ];
+  const currentLanguageLabel =
+    LANGUAGE_OPTIONS.find((opt) => opt.code === language)?.label ?? t("appSettings.languageSystem");
 
   const [confirmingReset, setConfirmingReset] = useState(false);
+  const [languagePickerOpen, setLanguagePickerOpen] = useState(false);
+  const [pendingLanguage, setPendingLanguage] = useState<LanguageSetting>(language);
 
-  const confirmReset = () => {
+  const openLanguagePicker = () => {
+    setPendingLanguage(language);
+    setLanguagePickerOpen(true);
+  };
+
+  const saveLanguage = () => {
+    setLanguage(pendingLanguage);
+    setLanguagePickerOpen(false);
+  };
+
+  const confirmReset = async () => {
     clearHistory();
     resetProfile();
     setConfirmingReset(false);
-    // resetProfile clears the username, which App.tsx's `!username` check
-    // reads to send the player straight back to onboarding.
+    // Signing out is what actually sends the player back to the sign-in
+    // screen — App.tsx gates on auth state, not the local username.
+    await signOut();
   };
 
   return (
     <SafeAreaView style={styles.wrap}>
       <ScrollView contentContainerStyle={styles.content}>
-        <Text style={styles.sectionLabel}>Theme</Text>
+        <Text style={styles.sectionLabel}>{t("appSettings.theme")}</Text>
         <View style={styles.themeRow}>
           {THEME_OPTIONS.map((opt) => (
             <Pressable
@@ -52,14 +80,19 @@ export default function AppSettingsScreen() {
           ))}
         </View>
 
-        <Text style={styles.sectionLabel}>Data</Text>
+        <Text style={styles.sectionLabel}>{t("appSettings.language")}</Text>
         <View style={styles.section}>
-          <Text style={styles.sectionText}>
-            Clears your Stats history and username from this device, and sends you back
-            through onboarding. This can't be undone.
-          </Text>
+          <Pressable style={styles.languagePickerRow} onPress={openLanguagePicker}>
+            <Text style={styles.languageLabel}>{currentLanguageLabel}</Text>
+            <Text style={styles.languageChevron}>›</Text>
+          </Pressable>
+        </View>
+
+        <Text style={styles.sectionLabel}>{t("appSettings.data")}</Text>
+        <View style={styles.section}>
+          <Text style={styles.sectionText}>{t("appSettings.dataBody")}</Text>
           <Pressable style={styles.dangerBtn} onPress={() => setConfirmingReset(true)}>
-            <Text style={styles.dangerBtnText}>Reset local data</Text>
+            <Text style={styles.dangerBtnText}>{t("appSettings.signOutReset")}</Text>
           </Pressable>
         </View>
       </ScrollView>
@@ -67,28 +100,66 @@ export default function AppSettingsScreen() {
       {confirmingReset && (
         <View style={styles.confirmOverlay}>
           <View style={styles.confirmCard}>
-            <Text style={styles.confirmTitle}>Reset local data?</Text>
-            <Text style={styles.confirmBody}>
-              This clears your Stats history and username on this device. You'll be asked
-              for a new name next. This can't be undone.
-            </Text>
+            <Text style={styles.confirmTitle}>{t("appSettings.confirmResetTitle")}</Text>
+            <Text style={styles.confirmBody}>{t("appSettings.confirmResetBody")}</Text>
             <View style={styles.confirmRow}>
               <Pressable
                 style={[styles.confirmBtn, styles.confirmCancel]}
                 onPress={() => setConfirmingReset(false)}
               >
-                <Text style={styles.confirmCancelText}>Cancel</Text>
+                <Text style={styles.confirmCancelText}>{t("common.cancel")}</Text>
               </Pressable>
               <Pressable
                 style={[styles.confirmBtn, styles.confirmDanger]}
                 onPress={confirmReset}
               >
-                <Text style={styles.confirmDangerText}>Reset</Text>
+                <Text style={styles.confirmDangerText}>{t("appSettings.reset")}</Text>
               </Pressable>
             </View>
           </View>
         </View>
       )}
+
+      <Modal
+        visible={languagePickerOpen}
+        animationType="slide"
+        transparent
+        onRequestClose={() => setLanguagePickerOpen(false)}
+      >
+        <View style={styles.pickerOverlay}>
+          <View style={styles.pickerCard}>
+            <Text style={styles.pickerTitle}>{t("appSettings.language")}</Text>
+            <FlatList
+              style={styles.pickerList}
+              data={LANGUAGE_OPTIONS}
+              keyExtractor={(opt) => opt.code}
+              renderItem={({ item }) => {
+                const selected = pendingLanguage === item.code;
+                return (
+                  <Pressable
+                    style={styles.pickerRow}
+                    onPress={() => setPendingLanguage(item.code)}
+                  >
+                    <Text style={styles.languageLabel}>{item.label}</Text>
+                    {selected && <Text style={styles.languageCheck}>✓</Text>}
+                  </Pressable>
+                );
+              }}
+            />
+            <View style={styles.confirmRow}>
+              <Pressable
+                style={[styles.confirmBtn, styles.confirmCancel]}
+                onPress={() => setLanguagePickerOpen(false)}
+              >
+                <Text style={styles.confirmCancelText}>{t("common.cancel")}</Text>
+              </Pressable>
+              <Pressable style={[styles.confirmBtn, styles.saveBtn]} onPress={saveLanguage}>
+                <Text style={styles.saveBtnText}>{t("common.save")}</Text>
+              </Pressable>
+            </View>
+          </View>
+        </View>
+      </Modal>
     </SafeAreaView>
   );
 }
@@ -151,6 +222,26 @@ function getStyles(theme: Theme) {
       backgroundColor: theme.colors.surface,
       borderRadius: theme.radius.md,
       padding: 16,
+    },
+    languagePickerRow: {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "space-between",
+      paddingVertical: 4,
+    },
+    languageChevron: {
+      color: theme.colors.textMuted,
+      fontSize: 20,
+    },
+    languageLabel: {
+      color: theme.colors.textLight,
+      fontSize: 14,
+      fontWeight: "600",
+    },
+    languageCheck: {
+      color: theme.colors.gold,
+      fontSize: 16,
+      fontWeight: "700",
     },
     sectionText: {
       color: theme.colors.textMuted,
@@ -221,6 +312,46 @@ function getStyles(theme: Theme) {
       color: theme.colors.textOnAccent,
       fontWeight: "700",
       fontSize: 13,
+    },
+    saveBtn: {
+      backgroundColor: theme.colors.gold,
+    },
+    saveBtnText: {
+      color: theme.colors.textOnAccent,
+      fontWeight: "700",
+      fontSize: 13,
+    },
+    pickerOverlay: {
+      flex: 1,
+      backgroundColor: "rgba(0, 0, 0, 0.55)",
+      justifyContent: "flex-end",
+    },
+    pickerCard: {
+      width: "100%",
+      maxHeight: "75%",
+      backgroundColor: theme.colors.surface,
+      borderTopLeftRadius: theme.radius.md,
+      borderTopRightRadius: theme.radius.md,
+      padding: 20,
+      alignSelf: "center",
+      maxWidth: 520,
+    },
+    pickerTitle: {
+      color: theme.colors.textLight,
+      fontSize: 17,
+      fontWeight: "800",
+      marginBottom: 10,
+    },
+    pickerList: {
+      marginBottom: 14,
+    },
+    pickerRow: {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "space-between",
+      paddingVertical: 12,
+      borderBottomWidth: 1,
+      borderBottomColor: theme.colors.surfaceAlt,
     },
   });
 }

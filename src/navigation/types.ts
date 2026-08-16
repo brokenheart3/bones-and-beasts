@@ -4,6 +4,7 @@ import { Room } from "colyseus.js";
 export type SettingsStackParamList = {
   SettingsHome: undefined;
   Profile: undefined;
+  Avatar: undefined;
   AppSettings: undefined;
   PrivacyPolicy: undefined;
   TermsOfService: undefined;
@@ -14,6 +15,7 @@ export type PlayStackParamList = {
   PlayHome: undefined;
   Lobby: { playerName: string };
   OnlineGame: { room: Room };
+  Paywall: undefined;
 };
 
 export type MainTabParamList = {

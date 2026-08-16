@@ -6,6 +6,10 @@ web-build/
 .env
 .DS_Store
 .claude/
+*firebase-adminsdk*.json
+*service-account*.json
+.eas-secrets/
+.firebase/
 
 server/node_modules/
 server/build/

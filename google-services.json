@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "835619649376",
+    "project_id": "bones-and-beasts",
+    "storage_bucket": "bones-and-beasts.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835619649376:android:fdc9a5062c379e58f21005",
+        "android_client_info": {
+          "package_name": "com.ckayssar1.bonesandbeasts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835619649376-2blimf6jjpqit1vrqa836atcgrlv4cuj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ckayssar1.bonesandbeasts",
+            "certificate_hash": "f18cf523e0e3eb6b68ec23ad0ed6f5f103ff0e3b"
+          }
+        },
+        {
+          "client_id": "835619649376-pd1cqd7h56o099narrctsctuf9gqqp7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ckayssar1.bonesandbeasts",
+            "certificate_hash": "00b730131a5a52632b29a4108cbf520169651299"
+          }
+        },
+        {
+          "client_id": "835619649376-5ha6efd1a7is1228hcqefeqc50hpoicu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCD1en1VqMJbogeL_xpxQ_K1FQAH2y_so"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835619649376-5ha6efd1a7is1228hcqefeqc50hpoicu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "835619649376-fb95l9a866m1rsgj6nit87bmtif3q693.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ckayssar1.bonesandbeasts"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

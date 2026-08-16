@@ -1,0 +1,260 @@
+{
+  "common": {
+    "cancel": "Anulează",
+    "save": "Salvează",
+    "back": "Înapoi",
+    "delete": "Șterge",
+    "reset": "Resetează",
+    "you": "Tu",
+    "explorer": "Explorator",
+    "didNotFinish": "Nu a terminat",
+    "or": "sau",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Leu",
+    "elephant": "Elefant",
+    "monkey": "Maimuță",
+    "tiger": "Tigru",
+    "giraffe": "Girafă",
+    "zebra": "Zebră"
+  },
+  "tabs": {
+    "home": "Acasă",
+    "play": "Joc",
+    "stats": "Statistici",
+    "settings": "Setări"
+  },
+  "home": {
+    "welcome": "Bine ai venit, {{username}}!",
+    "promptReady": "Ești pregătit să pariezi?",
+    "promptWanna": "Vrei să joci?",
+    "soloTitle": "Solo",
+    "soloBody": "Aruncă zarul pentru a-ți găsi cartea, apoi vânează pe tăbliță toate cele șase copii înainte ca setul altei fiare să fie completat primul. Doar tu, memoria ta și craniile.",
+    "playSolo": "Joacă Solo",
+    "groupTitle": "Grup",
+    "groupBody": "Formează echipă cu 2-4 jucători și luptați-vă să vă completați primii propriul set. Jocul în Grup este doar online — te vom asocia cu alți jucători într-o sală de așteptare live.",
+    "trialActive_one": "Perioadă de probă gratuită — a mai rămas {{count}} zi",
+    "trialActive_few": "Perioadă de probă gratuită — au mai rămas {{count}} zile",
+    "trialActive_other": "Perioadă de probă gratuită — au mai rămas {{count}} de zile",
+    "trialEnded": "Perioada de probă gratuită a expirat — abonează-te pentru a continua să joci",
+    "findGroup": "Găsește un Grup"
+  },
+  "endScreen": {
+    "lossTitle": "Îngropat în Templu!",
+    "winTitle": "Templu Eliberat!",
+    "totalTime": "⏱ Timp total de joc: {{time}}",
+    "finalRanking": "Clasament final",
+    "setCompletionOrder": "Ordinea de completare a seturilor",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Joacă Din Nou"
+  },
+  "bonus": {
+    "small": "o Gemă Bonus",
+    "big": "un Idol Antic",
+    "found": "Ai găsit {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Se conectează...",
+    "aPlayer": "Un jucător",
+    "huntingFor": "Vei vâna {{emoji}} {{faceName}}!",
+    "waiting": "Se așteaptă",
+    "waitingForMove": "Se așteaptă mișcarea lui...",
+    "disconnectedName": "{{name}} (a părăsit jocul)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Nu s-a putut contacta serverul.",
+    "couldntConnect": "Nu s-a putut conecta",
+    "findingGroup": "Se caută un Grup",
+    "you": "(tu)",
+    "waitingForPlayer": "Se așteaptă un jucător...",
+    "cancel": "Anulează"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Acest e-mail este deja înregistrat — încearcă să te autentifici.",
+    "invalidEmail": "Acesta nu pare a fi o adresă de e-mail validă.",
+    "missingEmail": "Introdu mai întâi adresa ta de e-mail.",
+    "weakPassword": "Parola trebuie să aibă cel puțin 6 caractere.",
+    "wrongPassword": "E-mail sau parolă incorectă.",
+    "userNotFound": "Nu s-a găsit niciun cont cu acest e-mail.",
+    "tooManyRequests": "Prea multe încercări — te rugăm să aștepți puțin și să încerci din nou.",
+    "networkError": "Eroare de rețea — verifică-ți conexiunea și încearcă din nou.",
+    "requiresRecentLogin": "Pentru siguranța ta, te rugăm să te deconectezi și să te autentifici din nou, apoi încearcă din nou.",
+    "generic": "Ceva nu a funcționat. Te rugăm să încerci din nou."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Nu s-au putut încărca opțiunile de abonament.",
+    "purchaseFailed": "Achiziția a eșuat. Te rugăm să încerci din nou.",
+    "restoreFailed": "Nu s-au putut restaura achizițiile.",
+    "notSignedIn": "Te rugăm să te autentifici mai întâi.",
+    "notAvailableOnWeb": "Abonamentele nu sunt încă disponibile pe web — te rugăm să folosești aplicația pentru iOS sau Android.",
+    "checkoutFailed": "Nu s-a putut iniția plata."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, aruncă zarul pentru a-ți găsi cartea!",
+    "turnHuntFor": "Rândul lui {{name}} — vânează {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Întoarce din nou!",
+    "completedSet": "🏆 {{name}} a completat setul {{faceName}} — locul {{place}}!",
+    "skullSolo": "💀 {{name}} a nimerit un craniu! Îngheț pentru o clipă...",
+    "skullGroup": "💀 {{name}} a nimerit un craniu! Rândul e pierdut, următorul rând e sărit. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} a găsit {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} a găsit {{label}}, dar nu mai avea nimic de dezvăluit!",
+    "bonusLabelSmall": "o gemă bonus",
+    "bonusLabelBig": "un idol antic",
+    "foundFaceLead": "{{name}} a găsit {{faceName}}",
+    "wrongTileLoss": "💀 Toate plăcile {{wrongFace}} au fost găsite înainte să-ți completezi propriul set {{targetFace}} — ai pierdut!",
+    "wrongTilePass": "{{name}} a dezvăluit placa greșită. {{nextTurn}}",
+    "everyoneFound": "Toată lumea și-a găsit cartea! Joc terminat.",
+    "tabletCleared": "Tăblița a fost eliberată! Joc terminat."
+  },
+  "skullPause": {
+    "title": "Îngheț!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} capcane găsite",
+    "gems": "{{found}}/{{total}} geme găsite",
+    "idols": "{{found}}/{{total}} idoli găsiți"
+  },
+  "yourTurn": {
+    "banner": "👉 Rândul tău!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} și-a completat setul (locul {{place}})! {{status}}",
+    "othersRemaining_one": "{{count}} jucător încă joacă.",
+    "othersRemaining_few": "{{count}} jucători încă joacă.",
+    "othersRemaining_other": "{{count}} de jucători încă joacă.",
+    "everyoneDone": "Asta e toată lumea!"
+  },
+  "gameResult": {
+    "wonTitle": "Ai găsit toate cele {{count}} cărți {{cardName}}!",
+    "lostTitle": "Ai Pierdut!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, aruncă zarul pentru a-ți găsi cartea!",
+    "rollingPrompt": "{{playerName}} aruncă zarul...",
+    "roll": "Aruncă",
+    "yourCardIs": "Cartea ta este {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Niciun joc în curs. Pornește unul din Acasă!"
+  },
+  "appSettings": {
+    "theme": "Temă",
+    "themeDark": "Întunecată",
+    "themeLight": "Luminoasă",
+    "language": "Limbă",
+    "languageSystem": "Sistem",
+    "data": "Date",
+    "dataBody": "Te deconectează și șterge istoricul tău din Statistici pe acest dispozitiv. Această acțiune nu poate fi anulată.",
+    "signOutReset": "Deconectează-te și resetează datele locale",
+    "confirmResetTitle": "Te deconectezi și resetezi datele locale?",
+    "confirmResetBody": "Aceasta șterge istoricul tău din Statistici pe acest dispozitiv și te deconectează. Această acțiune nu poate fi anulată.",
+    "reset": "Resetează"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Nume afișat",
+    "save": "Salvează",
+    "cancel": "Anulează",
+    "signOut": "Deconectare",
+    "deleteAccount": "Șterge Contul",
+    "confirmDeleteTitle": "Ștergi contul tău?",
+    "confirmDeleteBody": "Aceasta îți șterge definitiv contul. Această acțiune nu poate fi anulată.",
+    "delete": "Șterge",
+    "emailPlaceholder": "E-mail",
+    "passwordPlaceholder": "Parolă",
+    "forgotPassword": "Ai uitat parola?",
+    "resetSent": "E-mailul de resetare a parolei a fost trimis — verifică-ți căsuța poștală.",
+    "signUp": "Înregistrare",
+    "signIn": "Autentificare",
+    "switchToSignIn": "Ai deja un cont? Autentifică-te",
+    "switchToSignUp": "Ai nevoie de un cont? Înregistrează-te",
+    "or": "sau",
+    "continueWithGoogle": "G  Continuă cu Google",
+    "continueWithApple": "􀣺  Continuă cu Apple",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Creează un cont pentru a începe să joci",
+    "onboardingSignInSubtitle": "Autentifică-te pentru a continua",
+    "proBadge": "✨ Membru Pro",
+    "upgradeToPro": "Upgrade la Pro"
+  },
+  "staticInfo": {
+    "lastUpdated": "Ultima actualizare: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts este un hibrid de memorie și zaruri — aruncă zarul pentru a-ți găsi fiara, apoi vânează-o pe tăbliță înainte ca craniile (sau fiara altcuiva) să te prindă.",
+    "howToPlayHeading": "Cum se joacă",
+    "howToPlayBody": "Modul Solo ești doar tu contra tăbliței: aruncă zarul pentru un animal-țintă fix, apoi întoarce plăcile pentru a colecta toate copiile lui înainte ca setul altui animal să fie complet dezvăluit primul. Modul Grup asociază 2-4 jucători online, care se întrec să-și completeze propriile seturi — cu geme și idoli bonus pe parcurs, care dezvăluie instant copii extra pentru cel care le găsește.",
+    "builtWithHeading": "Construit cu",
+    "builtWithBody": "Expo, React Native și TypeScript pe partea de client; Colyseus alimentează jocul online în Grup în timp real.",
+    "versionHeading": "Versiune",
+    "noteHeading": "O notă",
+    "noteBody": "Acesta este un proiect independent, dezvoltat activ — așteaptă-te la funcții noi și ajustări de reguli în timp. Mulțumim că joci!"
+  },
+  "privacyPolicy": {
+    "intro": "Această politică explică ce informații colectează Bones & Beasts și cum sunt folosite. Nu există publicitate și nicio analiză sau urmărire dincolo de ce este descris mai jos.",
+    "accountHeading": "Contul tău",
+    "accountBody": "Crearea unui cont (e-mail/parolă, Google sau Sign in with Apple) este necesară pentru a juca. Folosim Firebase Authentication pentru a gestiona autentificarea, care stochează adresa ta de e-mail și numele afișat (și, pentru Google/Apple, orice informații de bază de profil pe care furnizorul respectiv ni le partajează — de obicei doar numele și e-mailul). Nu vedem și nu stocăm parola ta pentru conturile e-mail/parolă; Firebase gestionează asta direct. Poți șterge contul tău în orice moment din pagina de Profil.",
+    "soloHeading": "Jocul Solo",
+    "soloBody": "Jocurile Solo se desfășoară complet pe dispozitivul tău. Istoricul jocurilor tale din secțiunea Statistici (jocuri jucate, victorii, seturi completate, timpuri) este stocat local pe dispozitiv și nu este niciodată transmis către noi sau altcineva, indiferent dacă ești autentificat.",
+    "groupHeading": "Jocul Online în Grup",
+    "groupBody": "Când te alături unui joc de Grup, numele tău afișat și acțiunile tale din joc (aruncări de zar, întoarceri de cărți) sunt trimise către serverul nostru de jocuri, astfel încât acesta să poată sincroniza tabla comună pentru toți din acel joc. Aceste date există doar pe durata acelei sesiuni de joc — nu sunt salvate ulterior, vândute sau partajate cu terți.",
+    "childrenHeading": "Confidențialitatea copiilor",
+    "childrenBody": "Bones & Beasts nu este destinat copiilor sub 13 ani și nu colectăm cu bună știință informații de la aceștia.",
+    "changesHeading": "Modificări ale acestei politici",
+    "changesBody": "Dacă modul în care aplicația gestionează datele se schimbă — de exemplu, dacă se adaugă raportarea erorilor, notificări push sau un abonament plătit — această pagină va fi actualizată pentru a descrie acest lucru.",
+    "questionsHeading": "Întrebări",
+    "questionsBody": "Dacă ai întrebări despre această politică, te rugăm să ne contactezi prin locul de unde ai descărcat această aplicație."
+  },
+  "termsOfService": {
+    "intro": "Folosind Bones & Beasts, ești de acord cu acești termeni. Dacă nu ești de acord, te rugăm să nu folosești aplicația.",
+    "gameHeading": "Jocul",
+    "gameBody": "Bones & Beasts (vezi pagina Despre pentru ce este și cum se joacă) este oferit exclusiv în scopuri de divertisment.",
+    "fairPlayHeading": "Joc corect",
+    "fairPlayBody": "În jocurile de Grup, te rugăm să joci corect — fără exploatarea erorilor, automatizarea rândurilor tale sau perturbarea jocurilor altor jucători. Ne rezervăm dreptul de a elimina jucători dintr-un joc sau sală de așteptare pentru comportament perturbator.",
+    "noWarrantyHeading": "Fără garanție",
+    "noWarrantyBody": "Aplicația este oferită \"ca atare\", fără garanții de niciun fel. Nu garantăm că va fi neîntreruptă, fără erori sau disponibilă tot timpul — mai ales modul Grup online, care depinde de un server de jocuri care poate fi actualizat, repornit sau dezactivat fără notificare.",
+    "liabilityHeading": "Limitarea răspunderii",
+    "liabilityBody": "În limita maximă permisă de lege, nu suntem responsabili pentru niciun fel de daune rezultate din utilizarea sau incapacitatea de a utiliza aplicația.",
+    "changesHeading": "Modificări",
+    "changesBody": "Acești termeni pot fi actualizați pe măsură ce aplicația se schimbă. Continuarea utilizării aplicației după o actualizare înseamnă că accepți termenii revizuiți."
+  },
+  "settingsNav": {
+    "profile": "Profil",
+    "appSettings": "Setările Aplicației",
+    "privacyPolicy": "Politica de Confidențialitate",
+    "termsOfService": "Termeni și Condiții",
+    "about": "Despre",
+    "settings": "Setări"
+  },
+  "stats": {
+    "title": "Statistici",
+    "gamesPlayed": "Jocuri jucate",
+    "yourWins": "Victoriile tale",
+    "setsCompleted": "Seturi completate",
+    "avgSetsPerGame": "Medie seturi / joc",
+    "bestSoloTime": "Cel mai bun timp solo",
+    "noBestTime": "–",
+    "recentGames": "Jocuri recente",
+    "noGamesYet": "Niciun joc jucat încă — începe unul!",
+    "modeSolo": "Solo",
+    "modeGroup": "Grup ({{count}})",
+    "placeWin": "🏆 Locul {{place}}",
+    "place": "Locul {{place}}"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "Jocul în Grup este gratuit pentru încă {{count}} zi — abonează-te oricând pentru a continua să joci după aceea.",
+    "trialActiveSubtitle_few": "Jocul în Grup este gratuit pentru încă {{count}} zile — abonează-te oricând pentru a continua să joci după aceea.",
+    "trialActiveSubtitle_other": "Jocul în Grup este gratuit pentru încă {{count}} de zile — abonează-te oricând pentru a continua să joci după aceea.",
+    "trialEndedSubtitle": "Perioada ta de probă gratuită pentru jocul în Grup a expirat. Abonează-te pentru a continua să te întreci cu alți jucători online.",
+    "monthly": "Lunar",
+    "yearly": "Anual",
+    "lifetime": "Pe viață",
+    "restorePurchases": "Restaurează Achizițiile",
+    "notNow": "Nu acum"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Alege un avatar pentru profilul tău"
+  }
+}

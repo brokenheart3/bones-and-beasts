@@ -1,51 +1,72 @@
 import React from "react";
 import { Pressable, SafeAreaView, StyleSheet, Text, View } from "react-native";
+import { useTranslation } from "react-i18next";
 import { Theme, useTheme } from "../theme";
+import { getFaceName } from "../i18n";
 import { ordinal } from "../utils/gameSetup";
 import { formatElapsed } from "../utils/time";
-import { FACE_EMOJIS, FACE_NAMES, Player, SetCompletion } from "../types";
+import { FACE_EMOJIS, Player, SetCompletion } from "../types";
 
 interface Props {
   players: Player[];
   completions: SetCompletion[];
   didLose?: boolean;
   elapsedMs?: number;
+  startedAt?: number | null;
   onPlayAgain: () => void;
 }
 
-export default function EndScreen({ players, completions, didLose, elapsedMs, onPlayAgain }: Props) {
+export default function EndScreen({
+  players,
+  completions,
+  didLose,
+  elapsedMs,
+  startedAt,
+  onPlayAgain,
+}: Props) {
   const theme = useTheme();
   const styles = getStyles(theme);
+  const { t } = useTranslation();
   const playerName = (id: string) =>
-    players.find((p) => p.id === id)?.name ?? "?";
+    players.find((p) => p.id === id)?.name ?? t("common.unknownPlayer");
 
-  // Rank players by number of sets completed, tie-broken by earliest completion.
+  // Each player has at most one fixed target, so at most one completion —
+  // its own finishedAt is genuinely that player's personal finish time, not
+  // a shared game-end time everyone would otherwise show the same value for.
   const ranking = [...players]
     .map((p) => {
-      const theirCompletions = completions.filter((c) => c.playerId === p.id);
-      const bestOrder = theirCompletions.length
-        ? Math.min(...theirCompletions.map((c) => c.order))
-        : Infinity;
-      return { player: p, count: theirCompletions.length, bestOrder };
+      const theirCompletion = completions.find((c) => c.playerId === p.id);
+      const finishMs =
+        theirCompletion && startedAt != null ? theirCompletion.finishedAt - startedAt : null;
+      return {
+        player: p,
+        count: theirCompletion ? 1 : 0,
+        bestOrder: theirCompletion?.order ?? Infinity,
+        finishMs,
+      };
     })
     .sort((a, b) => b.count - a.count || a.bestOrder - b.bestOrder);
 
   return (
     <SafeAreaView style={styles.wrap}>
       <Text style={[styles.title, didLose && styles.titleLoss]}>
-        {didLose ? "Buried in the Temple!" : "Temple Cleared!"}
+        {didLose ? t("endScreen.lossTitle") : t("endScreen.winTitle")}
       </Text>
-      {elapsedMs != null && <Text style={styles.time}>⏱ {formatElapsed(elapsedMs)}</Text>}
+      {elapsedMs != null && (
+        <Text style={styles.time}>{t("endScreen.totalTime", { time: formatElapsed(elapsedMs) })}</Text>
+      )}
 
       {!didLose && (
         <View style={styles.section}>
-          <Text style={styles.sectionLabel}>Final ranking</Text>
+          <Text style={styles.sectionLabel}>{t("endScreen.finalRanking")}</Text>
           {ranking.map((r, i) => (
             <View key={r.player.id} style={styles.rankRow}>
               <Text style={styles.rankPos}>{ordinal(i + 1)}</Text>
               <View style={[styles.dot, { backgroundColor: r.player.color }]} />
               <Text style={styles.rankName}>{r.player.name}</Text>
-              <Text style={styles.rankCount}>{r.count} set(s)</Text>
+              <Text style={styles.rankCount}>
+                {r.finishMs != null ? formatElapsed(r.finishMs) : t("common.didNotFinish")}
+              </Text>
             </View>
           ))}
         </View>
@@ -53,20 +74,24 @@ export default function EndScreen({ players, completions, didLose, elapsedMs, on
 
       {completions.length > 0 && (
         <View style={styles.section}>
-          <Text style={styles.sectionLabel}>Set completion order</Text>
+          <Text style={styles.sectionLabel}>{t("endScreen.setCompletionOrder")}</Text>
           {completions
             .sort((a, b) => a.order - b.order)
             .map((c) => (
               <Text key={c.order} style={styles.completionRow}>
-                {c.order}. {FACE_EMOJIS[c.faceId]} {FACE_NAMES[c.faceId]} —{" "}
-                {playerName(c.playerId)}
+                {t("endScreen.completionRow", {
+                  order: c.order,
+                  emoji: FACE_EMOJIS[c.faceId],
+                  faceName: getFaceName(c.faceId),
+                  playerName: playerName(c.playerId),
+                })}
               </Text>
             ))}
         </View>
       )}
 
       <Pressable style={styles.btn} onPress={onPlayAgain}>
-        <Text style={styles.btnText}>Play Again</Text>
+        <Text style={styles.btnText}>{t("endScreen.playAgain")}</Text>
       </Pressable>
     </SafeAreaView>
   );

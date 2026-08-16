@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "Cancel·la",
+    "save": "Desa",
+    "back": "Enrere",
+    "delete": "Suprimeix",
+    "reset": "Restableix",
+    "you": "Tu",
+    "explorer": "Explorador",
+    "didNotFinish": "No ha acabat",
+    "or": "o",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Lleó",
+    "elephant": "Elefant",
+    "monkey": "Mico",
+    "tiger": "Tigre",
+    "giraffe": "Girafa",
+    "zebra": "Zebra"
+  },
+  "tabs": {
+    "home": "Inici",
+    "play": "Juga",
+    "stats": "Estadístiques",
+    "settings": "Configuració"
+  },
+  "home": {
+    "welcome": "Benvingut/a, {{username}}!",
+    "promptReady": "Estàs a punt per apostar?",
+    "promptWanna": "Vols jugar?",
+    "soloTitle": "Solo",
+    "soloBody": "Llança els daus per trobar la teva carta i després busca al tauler les sis còpies abans que algun altre animal completi el seu conjunt primer. Només tu, la teva memòria i les calaveres.",
+    "playSolo": "Juga en solitari",
+    "groupTitle": "Grup",
+    "groupBody": "Uneix-te amb 2-4 jugadors i corre per completar el teu propi conjunt primer. El joc en grup és només en línia — et posarem en contacte amb altres jugadors en una sala d'espera en directe.",
+    "trialActive_one": "Prova gratuïta — queda {{count}} dia",
+    "trialActive_other": "Prova gratuïta — queden {{count}} dies",
+    "trialEnded": "La prova gratuïta ha acabat — subscriu-te per seguir jugant",
+    "findGroup": "Troba un grup"
+  },
+  "endScreen": {
+    "lossTitle": "Enterrat al temple!",
+    "winTitle": "Temple netejat!",
+    "totalTime": "⏱ Temps total de joc: {{time}}",
+    "finalRanking": "Classificació final",
+    "setCompletionOrder": "Ordre de finalització dels conjunts",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Torna a jugar"
+  },
+  "bonus": {
+    "small": "una gemma de bonificació",
+    "big": "un ídol antic",
+    "found": "Has trobat {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Connectant...",
+    "aPlayer": "Un jugador",
+    "huntingFor": "Buscaràs {{emoji}} {{faceName}}!",
+    "waiting": "Esperant",
+    "waitingForMove": "Esperant el seu moviment...",
+    "disconnectedName": "{{name}} (ha marxat)"
+  },
+  "lobby": {
+    "couldNotReachServer": "No s'ha pogut connectar amb el servidor.",
+    "couldntConnect": "No s'ha pogut connectar",
+    "findingGroup": "Cercant un grup",
+    "you": "(tu)",
+    "waitingForPlayer": "Esperant un jugador...",
+    "cancel": "Cancel·la"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Aquest correu ja està registrat — prova d'iniciar sessió en comptes d'això.",
+    "invalidEmail": "Això no sembla una adreça de correu electrònic vàlida.",
+    "missingEmail": "Introdueix primer la teva adreça de correu electrònic.",
+    "weakPassword": "La contrasenya ha de tenir com a mínim 6 caràcters.",
+    "wrongPassword": "Correu electrònic o contrasenya incorrectes.",
+    "userNotFound": "No s'ha trobat cap compte amb aquest correu electrònic.",
+    "tooManyRequests": "Massa intents — espera un moment i torna-ho a provar.",
+    "networkError": "Error de xarxa — comprova la teva connexió i torna-ho a provar.",
+    "requiresRecentLogin": "Per la teva seguretat, tanca la sessió i torna a iniciar-la, i després torna-ho a provar.",
+    "generic": "Alguna cosa ha anat malament. Torna-ho a provar."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "No s'han pogut carregar les opcions de subscripció.",
+    "purchaseFailed": "La compra ha fallat. Torna-ho a provar.",
+    "restoreFailed": "No s'han pogut restaurar les compres.",
+    "notSignedIn": "Inicia sessió primer.",
+    "notAvailableOnWeb": "Les subscripcions encara no estan disponibles al web — utilitza l'aplicació d'iOS o Android.",
+    "checkoutFailed": "No s'ha pogut iniciar el pagament."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, llança els daus per trobar la teva carta!",
+    "turnHuntFor": "Torn de {{name}} — busca {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Gira'n una altra!",
+    "completedSet": "🏆 {{name}} ha completat el conjunt de {{faceName}} — {{place}} lloc!",
+    "skullSolo": "💀 {{name}} ha trobat una calavera! S'ha quedat congelat/da un moment...",
+    "skullGroup": "💀 {{name}} ha trobat una calavera! Ha perdut el torn, el següent torn se salta. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} ha trobat {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} ha trobat {{label}}, però no li quedava res per revelar!",
+    "bonusLabelSmall": "una gemma de bonificació",
+    "bonusLabelBig": "un ídol antic",
+    "foundFaceLead": "{{name}} ha trobat {{faceName}}",
+    "wrongTileLoss": "💀 S'han trobat totes les fitxes de {{wrongFace}} abans que completessis el teu propi conjunt de {{targetFace}} — has perdut!",
+    "wrongTilePass": "{{name}} ha revelat la fitxa equivocada. {{nextTurn}}",
+    "everyoneFound": "Tothom ha trobat la seva carta! S'ha acabat la partida.",
+    "tabletCleared": "El tauler s'ha netejat! S'ha acabat la partida."
+  },
+  "skullPause": {
+    "title": "Congelat!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} trampes trobades",
+    "gems": "{{found}}/{{total}} gemmes trobades",
+    "idols": "{{found}}/{{total}} ídols trobats"
+  },
+  "yourTurn": {
+    "banner": "👉 És el teu torn!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} ha completat el seu conjunt ({{place}} lloc)! {{status}}",
+    "othersRemaining_one": "Encara queda {{count}} jugador jugant.",
+    "othersRemaining_other": "Encara queden {{count}} jugadors jugant.",
+    "everyoneDone": "Ja hi són tots!"
+  },
+  "gameResult": {
+    "wonTitle": "Has trobat totes les {{count}} cartes de {{cardName}}!",
+    "lostTitle": "Has perdut!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, llança els daus per trobar la teva carta!",
+    "rollingPrompt": "{{playerName}}, llançant...",
+    "roll": "Llança",
+    "yourCardIs": "La teva carta és {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "No hi ha cap partida en curs. Comença'n una des d'Inici!"
+  },
+  "appSettings": {
+    "theme": "Tema",
+    "themeDark": "Fosc",
+    "themeLight": "Clar",
+    "language": "Idioma",
+    "languageSystem": "Sistema",
+    "data": "Dades",
+    "dataBody": "Et tancarà la sessió i esborrarà el teu historial d'estadístiques en aquest dispositiu. Això no es pot desfer.",
+    "signOutReset": "Tanca la sessió i restableix les dades locals",
+    "confirmResetTitle": "Tancar la sessió i restablir les dades locals?",
+    "confirmResetBody": "Això esborra el teu historial d'estadístiques en aquest dispositiu i et tanca la sessió. Això no es pot desfer.",
+    "reset": "Restableix"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Nom visible",
+    "save": "Desa",
+    "cancel": "Cancel·la",
+    "signOut": "Tanca la sessió",
+    "deleteAccount": "Suprimeix el compte",
+    "confirmDeleteTitle": "Vols suprimir el teu compte?",
+    "confirmDeleteBody": "Això suprimeix permanentment el teu compte. Això no es pot desfer.",
+    "delete": "Suprimeix",
+    "emailPlaceholder": "Correu electrònic",
+    "passwordPlaceholder": "Contrasenya",
+    "forgotPassword": "Has oblidat la contrasenya?",
+    "resetSent": "S'ha enviat el correu de restabliment de contrasenya — comprova la teva bústia.",
+    "signUp": "Registra't",
+    "signIn": "Inicia sessió",
+    "switchToSignIn": "Ja tens un compte? Inicia sessió",
+    "switchToSignUp": "Necessites un compte? Registra't",
+    "or": "o",
+    "continueWithGoogle": "G  Continua amb Google",
+    "continueWithApple": "􀣺  Continua amb Apple",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Crea un compte per començar a jugar",
+    "onboardingSignInSubtitle": "Inicia sessió per continuar",
+    "proBadge": "✨ Membre Pro",
+    "upgradeToPro": "Millora a Pro"
+  },
+  "staticInfo": {
+    "lastUpdated": "Última actualització: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts és un joc híbrid de memòria i daus — llances els daus per trobar la teva bèstia i després la busques pel tauler abans que les calaveres (o la bèstia d'algú altre) t'atrapin.",
+    "howToPlayHeading": "Com es juga",
+    "howToPlayBody": "El mode solitari és simplement tu contra el tauler: llances els daus per un animal objectiu fix i després gires fitxes per recollir totes les seves còpies abans que el conjunt d'un altre animal quedi totalment revelat primer. El mode grup connecta 2-4 jugadors en línia, competint per completar els seus propis conjunts — amb gemmes de bonificació i ídols pel camí que revelen instantàniament còpies extra a qui les trobi.",
+    "builtWithHeading": "Fet amb",
+    "builtWithBody": "Expo, React Native i TypeScript al client; Colyseus fa funcionar el joc en grup en línia en temps real.",
+    "versionHeading": "Versió",
+    "noteHeading": "Una nota",
+    "noteBody": "Aquest és un projecte independent en desenvolupament actiu — espera noves funcions i ajustos de regles amb el temps. Gràcies per jugar!"
+  },
+  "privacyPolicy": {
+    "intro": "Aquesta política explica quina informació recull Bones & Beasts i com s'utilitza. No hi ha publicitat ni cap anàlisi o seguiment més enllà del que es descriu a continuació.",
+    "accountHeading": "El teu compte",
+    "accountBody": "Crear un compte (correu electrònic/contrasenya, Google, o Sign in with Apple) és necessari per jugar. Utilitzem Firebase Authentication per gestionar l'inici de sessió, que emmagatzema la teva adreça de correu electrònic i nom visible (i, per a Google/Apple, la informació bàsica de perfil que aquest proveïdor comparteixi amb nosaltres — normalment només el teu nom i correu electrònic). No veiem ni emmagatzemem la teva contrasenya per a comptes de correu electrònic/contrasenya; Firebase s'encarrega d'això directament. Pots suprimir el teu compte en qualsevol moment des de la pàgina de perfil.",
+    "soloHeading": "Joc en solitari",
+    "soloBody": "Les partides en solitari s'executen totalment al teu dispositiu. El teu historial de partides a la pestanya d'Estadístiques (partides jugades, victòries, conjunts completats, temps) s'emmagatzema localment al dispositiu i mai es transmet a nosaltres ni a ningú més, independentment de si has iniciat sessió.",
+    "groupHeading": "Joc en grup en línia",
+    "groupBody": "Quan t'uneixes a una partida en grup, el teu nom visible i les teves accions dins del joc (llançaments de daus, gir de cartes) s'envien al nostre servidor de joc perquè pugui mantenir el tauler compartit sincronitzat per a tothom en aquella partida. Aquestes dades només existeixen durant la durada d'aquella sessió de joc — no es guarden després, ni es venen, ni es comparteixen amb tercers.",
+    "childrenHeading": "Privacitat dels menors",
+    "childrenBody": "Bones & Beasts no està dirigit a menors de 13 anys, i no recollim informació seva de manera conscient.",
+    "changesHeading": "Canvis en aquesta política",
+    "changesBody": "Si la manera en què l'aplicació gestiona les dades canvia — per exemple, si s'afegeix informe d'errors, notificacions push, o una subscripció de pagament — aquesta pàgina s'actualitzarà per descriure-ho.",
+    "questionsHeading": "Preguntes",
+    "questionsBody": "Si tens preguntes sobre aquesta política, posa't en contacte a través d'on hagis descarregat aquesta aplicació."
+  },
+  "termsOfService": {
+    "intro": "En utilitzar Bones & Beasts, acceptes aquests termes. Si no hi estàs d'acord, no utilitzis l'aplicació.",
+    "gameHeading": "El joc",
+    "gameBody": "Bones & Beasts (consulta la pàgina Sobre per saber què és i com es juga) s'ofereix únicament amb finalitats d'entreteniment.",
+    "fairPlayHeading": "Joc net",
+    "fairPlayBody": "A les partides en grup, si us plau juga net — no aprofitis errors, no automatitzis els teus torns, ni pertorbis les partides d'altres jugadors. Ens reservem el dret d'expulsar jugadors d'una partida o sala d'espera per comportament pertorbador.",
+    "noWarrantyHeading": "Sense garantia",
+    "noWarrantyBody": "L'aplicació es proporciona \"tal com és\", sense garanties de cap tipus. No garantim que sigui ininterrompuda, lliure d'errors, o disponible en tot moment — especialment el mode grup en línia, que depèn d'un servidor de joc que pot ser actualitzat, reiniciat, o desconnectat sense avís.",
+    "liabilityHeading": "Limitació de responsabilitat",
+    "liabilityBody": "En la màxima mesura permesa per la llei, no som responsables de cap dany derivat de l'ús, o la impossibilitat d'ús, de l'aplicació.",
+    "changesHeading": "Canvis",
+    "changesBody": "Aquests termes es poden actualitzar a mesura que canviï l'aplicació. Continuar utilitzant l'aplicació després d'una actualització significa que acceptes els termes revisats."
+  },
+  "settingsNav": {
+    "profile": "Perfil",
+    "appSettings": "Configuració de l'aplicació",
+    "privacyPolicy": "Política de privacitat",
+    "termsOfService": "Termes del servei",
+    "about": "Sobre",
+    "settings": "Configuració"
+  },
+  "stats": {
+    "title": "Estadístiques",
+    "gamesPlayed": "Partides jugades",
+    "yourWins": "Les teves victòries",
+    "setsCompleted": "Conjunts completats",
+    "avgSetsPerGame": "Mitjana de conjunts / partida",
+    "bestSoloTime": "Millor temps en solitari",
+    "noBestTime": "–",
+    "recentGames": "Partides recents",
+    "noGamesYet": "Encara no s'ha jugat cap partida — comença'n una!",
+    "modeSolo": "Solo",
+    "modeGroup": "Grup ({{count}})",
+    "placeWin": "🏆 {{place}} lloc",
+    "place": "{{place}} lloc"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "El joc en grup és gratuït durant {{count}} dia més — subscriu-te en qualsevol moment per seguir jugant després.",
+    "trialActiveSubtitle_other": "El joc en grup és gratuït durant {{count}} dies més — subscriu-te en qualsevol moment per seguir jugant després.",
+    "trialEndedSubtitle": "La teva prova gratuïta del joc en grup ha acabat. Subscriu-te per seguir competint amb altres jugadors en línia.",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "lifetime": "De per vida",
+    "restorePurchases": "Restaura les compres",
+    "notNow": "Ara no"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Tria un avatar per al teu perfil"
+  }
+}

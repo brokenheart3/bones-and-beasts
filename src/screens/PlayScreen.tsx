@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { SafeAreaView, StyleSheet, Text, View } from "react-native";
+import { useTranslation } from "react-i18next";
 import { Theme, useTheme } from "../theme";
+import { getFaceName } from "../i18n";
 import { useGameStore } from "../store/useGameStore";
 import { PlayStackParamList } from "../navigation/types";
 import GridBoard from "../components/GridBoard";
 import ReferenceColumn from "../components/ReferenceColumn";
+import SpecialTilesRow from "../components/SpecialTilesRow";
 import DiceRollStage from "../components/DiceRollStage";
 import SkullPauseOverlay from "../components/SkullPauseOverlay";
 import BonusFoundOverlay from "../components/BonusFoundOverlay";
@@ -13,7 +16,7 @@ import GameResultOverlay from "../components/GameResultOverlay";
 import GameTimer from "../components/GameTimer";
 import PlayerHUD from "../components/PlayerHUD";
 import EndScreen from "./EndScreen";
-import { BONUS_BIG_EMOJI, BONUS_SMALL_EMOJI, FACE_NAMES } from "../types";
+import { BONUS_BIG_EMOJI, BONUS_SMALL_EMOJI } from "../types";
 import { totalCopiesForFace } from "../utils/gameSetup";
 
 type Props = NativeStackScreenProps<PlayStackParamList, "PlayHome">;
@@ -21,6 +24,7 @@ type Props = NativeStackScreenProps<PlayStackParamList, "PlayHome">;
 export default function PlayScreen({ navigation }: Props) {
   const theme = useTheme();
   const styles = getStyles(theme);
+  const { t } = useTranslation();
   const {
     gameId,
     board,
@@ -74,9 +78,9 @@ export default function PlayScreen({ navigation }: Props) {
     const card = board.find((c) => c.id === cardId);
     flipCard(cardId);
     if (card?.type === "bonusSmall") {
-      setBonusPopup({ emoji: BONUS_SMALL_EMOJI, label: "a Bonus Gem" });
+      setBonusPopup({ emoji: BONUS_SMALL_EMOJI, label: t("bonus.small") });
     } else if (card?.type === "bonusBig") {
-      setBonusPopup({ emoji: BONUS_BIG_EMOJI, label: "an Ancient Idol" });
+      setBonusPopup({ emoji: BONUS_BIG_EMOJI, label: t("bonus.big") });
     }
   };
 
@@ -99,7 +103,7 @@ export default function PlayScreen({ navigation }: Props) {
     return (
       <SafeAreaView style={styles.wrap}>
         <View style={styles.emptyWrap}>
-          <Text style={styles.emptyText}>No game in progress. Start one from Home!</Text>
+          <Text style={styles.emptyText}>{t("playScreen.noGame")}</Text>
         </View>
       </SafeAreaView>
     );
@@ -128,6 +132,7 @@ export default function PlayScreen({ navigation }: Props) {
         completions={completions}
         didLose={didLose}
         elapsedMs={elapsedMs}
+        startedAt={startedAt}
         onPlayAgain={() => {
           resetGame();
           navigation.getParent()?.navigate("Home");
@@ -155,6 +160,8 @@ export default function PlayScreen({ navigation }: Props) {
         <View style={styles.messageBox}>
           <Text style={styles.message}>{message}</Text>
         </View>
+
+        <SpecialTilesRow board={board} />
 
         <View style={styles.mainRow}>
           <ReferenceColumn
@@ -187,7 +194,7 @@ export default function PlayScreen({ navigation }: Props) {
       {phase === "gameOver" && !resultAnnounced && showResult && (
         <GameResultOverlay
           won={won}
-          cardName={wonFaceId ? FACE_NAMES[wonFaceId] : undefined}
+          cardName={wonFaceId ? getFaceName(wonFaceId) : undefined}
           cardCount={wonFaceId ? totalCopiesForFace(board, wonFaceId) : undefined}
           elapsedMs={elapsedMs}
           onDone={() => setResultAnnounced(true)}
@@ -238,7 +245,8 @@ function getStyles(theme: Theme) {
     },
     message: {
       color: theme.colors.textLight,
-      fontSize: 13,
+      fontSize: 17,
+      fontWeight: "700",
       textAlign: "center",
     },
     mainRow: {

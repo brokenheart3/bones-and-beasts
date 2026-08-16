@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "Anulo",
+    "save": "Ruaj",
+    "back": "Prapa",
+    "delete": "Fshi",
+    "reset": "Rivendos",
+    "you": "Ti",
+    "explorer": "Eksplorues",
+    "didNotFinish": "Nuk përfundoi",
+    "or": "ose",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Luan",
+    "elephant": "Elefant",
+    "monkey": "Majmun",
+    "tiger": "Tigër",
+    "giraffe": "Gjirafë",
+    "zebra": "Zebër"
+  },
+  "tabs": {
+    "home": "Kryefaqja",
+    "play": "Luaj",
+    "stats": "Statistika",
+    "settings": "Cilësimet"
+  },
+  "home": {
+    "welcome": "Mirë se erdhe, {{username}}!",
+    "promptReady": "Je gati të vësh bast?",
+    "promptWanna": "Do të luash?",
+    "soloTitle": "Solo",
+    "soloBody": "Hidh zarin për të gjetur kartën tënde, pastaj gjuaj në tabelë të gjashtë kopjet përpara se dikush tjetër të plotësojë grupin e tij të egërsirave. Vetëm ti, kujtesa jote dhe kafkat.",
+    "playSolo": "Luaj Solo",
+    "groupTitle": "Grup",
+    "groupBody": "Bashkohu me 2-4 lojtarë dhe garoni për të plotësuar të parët grupin tuaj. Loja në Grup është vetëm online — do të të bashkojmë me lojtarë të tjerë në një sallë pritjeje të drejtpërdrejtë.",
+    "trialActive_one": "Provë falas — mbetet {{count}} ditë",
+    "trialActive_other": "Provë falas — mbeten {{count}} ditë",
+    "trialEnded": "Prova falas mbaroi — abonohu për të vazhduar të luash",
+    "findGroup": "Gjej një Grup"
+  },
+  "endScreen": {
+    "lossTitle": "I Varrosur në Tempull!",
+    "winTitle": "Tempulli u Pastrua!",
+    "totalTime": "⏱ Koha totale e lojës: {{time}}",
+    "finalRanking": "Renditja përfundimtare",
+    "setCompletionOrder": "Rendi i plotësimit të grupeve",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Luaj Përsëri"
+  },
+  "bonus": {
+    "small": "një Gur të Çmuar Bonus",
+    "big": "një Idol të Lashtë",
+    "found": "Gjete {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Duke u lidhur...",
+    "aPlayer": "Një lojtar",
+    "huntingFor": "Do të gjuash {{emoji}} {{faceName}}!",
+    "waiting": "Në pritje",
+    "waitingForMove": "Duke pritur lëvizjen e tij...",
+    "disconnectedName": "{{name}} (u largua)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Nuk u arrit të lidhet me serverin.",
+    "couldntConnect": "Lidhja dështoi",
+    "findingGroup": "Duke kërkuar një Grup",
+    "you": "(ti)",
+    "waitingForPlayer": "Në pritje të një lojtari...",
+    "cancel": "Anulo"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Ky email është tashmë i regjistruar — provo të hysh në llogari.",
+    "invalidEmail": "Ky nuk duket si një adresë email e vlefshme.",
+    "missingEmail": "Fut fillimisht adresën tënde të email-it.",
+    "weakPassword": "Fjalëkalimi duhet të ketë të paktën 6 karaktere.",
+    "wrongPassword": "Email ose fjalëkalim i gabuar.",
+    "userNotFound": "Nuk u gjet asnjë llogari me këtë email.",
+    "tooManyRequests": "Shumë përpjekje — prit pak dhe provo përsëri.",
+    "networkError": "Gabim rrjeti — kontrollo lidhjen tënde dhe provo përsëri.",
+    "requiresRecentLogin": "Për sigurinë tënde, dil nga llogaria dhe hyr përsëri, pastaj provo sërish.",
+    "generic": "Diçka shkoi keq. Provo përsëri."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Nuk u arrit të ngarkohen opsionet e abonimit.",
+    "purchaseFailed": "Blerja dështoi. Provo përsëri.",
+    "restoreFailed": "Nuk u arrit të rikthehen blerjet.",
+    "notSignedIn": "Të lutem hyr në llogari së pari.",
+    "notAvailableOnWeb": "Abonimet nuk janë ende të disponueshme në web — të lutem përdor aplikacionin për iOS ose Android.",
+    "checkoutFailed": "Nuk u arrit të fillojë pagesa."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, hidh zarin për të gjetur kartën tënde!",
+    "turnHuntFor": "Radha e {{name}} — gjuaj {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Kthe përsëri!",
+    "completedSet": "🏆 {{name}} plotësoi grupin {{faceName}} — vendi i {{place}}!",
+    "skullSolo": "💀 {{name}} ra në një kafkë! I ngrirë për një moment...",
+    "skullGroup": "💀 {{name}} ra në një kafkë! Radha humbi, radha tjetër kalohet. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} gjeti {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} gjeti {{label}}, por nuk kishte më asgjë për të zbuluar!",
+    "bonusLabelSmall": "një gur të çmuar bonus",
+    "bonusLabelBig": "një idol të lashtë",
+    "foundFaceLead": "{{name}} gjeti {{faceName}}",
+    "wrongTileLoss": "💀 Të gjitha pllakat {{wrongFace}} u gjetën përpara se ti të plotësoje grupin tënd {{targetFace}} — humbe!",
+    "wrongTilePass": "{{name}} zbuloi pllakën e gabuar. {{nextTurn}}",
+    "everyoneFound": "Të gjithë gjetën kartën e tyre! Loja mbaroi.",
+    "tabletCleared": "Tabela u pastrua! Loja mbaroi."
+  },
+  "skullPause": {
+    "title": "I Ngrirë!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} kurthe të gjetura",
+    "gems": "{{found}}/{{total}} gurë të çmuar të gjetur",
+    "idols": "{{found}}/{{total}} idole të gjetur"
+  },
+  "yourTurn": {
+    "banner": "👉 Radha jote!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} plotësoi grupin e tij (vendi i {{place}})! {{status}}",
+    "othersRemaining_one": "{{count}} lojtar akoma po luan.",
+    "othersRemaining_other": "{{count}} lojtarë akoma po luajnë.",
+    "everyoneDone": "Kjo është të gjithë!"
+  },
+  "gameResult": {
+    "wonTitle": "Gjete të gjitha {{count}} kartat {{cardName}}!",
+    "lostTitle": "Humbe!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, hidh zarin për të gjetur kartën tënde!",
+    "rollingPrompt": "{{playerName}} po hedh zarin...",
+    "roll": "Hidh",
+    "yourCardIs": "Karta jote është {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Asnjë lojë në vazhdim. Nis një nga Kryefaqja!"
+  },
+  "appSettings": {
+    "theme": "Tema",
+    "themeDark": "E errët",
+    "themeLight": "E çelur",
+    "language": "Gjuha",
+    "languageSystem": "Sistemi",
+    "data": "Të dhënat",
+    "dataBody": "Të nxjerr nga llogaria dhe fshin historikun e Statistikave në këtë pajisje. Ky veprim nuk mund të kthehet.",
+    "signOutReset": "Dil nga llogaria dhe rivendos të dhënat lokale",
+    "confirmResetTitle": "Të dalësh nga llogaria dhe të rivendosësh të dhënat lokale?",
+    "confirmResetBody": "Kjo fshin historikun tënd të Statistikave në këtë pajisje dhe të nxjerr nga llogaria. Ky veprim nuk mund të kthehet.",
+    "reset": "Rivendos"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Emri i shfaqur",
+    "save": "Ruaj",
+    "cancel": "Anulo",
+    "signOut": "Dil nga Llogaria",
+    "deleteAccount": "Fshi Llogarinë",
+    "confirmDeleteTitle": "Të fshish llogarinë tënde?",
+    "confirmDeleteBody": "Kjo fshin përgjithmonë llogarinë tënde. Ky veprim nuk mund të kthehet.",
+    "delete": "Fshi",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Fjalëkalimi",
+    "forgotPassword": "Harrove fjalëkalimin?",
+    "resetSent": "Email-i për rivendosjen e fjalëkalimit u dërgua — kontrollo inboksin tënd.",
+    "signUp": "Regjistrohu",
+    "signIn": "Hyr",
+    "switchToSignIn": "Ke tashmë një llogari? Hyr",
+    "switchToSignUp": "Ke nevojë për një llogari? Regjistrohu",
+    "or": "ose",
+    "continueWithGoogle": "G  Vazhdo me Google",
+    "continueWithApple": "􀣺  Vazhdo me Apple",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Krijo një llogari për të nisur lojën",
+    "onboardingSignInSubtitle": "Hyr në llogari për të vazhduar",
+    "proBadge": "✨ Anëtar Pro",
+    "upgradeToPro": "Përmirëso në Pro"
+  },
+  "staticInfo": {
+    "lastUpdated": "Përditësimi i fundit: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts është një hibrid loje kujtese dhe zaresh — hidh zarin për të gjetur egërsirën tënde, pastaj gjuaje në tabelë përpara se kafkat (ose egërsira e dikujt tjetër) të të zënë.",
+    "howToPlayHeading": "Si të luash",
+    "howToPlayBody": "Modaliteti Solo je vetëm ti kundër tabelës: hidh zarin për një kafshë-objektiv fikse, pastaj kthe pllakat për të mbledhur të gjitha kopjet e saj përpara se grupi i një kafshe tjetër të zbulohet plotësisht i pari. Modaliteti Grup bashkon 2-4 lojtarë online, që garojnë për të plotësuar grupet e tyre — me gurë të çmuar dhe idole bonus gjatë rrugës që zbulojnë menjëherë kopje shtesë për kë i gjen.",
+    "builtWithHeading": "Ndërtuar me",
+    "builtWithBody": "Expo, React Native dhe TypeScript në krah të klientit; Colyseus fuqizon lojën online në Grup në kohë reale.",
+    "versionHeading": "Versioni",
+    "noteHeading": "Një shënim",
+    "noteBody": "Ky është një projekt i pavarur, në zhvillim aktiv — prit veçori të reja dhe ndryshime rregullash me kalimin e kohës. Faleminderit që luan!"
+  },
+  "privacyPolicy": {
+    "intro": "Kjo politikë shpjegon çfarë informacioni mbledh Bones & Beasts dhe si përdoret. Nuk ka reklama dhe asnjë analizë ose gjurmim përtej atyre që përshkruhen më poshtë.",
+    "accountHeading": "Llogaria jote",
+    "accountBody": "Krijimi i një llogarie (email/fjalëkalim, Google, ose Sign in with Apple) është i domosdoshëm për të luajtur. Ne përdorim Firebase Authentication për të menaxhuar hyrjen, i cili ruan adresën tënde të email-it dhe emrin e shfaqur (dhe, për Google/Apple, çdo informacion bazë profili që ai ofrues ndan me ne — zakonisht vetëm emrin dhe email-in). Ne nuk shohim dhe nuk ruajmë fjalëkalimin tënd për llogaritë email/fjalëkalim; Firebase e trajton këtë drejtpërdrejt. Mund të fshish llogarinë tënde në çdo kohë nga faqja e Profilit.",
+    "soloHeading": "Loja Solo",
+    "soloBody": "Lojërat Solo funksionojnë tërësisht në pajisjen tënde. Historiku i lojërave të tua në skedën Statistika (lojëra të luajtura, fitore, grupe të plotësuara, kohët) ruhet lokalisht në pajisje dhe nuk transmetohet kurrë tek ne ose tek dikush tjetër, pavarësisht nëse ke hyrë në llogari.",
+    "groupHeading": "Loja Online në Grup",
+    "groupBody": "Kur bashkohesh me një lojë Grupi, emri yt i shfaqur dhe veprimet e tua në lojë (hedhjet e zarit, kthimi i kartave) dërgohen te serveri ynë i lojës, që të mund të mbajë të sinkronizuar tabelën e përbashkët për të gjithë në atë lojë. Këto të dhëna ekzistojnë vetëm për kohëzgjatjen e atij seance loje — nuk ruhen më pas, nuk shiten dhe nuk ndahen me palë të treta.",
+    "childrenHeading": "Privatësia e fëmijëve",
+    "childrenBody": "Bones & Beasts nuk është drejtuar ndaj fëmijëve nën 13 vjeç dhe ne nuk mbledhim me dashje informacion prej tyre.",
+    "changesHeading": "Ndryshime në këtë politikë",
+    "changesBody": "Nëse mënyra se si aplikacioni trajton të dhënat ndryshon — për shembull, nëse shtohet raportimi i çrregullimeve, njoftimet push, ose një abonim me pagesë — kjo faqe do të përditësohet për ta përshkruar këtë.",
+    "questionsHeading": "Pyetje",
+    "questionsBody": "Nëse ke pyetje rreth kësaj politike, të lutem na kontakto nëpërmjet vendit prej nga ke shkarkuar këtë aplikacion."
+  },
+  "termsOfService": {
+    "intro": "Duke përdorur Bones & Beasts, pranon këto kushte. Nëse nuk pajtohesh, të lutem mos e përdor aplikacionin.",
+    "gameHeading": "Loja",
+    "gameBody": "Bones & Beasts (shiko faqen Rreth Nesh për çka është dhe si luhet) ofrohet vetëm për qëllime argëtimi.",
+    "fairPlayHeading": "Lojë e drejtë",
+    "fairPlayBody": "Në lojërat e Grupit, të lutem luaj drejtë — pa shfrytëzuar defekte, pa automatizuar radhët e tua, ose pa çrregulluar lojërat e lojtarëve të tjerë. Ne ruajmë të drejtën për të hequr lojtarë nga një lojë ose sallë pritjeje për sjellje çrregulluese.",
+    "noWarrantyHeading": "Pa garanci",
+    "noWarrantyBody": "Aplikacioni ofrohet \"siç është\", pa garanci të asnjë lloji. Ne nuk garantojmë se do të jetë i pandërprerë, pa gabime, ose i disponueshëm gjithmonë — sidomos modaliteti online i Grupit, që varet nga një server loje që mund të përditësohet, riniset, ose çaktivizohet pa njoftim.",
+    "liabilityHeading": "Kufizimi i përgjegjësisë",
+    "liabilityBody": "Në masën më të plotë të lejuar nga ligji, ne nuk jemi përgjegjës për asnjë dëm që rrjedh nga përdorimi, ose pamundësia e përdorimit, të aplikacionit.",
+    "changesHeading": "Ndryshime",
+    "changesBody": "Këto kushte mund të përditësohen ndërkohë që aplikacioni ndryshon. Vazhdimi i përdorimit të aplikacionit pas një përditësimi do të thotë që pranon kushtet e rishikuara."
+  },
+  "settingsNav": {
+    "profile": "Profili",
+    "appSettings": "Cilësimet e Aplikacionit",
+    "privacyPolicy": "Politika e Privatësisë",
+    "termsOfService": "Kushtet e Shërbimit",
+    "about": "Rreth Nesh",
+    "settings": "Cilësimet"
+  },
+  "stats": {
+    "title": "Statistika",
+    "gamesPlayed": "Lojëra të luajtura",
+    "yourWins": "Fitoret e tua",
+    "setsCompleted": "Grupe të plotësuara",
+    "avgSetsPerGame": "Mesatarja e grupeve / lojë",
+    "bestSoloTime": "Koha më e mirë solo",
+    "noBestTime": "–",
+    "recentGames": "Lojërat e fundit",
+    "noGamesYet": "Ende nuk ke luajtur asnjë lojë — nis një!",
+    "modeSolo": "Solo",
+    "modeGroup": "Grup ({{count}})",
+    "placeWin": "🏆 Vendi i {{place}}",
+    "place": "Vendi i {{place}}"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "Loja në Grup është falas për {{count}} ditë tjetër — abonohu kur të duash për të vazhduar të luash pas kësaj.",
+    "trialActiveSubtitle_other": "Loja në Grup është falas për {{count}} ditë të tjera — abonohu kur të duash për të vazhduar të luash pas kësaj.",
+    "trialEndedSubtitle": "Prova falas e lojës në Grup mbaroi. Abonohu për të vazhduar të garosh me lojtarë të tjerë online.",
+    "monthly": "Mujor",
+    "yearly": "Vjetor",
+    "lifetime": "Përjetë",
+    "restorePurchases": "Rikthe Blerjet",
+    "notNow": "Jo tani"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Zgjidh një avatar për profilin tënd"
+  }
+}

@@ -1,0 +1,17 @@
+diff --git a/node_modules/expo-localization/ios/LocalizationModule.swift b/node_modules/expo-localization/ios/LocalizationModule.swift
+index 17c9cb7..45c8ccc 100644
+--- a/node_modules/expo-localization/ios/LocalizationModule.swift
++++ b/node_modules/expo-localization/ios/LocalizationModule.swift
+@@ -123,6 +123,12 @@ public class LocalizationModule: Module {
+       return "roc"
+     case .iso8601:
+       return "iso8601"
++    @unknown default:
++      // Newer iOS SDKs have added calendar identifiers (e.g. regional South/
++      // Southeast Asian calendars) this switch predates — falling back to
++      // Gregorian keeps this from being a hard compile/runtime failure until
++      // expo-localization ships an upstream fix for this SDK line.
++      return "gregory"
+     }
+   }
+ 

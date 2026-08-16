@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "ביטול",
+    "save": "שמירה",
+    "back": "חזרה",
+    "delete": "מחיקה",
+    "reset": "איפוס",
+    "you": "אתה",
+    "explorer": "חוקר",
+    "didNotFinish": "לא סיים",
+    "or": "או",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "אריה",
+    "elephant": "פיל",
+    "monkey": "קוף",
+    "tiger": "טיגריס",
+    "giraffe": "ג'ירפה",
+    "zebra": "זברה"
+  },
+  "tabs": {
+    "home": "בית",
+    "play": "משחק",
+    "stats": "סטטיסטיקה",
+    "settings": "הגדרות"
+  },
+  "home": {
+    "welcome": "ברוך הבא, {{username}}!",
+    "promptReady": "מוכן להתערב?",
+    "promptWanna": "רוצה לשחק?",
+    "soloTitle": "יחיד",
+    "soloBody": "הטל קובייה כדי למצוא את הקלף שלך, ואז חפש בלוח את כל שש העותקים לפני שהסט של חיה אחרת יושלם קודם. רק אתה, הזיכרון שלך, והגולגולות.",
+    "playSolo": "שחק ביחיד",
+    "groupTitle": "קבוצה",
+    "groupBody": "התחבר עם 2-4 שחקנים והתחרה לסיים את הסט שלך ראשון. משחק קבוצתי הוא אונליין בלבד — נשדך אותך עם שחקנים אחרים בלובי חי.",
+    "trialActive_one": "תקופת ניסיון חינם — נותר {{count}} יום",
+    "trialActive_other": "תקופת ניסיון חינם — נותרו {{count}} ימים",
+    "trialEnded": "תקופת הניסיון החינמית הסתיימה — הירשם כדי להמשיך לשחק",
+    "findGroup": "מצא קבוצה"
+  },
+  "endScreen": {
+    "lossTitle": "נקבר במקדש!",
+    "winTitle": "המקדש טוהר!",
+    "totalTime": "⏱ זמן משחק כולל: {{time}}",
+    "finalRanking": "דירוג סופי",
+    "setCompletionOrder": "סדר השלמת הסטים",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "שחק שוב"
+  },
+  "bonus": {
+    "small": "אבן חן בונוס",
+    "big": "אליל עתיק",
+    "found": "מצאת {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "מתחבר...",
+    "aPlayer": "שחקן",
+    "huntingFor": "תצטרך לחפש את {{emoji}} {{faceName}}!",
+    "waiting": "מחכה",
+    "waitingForMove": "מחכה למהלך שלו...",
+    "disconnectedName": "{{name}} (עזב)"
+  },
+  "lobby": {
+    "couldNotReachServer": "לא ניתן להתחבר לשרת.",
+    "couldntConnect": "לא ניתן להתחבר",
+    "findingGroup": "מחפש קבוצה",
+    "you": "(אתה)",
+    "waitingForPlayer": "מחכה לשחקן...",
+    "cancel": "ביטול"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "האימייל הזה כבר רשום — נסה להתחבר במקום זאת.",
+    "invalidEmail": "זו לא נראית כתובת אימייל תקינה.",
+    "missingEmail": "הזן את כתובת האימייל שלך קודם.",
+    "weakPassword": "הסיסמה צריכה להיות באורך של לפחות 6 תווים.",
+    "wrongPassword": "אימייל או סיסמה שגויים.",
+    "userNotFound": "לא נמצא חשבון עם האימייל הזה.",
+    "tooManyRequests": "יותר מדי ניסיונות — המתן רגע ונסה שוב.",
+    "networkError": "שגיאת רשת — בדוק את החיבור שלך ונסה שוב.",
+    "requiresRecentLogin": "מטעמי אבטחה, התנתק והתחבר שוב, ואז נסה שוב.",
+    "generic": "משהו השתבש. נסה שוב."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "לא ניתן היה לטעון את אפשרויות המנוי.",
+    "purchaseFailed": "הרכישה נכשלה. נסה שוב.",
+    "restoreFailed": "לא ניתן היה לשחזר רכישות.",
+    "notSignedIn": "התחבר קודם.",
+    "notAvailableOnWeb": "מנויים אינם זמינים עדיין באינטרנט — השתמש באפליקציית iOS או Android.",
+    "checkoutFailed": "לא ניתן היה להתחיל בתשלום."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, הטל קובייה כדי למצוא את הקלף שלך!",
+    "turnHuntFor": "תורו של {{name}} — חפש {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). המשך להפוך!",
+    "completedSet": "🏆 {{name}} השלים את הסט של {{faceName}} — מקום {{place}}!",
+    "skullSolo": "💀 {{name}} מצא גולגולת! קפא לרגע...",
+    "skullGroup": "💀 {{name}} מצא גולגולת! התור אבד, התור הבא ידולג. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} מצא {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} מצא {{label}}, אבל לא נשאר לו כלום לחשוף!",
+    "bonusLabelSmall": "אבן חן בונוס",
+    "bonusLabelBig": "אליל עתיק",
+    "foundFaceLead": "{{name}} מצא {{faceName}}",
+    "wrongTileLoss": "💀 כל האריחים של {{wrongFace}} נמצאו לפני שסיימת את הסט שלך של {{targetFace}} — הפסדת!",
+    "wrongTilePass": "{{name}} חשף את האריח הלא נכון. {{nextTurn}}",
+    "everyoneFound": "כולם מצאו את הקלף שלהם! המשחק נגמר.",
+    "tabletCleared": "הלוח נוקה! המשחק נגמר."
+  },
+  "skullPause": {
+    "title": "קפוא!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} מלכודות נמצאו",
+    "gems": "{{found}}/{{total}} אבני חן נמצאו",
+    "idols": "{{found}}/{{total}} אלילים נמצאו"
+  },
+  "yourTurn": {
+    "banner": "👉 התור שלך!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} סיים את הסט שלו (מקום {{place}})! {{status}}",
+    "othersRemaining_one": "עוד {{count}} שחקן משחק.",
+    "othersRemaining_other": "עוד {{count}} שחקנים משחקים.",
+    "everyoneDone": "זהו כולם!"
+  },
+  "gameResult": {
+    "wonTitle": "מצאת את כל {{count}} קלפי {{cardName}}!",
+    "lostTitle": "הפסדת!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, הטל קובייה כדי למצוא את הקלף שלך!",
+    "rollingPrompt": "{{playerName}} מטיל...",
+    "roll": "הטל",
+    "yourCardIs": "הקלף שלך הוא {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "אין משחק פעיל. התחל אחד מהבית!"
+  },
+  "appSettings": {
+    "theme": "עיצוב",
+    "themeDark": "כהה",
+    "themeLight": "בהיר",
+    "language": "שפה",
+    "languageSystem": "מערכת",
+    "data": "מידע",
+    "dataBody": "מנתק אותך ומוחק את היסטוריית הסטטיסטיקה שלך במכשיר הזה. לא ניתן לבטל פעולה זו.",
+    "signOutReset": "התנתק ואפס מידע מקומי",
+    "confirmResetTitle": "להתנתק ולאפס מידע מקומי?",
+    "confirmResetBody": "זה מוחק את היסטוריית הסטטיסטיקה שלך במכשיר הזה ומנתק אותך. לא ניתן לבטל פעולה זו.",
+    "reset": "איפוס"
+  },
+  "profile": {
+    "displayNamePlaceholder": "שם תצוגה",
+    "save": "שמירה",
+    "cancel": "ביטול",
+    "signOut": "התנתק",
+    "deleteAccount": "מחק חשבון",
+    "confirmDeleteTitle": "למחוק את החשבון שלך?",
+    "confirmDeleteBody": "זה מוחק לצמיתות את החשבון שלך. לא ניתן לבטל פעולה זו.",
+    "delete": "מחק",
+    "emailPlaceholder": "אימייל",
+    "passwordPlaceholder": "סיסמה",
+    "forgotPassword": "שכחת סיסמה?",
+    "resetSent": "אימייל לאיפוס סיסמה נשלח — בדוק את תיבת הדואר שלך.",
+    "signUp": "הרשמה",
+    "signIn": "התחברות",
+    "switchToSignIn": "יש לך כבר חשבון? התחבר",
+    "switchToSignUp": "צריך חשבון? הירשם",
+    "or": "או",
+    "continueWithGoogle": "G  המשך עם Google",
+    "continueWithApple": "􀣺  המשך עם Apple",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "צור חשבון כדי להתחיל לשחק",
+    "onboardingSignInSubtitle": "התחבר כדי להמשיך",
+    "proBadge": "✨ חבר Pro",
+    "upgradeToPro": "שדרג ל-Pro"
+  },
+  "staticInfo": {
+    "lastUpdated": "עודכן לאחרונה: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts הוא משחק היברידי של זיכרון וקוביות — הטל קובייה כדי למצוא את החיה שלך, ואז חפש אותה בלוח לפני שהגולגולות (או החיה של מישהו אחר) תופסות אותך.",
+    "howToPlayHeading": "איך משחקים",
+    "howToPlayBody": "מצב יחיד זה אתה מול הלוח: הטל קובייה לחיה יעד קבועה, ואז הפוך אריחים לאסוף את כל העותקים שלה לפני שהסט של חיה אחרת נחשף במלואו. מצב קבוצתי משדך 2-4 שחקנים באינטרנט, שמתחרים להשלים את הסטים שלהם — עם אבני חן בונוס ואלילים בדרך שחושפים באופן מיידי עותקים נוספים למי שמוצא אותם.",
+    "builtWithHeading": "נבנה עם",
+    "builtWithBody": "Expo, React Native ו-TypeScript בצד הלקוח; Colyseus מפעיל את משחק הקבוצה המקוון בזמן אמת.",
+    "versionHeading": "גרסה",
+    "noteHeading": "הערה",
+    "noteBody": "זהו פרויקט עצמאי בפיתוח פעיל — צפו לתכונות חדשות ושינויי חוקים עם הזמן. תודה שאתם משחקים!"
+  },
+  "privacyPolicy": {
+    "intro": "מדיניות זו מסבירה איזה מידע Bones & Beasts אוסף וכיצד הוא נעשה בו שימוש. אין כאן פרסומות ואין אנליטיקה או מעקב מעבר למה שמתואר להלן.",
+    "accountHeading": "החשבון שלך",
+    "accountBody": "יצירת חשבון (אימייל/סיסמה, Google, או התחברות עם Apple) נדרשת כדי לשחק. אנו משתמשים ב-Firebase Authentication לניהול ההתחברות, שמאחסן את כתובת האימייל ושם התצוגה שלך (ולגבי Google/Apple, כל מידע פרופיל בסיסי שהספק הזה חולק איתנו — בדרך כלל רק השם והאימייל שלך). אנחנו לא רואים ולא מאחסנים את הסיסמה שלך עבור חשבונות אימייל/סיסמה; Firebase מטפל בכך ישירות. אתה יכול למחוק את חשבונך בכל עת מעמוד הפרופיל.",
+    "soloHeading": "משחק יחיד",
+    "soloBody": "משחקים ביחיד רצים באופן מלא במכשיר שלך. היסטוריית המשחקים שלך בכרטיסיית הסטטיסטיקה (משחקים ששוחקו, ניצחונות, סטים שהושלמו, זמנים) מאוחסנת מקומית במכשיר ולעולם לא מועברת אלינו או לכל מישהו אחר, ללא קשר אם אתה מחובר.",
+    "groupHeading": "משחק קבוצתי מקוון",
+    "groupBody": "כאשר אתה מצטרף למשחק קבוצתי, שם התצוגה שלך והפעולות שלך במשחק (הטלות קוביה, הפיכת קלפים) נשלחים לשרת המשחק שלנו כדי שיוכל לשמור על הלוח המשותף מסונכרן לכל מי שנמצא באותו משחק. מידע זה קיים רק למשך אורך חיי אותו סשן משחק — הוא לא נשמר אחר כך, לא נמכר, ולא משותף עם צדדים שלישיים.",
+    "childrenHeading": "פרטיות ילדים",
+    "childrenBody": "Bones & Beasts אינו מיועד לילדים מתחת לגיל 13, ואיננו אוספים במכוון מידע מהם.",
+    "changesHeading": "שינויים במדיניות זו",
+    "changesBody": "אם האופן שבו האפליקציה מטפלת במידע ישתנה — לדוגמה, אם ידווח על קריסות, התראות דחיפה, או מנוי בתשלום יתווספו — עמוד זה יעודכן כדי לתאר זאת.",
+    "questionsHeading": "שאלות",
+    "questionsBody": "אם יש לך שאלות לגבי מדיניות זו, אנא פנה אלינו באמצעות המקום שבו הורדת את האפליקציה הזו."
+  },
+  "termsOfService": {
+    "intro": "בשימוש ב-Bones & Beasts, אתה מסכים לתנאים אלה. אם אינך מסכים, אנא אל תשתמש באפליקציה.",
+    "gameHeading": "המשחק",
+    "gameBody": "Bones & Beasts (ראה את עמוד המידע לגבי מה זה וכיצד משחקים בו) מוצע למטרות בידור בלבד.",
+    "fairPlayHeading": "משחק הוגן",
+    "fairPlayBody": "במשחקים קבוצתיים, אנא שחק בהגינות — אין לנצל באגים, לאוטומט את התורות שלך, או להפריע למשחקים של שחקנים אחרים. אנו שומרים לעצמנו את הזכות להסיר שחקנים ממשחק או מלובי בגין התנהגות מפריעה.",
+    "noWarrantyHeading": "אין אחריות",
+    "noWarrantyBody": "האפליקציה מסופקת \"כמו שהיא\", ללא אחריות מכל סוג. איננו מבטיחים שהיא תהיה רצופה, נטולת שגיאות, או זמינה בכל עת — במיוחד מצב הקבוצה המקוון, שתלוי בשרת משחק שעשוי להתעדכן, להופעל מחדש, או לרדת ללא הודעה מוקדמת.",
+    "liabilityHeading": "הגבלת אחריות",
+    "liabilityBody": "במידה המקסימלית המותרת על פי חוק, איננו נושאים באחריות לכל נזק הנובע משימושך, או מחוסר יכולתך להשתמש, באפליקציה.",
+    "changesHeading": "שינויים",
+    "changesBody": "תנאים אלה עשויים להתעדכן ככל שהאפליקציה משתנה. המשך השימוש באפליקציה לאחר עדכון פירושו שאתה מקבל את התנאים המתוקנים."
+  },
+  "settingsNav": {
+    "profile": "פרופיל",
+    "appSettings": "הגדרות אפליקציה",
+    "privacyPolicy": "מדיניות פרטיות",
+    "termsOfService": "תנאי שימוש",
+    "about": "מידע",
+    "settings": "הגדרות"
+  },
+  "stats": {
+    "title": "סטטיסטיקה",
+    "gamesPlayed": "משחקים ששוחקו",
+    "yourWins": "הניצחונות שלך",
+    "setsCompleted": "סטים שהושלמו",
+    "avgSetsPerGame": "ממוצע סטים / משחק",
+    "bestSoloTime": "הזמן היחיד הטוב ביותר",
+    "noBestTime": "–",
+    "recentGames": "משחקים אחרונים",
+    "noGamesYet": "עדיין לא שיחקת משחקים — התחל אחד!",
+    "modeSolo": "יחיד",
+    "modeGroup": "קבוצה ({{count}})",
+    "placeWin": "🏆 מקום {{place}}",
+    "place": "מקום {{place}}"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "משחק קבוצתי חינם עוד {{count}} יום — הירשם בכל עת כדי להמשיך לשחק אחרי כן.",
+    "trialActiveSubtitle_other": "משחק קבוצתי חינם עוד {{count}} ימים — הירשם בכל עת כדי להמשיך לשחק אחרי כן.",
+    "trialEndedSubtitle": "תקופת הניסיון החינמית שלך למשחק קבוצתי הסתיימה. הירשם כדי להמשיך להתחרות בשחקנים אחרים באינטרנט.",
+    "monthly": "חודשי",
+    "yearly": "שנתי",
+    "lifetime": "לכל החיים",
+    "restorePurchases": "שחזר רכישות",
+    "notNow": "לא כרגע"
+  },
+  "avatar": {
+    "pageTitle": "אווטאר",
+    "subtitle": "בחר אווטאר לפרופיל שלך"
+  }
+}

@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { Room } from "colyseus.js";
+import { useTranslation } from "react-i18next";
 import { Theme, useTheme } from "../theme";
 import { joinBeastsRoom } from "../net/colyseusClient";
 import { useBeastsRoom } from "../net/useBeastsRoom";
@@ -19,6 +20,7 @@ type Props = NativeStackScreenProps<PlayStackParamList, "Lobby">;
 export default function LobbyScreen({ route, navigation }: Props) {
   const theme = useTheme();
   const styles = getStyles(theme);
+  const { t } = useTranslation();
   const { playerName } = route.params;
   const [room, setRoom] = useState<Room | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -35,7 +37,7 @@ export default function LobbyScreen({ route, navigation }: Props) {
         }
         setRoom(r);
       })
-      .catch((err) => setError(err?.message ?? "Could not reach the server."));
+      .catch((err) => setError(err?.message ?? t("lobby.couldNotReachServer")));
 
     return () => {
       cancelled = true;
@@ -58,10 +60,10 @@ export default function LobbyScreen({ route, navigation }: Props) {
   if (error) {
     return (
       <SafeAreaView style={styles.wrap}>
-        <Text style={styles.title}>Couldn't connect</Text>
+        <Text style={styles.title}>{t("lobby.couldntConnect")}</Text>
         <Text style={styles.subtitle}>{error}</Text>
         <Pressable style={styles.btn} onPress={() => navigation.goBack()}>
-          <Text style={styles.btnText}>Back</Text>
+          <Text style={styles.btnText}>{t("common.back")}</Text>
         </Pressable>
       </SafeAreaView>
     );
@@ -69,7 +71,7 @@ export default function LobbyScreen({ route, navigation }: Props) {
 
   return (
     <SafeAreaView style={styles.wrap}>
-      <Text style={styles.title}>Finding a Group</Text>
+      <Text style={styles.title}>{t("lobby.findingGroup")}</Text>
 
       {!snapshot ? (
         <ActivityIndicator color={theme.colors.gold} size="large" />
@@ -86,13 +88,13 @@ export default function LobbyScreen({ route, navigation }: Props) {
               <View key={p.id} style={styles.playerRow}>
                 <View style={[styles.dot, { backgroundColor: p.color }]} />
                 <Text style={styles.playerName}>{p.name}</Text>
-                {p.id === room?.sessionId && <Text style={styles.you}>(you)</Text>}
+                {p.id === room?.sessionId && <Text style={styles.you}>{t("lobby.you")}</Text>}
               </View>
             ))}
             {Array.from({ length: Math.max(0, 2 - snapshot.players.length) }).map((_, i) => (
               <View key={`empty-${i}`} style={styles.playerRow}>
                 <View style={[styles.dot, styles.dotEmpty]} />
-                <Text style={styles.waitingText}>Waiting for a player...</Text>
+                <Text style={styles.waitingText}>{t("lobby.waitingForPlayer")}</Text>
               </View>
             ))}
           </View>
@@ -100,7 +102,7 @@ export default function LobbyScreen({ route, navigation }: Props) {
       )}
 
       <Pressable style={styles.cancelBtn} onPress={leave}>
-        <Text style={styles.cancelText}>Cancel</Text>
+        <Text style={styles.cancelText}>{t("lobby.cancel")}</Text>
       </Pressable>
     </SafeAreaView>
   );

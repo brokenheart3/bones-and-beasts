@@ -1,0 +1,260 @@
+{
+  "common": {
+    "cancel": "Atcelt",
+    "save": "Saglabāt",
+    "back": "Atpakaļ",
+    "delete": "Dzēst",
+    "reset": "Atiestatīt",
+    "you": "Tu",
+    "explorer": "Pētnieks",
+    "didNotFinish": "Nepabeidza",
+    "or": "vai",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Lauva",
+    "elephant": "Zilonis",
+    "monkey": "Pērtiķis",
+    "tiger": "Tīģeris",
+    "giraffe": "Žirafe",
+    "zebra": "Zebra"
+  },
+  "tabs": {
+    "home": "Sākums",
+    "play": "Spēlēt",
+    "stats": "Statistika",
+    "settings": "Iestatījumi"
+  },
+  "home": {
+    "welcome": "Sveicināts, {{username}}!",
+    "promptReady": "Gatavs likt likmi?",
+    "promptWanna": "Vēlies spēlēt?",
+    "soloTitle": "Solo",
+    "soloBody": "Met kauliņu, lai atrastu savu kārti, tad meklē planšetē visas sešas kopijas, pirms cita zvēra komplekts tiek pabeigts pirmais. Tikai tu, tava atmiņa un galvaskausi.",
+    "playSolo": "Spēlēt Solo",
+    "groupTitle": "Grupa",
+    "groupBody": "Pievienojies 2-4 spēlētājiem un sacenties, lai pirmais pabeigtu savu komplektu. Grupas režīms ir tikai tiešsaistē — mēs tevi savienosim ar citiem spēlētājiem tiešraides gaidīšanas telpā.",
+    "trialActive_zero": "Bezmaksas izmēģinājums — atlikušas {{count}} dienas",
+    "trialActive_one": "Bezmaksas izmēģinājums — atlikusi {{count}} diena",
+    "trialActive_other": "Bezmaksas izmēģinājums — atlikušas {{count}} dienas",
+    "trialEnded": "Bezmaksas izmēģinājums beidzies — abonē, lai turpinātu spēlēt",
+    "findGroup": "Atrast grupu"
+  },
+  "endScreen": {
+    "lossTitle": "Apglabāts templī!",
+    "winTitle": "Templis attīrīts!",
+    "totalTime": "⏱ Kopējais spēles laiks: {{time}}",
+    "finalRanking": "Gala reitings",
+    "setCompletionOrder": "Komplektu pabeigšanas secība",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Spēlēt vēlreiz"
+  },
+  "bonus": {
+    "small": "bonusa dārgakmeni",
+    "big": "senlaicīgu elku",
+    "found": "Tu atradi {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Savienojas...",
+    "aPlayer": "Spēlētājs",
+    "huntingFor": "Tu meklēsi {{emoji}} {{faceName}}!",
+    "waiting": "Gaida",
+    "waitingForMove": "Gaida viņa gājienu...",
+    "disconnectedName": "{{name}} (aizgāja)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Neizdevās sasniegt serveri.",
+    "couldntConnect": "Neizdevās izveidot savienojumu",
+    "findingGroup": "Meklē grupu",
+    "you": "(tu)",
+    "waitingForPlayer": "Gaida spēlētāju...",
+    "cancel": "Atcelt"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Šis e-pasts jau ir reģistrēts — mēģini pieteikties.",
+    "invalidEmail": "Tas neizskatās pēc derīgas e-pasta adreses.",
+    "missingEmail": "Vispirms ievadi savu e-pasta adresi.",
+    "weakPassword": "Parolei jābūt vismaz 6 rakstzīmēm.",
+    "wrongPassword": "Nepareizs e-pasts vai parole.",
+    "userNotFound": "Ar šo e-pastu konts nav atrasts.",
+    "tooManyRequests": "Pārāk daudz mēģinājumu — lūdzu, pagaidi brīdi un mēģini vēlreiz.",
+    "networkError": "Tīkla kļūda — pārbaudi savienojumu un mēģini vēlreiz.",
+    "requiresRecentLogin": "Tavas drošības labad, lūdzu, izrakstie un piesakies vēlreiz, tad mēģini vēlreiz.",
+    "generic": "Kaut kas nogāja greizi. Lūdzu, mēģini vēlreiz."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Neizdevās ielādēt abonementa opcijas.",
+    "purchaseFailed": "Pirkums neizdevās. Mēģini vēlreiz.",
+    "restoreFailed": "Neizdevās atjaunot pirkumus.",
+    "notSignedIn": "Vispirms piesakies.",
+    "notAvailableOnWeb": "Abonementi tīmeklī vēl nav pieejami — izmanto iOS vai Android lietotni.",
+    "checkoutFailed": "Neizdevās sākt norēķinu."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, met kauliņu, lai atrastu savu kārti!",
+    "turnHuntFor": "{{name}} gājiens — meklē {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Turpini apgriezt!",
+    "completedSet": "🏆 {{name}} pabeidza {{faceName}} komplektu — {{place}}. vieta!",
+    "skullSolo": "💀 {{name}} uzdūrās galvaskausam! Sastindzis uz brīdi...",
+    "skullGroup": "💀 {{name}} uzdūrās galvaskausam! Gājiens zaudēts, nākamais gājiens izlaists. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} atrada {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} atrada {{label}}, bet vairs nebija ko atklāt!",
+    "bonusLabelSmall": "bonusa dārgakmeni",
+    "bonusLabelBig": "senlaicīgu elku",
+    "foundFaceLead": "{{name}} atrada {{faceName}}",
+    "wrongTileLoss": "💀 Visas {{wrongFace}} flīzes tika atrastas, pirms tu pabeidzi savu {{targetFace}} komplektu — tu zaudēji!",
+    "wrongTilePass": "{{name}} atklāja nepareizo flīzi. {{nextTurn}}",
+    "everyoneFound": "Visi atrada savu kārti! Spēle beigusies.",
+    "tabletCleared": "Planšete ir attīrīta! Spēle beigusies."
+  },
+  "skullPause": {
+    "title": "Sastindzis!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} lamatas atrastas",
+    "gems": "{{found}}/{{total}} dārgakmeņi atrasti",
+    "idols": "{{found}}/{{total}} elki atrasti"
+  },
+  "yourTurn": {
+    "banner": "👉 Tavs gājiens!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} pabeidza savu komplektu ({{place}}. vieta)! {{status}}",
+    "othersRemaining_zero": "Vēl {{count}} spēlētāju spēlē.",
+    "othersRemaining_one": "Vēl {{count}} spēlētājs spēlē.",
+    "othersRemaining_other": "Vēl {{count}} spēlētāji spēlē.",
+    "everyoneDone": "Tie ir visi!"
+  },
+  "gameResult": {
+    "wonTitle": "Tu atradi visas {{count}} {{cardName}} kārtis!",
+    "lostTitle": "Tu zaudēji!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, met kauliņu, lai atrastu savu kārti!",
+    "rollingPrompt": "{{playerName}} met...",
+    "roll": "Mest",
+    "yourCardIs": "Tava kārts ir {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Neviena spēle nenotiek. Sāc vienu no Sākuma!"
+  },
+  "appSettings": {
+    "theme": "Tēma",
+    "themeDark": "Tumša",
+    "themeLight": "Gaiša",
+    "language": "Valoda",
+    "languageSystem": "Sistēma",
+    "data": "Dati",
+    "dataBody": "Izraksta tevi un dzēš tavu statistikas vēsturi šajā ierīcē. To nevar atsaukt.",
+    "signOutReset": "Izrakstīties un atiestatīt vietējos datus",
+    "confirmResetTitle": "Izrakstīties un atiestatīt vietējos datus?",
+    "confirmResetBody": "Tas dzēš tavu statistikas vēsturi šajā ierīcē un izraksta tevi. To nevar atsaukt.",
+    "reset": "Atiestatīt"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Attēlotais vārds",
+    "save": "Saglabāt",
+    "cancel": "Atcelt",
+    "signOut": "Izrakstīties",
+    "deleteAccount": "Dzēst kontu",
+    "confirmDeleteTitle": "Dzēst tavu kontu?",
+    "confirmDeleteBody": "Tas neatgriezeniski dzēš tavu kontu. To nevar atsaukt.",
+    "delete": "Dzēst",
+    "emailPlaceholder": "E-pasts",
+    "passwordPlaceholder": "Parole",
+    "forgotPassword": "Aizmirsi paroli?",
+    "resetSent": "Paroles atiestatīšanas e-pasts nosūtīts — pārbaudi savu iesūtni.",
+    "signUp": "Reģistrēties",
+    "signIn": "Pieteikties",
+    "switchToSignIn": "Jau ir konts? Pieteikties",
+    "switchToSignUp": "Nepieciešams konts? Reģistrēties",
+    "or": "vai",
+    "continueWithGoogle": "G  Turpināt ar Google",
+    "continueWithApple": "􀣺  Turpināt ar Apple",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Izveido kontu, lai sāktu spēlēt",
+    "onboardingSignInSubtitle": "Piesakies, lai turpinātu",
+    "proBadge": "✨ Pro dalībnieks",
+    "upgradeToPro": "Jauniniet uz Pro"
+  },
+  "staticInfo": {
+    "lastUpdated": "Pēdējoreiz atjaunināts: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts ir atmiņas/kauliņu hibrīda spēle — met kauliņu, lai atrastu savu zvēru, tad meklē to visā planšetē, pirms galvaskausi (vai kāda cita zvērs) tevi noķer.",
+    "howToPlayHeading": "Kā spēlēt",
+    "howToPlayBody": "Solo režīms ir tikai tu pret planšeti: met kauliņu fiksētam mērķa dzīvniekam, tad apgriez flīzes, lai savāktu visas tā kopijas, pirms cita dzīvnieka komplekts tiek pilnībā atklāts. Grupas režīms sapulcē 2-4 spēlētājus tiešsaistē, sacenšoties, lai pabeigtu savus komplektus — ar bonusa dārgakmeņiem un elkiem pa ceļam, kas nekavējoties atklāj papildu kopijas tam, kurš tos atrod.",
+    "builtWithHeading": "Izveidots ar",
+    "builtWithBody": "Expo, React Native un TypeScript klienta pusē; Colyseus darbina reāllaika grupas spēli tiešsaistē.",
+    "versionHeading": "Versija",
+    "noteHeading": "Piezīme",
+    "noteBody": "Šis ir neatkarīgs, aktīvi izstrādāts projekts — laika gaitā gaidi jaunas funkcijas un noteikumu izmaiņas. Paldies, ka spēlēji!"
+  },
+  "privacyPolicy": {
+    "intro": "Šī politika izskaidro, kādu informāciju Bones & Beasts vāc un kā tā tiek izmantota. Nav reklāmas un nav analītikas vai izsekošanas ārpus tā, kas aprakstīts zemāk.",
+    "accountHeading": "Tavs konts",
+    "accountBody": "Lai spēlētu, ir nepieciešams izveidot kontu (e-pasts/parole, Google, vai Pieteikšanās ar Apple). Mēs izmantojam Firebase Authentication, lai pārvaldītu pieteikšanos, kas glabā tavu e-pasta adresi un attēloto vārdu (un, Google/Apple gadījumā, jebkuru pamata profila informāciju, ko šis pakalpojumu sniedzējs dalās ar mums — parasti tikai tavu vārdu un e-pastu). Mēs neredzam un neglabājam tavu paroli e-pasta/paroles kontiem; Firebase to apstrādā tieši. Tu vari dzēst savu kontu jebkurā laikā no Profila lapas.",
+    "soloHeading": "Solo spēle",
+    "soloBody": "Solo spēles pilnībā darbojas tavā ierīcē. Tava spēles vēsture Statistikas cilnē (spēlētās spēles, uzvaras, pabeigtie komplekti, laiki) tiek glabāta lokāli ierīcē un nekad netiek pārsūtīta mums vai kādam citam, neatkarīgi no tā, vai esi pieteicies.",
+    "groupHeading": "Grupas spēle tiešsaistē",
+    "groupBody": "Kad pievienojies grupas spēlei, tavs attēlotais vārds un tavas darbības spēlē (kauliņu mešana, kāršu apgriešana) tiek nosūtītas mūsu spēles serverim, lai tas varētu uzturēt kopīgo laukumu sinhronizētu visiem šajā spēlē. Šie dati pastāv tikai tik ilgi, kamēr ilgst tā spēles sesija — tie netiek saglabāti pēc tam, pārdoti vai kopīgoti ar trešajām pusēm.",
+    "childrenHeading": "Bērnu privātums",
+    "childrenBody": "Bones & Beasts nav paredzēts bērniem, kas jaunāki par 13 gadiem, un mēs apzināti neievācam informāciju no viņiem.",
+    "changesHeading": "Šīs politikas izmaiņas",
+    "changesBody": "Ja mainīsies veids, kā lietotne apstrādā datus — piemēram, ja tiks pievienoti avāriju pārskati, push paziņojumi vai maksas abonements — šī lapa tiks atjaunināta, lai to aprakstītu.",
+    "questionsHeading": "Jautājumi",
+    "questionsBody": "Ja tev ir jautājumi par šo politiku, lūdzu, sazinies ar mums caur vietu, kur lejupielādēji šo lietotni."
+  },
+  "termsOfService": {
+    "intro": "Izmantojot Bones & Beasts, tu piekrīti šiem noteikumiem. Ja nepiekrīti, lūdzu, neizmanto lietotni.",
+    "gameHeading": "Spēle",
+    "gameBody": "Bones & Beasts (skaties lapu Par, lai uzzinātu, kas tā ir un kā tajā spēlē) tiek piedāvāta tikai izklaides nolūkos.",
+    "fairPlayHeading": "Godīga spēle",
+    "fairPlayBody": "Grupas spēlēs, lūdzu, spēlē godīgi — neizmanto kļūdas, neautomatizē savus gājienus un netraucē citu spēlētāju spēlēm. Mēs paturam tiesības noņemt spēlētājus no spēles vai gaidīšanas telpas par traucējošu uzvedību.",
+    "noWarrantyHeading": "Nav garantijas",
+    "noWarrantyBody": "Lietotne tiek nodrošināta \"tāda, kāda tā ir\", bez jebkādām garantijām. Mēs negarantējam, ka tā būs nepārtraukta, bez kļūdām vai vienmēr pieejama — īpaši tiešsaistes grupas režīms, kas ir atkarīgs no spēles servera, kuru var atjaunināt, restartēt vai atslēgt bez iepriekšēja brīdinājuma.",
+    "liabilityHeading": "Atbildības ierobežojums",
+    "liabilityBody": "Maksimālajā likumā atļautajā apmērā mēs neesam atbildīgi par jebkādiem zaudējumiem, kas izriet no lietotnes izmantošanas vai nespējas to izmantot.",
+    "changesHeading": "Izmaiņas",
+    "changesBody": "Šie noteikumi var tikt atjaunināti, lietotnei mainoties. Lietotnes turpmāka izmantošana pēc atjauninājuma nozīmē, ka tu piekrīti pārskatītajiem noteikumiem."
+  },
+  "settingsNav": {
+    "profile": "Profils",
+    "appSettings": "Lietotnes iestatījumi",
+    "privacyPolicy": "Privātuma politika",
+    "termsOfService": "Pakalpojuma sniegšanas noteikumi",
+    "about": "Par",
+    "settings": "Iestatījumi"
+  },
+  "stats": {
+    "title": "Statistika",
+    "gamesPlayed": "Spēlētās spēles",
+    "yourWins": "Tavas uzvaras",
+    "setsCompleted": "Pabeigtie komplekti",
+    "avgSetsPerGame": "Vid. komplekti / spēlē",
+    "bestSoloTime": "Labākais solo laiks",
+    "noBestTime": "–",
+    "recentGames": "Nesenās spēles",
+    "noGamesYet": "Vēl nav spēlētu spēļu — sāc vienu!",
+    "modeSolo": "Solo",
+    "modeGroup": "Grupa ({{count}})",
+    "placeWin": "🏆 {{place}}. vieta",
+    "place": "{{place}}. vieta"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_zero": "Grupas režīms ir bezmaksas vēl {{count}} dienas — abonē jebkurā laikā, lai turpinātu spēlēt pēc tam.",
+    "trialActiveSubtitle_one": "Grupas režīms ir bezmaksas vēl {{count}} dienu — abonē jebkurā laikā, lai turpinātu spēlēt pēc tam.",
+    "trialActiveSubtitle_other": "Grupas režīms ir bezmaksas vēl {{count}} dienas — abonē jebkurā laikā, lai turpinātu spēlēt pēc tam.",
+    "trialEndedSubtitle": "Tavs grupas spēles bezmaksas izmēģinājums ir beidzies. Abonē, lai turpinātu sacensties ar citiem spēlētājiem tiešsaistē.",
+    "monthly": "Ikmēneša",
+    "yearly": "Ikgadēja",
+    "lifetime": "Mūža",
+    "restorePurchases": "Atjaunot pirkumus",
+    "notNow": "Ne tagad"
+  },
+  "avatar": {
+    "pageTitle": "Avatārs",
+    "subtitle": "Izvēlies avatāru savam profilam"
+  }
+}

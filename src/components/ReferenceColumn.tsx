@@ -2,15 +2,7 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { Theme, useTheme } from "../theme";
 import { totalCopiesForFace } from "../utils/gameSetup";
-import {
-  BONUS_BIG_EMOJI,
-  BONUS_SMALL_EMOJI,
-  CardModel,
-  FACE_EMOJIS,
-  FACE_IDS,
-  FaceId,
-  SKULL_EMOJI,
-} from "../types";
+import { CardModel, FACE_EMOJIS, FACE_IDS, FaceId } from "../types";
 
 // Local play always has the full board client-side, so totals can be
 // derived by counting it directly. Online play deliberately hides each
@@ -37,43 +29,12 @@ interface Props {
   collected?: Record<FaceId, number>;
 }
 
-function countOf(board: CardModel[], type: CardModel["type"]) {
-  return board.filter((c) => c.type === type).length;
-}
-
 export default function ReferenceColumn({ board, targetFaceId, totals, collected }: Props) {
   const theme = useTheme();
   const styles = getStyles(theme);
-  const foundSkulls = board.filter((c) => c.type === "skull" && c.revealed).length;
-  const totalSkulls = totals?.skull ?? countOf(board, "skull");
-  const foundBonusSmall = board.filter((c) => c.type === "bonusSmall" && c.revealed).length;
-  const totalBonusSmall = totals?.bonusSmall ?? countOf(board, "bonusSmall");
-  const foundBonusBig = board.filter((c) => c.type === "bonusBig" && c.revealed).length;
-  const totalBonusBig = totals?.bonusBig ?? countOf(board, "bonusBig");
 
   return (
     <View style={styles.wrap}>
-      <View style={styles.dangerBox}>
-        <Text style={styles.dangerGlyph}>{SKULL_EMOJI}</Text>
-        <Text style={styles.dangerLabel}>
-          {foundSkulls}/{totalSkulls} traps found
-        </Text>
-      </View>
-
-      <View style={styles.bonusBox}>
-        <Text style={styles.bonusGlyph}>{BONUS_SMALL_EMOJI}</Text>
-        <Text style={styles.bonusLabel}>
-          {foundBonusSmall}/{totalBonusSmall} gems found
-        </Text>
-      </View>
-
-      <View style={styles.bonusBox}>
-        <Text style={styles.bonusGlyph}>{BONUS_BIG_EMOJI}</Text>
-        <Text style={styles.bonusLabel}>
-          {foundBonusBig}/{totalBonusBig} idols found
-        </Text>
-      </View>
-
       {FACE_IDS.map((faceId) => {
         const revealedCount = board.filter(
           (c) => c.type === "face" && c.faceId === faceId && c.revealed
@@ -103,38 +64,6 @@ function getStyles(theme: Theme) {
     wrap: {
       width: 64,
       justifyContent: "flex-start",
-    },
-    dangerBox: {
-      alignItems: "center",
-      backgroundColor: theme.colors.surfaceAlt,
-      borderRadius: theme.radius.sm,
-      paddingVertical: 8,
-      marginBottom: 10,
-      borderWidth: 1,
-      borderColor: theme.colors.danger,
-    },
-    dangerGlyph: { fontSize: 18 },
-    dangerLabel: {
-      fontSize: 9,
-      color: theme.colors.dangerSoft,
-      marginTop: 2,
-      textAlign: "center",
-    },
-    bonusBox: {
-      alignItems: "center",
-      backgroundColor: theme.colors.surfaceAlt,
-      borderRadius: theme.radius.sm,
-      paddingVertical: 8,
-      marginBottom: 10,
-      borderWidth: 1,
-      borderColor: theme.colors.gold,
-    },
-    bonusGlyph: { fontSize: 18 },
-    bonusLabel: {
-      fontSize: 9,
-      color: theme.colors.goldSoft,
-      marginTop: 2,
-      textAlign: "center",
     },
     item: {
       alignItems: "center",

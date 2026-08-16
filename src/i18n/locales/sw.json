@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "Ghairi",
+    "save": "Hifadhi",
+    "back": "Rudi",
+    "delete": "Futa",
+    "reset": "Weka upya",
+    "you": "Wewe",
+    "explorer": "Mgunduzi",
+    "didNotFinish": "Hakumaliza",
+    "or": "au",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Simba",
+    "elephant": "Tembo",
+    "monkey": "Tumbili",
+    "tiger": "Simbamarara",
+    "giraffe": "Twiga",
+    "zebra": "Punda Milia"
+  },
+  "tabs": {
+    "home": "Nyumbani",
+    "play": "Cheza",
+    "stats": "Takwimu",
+    "settings": "Mipangilio"
+  },
+  "home": {
+    "welcome": "Karibu, {{username}}!",
+    "promptReady": "Uko tayari kubeti?",
+    "promptWanna": "Unataka kucheza?",
+    "soloTitle": "Peke Yako",
+    "soloBody": "Piga kete kupata kadi yako, kisha tafuta kwenye ubao nakala zote sita kabla mnyama mwingine hajakamilisha seti yake kwanza. Wewe tu, kumbukumbu yako, na mafuvu.",
+    "playSolo": "Cheza Peke Yako",
+    "groupTitle": "Kikundi",
+    "groupBody": "Shirikiana na wachezaji 2-4 na shindana kukamilisha seti yako mwenyewe kwanza. Mchezo wa kikundi ni mtandaoni tu — tutakuunganisha na wachezaji wengine kwenye chumba cha moja kwa moja.",
+    "trialActive_one": "Jaribio la bure — siku {{count}} imesalia",
+    "trialActive_other": "Jaribio la bure — siku {{count}} zimesalia",
+    "trialEnded": "Jaribio la bure limeisha — jisajili ili kuendelea kucheza",
+    "findGroup": "Tafuta Kikundi"
+  },
+  "endScreen": {
+    "lossTitle": "Umezikwa Hekaluni!",
+    "winTitle": "Hekalu Limesafishwa!",
+    "totalTime": "⏱ Muda wote wa mchezo: {{time}}",
+    "finalRanking": "Nafasi za mwisho",
+    "setCompletionOrder": "Mpangilio wa kukamilisha seti",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Cheza Tena"
+  },
+  "bonus": {
+    "small": "Kito cha Zawadi",
+    "big": "Sanamu ya Kale",
+    "found": "Umepata {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Inaunganisha...",
+    "aPlayer": "Mchezaji",
+    "huntingFor": "Utakuwa unatafuta {{emoji}} {{faceName}}!",
+    "waiting": "Inasubiri",
+    "waitingForMove": "Inasubiri hatua yao...",
+    "disconnectedName": "{{name}} (ameondoka)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Imeshindwa kufikia seva.",
+    "couldntConnect": "Imeshindwa kuunganisha",
+    "findingGroup": "Inatafuta Kikundi",
+    "you": "(wewe)",
+    "waitingForPlayer": "Inasubiri mchezaji...",
+    "cancel": "Ghairi"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Barua pepe hiyo tayari imesajiliwa — jaribu kuingia badala yake.",
+    "invalidEmail": "Hiyo si anwani sahihi ya barua pepe.",
+    "missingEmail": "Weka anwani yako ya barua pepe kwanza.",
+    "weakPassword": "Nenosiri linapaswa kuwa na angalau herufi 6.",
+    "wrongPassword": "Barua pepe au nenosiri sio sahihi.",
+    "userNotFound": "Hakuna akaunti iliyopatikana kwa barua pepe hiyo.",
+    "tooManyRequests": "Majaribio mengi sana — tafadhali subiri kidogo na ujaribu tena.",
+    "networkError": "Hitilafu ya mtandao — angalia muunganisho wako na ujaribu tena.",
+    "requiresRecentLogin": "Kwa usalama wako, tafadhali toka na uingie tena, kisha jaribu tena.",
+    "generic": "Kuna hitilafu imetokea. Tafadhali jaribu tena."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Imeshindwa kupakia chaguo za usajili.",
+    "purchaseFailed": "Ununuzi umeshindwa. Tafadhali jaribu tena.",
+    "restoreFailed": "Imeshindwa kurejesha ununuzi.",
+    "notSignedIn": "Tafadhali ingia kwanza.",
+    "notAvailableOnWeb": "Usajili haupatikani kwenye wavuti bado — tafadhali tumia programu ya iOS au Android.",
+    "checkoutFailed": "Imeshindwa kuanzisha malipo."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, piga kete kupata kadi yako!",
+    "turnHuntFor": "Zamu ya {{name}} — tafuta {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Pindua tena!",
+    "completedSet": "🏆 {{name}} amekamilisha seti ya {{faceName}} — nafasi ya {{place}}!",
+    "skullSolo": "💀 {{name}} amegonga fuvu! Amegandishwa kwa muda...",
+    "skullGroup": "💀 {{name}} amegonga fuvu! Zamu imepotea, zamu inayofuata itapitwa. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} amepata {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} amepata {{label}}, lakini hakuwa na chochote kilichobaki kufunua!",
+    "bonusLabelSmall": "kito cha zawadi",
+    "bonusLabelBig": "sanamu ya kale",
+    "foundFaceLead": "{{name}} amepata {{faceName}}",
+    "wrongTileLoss": "💀 Vigae vyote vya {{wrongFace}} vilipatikana kabla hujakamilisha seti yako ya {{targetFace}} — umeshindwa!",
+    "wrongTilePass": "{{name}} amefunua kigae kisicho sahihi. {{nextTurn}}",
+    "everyoneFound": "Kila mtu amepata kadi yake! Mchezo umekamilika.",
+    "tabletCleared": "Ubao umesafishwa! Mchezo umekamilika."
+  },
+  "skullPause": {
+    "title": "Umegandishwa!"
+  },
+  "specialTiles": {
+    "traps": "mitego {{found}}/{{total}} imepatikana",
+    "gems": "vito {{found}}/{{total}} vimepatikana",
+    "idols": "sanamu {{found}}/{{total}} zimepatikana"
+  },
+  "yourTurn": {
+    "banner": "👉 Zamu yako!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} amekamilisha seti yake (nafasi ya {{place}})! {{status}}",
+    "othersRemaining_one": "Mchezaji {{count}} anacheza bado.",
+    "othersRemaining_other": "Wachezaji {{count}} wanacheza bado.",
+    "everyoneDone": "Hao ndio wote!"
+  },
+  "gameResult": {
+    "wonTitle": "Umepata kadi zote {{count}} za {{cardName}}!",
+    "lostTitle": "Umeshindwa!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, piga kete kupata kadi yako!",
+    "rollingPrompt": "{{playerName}}, anapiga kete...",
+    "roll": "Piga Kete",
+    "yourCardIs": "Kadi yako ni {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Hakuna mchezo unaoendelea. Anzisha mmoja kutoka Nyumbani!"
+  },
+  "appSettings": {
+    "theme": "Mandhari",
+    "themeDark": "Giza",
+    "themeLight": "Angavu",
+    "language": "Lugha",
+    "languageSystem": "Mfumo",
+    "data": "Data",
+    "dataBody": "Inakutoa nje na kufuta historia yako ya Takwimu kwenye kifaa hiki. Hili haliwezi kutenduliwa.",
+    "signOutReset": "Toka na weka upya data ya ndani",
+    "confirmResetTitle": "Toka na uweke upya data ya ndani?",
+    "confirmResetBody": "Hii itafuta historia yako ya Takwimu kwenye kifaa hiki na kukutoa nje. Hili haliwezi kutenduliwa.",
+    "reset": "Weka upya"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Jina la kuonyesha",
+    "save": "Hifadhi",
+    "cancel": "Ghairi",
+    "signOut": "Toka",
+    "deleteAccount": "Futa Akaunti",
+    "confirmDeleteTitle": "Futa akaunti yako?",
+    "confirmDeleteBody": "Hii itafuta akaunti yako kabisa. Hili haliwezi kutenduliwa.",
+    "delete": "Futa",
+    "emailPlaceholder": "Barua pepe",
+    "passwordPlaceholder": "Nenosiri",
+    "forgotPassword": "Umesahau nenosiri?",
+    "resetSent": "Barua pepe ya kuweka upya nenosiri imetumwa — angalia kikasha chako.",
+    "signUp": "Jisajili",
+    "signIn": "Ingia",
+    "switchToSignIn": "Una akaunti tayari? Ingia",
+    "switchToSignUp": "Unahitaji akaunti? Jisajili",
+    "or": "au",
+    "continueWithGoogle": "G  Endelea na Google",
+    "continueWithApple": "􀣺  Endelea na Apple",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Fungua akaunti kuanza kucheza",
+    "onboardingSignInSubtitle": "Ingia ili kuendelea",
+    "proBadge": "✨ Mwanachama wa Pro",
+    "upgradeToPro": "Boresha hadi Pro"
+  },
+  "staticInfo": {
+    "lastUpdated": "Ilisasishwa mwisho: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts ni mchezo mchanganyiko wa kumbukumbu na kete — piga kete kupata mnyama wako, kisha mtafute kwenye ubao kabla mafuvu (au mnyama wa mtu mwingine) hayajakupata.",
+    "howToPlayHeading": "Jinsi ya kucheza",
+    "howToPlayBody": "Mchezo wa Peke Yako ni wewe tu dhidi ya ubao: piga kete kwa mnyama lengwa uliowekwa, kisha pindua vigae kukusanya nakala zake zote kabla seti ya mnyama mwingine haijafunuliwa kikamilifu kwanza. Mchezo wa Kikundi unaunganisha wachezaji 2-4 mtandaoni, wanaoshindana kukamilisha seti zao wenyewe — pamoja na vito vya zawadi na sanamu njiani ambavyo hufunua papo hapo nakala za ziada kwa yeyote anayevipata.",
+    "builtWithHeading": "Imejengwa kwa",
+    "builtWithBody": "Expo, React Native, na TypeScript kwenye mteja; Colyseus inaendesha mchezo wa Kikundi wa mtandaoni wa muda halisi.",
+    "versionHeading": "Toleo",
+    "noteHeading": "Kumbuka",
+    "noteBody": "Huu ni mradi huru, unaoendelezwa kikamilifu — tarajia vipengele vipya na marekebisho ya sheria kwa muda. Asante kwa kucheza!"
+  },
+  "privacyPolicy": {
+    "intro": "Sera hii inaeleza taarifa gani Bones & Beasts inakusanya na jinsi zinavyotumika. Hakuna matangazo na hakuna uchambuzi au ufuatiliaji zaidi ya yale yaliyoelezwa hapa chini.",
+    "accountHeading": "Akaunti yako",
+    "accountBody": "Kufungua akaunti (barua pepe/nenosiri, Google, au Ingia na Apple) kunahitajika ili kucheza. Tunatumia Firebase Authentication kusimamia kuingia, ambayo huhifadhi anwani yako ya barua pepe na jina la kuonyesha (na, kwa Google/Apple, taarifa za msingi za wasifu ambazo mtoa huduma huyo hutushirikisha — kwa kawaida jina na barua pepe yako tu). Hatuoni au kuhifadhi nenosiri lako lenyewe kwa akaunti za barua pepe/nenosiri; Firebase inashughulikia hilo moja kwa moja. Unaweza kufuta akaunti yako wakati wowote kutoka ukurasa wa Wasifu.",
+    "soloHeading": "Mchezo wa Peke Yako",
+    "soloBody": "Michezo ya Peke Yako inaendeshwa kabisa kwenye kifaa chako. Historia yako ya mchezo kwenye kichupo cha Takwimu (michezo iliyochezwa, ushindi, seti zilizokamilika, muda) inahifadhiwa ndani ya kifaa na haitumwi kwetu au mtu mwingine yeyote, bila kujali kama umeingia.",
+    "groupHeading": "Mchezo wa Kikundi Mtandaoni",
+    "groupBody": "Unapojiunga na mchezo wa Kikundi, jina lako la kuonyesha na vitendo vyako katika mchezo (kupiga kete, kupindua kadi) hutumwa kwa seva yetu ya mchezo ili iweze kuratibu ubao ulioshirikiwa kwa kila mtu katika mchezo huo. Data hii ipo tu kwa muda wa kikao hicho cha mchezo — haihifadhiwi baadaye, kuuzwa, au kushirikiwa na wahusika wengine.",
+    "childrenHeading": "Faragha ya watoto",
+    "childrenBody": "Bones & Beasts hailengi watoto walio chini ya umri wa miaka 13, na hatukusanyi taarifa zao kwa makusudi.",
+    "changesHeading": "Mabadiliko kwenye sera hii",
+    "changesBody": "Ikiwa jinsi programu inavyoshughulikia data inabadilika — kwa mfano, ikiwa uripoti wa hitilafu, arifa za mtumiaji, au usajili wa malipo utaongezwa — ukurasa huu utasasishwa kuelezea hilo.",
+    "questionsHeading": "Maswali",
+    "questionsBody": "Ikiwa una maswali kuhusu sera hii, tafadhali wasiliana nasi kupitia mahali ulipopakua programu hii."
+  },
+  "termsOfService": {
+    "intro": "Kwa kutumia Bones & Beasts, unakubaliana na masharti haya. Ikiwa hukubaliani, tafadhali usitumie programu.",
+    "gameHeading": "Mchezo",
+    "gameBody": "Bones & Beasts (angalia ukurasa wa Kuhusu kwa maelezo ya ni nini na jinsi unavyochezwa) unatolewa kwa madhumuni ya burudani tu.",
+    "fairPlayHeading": "Mchezo wa Haki",
+    "fairPlayBody": "Katika michezo ya Kikundi, tafadhali cheza kwa haki — usitumie hitilafu, kuratibu zamu zako kiotomatiki, au kuvuruga michezo ya wachezaji wengine. Tunajihifadhi haki ya kuwaondoa wachezaji kutoka mchezo au chumba cha kusubiri kwa tabia za kuvuruga.",
+    "noWarrantyHeading": "Hakuna Dhamana",
+    "noWarrantyBody": "Programu inatolewa \"kama ilivyo\", bila dhamana za aina yoyote. Hatuahidi kuwa itakuwa bila kukatika, bila hitilafu, au itapatikana kila wakati — hasa mchezo wa Kikundi wa mtandaoni, ambao unategemea seva ya mchezo ambayo inaweza kusasishwa, kuanzishwa upya, au kuondolewa mtandaoni bila taarifa.",
+    "liabilityHeading": "Kikomo cha Dhima",
+    "liabilityBody": "Kwa kiwango kikubwa kinachoruhusiwa na sheria, hatuwajibiki kwa uharibifu wowote unaotokana na matumizi yako ya, au kutokuwa na uwezo wa kutumia, programu.",
+    "changesHeading": "Mabadiliko",
+    "changesBody": "Masharti haya yanaweza kusasishwa programu ikibadilika. Kuendelea kutumia programu baada ya sasisho kunamaanisha unakubali masharti yaliyorekebishwa."
+  },
+  "settingsNav": {
+    "profile": "Wasifu",
+    "appSettings": "Mipangilio ya Programu",
+    "privacyPolicy": "Sera ya Faragha",
+    "termsOfService": "Masharti ya Huduma",
+    "about": "Kuhusu",
+    "settings": "Mipangilio"
+  },
+  "stats": {
+    "title": "Takwimu",
+    "gamesPlayed": "Michezo iliyochezwa",
+    "yourWins": "Ushindi wako",
+    "setsCompleted": "Seti zilizokamilika",
+    "avgSetsPerGame": "Wastani wa seti/mchezo",
+    "bestSoloTime": "Muda bora wa Peke Yako",
+    "noBestTime": "–",
+    "recentGames": "Michezo ya hivi karibuni",
+    "noGamesYet": "Hakuna mchezo uliochezwa bado — anzisha mmoja!",
+    "modeSolo": "Peke Yako",
+    "modeGroup": "Kikundi ({{count}})",
+    "placeWin": "🏆 Nafasi ya {{place}}",
+    "place": "Nafasi ya {{place}}"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "Mchezo wa Kikundi ni bure kwa siku {{count}} iliyobaki — jisajili wakati wowote ili kuendelea kucheza baada ya hapo.",
+    "trialActiveSubtitle_other": "Mchezo wa Kikundi ni bure kwa siku {{count}} zilizobaki — jisajili wakati wowote ili kuendelea kucheza baada ya hapo.",
+    "trialEndedSubtitle": "Jaribio lako la bure la mchezo wa Kikundi limeisha. Jisajili ili kuendelea kushindana na wachezaji wengine mtandaoni.",
+    "monthly": "Kila Mwezi",
+    "yearly": "Kila Mwaka",
+    "lifetime": "Maisha Yote",
+    "restorePurchases": "Rejesha Ununuzi",
+    "notNow": "Sio Sasa"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Chagua avatar kwa wasifu wako"
+  }
+}

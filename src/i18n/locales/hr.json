@@ -1,0 +1,260 @@
+{
+  "common": {
+    "cancel": "Odustani",
+    "save": "Spremi",
+    "back": "Natrag",
+    "delete": "Izbriši",
+    "reset": "Poništi",
+    "you": "Ti",
+    "explorer": "Istraživač",
+    "didNotFinish": "Nije završio",
+    "or": "ili",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Lav",
+    "elephant": "Slon",
+    "monkey": "Majmun",
+    "tiger": "Tigar",
+    "giraffe": "Žirafa",
+    "zebra": "Zebra"
+  },
+  "tabs": {
+    "home": "Početna",
+    "play": "Igraj",
+    "stats": "Statistika",
+    "settings": "Postavke"
+  },
+  "home": {
+    "welcome": "Dobrodošao, {{username}}!",
+    "promptReady": "Jesi li spreman kladiti se?",
+    "promptWanna": "Želiš li igrati?",
+    "soloTitle": "Solo",
+    "soloBody": "Baci kocku da pronađeš svoju kartu, zatim potraži na ploči svih šest primjeraka prije nego što se dovrši set neke druge zvijeri. Samo ti, tvoje pamćenje i lubanje.",
+    "playSolo": "Igraj Solo",
+    "groupTitle": "Grupa",
+    "groupBody": "Pridruži se s 2-4 igrača i utrkuj se da prvi dovršiš svoj set. Grupni način je samo online — spojit ćemo te s drugim igračima u živoj čekaonici.",
+    "trialActive_one": "Besplatno probno razdoblje — preostao {{count}} dan",
+    "trialActive_few": "Besplatno probno razdoblje — preostala {{count}} dana",
+    "trialActive_other": "Besplatno probno razdoblje — preostalo {{count}} dana",
+    "trialEnded": "Besplatno probno razdoblje je isteklo — pretplati se za nastavak igre",
+    "findGroup": "Pronađi grupu"
+  },
+  "endScreen": {
+    "lossTitle": "Zakopan u hramu!",
+    "winTitle": "Hram je očišćen!",
+    "totalTime": "⏱ Ukupno vrijeme igre: {{time}}",
+    "finalRanking": "Konačan poredak",
+    "setCompletionOrder": "Redoslijed dovršavanja setova",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Igraj ponovno"
+  },
+  "bonus": {
+    "small": "bonus dragulj",
+    "big": "drevni idol",
+    "found": "Pronašao si {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Povezivanje...",
+    "aPlayer": "Igrač",
+    "huntingFor": "Tragat ćeš za {{emoji}} {{faceName}}!",
+    "waiting": "Čekanje",
+    "waitingForMove": "Čeka se njegov potez...",
+    "disconnectedName": "{{name}} (napustio)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Nije moguće doći do poslužitelja.",
+    "couldntConnect": "Povezivanje nije uspjelo",
+    "findingGroup": "Traženje grupe",
+    "you": "(ti)",
+    "waitingForPlayer": "Čekanje igrača...",
+    "cancel": "Odustani"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Ta e-pošta je već registrirana — pokušaj se prijaviti umjesto toga.",
+    "invalidEmail": "To ne izgleda kao valjana adresa e-pošte.",
+    "missingEmail": "Prvo unesi svoju adresu e-pošte.",
+    "weakPassword": "Lozinka bi trebala imati najmanje 6 znakova.",
+    "wrongPassword": "Netočna e-pošta ili lozinka.",
+    "userNotFound": "Nije pronađen račun s tom e-poštom.",
+    "tooManyRequests": "Previše pokušaja — pričekaj trenutak i pokušaj ponovno.",
+    "networkError": "Greška mreže — provjeri vezu i pokušaj ponovno.",
+    "requiresRecentLogin": "Radi tvoje sigurnosti, odjavi se pa se ponovno prijavi, zatim pokušaj ponovno.",
+    "generic": "Nešto je pošlo po zlu. Pokušaj ponovno."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Nije moguće učitati opcije pretplate.",
+    "purchaseFailed": "Kupnja nije uspjela. Pokušaj ponovno.",
+    "restoreFailed": "Nije moguće vratiti kupnje.",
+    "notSignedIn": "Prvo se prijavi.",
+    "notAvailableOnWeb": "Pretplate još nisu dostupne na webu — koristi iOS ili Android aplikaciju.",
+    "checkoutFailed": "Nije moguće pokrenuti plaćanje."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, baci kocku da pronađeš svoju kartu!",
+    "turnHuntFor": "{{name}} je na potezu — traži {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Nastavi okretati!",
+    "completedSet": "🏆 {{name}} je dovršio set {{faceName}} — {{place}} mjesto!",
+    "skullSolo": "💀 {{name}} je naišao na lubanju! Zamrznut na trenutak...",
+    "skullGroup": "💀 {{name}} je naišao na lubanju! Izgubljen potez, sljedeći potez preskočen. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} je pronašao {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} je pronašao {{label}}, ali nije ostalo ništa za otkriti!",
+    "bonusLabelSmall": "bonus dragulj",
+    "bonusLabelBig": "drevni idol",
+    "foundFaceLead": "{{name}} je pronašao {{faceName}}",
+    "wrongTileLoss": "💀 Sve pločice {{wrongFace}} pronađene su prije nego što si dovršio svoj set {{targetFace}} — izgubio si!",
+    "wrongTilePass": "{{name}} je otkrio pogrešnu pločicu. {{nextTurn}}",
+    "everyoneFound": "Svi su pronašli svoju kartu! Igra je gotova.",
+    "tabletCleared": "Ploča je očišćena! Igra je gotova."
+  },
+  "skullPause": {
+    "title": "Zamrznuto!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} zamki pronađeno",
+    "gems": "{{found}}/{{total}} dragulja pronađeno",
+    "idols": "{{found}}/{{total}} idola pronađeno"
+  },
+  "yourTurn": {
+    "banner": "👉 Ti si na potezu!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} je dovršio svoj set ({{place}} mjesto)! {{status}}",
+    "othersRemaining_one": "Još {{count}} igrač igra.",
+    "othersRemaining_few": "Još {{count}} igrača igraju.",
+    "othersRemaining_other": "Još {{count}} igrača igra.",
+    "everyoneDone": "To su svi!"
+  },
+  "gameResult": {
+    "wonTitle": "Pronašao si svih {{count}} karata {{cardName}}!",
+    "lostTitle": "Izgubio si!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, baci kocku da pronađeš svoju kartu!",
+    "rollingPrompt": "{{playerName}} baca kocku...",
+    "roll": "Baci",
+    "yourCardIs": "Tvoja karta je {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Nema igre u tijeku. Pokreni jednu s Početne!"
+  },
+  "appSettings": {
+    "theme": "Tema",
+    "themeDark": "Tamna",
+    "themeLight": "Svijetla",
+    "language": "Jezik",
+    "languageSystem": "Sustav",
+    "data": "Podaci",
+    "dataBody": "Odjavljuje te i briše tvoju povijest statistike na ovom uređaju. Ovo se ne može poništiti.",
+    "signOutReset": "Odjavi se i poništi lokalne podatke",
+    "confirmResetTitle": "Odjaviti se i poništiti lokalne podatke?",
+    "confirmResetBody": "Ovo briše tvoju povijest statistike na ovom uređaju i odjavljuje te. Ovo se ne može poništiti.",
+    "reset": "Poništi"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Prikazano ime",
+    "save": "Spremi",
+    "cancel": "Odustani",
+    "signOut": "Odjava",
+    "deleteAccount": "Izbriši račun",
+    "confirmDeleteTitle": "Izbrisati tvoj račun?",
+    "confirmDeleteBody": "Ovo trajno briše tvoj račun. Ovo se ne može poništiti.",
+    "delete": "Izbriši",
+    "emailPlaceholder": "E-pošta",
+    "passwordPlaceholder": "Lozinka",
+    "forgotPassword": "Zaboravio si lozinku?",
+    "resetSent": "E-pošta za resetiranje poslana — provjeri svoj pretinac.",
+    "signUp": "Registriraj se",
+    "signIn": "Prijava",
+    "switchToSignIn": "Već imaš račun? Prijava",
+    "switchToSignUp": "Trebaš račun? Registriraj se",
+    "or": "ili",
+    "continueWithGoogle": "G  Nastavi s Googleom",
+    "continueWithApple": "􀣺  Nastavi s Appleom",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Napravi račun da počneš igrati",
+    "onboardingSignInSubtitle": "Prijavi se za nastavak",
+    "proBadge": "✨ Pro član",
+    "upgradeToPro": "Nadogradi na Pro"
+  },
+  "staticInfo": {
+    "lastUpdated": "Zadnje ažurirano: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts je hibridna igra pamćenja i kockica — baci kocku da pronađeš svoju zvijer, zatim je traži po ploči prije nego što te uhvate lubanje (ili tuđa zvijer).",
+    "howToPlayHeading": "Kako igrati",
+    "howToPlayBody": "Solo način je samo ti protiv ploče: baci kocku za fiksnu ciljanu životinju, zatim okreći pločice da skupiš sve njezine primjerke prije nego što se set neke druge životinje potpuno otkrije. Grupni način spaja 2-4 igrača online, koji se utrkuju da dovrše svoje setove — s bonus draguljima i idolima usput koji trenutno otkrivaju dodatne primjerke onome tko ih pronađe.",
+    "builtWithHeading": "Izrađeno s",
+    "builtWithBody": "Expo, React Native i TypeScript na klijentu; Colyseus pokreće grupnu igru online u stvarnom vremenu.",
+    "versionHeading": "Verzija",
+    "noteHeading": "Napomena",
+    "noteBody": "Ovo je nezavisan projekt u aktivnom razvoju — očekuj nove značajke i prilagodbe pravila tijekom vremena. Hvala na igranju!"
+  },
+  "privacyPolicy": {
+    "intro": "Ova politika objašnjava koje podatke Bones & Beasts prikuplja i kako se koriste. Nema oglašavanja niti analitike ili praćenja izvan onoga što je opisano u nastavku.",
+    "accountHeading": "Tvoj račun",
+    "accountBody": "Za igranje je potrebno napraviti račun (e-pošta/lozinka, Google, ili Prijava s Appleom). Koristimo Firebase Authentication za upravljanje prijavom, koji pohranjuje tvoju adresu e-pošte i prikazano ime (a za Google/Apple, sve osnovne informacije profila koje taj pružatelj dijeli s nama — obično samo tvoje ime i e-poštu). Ne vidimo niti pohranjujemo tvoju lozinku za račune s e-poštom/lozinkom; Firebase to obrađuje izravno. Svoj račun možeš izbrisati u bilo kojem trenutku sa stranice profila.",
+    "soloHeading": "Solo igra",
+    "soloBody": "Solo igre se odvijaju u potpunosti na tvom uređaju. Tvoja povijest igre u kartici Statistika (odigrane igre, pobjede, dovršeni setovi, vremena) pohranjena je lokalno na uređaju i nikada se ne prenosi nama ili bilo kome drugome, bez obzira jesi li prijavljen.",
+    "groupHeading": "Online grupna igra",
+    "groupBody": "Kada se pridružiš grupnoj igri, tvoje prikazano ime i tvoje akcije u igri (bacanja kockica, okretanja karata) šalju se našem poslužitelju igre kako bi mogao održavati zajedničku ploču sinkroniziranom za sve u toj igri. Ovi podaci postoje samo za vrijeme trajanja te igraće sesije — ne spremaju se nakon toga, ne prodaju se i ne dijele s trećim stranama.",
+    "childrenHeading": "Privatnost djece",
+    "childrenBody": "Bones & Beasts nije namijenjen djeci mlađoj od 13 godina i svjesno ne prikupljamo podatke od njih.",
+    "changesHeading": "Promjene ove politike",
+    "changesBody": "Ako se način na koji aplikacija obrađuje podatke promijeni — na primjer, ako se dodaju izvještaji o padu, push obavijesti ili plaćena pretplata — ova stranica će se ažurirati kako bi to opisala.",
+    "questionsHeading": "Pitanja",
+    "questionsBody": "Ako imaš pitanja o ovoj politici, javi nam se putem mjesta gdje si preuzeo ovu aplikaciju."
+  },
+  "termsOfService": {
+    "intro": "Korištenjem Bones & Beasts, slažeš se s ovim uvjetima. Ako se ne slažeš, molimo te da ne koristiš aplikaciju.",
+    "gameHeading": "Igra",
+    "gameBody": "Bones & Beasts (pogledaj stranicu O aplikaciji za detalje o tome što je i kako se igra) nudi se isključivo u zabavne svrhe.",
+    "fairPlayHeading": "Fer igra",
+    "fairPlayBody": "U grupnim igrama, igraj pošteno — nemoj iskorištavati greške, automatizirati svoje poteze ili ometati igre drugih igrača. Zadržavamo pravo uklanjanja igrača iz igre ili čekaonice zbog ometajućeg ponašanja.",
+    "noWarrantyHeading": "Bez jamstva",
+    "noWarrantyBody": "Aplikacija se pruža \"takva kakva jest\", bez ikakvih jamstava. Ne jamčimo da će biti neprekinuta, bez grešaka ili dostupna u svakom trenutku — posebno online grupni način, koji ovisi o poslužitelju igre koji se može ažurirati, ponovno pokrenuti ili ugasiti bez najave.",
+    "liabilityHeading": "Ograničenje odgovornosti",
+    "liabilityBody": "U najvećoj mjeri dopuštenoj zakonom, nismo odgovorni za bilo kakvu štetu proizašlu iz tvog korištenja aplikacije ili nemogućnosti korištenja iste.",
+    "changesHeading": "Promjene",
+    "changesBody": "Ovi uvjeti mogu se ažurirati kako se aplikacija mijenja. Nastavak korištenja aplikacije nakon ažuriranja znači da prihvaćaš revidirane uvjete."
+  },
+  "settingsNav": {
+    "profile": "Profil",
+    "appSettings": "Postavke aplikacije",
+    "privacyPolicy": "Politika privatnosti",
+    "termsOfService": "Uvjeti korištenja",
+    "about": "O aplikaciji",
+    "settings": "Postavke"
+  },
+  "stats": {
+    "title": "Statistika",
+    "gamesPlayed": "Odigrane igre",
+    "yourWins": "Tvoje pobjede",
+    "setsCompleted": "Dovršeni setovi",
+    "avgSetsPerGame": "Prosj. setova / igri",
+    "bestSoloTime": "Najbolje solo vrijeme",
+    "noBestTime": "–",
+    "recentGames": "Nedavne igre",
+    "noGamesYet": "Još nema odigranih igara — pokreni jednu!",
+    "modeSolo": "Solo",
+    "modeGroup": "Grupa ({{count}})",
+    "placeWin": "🏆 {{place}} mjesto",
+    "place": "{{place}} mjesto"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "Grupna igra je besplatna još {{count}} dan — pretplati se bilo kada za nastavak igre nakon toga.",
+    "trialActiveSubtitle_few": "Grupna igra je besplatna još {{count}} dana — pretplati se bilo kada za nastavak igre nakon toga.",
+    "trialActiveSubtitle_other": "Grupna igra je besplatna još {{count}} dana — pretplati se bilo kada za nastavak igre nakon toga.",
+    "trialEndedSubtitle": "Tvoje besplatno probno razdoblje grupne igre je isteklo. Pretplati se za nastavak natjecanja s drugim igračima online.",
+    "monthly": "Mjesečno",
+    "yearly": "Godišnje",
+    "lifetime": "Doživotno",
+    "restorePurchases": "Vrati kupnje",
+    "notNow": "Ne sada"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Odaberi avatar za svoj profil"
+  }
+}

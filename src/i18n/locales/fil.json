@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "Kanselahin",
+    "save": "I-save",
+    "back": "Bumalik",
+    "delete": "Tanggalin",
+    "reset": "I-reset",
+    "you": "Ikaw",
+    "explorer": "Manlalakbay",
+    "didNotFinish": "Hindi natapos",
+    "or": "o",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Leon",
+    "elephant": "Elepante",
+    "monkey": "Unggoy",
+    "tiger": "Tigre",
+    "giraffe": "Giraffe",
+    "zebra": "Zebra"
+  },
+  "tabs": {
+    "home": "Home",
+    "play": "Laro",
+    "stats": "Stats",
+    "settings": "Settings"
+  },
+  "home": {
+    "welcome": "Maligayang pagbabalik, {{username}}!",
+    "promptReady": "Handa ka na bang tumaya?",
+    "promptWanna": "Gusto mong maglaro?",
+    "soloTitle": "Solo",
+    "soloBody": "Magtapon para mahanap ang iyong card, tapos maghanap sa tablet ng lahat ng anim na kopya bago matapos ang set ng ibang beast. Ikaw lang, ang memorya mo, at ang mga bungo.",
+    "playSolo": "Maglaro Solo",
+    "groupTitle": "Grupo",
+    "groupBody": "Sumali sa 2-4 na players at magkarera para matapos ang sarili mong set. Online lang ang group play — ipapares ka namin sa iba pang players sa isang live lobby.",
+    "trialActive_one": "Libreng trial — {{count}} araw na lang",
+    "trialActive_other": "Libreng trial — {{count}} araw pa",
+    "trialEnded": "Natapos na ang libreng trial — mag-subscribe para makapaglaro pa",
+    "findGroup": "Maghanap ng Grupo"
+  },
+  "endScreen": {
+    "lossTitle": "Nalibing sa Templo!",
+    "winTitle": "Nalinis ang Templo!",
+    "totalTime": "⏱ Kabuuang oras ng laro: {{time}}",
+    "finalRanking": "Huling ranggo",
+    "setCompletionOrder": "Pagkasunod-sunod ng natapos na set",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Maglaro Ulit"
+  },
+  "bonus": {
+    "small": "isang Bonus Gem",
+    "big": "isang Sinaunang Idolo",
+    "found": "Nakahanap ka ng {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Kumokonekta...",
+    "aPlayer": "Isang player",
+    "huntingFor": "Maghahanap ka ng {{emoji}} {{faceName}}!",
+    "waiting": "Naghihintay",
+    "waitingForMove": "Naghihintay sa kanilang galaw...",
+    "disconnectedName": "{{name}} (umalis)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Hindi maabot ang server.",
+    "couldntConnect": "Hindi nakakonekta",
+    "findingGroup": "Naghahanap ng Grupo",
+    "you": "(ikaw)",
+    "waitingForPlayer": "Naghihintay ng player...",
+    "cancel": "Kanselahin"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Rehistrado na ang email na iyon — subukang mag-sign in sa halip.",
+    "invalidEmail": "Mukhang hindi valid ang email address na iyon.",
+    "missingEmail": "Ilagay muna ang iyong email address.",
+    "weakPassword": "Dapat hindi bababa sa 6 na character ang password.",
+    "wrongPassword": "Maling email o password.",
+    "userNotFound": "Walang account na natagpuan gamit ang email na iyon.",
+    "tooManyRequests": "Sobrang dami ng pagtatangka — maghintay sandali at subukan ulit.",
+    "networkError": "Error sa network — suriin ang koneksyon mo at subukan ulit.",
+    "requiresRecentLogin": "Para sa iyong seguridad, mag-sign out at mag-sign in ulit, pagkatapos subukan ulit.",
+    "generic": "Nagkaproblema. Pakisubukan ulit."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Hindi na-load ang mga opsyon sa subscription.",
+    "purchaseFailed": "Hindi matagumpay ang pagbili. Pakisubukan ulit.",
+    "restoreFailed": "Hindi na-restore ang mga binili.",
+    "notSignedIn": "Mag-sign in muna.",
+    "notAvailableOnWeb": "Hindi pa available ang subscriptions sa web — gamitin ang iOS o Android app.",
+    "checkoutFailed": "Hindi nasimulan ang checkout."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, magtapon para mahanap ang iyong card!",
+    "turnHuntFor": "Turn ni {{name}} — hanapin ang {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Magbaligtad ulit!",
+    "completedSet": "🏆 Natapos ni {{name}} ang {{faceName}} set — ika-{{place}} lugar!",
+    "skullSolo": "💀 Nakuha ni {{name}} ang isang bungo! Nag-freeze sandali...",
+    "skullGroup": "💀 Nakuha ni {{name}} ang isang bungo! Nawala ang turn, laktawan ang susunod na turn. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} Nakahanap si {{name}} ng {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} Nakahanap si {{name}} ng {{label}}, pero walang natira para ibunyag!",
+    "bonusLabelSmall": "isang bonus gem",
+    "bonusLabelBig": "isang sinaunang idolo",
+    "foundFaceLead": "Nakahanap si {{name}} ng {{faceName}}",
+    "wrongTileLoss": "💀 Nahanap na ang lahat ng {{wrongFace}} tiles bago mo natapos ang sarili mong {{targetFace}} set — natalo ka!",
+    "wrongTilePass": "Nabunyag ni {{name}} ang maling tile. {{nextTurn}}",
+    "everyoneFound": "Nahanap ng lahat ang kanilang card! Tapos na ang laro.",
+    "tabletCleared": "Nalinis na ang tablet! Tapos na ang laro."
+  },
+  "skullPause": {
+    "title": "Nag-freeze!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} bitag ang natagpuan",
+    "gems": "{{found}}/{{total}} hiyas ang natagpuan",
+    "idols": "{{found}}/{{total}} idolo ang natagpuan"
+  },
+  "yourTurn": {
+    "banner": "👉 Turn mo na!"
+  },
+  "playerFinished": {
+    "banner": "🏆 Natapos ni {{playerName}} ang kanyang set (ika-{{place}} lugar)! {{status}}",
+    "othersRemaining_one": "{{count}} player pa ang naglalaro.",
+    "othersRemaining_other": "{{count}} players pa ang naglalaro.",
+    "everyoneDone": "Tapos na ang lahat!"
+  },
+  "gameResult": {
+    "wonTitle": "Nahanap mo ang lahat ng {{count}} {{cardName}} cards!",
+    "lostTitle": "Natalo Ka!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, magtapon para mahanap ang iyong card!",
+    "rollingPrompt": "{{playerName}}, nagtatapon...",
+    "roll": "Itapon",
+    "yourCardIs": "Ang card mo ay {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Walang ongoing na laro. Magsimula ng isa mula sa Home!"
+  },
+  "appSettings": {
+    "theme": "Tema",
+    "themeDark": "Madilim",
+    "themeLight": "Maliwanag",
+    "language": "Wika",
+    "languageSystem": "System",
+    "data": "Data",
+    "dataBody": "Mag-sign out at burahin ang kasaysayan ng iyong Stats sa device na ito. Hindi na maibabalik ito.",
+    "signOutReset": "Mag-sign out at i-reset ang local data",
+    "confirmResetTitle": "Mag-sign out at i-reset ang local data?",
+    "confirmResetBody": "Buburahin nito ang kasaysayan ng iyong Stats sa device na ito at ikaw ay mag-sign out. Hindi na maibabalik ito.",
+    "reset": "I-reset"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Display name",
+    "save": "I-save",
+    "cancel": "Kanselahin",
+    "signOut": "Mag-sign Out",
+    "deleteAccount": "Tanggalin ang Account",
+    "confirmDeleteTitle": "Tanggalin ang iyong account?",
+    "confirmDeleteBody": "Permanenteng tinatanggal nito ang iyong account. Hindi na maibabalik ito.",
+    "delete": "Tanggalin",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "forgotPassword": "Nakalimutan ang password?",
+    "resetSent": "Naipadala na ang email para i-reset ang password — tingnan ang inbox mo.",
+    "signUp": "Mag-sign Up",
+    "signIn": "Mag-sign In",
+    "switchToSignIn": "May account ka na? Mag-sign In",
+    "switchToSignUp": "Kailangan ng account? Mag-sign Up",
+    "or": "o",
+    "continueWithGoogle": "G  Magpatuloy gamit ang Google",
+    "continueWithApple": "􀣺  Magpatuloy gamit ang Apple",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Gumawa ng account para makapaglaro",
+    "onboardingSignInSubtitle": "Mag-sign in para magpatuloy",
+    "proBadge": "✨ Pro Member",
+    "upgradeToPro": "I-upgrade sa Pro"
+  },
+  "staticInfo": {
+    "lastUpdated": "Huling na-update: {{date}}"
+  },
+  "about": {
+    "intro": "Ang Bones & Beasts ay isang memory/dice hybrid game — magtapon para mahanap ang iyong beast, tapos hanapin ito sa buong tablet bago ka maabutan ng mga bungo (o ng beast ng iba).",
+    "howToPlayHeading": "Paano Maglaro",
+    "howToPlayBody": "Ikaw lang laban sa tablet ang Solo mode: magtapon para sa isang fixed target animal, tapos baligtarin ang mga tile para makolekta ang lahat ng kopya nito bago matapos ang set ng ibang hayop. Ang Group mode ay pinagsasama ang 2-4 players online, nagkakarera para tapusin ang kanya-kanyang set — may bonus gems at idols sa daan na agad na naglalantad ng dagdag na kopya para sa sinumang makahanap nito.",
+    "builtWithHeading": "Gawa Gamit ang",
+    "builtWithBody": "Expo, React Native, at TypeScript sa client; Colyseus ang nagpapalakad sa real-time na online Group play.",
+    "versionHeading": "Bersyon",
+    "noteHeading": "Isang Paalala",
+    "noteBody": "Ito ay isang independiyenteng proyekto na aktibong ginagawa pa — asahan ang mga bagong feature at pagbabago sa mga tuntunin sa paglipas ng panahon. Salamat sa paglaro!"
+  },
+  "privacyPolicy": {
+    "intro": "Ipinapaliwanag ng patakarang ito kung anong impormasyon ang kinokolekta ng Bones & Beasts at paano ito ginagamit. Walang advertising at walang analytics o tracking bukod sa nailarawan sa ibaba.",
+    "accountHeading": "Ang Iyong Account",
+    "accountBody": "Kinakailangan ang paggawa ng account (email/password, Google, o Sign in with Apple) para makapaglaro. Ginagamit namin ang Firebase Authentication para pamahalaan ang sign-in, na nag-iimbak ng iyong email address at display name (at, para sa Google/Apple, kung anumang basic profile info na ibinahagi ng provider sa amin — kadalasan ay pangalan at email mo lang). Hindi namin nakikita o naiimbak ang password mo mismo para sa email/password accounts; direktang hinahawakan ito ng Firebase. Maaari mong tanggalin ang iyong account anumang oras mula sa Profile page.",
+    "soloHeading": "Solo Play",
+    "soloBody": "Ang mga solo game ay tumatakbo lubusan sa iyong device. Ang kasaysayan ng laro mo sa Stats tab (games played, wins, sets completed, times) ay naiimbak lokal sa device at hindi kailanman ipapadala sa amin o sa kanino man, kung ikaw man ay naka-sign in o hindi.",
+    "groupHeading": "Online Group Play",
+    "groupBody": "Kapag sumali ka sa isang Group game, ang display name mo at ang iyong mga aksyon sa laro (dice rolls, card flips) ay ipinapadala sa aming game server para mapanatili nitong sync ang shared board para sa lahat sa laro na iyon. Ang datos na ito ay umiiral lamang habang tumatakbo ang game session — hindi ito naiimbak pagkatapos, hindi ibinebenta, o ibinabahagi sa third parties.",
+    "childrenHeading": "Privacy ng mga Bata",
+    "childrenBody": "Ang Bones & Beasts ay hindi nakatarget sa mga batang wala pang 13 taong gulang, at hindi kami sadyang nangongolekta ng impormasyon mula sa kanila.",
+    "changesHeading": "Mga Pagbabago sa Patakarang Ito",
+    "changesBody": "Kung magbabago ang paraan ng pagharap ng app sa datos — halimbawa, kung idaragdag ang crash reporting, push notifications, o isang paid subscription — i-update ang page na ito para ilarawan ito.",
+    "questionsHeading": "Mga Tanong",
+    "questionsBody": "Kung may mga tanong ka tungkol sa patakarang ito, makipag-ugnayan sa pamamagitan ng kung saan mo dina-download ang app na ito."
+  },
+  "termsOfService": {
+    "intro": "Sa paggamit ng Bones & Beasts, sumasang-ayon ka sa mga tuntunin na ito. Kung hindi ka sumasang-ayon, mangyaring huwag gamitin ang app.",
+    "gameHeading": "Ang Laro",
+    "gameBody": "Ang Bones & Beasts (tingnan ang About page para sa kung ano ito at paano ito nilalaro) ay inaalok para sa layuning libangan lamang.",
+    "fairPlayHeading": "Patas na Paglalaro",
+    "fairPlayBody": "Sa mga Group game, mangyaring maglaro nang patas — huwag samantalahin ang mga bug, i-automate ang iyong mga turn, o guluhin ang mga laro ng ibang players. Nakalaan sa amin ang karapatang tanggalin ang mga player mula sa isang laro o lobby dahil sa magulong pag-uugali.",
+    "noWarrantyHeading": "Walang Warranty",
+    "noWarrantyBody": "Ang app ay ibinibigay \"as is,\" nang walang anumang uri ng warranty. Hindi namin ginagarantiya na ito ay walang interruption, walang error, o available sa lahat ng oras — lalo na ang online Group mode, na umaasa sa isang game server na maaaring i-update, i-restart, o i-offline nang walang paunawa.",
+    "liabilityHeading": "Limitasyon ng Pananagutan",
+    "liabilityBody": "Sa pinakamataas na saklaw na pinapayagan ng batas, hindi kami mananagot para sa anumang pinsala na nagmumula sa paggamit mo, o sa hindi kakayahang gamitin, ang app.",
+    "changesHeading": "Mga Pagbabago",
+    "changesBody": "Maaaring i-update ang mga tuntunin na ito habang nagbabago ang app. Ang patuloy na paggamit ng app pagkatapos ng update ay nangangahulugang tinatanggap mo ang binagong mga tuntunin."
+  },
+  "settingsNav": {
+    "profile": "Profile",
+    "appSettings": "Mga Setting ng App",
+    "privacyPolicy": "Patakaran sa Privacy",
+    "termsOfService": "Mga Tuntunin ng Serbisyo",
+    "about": "Tungkol",
+    "settings": "Mga Setting"
+  },
+  "stats": {
+    "title": "Stats",
+    "gamesPlayed": "Mga larong nilaro",
+    "yourWins": "Mga panalo mo",
+    "setsCompleted": "Mga natapos na set",
+    "avgSetsPerGame": "Avg sets / laro",
+    "bestSoloTime": "Pinakamabilis na solo time",
+    "noBestTime": "–",
+    "recentGames": "Mga Kamakailang Laro",
+    "noGamesYet": "Wala ka pang nilaro — magsimula na!",
+    "modeSolo": "Solo",
+    "modeGroup": "Grupo ({{count}})",
+    "placeWin": "🏆 ika-{{place}} lugar",
+    "place": "ika-{{place}} lugar"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "Libre ang Group play sa unang {{count}} araw mo pa — mag-subscribe anumang oras para makapaglaro pa pagkatapos.",
+    "trialActiveSubtitle_other": "Libre ang Group play sa unang {{count}} araw mo pa — mag-subscribe anumang oras para makapaglaro pa pagkatapos.",
+    "trialEndedSubtitle": "Natapos na ang iyong libreng trial ng Group play. Mag-subscribe para magpatuloy sa pagkarera kasama ang ibang players online.",
+    "monthly": "Buwanan",
+    "yearly": "Taunan",
+    "lifetime": "Panghabambuhay",
+    "restorePurchases": "I-restore ang mga Binili",
+    "notNow": "Huwag Muna"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Pumili ng avatar para sa iyong profile"
+  }
+}

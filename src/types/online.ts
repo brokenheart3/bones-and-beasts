@@ -11,6 +11,9 @@ export interface OnlinePlayer {
   color: string;
   connected: boolean;
   skipNextTurn: boolean;
+  // Rolled once at game start and fixed for the rest of the game; 0 until
+  // this player has rolled.
+  targetFaceId: number;
   collected: Record<string, number>;
   completedSets: number[];
 }
@@ -19,6 +22,7 @@ export interface OnlineCompletion {
   faceId: number;
   playerId: string;
   order: number;
+  finishedAt: number;
 }
 
 export interface OnlineSnapshot {
@@ -26,8 +30,7 @@ export interface OnlineSnapshot {
   players: OnlinePlayer[];
   turnOrder: string[];
   currentPlayerIndex: number;
-  diceValue: number;
-  targetFaceId: number;
+  diceValue: number; // last value rolled during target assignment
   phase: string;
   countdown: number;
   message: string;
@@ -55,6 +58,7 @@ export function snapshotFromState(state: any): OnlineSnapshot {
       color: p.color,
       connected: p.connected,
       skipNextTurn: p.skipNextTurn,
+      targetFaceId: p.targetFaceId,
       collected,
       completedSets: [...p.completedSets],
     });
@@ -71,7 +75,6 @@ export function snapshotFromState(state: any): OnlineSnapshot {
     turnOrder: [...state.turnOrder],
     currentPlayerIndex: state.currentPlayerIndex,
     diceValue: state.diceValue,
-    targetFaceId: state.targetFaceId,
     phase: state.phase,
     countdown: state.countdown,
     message: state.message,
@@ -79,6 +82,7 @@ export function snapshotFromState(state: any): OnlineSnapshot {
       faceId: c.faceId,
       playerId: c.playerId,
       order: c.order,
+      finishedAt: c.finishedAt,
     })),
     faceTotals: (() => {
       const totals: Record<string, number> = {};

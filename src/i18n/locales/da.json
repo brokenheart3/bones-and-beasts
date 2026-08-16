@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "Annuller",
+    "save": "Gem",
+    "back": "Tilbage",
+    "delete": "Slet",
+    "reset": "Nulstil",
+    "you": "Dig",
+    "explorer": "Opdager",
+    "didNotFinish": "Gennemførte ikke",
+    "or": "eller",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Løve",
+    "elephant": "Elefant",
+    "monkey": "Abe",
+    "tiger": "Tiger",
+    "giraffe": "Giraf",
+    "zebra": "Zebra"
+  },
+  "tabs": {
+    "home": "Hjem",
+    "play": "Spil",
+    "stats": "Statistik",
+    "settings": "Indstillinger"
+  },
+  "home": {
+    "welcome": "Velkommen, {{username}}!",
+    "promptReady": "Er du klar til at satse?",
+    "promptWanna": "Har du lyst til at spille?",
+    "soloTitle": "Solo",
+    "soloBody": "Kast for at finde dit kort, og jag så tavlen igennem for alle seks eksemplarer, før et andet dyrs sæt bliver fuldført først. Kun dig, din hukommelse og kranierne.",
+    "playSolo": "Spil Solo",
+    "groupTitle": "Gruppe",
+    "groupBody": "Slå dig sammen med 2-4 spillere og kæmp om at gennemføre dit eget sæt først. Gruppespil er kun online — vi matcher dig med andre spillere i et live lobby.",
+    "trialActive_one": "Gratis prøveperiode — {{count}} dag tilbage",
+    "trialActive_other": "Gratis prøveperiode — {{count}} dage tilbage",
+    "trialEnded": "Gratis prøveperiode er slut — abonner for at fortsætte med at spille",
+    "findGroup": "Find en gruppe"
+  },
+  "endScreen": {
+    "lossTitle": "Begravet i templet!",
+    "winTitle": "Templet ryddet!",
+    "totalTime": "⏱ Samlet spilletid: {{time}}",
+    "finalRanking": "Slutresultat",
+    "setCompletionOrder": "Rækkefølge for gennemførte sæt",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Spil igen"
+  },
+  "bonus": {
+    "small": "en bonusædelsten",
+    "big": "en ældgammel idol",
+    "found": "Du fandt {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Forbinder...",
+    "aPlayer": "En spiller",
+    "huntingFor": "Du skal jagte {{emoji}} {{faceName}}!",
+    "waiting": "Venter",
+    "waitingForMove": "Venter på deres træk...",
+    "disconnectedName": "{{name}} (forlod spillet)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Kunne ikke kontakte serveren.",
+    "couldntConnect": "Kunne ikke oprette forbindelse",
+    "findingGroup": "Finder en gruppe",
+    "you": "(dig)",
+    "waitingForPlayer": "Venter på en spiller...",
+    "cancel": "Annuller"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Den e-mail er allerede registreret — prøv at logge ind i stedet.",
+    "invalidEmail": "Det ligner ikke en gyldig e-mailadresse.",
+    "missingEmail": "Indtast først din e-mailadresse.",
+    "weakPassword": "Adgangskoden skal være mindst 6 tegn.",
+    "wrongPassword": "Forkert e-mail eller adgangskode.",
+    "userNotFound": "Ingen konto fundet med den e-mail.",
+    "tooManyRequests": "For mange forsøg — vent et øjeblik, og prøv igen.",
+    "networkError": "Netværksfejl — tjek din forbindelse, og prøv igen.",
+    "requiresRecentLogin": "Af sikkerhedsmæssige årsager skal du logge ud og ind igen og derefter prøve igen.",
+    "generic": "Noget gik galt. Prøv igen."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Kunne ikke indlæse abonnementsmuligheder.",
+    "purchaseFailed": "Købet mislykkedes. Prøv igen.",
+    "restoreFailed": "Kunne ikke gendanne køb.",
+    "notSignedIn": "Log venligst ind først.",
+    "notAvailableOnWeb": "Abonnementer er endnu ikke tilgængelige på web — brug venligst iOS- eller Android-appen.",
+    "checkoutFailed": "Kunne ikke starte betaling."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, kast for at finde dit kort!",
+    "turnHuntFor": "{{name}}s tur — jag efter {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Vend igen!",
+    "completedSet": "🏆 {{name}} gennemførte {{faceName}}-sættet — {{place}}. plads!",
+    "skullSolo": "💀 {{name}} ramte et kranium! Frosset et øjeblik...",
+    "skullGroup": "💀 {{name}} ramte et kranium! Turen er tabt, næste tur springes over. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} fandt {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} fandt {{label}}, men havde ikke mere at afdække!",
+    "bonusLabelSmall": "en bonusædelsten",
+    "bonusLabelBig": "en ældgammel idol",
+    "foundFaceLead": "{{name}} fandt {{faceName}}",
+    "wrongTileLoss": "💀 Alle {{wrongFace}}-felter blev fundet, før du fik færdiggjort dit eget {{targetFace}}-sæt — du taber!",
+    "wrongTilePass": "{{name}} afdækkede den forkerte flise. {{nextTurn}}",
+    "everyoneFound": "Alle fandt deres kort! Spillet er slut.",
+    "tabletCleared": "Tavlen er ryddet! Spillet er slut."
+  },
+  "skullPause": {
+    "title": "Frosset!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} fælder fundet",
+    "gems": "{{found}}/{{total}} ædelstene fundet",
+    "idols": "{{found}}/{{total}} idoler fundet"
+  },
+  "yourTurn": {
+    "banner": "👉 Din tur!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} gennemførte deres sæt ({{place}}. plads)! {{status}}",
+    "othersRemaining_one": "{{count}} spiller spiller stadig.",
+    "othersRemaining_other": "{{count}} spillere spiller stadig.",
+    "everyoneDone": "Det var alle!"
+  },
+  "gameResult": {
+    "wonTitle": "Du fandt alle {{count}} {{cardName}}-kort!",
+    "lostTitle": "Du tabte!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, kast for at finde dit kort!",
+    "rollingPrompt": "{{playerName}} kaster...",
+    "roll": "Kast",
+    "yourCardIs": "Dit kort er {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Intet spil i gang. Start et fra Hjem!"
+  },
+  "appSettings": {
+    "theme": "Tema",
+    "themeDark": "Mørk",
+    "themeLight": "Lys",
+    "language": "Sprog",
+    "languageSystem": "System",
+    "data": "Data",
+    "dataBody": "Logger dig ud og rydder din statistikhistorik på denne enhed. Dette kan ikke fortrydes.",
+    "signOutReset": "Log ud og nulstil lokale data",
+    "confirmResetTitle": "Log ud og nulstil lokale data?",
+    "confirmResetBody": "Dette rydder din statistikhistorik på denne enhed og logger dig ud. Dette kan ikke fortrydes.",
+    "reset": "Nulstil"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Vist navn",
+    "save": "Gem",
+    "cancel": "Annuller",
+    "signOut": "Log ud",
+    "deleteAccount": "Slet konto",
+    "confirmDeleteTitle": "Slet din konto?",
+    "confirmDeleteBody": "Dette sletter permanent din konto. Dette kan ikke fortrydes.",
+    "delete": "Slet",
+    "emailPlaceholder": "E-mail",
+    "passwordPlaceholder": "Adgangskode",
+    "forgotPassword": "Glemt adgangskode?",
+    "resetSent": "E-mail til nulstilling af adgangskode er sendt — tjek din indbakke.",
+    "signUp": "Opret konto",
+    "signIn": "Log ind",
+    "switchToSignIn": "Har du allerede en konto? Log ind",
+    "switchToSignUp": "Har du brug for en konto? Opret konto",
+    "or": "eller",
+    "continueWithGoogle": "G  Fortsæt med Google",
+    "continueWithApple": "􀣺  Fortsæt med Apple",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Opret en konto for at begynde at spille",
+    "onboardingSignInSubtitle": "Log ind for at fortsætte",
+    "proBadge": "✨ Pro-medlem",
+    "upgradeToPro": "Opgrader til Pro"
+  },
+  "staticInfo": {
+    "lastUpdated": "Sidst opdateret: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts er en hybrid af hukommelses- og terningespil — kast for at finde dit dyr, og jag det derefter rundt på tavlen, før kranierne (eller en andens dyr) fanger dig.",
+    "howToPlayHeading": "Sådan spiller du",
+    "howToPlayBody": "Solo-tilstand er kun dig mod tavlen: kast for et fast måldyr, og vend derefter fliser for at samle alle dets eksemplarer, før et andet dyrs sæt bliver fuldstændigt afdækket først. Gruppetilstand matcher 2-4 spillere online, som kæmper om at gennemføre deres egne sæt — med bonusædelstene og idoler undervejs, der øjeblikkeligt afdækker ekstra eksemplarer for den, der finder dem.",
+    "builtWithHeading": "Bygget med",
+    "builtWithBody": "Expo, React Native og TypeScript på klienten; Colyseus driver online gruppespil i realtid.",
+    "versionHeading": "Version",
+    "noteHeading": "En bemærkning",
+    "noteBody": "Dette er et uafhængigt, aktivt udviklet projekt — forvent nye funktioner og regeljusteringer over tid. Tak for at spille!"
+  },
+  "privacyPolicy": {
+    "intro": "Denne politik forklarer, hvilke oplysninger Bones & Beasts indsamler, og hvordan de bruges. Der er ingen reklamer og ingen analyse eller sporing ud over det, der er beskrevet nedenfor.",
+    "accountHeading": "Din konto",
+    "accountBody": "Det er nødvendigt at oprette en konto (e-mail/adgangskode, Google eller Log ind med Apple) for at spille. Vi bruger Firebase Authentication til at administrere login, som opbevarer din e-mailadresse og dit viste navn (og for Google/Apple, hvilken som helst grundlæggende profilinformation, som udbyderen deler med os — typisk bare dit navn og din e-mail). Vi ser eller opbevarer ikke selve din adgangskode for e-mail/adgangskode-konti; Firebase håndterer det direkte. Du kan slette din konto når som helst fra Profil-siden.",
+    "soloHeading": "Solospil",
+    "soloBody": "Solospil kører helt på din enhed. Din spilhistorik under fanen Statistik (spillede spil, sejre, gennemførte sæt, tider) opbevares lokalt på enheden og overføres aldrig til os eller andre, uanset om du er logget ind.",
+    "groupHeading": "Online gruppespil",
+    "groupBody": "Når du deltager i et gruppespil, sendes dit viste navn og dine handlinger i spillet (terningkast, kortvendinger) til vores spilserver, så den kan holde det fælles spilbræt synkroniseret for alle i det spil. Disse data findes kun i den periode, spilsessionen varer — de gemmes ikke bagefter, sælges ikke og deles ikke med tredjeparter.",
+    "childrenHeading": "Børns privatliv",
+    "childrenBody": "Bones & Beasts er ikke rettet mod børn under 13 år, og vi indsamler ikke bevidst oplysninger fra dem.",
+    "changesHeading": "Ændringer af denne politik",
+    "changesBody": "Hvis den måde, appen håndterer data på, ændrer sig — for eksempel hvis fejlrapportering, push-notifikationer eller et betalt abonnement tilføjes — bliver denne side opdateret for at beskrive det.",
+    "questionsHeading": "Spørgsmål",
+    "questionsBody": "Hvis du har spørgsmål til denne politik, bedes du kontakte os via det sted, hvor du downloadede denne app."
+  },
+  "termsOfService": {
+    "intro": "Ved at bruge Bones & Beasts accepterer du disse betingelser. Hvis du ikke accepterer dem, bedes du ikke bruge appen.",
+    "gameHeading": "Spillet",
+    "gameBody": "Bones & Beasts (se Om-siden for, hvad det er, og hvordan det spilles) tilbydes kun til underholdningsformål.",
+    "fairPlayHeading": "Fair play",
+    "fairPlayBody": "I gruppespil bedes du spille fair — undlad at udnytte fejl, automatisere dine træk eller forstyrre andre spilleres spil. Vi forbeholder os retten til at fjerne spillere fra et spil eller en lobby ved forstyrrende opførsel.",
+    "noWarrantyHeading": "Ingen garanti",
+    "noWarrantyBody": "Appen leveres \"som den er\", uden garantier af nogen art. Vi garanterer ikke, at den vil være uafbrudt, fejlfri eller tilgængelig hele tiden — især den online gruppetilstand, som afhænger af en spilserver, der kan blive opdateret, genstartet eller taget offline uden varsel.",
+    "liabilityHeading": "Ansvarsbegrænsning",
+    "liabilityBody": "I det videst mulige omfang tilladt ved lov er vi ikke ansvarlige for skader som følge af din brug af, eller manglende mulighed for at bruge, appen.",
+    "changesHeading": "Ændringer",
+    "changesBody": "Disse betingelser kan blive opdateret, når appen ændres. Hvis du fortsætter med at bruge appen efter en opdatering, accepterer du de reviderede betingelser."
+  },
+  "settingsNav": {
+    "profile": "Profil",
+    "appSettings": "Appindstillinger",
+    "privacyPolicy": "Privatlivspolitik",
+    "termsOfService": "Servicevilkår",
+    "about": "Om",
+    "settings": "Indstillinger"
+  },
+  "stats": {
+    "title": "Statistik",
+    "gamesPlayed": "Spillede spil",
+    "yourWins": "Dine sejre",
+    "setsCompleted": "Gennemførte sæt",
+    "avgSetsPerGame": "Gns. sæt / spil",
+    "bestSoloTime": "Bedste solotid",
+    "noBestTime": "–",
+    "recentGames": "Seneste spil",
+    "noGamesYet": "Ingen spil endnu — gå i gang med et!",
+    "modeSolo": "Solo",
+    "modeGroup": "Gruppe ({{count}})",
+    "placeWin": "🏆 {{place}}. plads",
+    "place": "{{place}}. plads"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "Gruppespil er gratis i {{count}} dag mere — abonner når som helst for at fortsætte med at spille bagefter.",
+    "trialActiveSubtitle_other": "Gruppespil er gratis i {{count}} dage mere — abonner når som helst for at fortsætte med at spille bagefter.",
+    "trialEndedSubtitle": "Din gratis prøveperiode for gruppespil er slut. Abonner for at fortsætte med at kæmpe mod andre spillere online.",
+    "monthly": "Månedligt",
+    "yearly": "Årligt",
+    "lifetime": "Livstid",
+    "restorePurchases": "Gendan køb",
+    "notNow": "Ikke nu"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Vælg en avatar til din profil"
+  }
+}

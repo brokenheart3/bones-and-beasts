@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { Animated, StyleSheet, Text, View } from "react-native";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   emoji: string;
@@ -10,6 +11,7 @@ interface Props {
 const HOLD_MS = 1400;
 
 export default function BonusFoundOverlay({ emoji, label, onDone }: Props) {
+  const { t } = useTranslation();
   const scale = useRef(new Animated.Value(0.4)).current;
   const opacity = useRef(new Animated.Value(0)).current;
 
@@ -33,7 +35,7 @@ export default function BonusFoundOverlay({ emoji, label, onDone }: Props) {
     <Animated.View style={[styles.overlay, { opacity }]} pointerEvents="none">
       <Animated.View style={{ transform: [{ scale }], alignItems: "center" }}>
         <Text style={styles.emoji}>{emoji}</Text>
-        <Text style={styles.title}>You found {label}!</Text>
+        <Text style={styles.title}>{t("bonus.found", { label })}</Text>
       </Animated.View>
     </Animated.View>
   );

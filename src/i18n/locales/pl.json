@@ -1,0 +1,263 @@
+{
+  "common": {
+    "cancel": "Anuluj",
+    "save": "Zapisz",
+    "back": "Wstecz",
+    "delete": "Usuń",
+    "reset": "Resetuj",
+    "you": "Ty",
+    "explorer": "Odkrywca",
+    "didNotFinish": "Nie skończył",
+    "or": "lub",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Lew",
+    "elephant": "Słoń",
+    "monkey": "Małpa",
+    "tiger": "Tygrys",
+    "giraffe": "Żyrafa",
+    "zebra": "Zebra"
+  },
+  "tabs": {
+    "home": "Start",
+    "play": "Gra",
+    "stats": "Statystyki",
+    "settings": "Ustawienia"
+  },
+  "home": {
+    "welcome": "Witaj, {{username}}!",
+    "promptReady": "Jesteś gotowy postawić?",
+    "promptWanna": "Chcesz zagrać?",
+    "soloTitle": "Solo",
+    "soloBody": "Rzuć kością, aby znaleźć swoją kartę, a potem przeszukaj tabliczkę w poszukiwaniu wszystkich sześciu kopii, zanim ktoś inny skompletuje swój zestaw. Tylko Ty, Twoja pamięć i czaszki.",
+    "playSolo": "Zagraj Solo",
+    "groupTitle": "Grupa",
+    "groupBody": "Połącz się z 2-4 graczami i ścigajcie się, by pierwszym skompletować swój zestaw. Gra grupowa jest dostępna tylko online — dopasujemy Cię do innych graczy w poczekalni na żywo.",
+    "trialActive_one": "Bezpłatny okres próbny — pozostał {{count}} dzień",
+    "trialActive_few": "Bezpłatny okres próbny — pozostały {{count}} dni",
+    "trialActive_many": "Bezpłatny okres próbny — pozostało {{count}} dni",
+    "trialActive_other": "Bezpłatny okres próbny — pozostało {{count}} dnia",
+    "trialEnded": "Bezpłatny okres próbny zakończony — zaprenumeruj, aby dalej grać",
+    "findGroup": "Znajdź Grupę"
+  },
+  "endScreen": {
+    "lossTitle": "Pogrzebany w Świątyni!",
+    "winTitle": "Świątynia Wyczyszczona!",
+    "totalTime": "⏱ Całkowity czas gry: {{time}}",
+    "finalRanking": "Ranking końcowy",
+    "setCompletionOrder": "Kolejność ukończenia zestawów",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Zagraj Ponownie"
+  },
+  "bonus": {
+    "small": "Bonusowy Klejnot",
+    "big": "Starożytny Idol",
+    "found": "Znalazłeś {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Łączenie...",
+    "aPlayer": "Gracz",
+    "huntingFor": "Będziesz szukać {{emoji}} {{faceName}}!",
+    "waiting": "Czekanie",
+    "waitingForMove": "Czekanie na jego ruch...",
+    "disconnectedName": "{{name}} (opuścił grę)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Nie można połączyć się z serwerem.",
+    "couldntConnect": "Nie udało się połączyć",
+    "findingGroup": "Szukanie Grupy",
+    "you": "(ty)",
+    "waitingForPlayer": "Czekanie na gracza...",
+    "cancel": "Anuluj"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "Ten adres e-mail jest już zarejestrowany — spróbuj się zalogować.",
+    "invalidEmail": "To nie wygląda na poprawny adres e-mail.",
+    "missingEmail": "Najpierw wpisz swój adres e-mail.",
+    "weakPassword": "Hasło powinno mieć co najmniej 6 znaków.",
+    "wrongPassword": "Nieprawidłowy e-mail lub hasło.",
+    "userNotFound": "Nie znaleziono konta z tym adresem e-mail.",
+    "tooManyRequests": "Za dużo prób — poczekaj chwilę i spróbuj ponownie.",
+    "networkError": "Błąd sieci — sprawdź połączenie i spróbuj ponownie.",
+    "requiresRecentLogin": "Dla Twojego bezpieczeństwa wyloguj się i zaloguj ponownie, a następnie spróbuj jeszcze raz.",
+    "generic": "Coś poszło nie tak. Spróbuj ponownie."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Nie udało się wczytać opcji subskrypcji.",
+    "purchaseFailed": "Zakup nie powiódł się. Spróbuj ponownie.",
+    "restoreFailed": "Nie udało się przywrócić zakupów.",
+    "notSignedIn": "Zaloguj się najpierw.",
+    "notAvailableOnWeb": "Subskrypcje nie są jeszcze dostępne w wersji internetowej — użyj aplikacji na iOS lub Androida.",
+    "checkoutFailed": "Nie udało się rozpocząć płatności."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, rzuć kością, aby znaleźć swoją kartę!",
+    "turnHuntFor": "Tura {{name}} — szukaj {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Odwróć znowu!",
+    "completedSet": "🏆 {{name}} skompletował zestaw {{faceName}} — {{place}} miejsce!",
+    "skullSolo": "💀 {{name}} trafił na czaszkę! Zamrożony na chwilę...",
+    "skullGroup": "💀 {{name}} trafił na czaszkę! Tura utracona, następna tura pominięta. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} znalazł {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} znalazł {{label}}, ale nie miał już nic do odkrycia!",
+    "bonusLabelSmall": "bonusowy klejnot",
+    "bonusLabelBig": "starożytnego idola",
+    "foundFaceLead": "{{name}} znalazł {{faceName}}",
+    "wrongTileLoss": "💀 Wszystkie kafelki {{wrongFace}} zostały znalezione, zanim skompletowałeś swój zestaw {{targetFace}} — przegrywasz!",
+    "wrongTilePass": "{{name}} odkrył złą płytkę. {{nextTurn}}",
+    "everyoneFound": "Wszyscy znaleźli swoją kartę! Koniec gry.",
+    "tabletCleared": "Tabliczka została wyczyszczona! Koniec gry."
+  },
+  "skullPause": {
+    "title": "Zamrożony!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} pułapek znalezionych",
+    "gems": "{{found}}/{{total}} klejnotów znalezionych",
+    "idols": "{{found}}/{{total}} idoli znalezionych"
+  },
+  "yourTurn": {
+    "banner": "👉 Twoja tura!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} skompletował swój zestaw ({{place}} miejsce)! {{status}}",
+    "othersRemaining_one": "{{count}} gracz wciąż gra.",
+    "othersRemaining_few": "{{count}} gracze wciąż grają.",
+    "othersRemaining_many": "{{count}} graczy wciąż gra.",
+    "othersRemaining_other": "{{count}} gracza wciąż gra.",
+    "everyoneDone": "To wszyscy!"
+  },
+  "gameResult": {
+    "wonTitle": "Znalazłeś wszystkie {{count}} kart {{cardName}}!",
+    "lostTitle": "Przegrałeś!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, rzuć kością, aby znaleźć swoją kartę!",
+    "rollingPrompt": "{{playerName}}, rzuca...",
+    "roll": "Rzuć",
+    "yourCardIs": "Twoja karta to {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Brak gry w trakcie. Zacznij jedną ze strony Start!"
+  },
+  "appSettings": {
+    "theme": "Motyw",
+    "themeDark": "Ciemny",
+    "themeLight": "Jasny",
+    "language": "Język",
+    "languageSystem": "Systemowy",
+    "data": "Dane",
+    "dataBody": "Wylogowuje Cię i usuwa historię Statystyk na tym urządzeniu. Tej operacji nie można odwrócić.",
+    "signOutReset": "Wyloguj i zresetuj dane lokalne",
+    "confirmResetTitle": "Wylogować i zresetować dane lokalne?",
+    "confirmResetBody": "To usunie Twoją historię Statystyk na tym urządzeniu i wyloguje Cię. Tej operacji nie można odwrócić.",
+    "reset": "Resetuj"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Nazwa wyświetlana",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "signOut": "Wyloguj się",
+    "deleteAccount": "Usuń Konto",
+    "confirmDeleteTitle": "Usunąć swoje konto?",
+    "confirmDeleteBody": "To trwale usunie Twoje konto. Tej operacji nie można odwrócić.",
+    "delete": "Usuń",
+    "emailPlaceholder": "E-mail",
+    "passwordPlaceholder": "Hasło",
+    "forgotPassword": "Zapomniałeś hasła?",
+    "resetSent": "Wiadomość e-mail do zresetowania hasła została wysłana — sprawdź swoją skrzynkę.",
+    "signUp": "Zarejestruj się",
+    "signIn": "Zaloguj się",
+    "switchToSignIn": "Masz już konto? Zaloguj się",
+    "switchToSignUp": "Potrzebujesz konta? Zarejestruj się",
+    "or": "lub",
+    "continueWithGoogle": "G  Kontynuuj z Google",
+    "continueWithApple": "􀣺  Kontynuuj z Apple",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Utwórz konto, aby zacząć grać",
+    "onboardingSignInSubtitle": "Zaloguj się, aby kontynuować",
+    "proBadge": "✨ Członek Pro",
+    "upgradeToPro": "Ulepsz do Pro"
+  },
+  "staticInfo": {
+    "lastUpdated": "Ostatnia aktualizacja: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts to hybryda gry pamięciowej i kości — rzuć kością, aby znaleźć swoje zwierzę, a potem szukaj go na tabliczce, zanim dopadną Cię czaszki (lub zwierzę kogoś innego).",
+    "howToPlayHeading": "Jak grać",
+    "howToPlayBody": "Tryb Solo to Ty kontra tabliczka: rzuć kością, by wylosować stałe zwierzę-cel, a następnie odwracaj płytki, by zebrać wszystkie jego kopie, zanim zestaw innego zwierzęcia zostanie w pełni odkryty jako pierwszy. Tryb Grupowy dopasowuje 2-4 graczy online, którzy ścigają się, by skompletować własne zestawy — po drodze czekają bonusowe klejnoty i idole, które od razu odkrywają dodatkowe kopie dla tego, kto je znajdzie.",
+    "builtWithHeading": "Zbudowane przy użyciu",
+    "builtWithBody": "Expo, React Native i TypeScript po stronie klienta; Colyseus zasila grę Grupową online w czasie rzeczywistym.",
+    "versionHeading": "Wersja",
+    "noteHeading": "Uwaga",
+    "noteBody": "To niezależny, aktywnie rozwijany projekt — spodziewaj się nowych funkcji i zmian w zasadach z czasem. Dziękujemy za grę!"
+  },
+  "privacyPolicy": {
+    "intro": "Ta polityka wyjaśnia, jakie informacje zbiera Bones & Beasts i jak są wykorzystywane. Nie ma tu reklam ani żadnej analityki czy śledzenia poza tym, co opisano poniżej.",
+    "accountHeading": "Twoje konto",
+    "accountBody": "Utworzenie konta (e-mail/hasło, Google lub Zaloguj się przez Apple) jest wymagane, aby grać. Używamy Firebase Authentication do zarządzania logowaniem, które przechowuje Twój adres e-mail i nazwę wyświetlaną (a w przypadku Google/Apple — podstawowe informacje profilowe udostępniane nam przez dostawcę, zazwyczaj tylko imię i e-mail). Nie widzimy i nie przechowujemy Twojego hasła w przypadku kont e-mail/hasło — Firebase obsługuje to bezpośrednio. Możesz usunąć swoje konto w każdej chwili ze strony Profilu.",
+    "soloHeading": "Gra Solo",
+    "soloBody": "Gry Solo działają całkowicie na Twoim urządzeniu. Historia gier w zakładce Statystyki (rozegrane gry, wygrane, skompletowane zestawy, czasy) jest przechowywana lokalnie na urządzeniu i nigdy nie jest przesyłana do nas ani do kogokolwiek innego, niezależnie od tego, czy jesteś zalogowany.",
+    "groupHeading": "Gra Grupowa Online",
+    "groupBody": "Kiedy przyłączasz się do gry Grupowej, Twoja nazwa wyświetlana i Twoje działania w grze (rzuty kością, odwracanie kart) są wysyłane na nasz serwer gry, aby mógł synchronizować wspólną planszę dla wszystkich w tej grze. Te dane istnieją tylko na czas trwania sesji gry — nie są zapisywane później, sprzedawane ani udostępniane osobom trzecim.",
+    "childrenHeading": "Prywatność dzieci",
+    "childrenBody": "Bones & Beasts nie jest przeznaczone dla dzieci poniżej 13 lat i nie zbieramy świadomie informacji od nich.",
+    "changesHeading": "Zmiany w tej polityce",
+    "changesBody": "Jeśli sposób przetwarzania danych przez aplikację się zmieni — na przykład, jeśli zostanie dodane zgłaszanie błędów, powiadomienia push lub płatna subskrypcja — ta strona zostanie zaktualizowana, aby to opisać.",
+    "questionsHeading": "Pytania",
+    "questionsBody": "Jeśli masz pytania dotyczące tej polityki, skontaktuj się z nami przez miejsce, z którego pobrałeś tę aplikację."
+  },
+  "termsOfService": {
+    "intro": "Korzystając z Bones & Beasts, zgadzasz się na te warunki. Jeśli się nie zgadzasz, prosimy nie używać tej aplikacji.",
+    "gameHeading": "Gra",
+    "gameBody": "Bones & Beasts (zobacz stronę O aplikacji, aby dowiedzieć się, czym jest i jak się w nią gra) jest udostępniana wyłącznie do celów rozrywkowych.",
+    "fairPlayHeading": "Uczciwa gra",
+    "fairPlayBody": "W grach Grupowych prosimy o uczciwą grę — bez wykorzystywania błędów, automatyzowania swoich tur czy zakłócania gry innym graczom. Zastrzegamy sobie prawo do usunięcia graczy z gry lub poczekalni za zachowanie zakłócające rozgrywkę.",
+    "noWarrantyHeading": "Brak gwarancji",
+    "noWarrantyBody": "Aplikacja jest udostępniana \"tak jak jest\", bez żadnych gwarancji. Nie gwarantujemy, że będzie działać bez przerw, bez błędów lub że będzie dostępna przez cały czas — zwłaszcza tryb Grupowy online, który zależy od serwera gry, który może być aktualizowany, ponownie uruchamiany lub wyłączany bez uprzedzenia.",
+    "liabilityHeading": "Ograniczenie odpowiedzialności",
+    "liabilityBody": "W maksymalnym zakresie dopuszczonym przez prawo nie odpowiadamy za żadne szkody wynikające z korzystania lub niemożności korzystania z aplikacji.",
+    "changesHeading": "Zmiany",
+    "changesBody": "Te warunki mogą być aktualizowane w miarę zmian w aplikacji. Dalsze korzystanie z aplikacji po aktualizacji oznacza, że akceptujesz zmienione warunki."
+  },
+  "settingsNav": {
+    "profile": "Profil",
+    "appSettings": "Ustawienia Aplikacji",
+    "privacyPolicy": "Polityka Prywatności",
+    "termsOfService": "Warunki Korzystania",
+    "about": "O Aplikacji",
+    "settings": "Ustawienia"
+  },
+  "stats": {
+    "title": "Statystyki",
+    "gamesPlayed": "Rozegrane gry",
+    "yourWins": "Twoje wygrane",
+    "setsCompleted": "Skompletowane zestawy",
+    "avgSetsPerGame": "Śr. zestawów / gra",
+    "bestSoloTime": "Najlepszy czas solo",
+    "noBestTime": "–",
+    "recentGames": "Ostatnie gry",
+    "noGamesYet": "Nie rozegrano jeszcze żadnej gry — zacznij jedną!",
+    "modeSolo": "Solo",
+    "modeGroup": "Grupa ({{count}})",
+    "placeWin": "🏆 {{place}} miejsce",
+    "place": "{{place}} miejsce"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "Gra Grupowa jest bezpłatna przez jeszcze {{count}} dzień — zaprenumeruj w każdej chwili, aby grać dalej po jego zakończeniu.",
+    "trialActiveSubtitle_few": "Gra Grupowa jest bezpłatna przez jeszcze {{count}} dni — zaprenumeruj w każdej chwili, aby grać dalej po ich zakończeniu.",
+    "trialActiveSubtitle_many": "Gra Grupowa jest bezpłatna przez jeszcze {{count}} dni — zaprenumeruj w każdej chwili, aby grać dalej po ich zakończeniu.",
+    "trialActiveSubtitle_other": "Gra Grupowa jest bezpłatna przez jeszcze {{count}} dnia — zaprenumeruj w każdej chwili, aby grać dalej po ich zakończeniu.",
+    "trialEndedSubtitle": "Twój bezpłatny okres próbny Gry Grupowej się zakończył. Zaprenumeruj, aby dalej ścigać się z innymi graczami online.",
+    "monthly": "Miesięcznie",
+    "yearly": "Rocznie",
+    "lifetime": "Dożywotnio",
+    "restorePurchases": "Przywróć Zakupy",
+    "notNow": "Nie teraz"
+  },
+  "avatar": {
+    "pageTitle": "Awatar",
+    "subtitle": "Wybierz awatar dla swojego profilu"
+  }
+}

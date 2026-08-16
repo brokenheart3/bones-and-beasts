@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "Tühista",
+    "save": "Salvesta",
+    "back": "Tagasi",
+    "delete": "Kustuta",
+    "reset": "Lähtesta",
+    "you": "Sina",
+    "explorer": "Rändur",
+    "didNotFinish": "Ei lõpetanud",
+    "or": "või",
+    "unknownPlayer": "?"
+  },
+  "faces": {
+    "lion": "Lõvi",
+    "elephant": "Elevant",
+    "monkey": "Ahv",
+    "tiger": "Tiiger",
+    "giraffe": "Kaelkirjak",
+    "zebra": "Sebra"
+  },
+  "tabs": {
+    "home": "Avaleht",
+    "play": "Mängi",
+    "stats": "Statistika",
+    "settings": "Seaded"
+  },
+  "home": {
+    "welcome": "Tere tulemast, {{username}}!",
+    "promptReady": "Kas oled valmis panustama?",
+    "promptWanna": "Tahad mängida?",
+    "soloTitle": "Üksik",
+    "soloBody": "Veereta täringut, et leida oma kaart, ja jahi seejärel tahvlilt kõiki kuut koopiat, enne kui mõne teise looma komplekt saab valmis. Ainult sina, sinu mälu ja pealuud.",
+    "playSolo": "Mängi üksi",
+    "groupTitle": "Grupp",
+    "groupBody": "Liitu 2-4 mängijaga ja võistelge, kes jõuab esimesena oma komplekti valmis. Grupimäng on ainult võrgus — sobitame sind teiste mängijatega otseülekandes toimuvas ootesaalis.",
+    "trialActive_one": "Tasuta prooviaeg — jäänud on {{count}} päev",
+    "trialActive_other": "Tasuta prooviaeg — jäänud on {{count}} päeva",
+    "trialEnded": "Tasuta prooviaeg on lõppenud — telli mängu jätkamiseks",
+    "findGroup": "Leia grupp"
+  },
+  "endScreen": {
+    "lossTitle": "Templisse maetud!",
+    "winTitle": "Tempel puhastatud!",
+    "totalTime": "⏱ Kogu mänguaeg: {{time}}",
+    "finalRanking": "Lõplik edetabel",
+    "setCompletionOrder": "Komplektide valmimise järjekord",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "Mängi uuesti"
+  },
+  "bonus": {
+    "small": "boonuskivi",
+    "big": "iidne iidol",
+    "found": "Leidsid {{label}}!"
+  },
+  "gameOnline": {
+    "connecting": "Ühendamine...",
+    "aPlayer": "Mängija",
+    "huntingFor": "Sa jahid {{emoji}} {{faceName}}!",
+    "waiting": "Ootel",
+    "waitingForMove": "Oodatakse tema käiku...",
+    "disconnectedName": "{{name}} (lahkus)"
+  },
+  "lobby": {
+    "couldNotReachServer": "Serveriga ei saanud ühendust.",
+    "couldntConnect": "Ühendus ebaõnnestus",
+    "findingGroup": "Grupi otsimine",
+    "you": "(sina)",
+    "waitingForPlayer": "Oodatakse mängijat...",
+    "cancel": "Tühista"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "See e-post on juba registreeritud — proovi selle asemel sisse logida.",
+    "invalidEmail": "See ei näi olevat kehtiv e-posti aadress.",
+    "missingEmail": "Sisesta esmalt oma e-posti aadress.",
+    "weakPassword": "Parool peaks olema vähemalt 6 tähemärki.",
+    "wrongPassword": "Vale e-post või parool.",
+    "userNotFound": "Selle e-postiga kontot ei leitud.",
+    "tooManyRequests": "Liiga palju katseid — oota hetk ja proovi uuesti.",
+    "networkError": "Võrguviga — kontrolli oma ühendust ja proovi uuesti.",
+    "requiresRecentLogin": "Turvalisuse tagamiseks logi palun välja ja logi uuesti sisse, seejärel proovi uuesti.",
+    "generic": "Midagi läks valesti. Proovi uuesti."
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "Tellimuse valikuid ei saanud laadida.",
+    "purchaseFailed": "Ost ebaõnnestus. Proovi uuesti.",
+    "restoreFailed": "Ostude taastamine ebaõnnestus.",
+    "notSignedIn": "Logi palun esmalt sisse.",
+    "notAvailableOnWeb": "Tellimused ei ole veebis veel saadaval — kasuta palun iOS- või Android-rakendust.",
+    "checkoutFailed": "Ostu alustamine ebaõnnestus."
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}, veereta täringut, et leida oma kaart!",
+    "turnHuntFor": "{{name}} käik — jahi {{faceName}} {{emoji}}!",
+    "foundProgress": "{{lead}} ({{collected}}/{{total}}). Pööra uuesti!",
+    "completedSet": "🏆 {{name}} sai {{faceName}} komplekti valmis — {{place}}. koht!",
+    "skullSolo": "💀 {{name}} tabas pealuu! Külmus hetkeks...",
+    "skullGroup": "💀 {{name}} tabas pealuu! Käik läks kaduma, järgmine käik jäetakse vahele. {{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}} leidis {{label}} — +{{count}} {{faceName}}!",
+    "bonusFoundNothingLead": "{{glyph}} {{name}} leidis {{label}}, kuid ei jäänud enam midagi avastada!",
+    "bonusLabelSmall": "boonuskivi",
+    "bonusLabelBig": "iidne iidol",
+    "foundFaceLead": "{{name}} leidis {{faceName}}",
+    "wrongTileLoss": "💀 Kõik {{wrongFace}} kaardid leiti enne, kui jõudsid oma {{targetFace}} komplekti valmis — kaotasid!",
+    "wrongTilePass": "{{name}} avastas vale kaardi. {{nextTurn}}",
+    "everyoneFound": "Kõik leidsid oma kaardi! Mäng on läbi.",
+    "tabletCleared": "Tahvel on puhastatud! Mäng on läbi."
+  },
+  "skullPause": {
+    "title": "Külmunud!"
+  },
+  "specialTiles": {
+    "traps": "{{found}}/{{total}} lõksu leitud",
+    "gems": "{{found}}/{{total}} kivi leitud",
+    "idols": "{{found}}/{{total}} iidolit leitud"
+  },
+  "yourTurn": {
+    "banner": "👉 Sinu käik!"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}} sai oma komplekti valmis ({{place}}. koht)! {{status}}",
+    "othersRemaining_one": "{{count}} mängija mängib veel.",
+    "othersRemaining_other": "{{count}} mängijat mängib veel.",
+    "everyoneDone": "See olid kõik!"
+  },
+  "gameResult": {
+    "wonTitle": "Leidsid kõik {{count}} {{cardName}} kaarti!",
+    "lostTitle": "Kaotasid!"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}, veereta täringut, et leida oma kaart!",
+    "rollingPrompt": "{{playerName}} veeretab...",
+    "roll": "Veereta",
+    "yourCardIs": "Sinu kaart on {{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "Mäng ei ole käimas. Alusta uut avalehelt!"
+  },
+  "appSettings": {
+    "theme": "Teema",
+    "themeDark": "Tume",
+    "themeLight": "Hele",
+    "language": "Keel",
+    "languageSystem": "Süsteemi järgi",
+    "data": "Andmed",
+    "dataBody": "Logib sind välja ja kustutab selle seadme statistika ajaloo. Seda ei saa tagasi võtta.",
+    "signOutReset": "Logi välja ja lähtesta kohalikud andmed",
+    "confirmResetTitle": "Logida välja ja lähtestada kohalikud andmed?",
+    "confirmResetBody": "See kustutab selle seadme statistika ajaloo ja logib sind välja. Seda ei saa tagasi võtta.",
+    "reset": "Lähtesta"
+  },
+  "profile": {
+    "displayNamePlaceholder": "Näidatav nimi",
+    "save": "Salvesta",
+    "cancel": "Tühista",
+    "signOut": "Logi välja",
+    "deleteAccount": "Kustuta konto",
+    "confirmDeleteTitle": "Kustutada oma konto?",
+    "confirmDeleteBody": "See kustutab sinu konto jäädavalt. Seda ei saa tagasi võtta.",
+    "delete": "Kustuta",
+    "emailPlaceholder": "E-post",
+    "passwordPlaceholder": "Parool",
+    "forgotPassword": "Unustasid parooli?",
+    "resetSent": "Parooli lähtestamise e-kiri on saadetud — kontrolli oma postkasti.",
+    "signUp": "Registreeru",
+    "signIn": "Logi sisse",
+    "switchToSignIn": "Sul on juba konto? Logi sisse",
+    "switchToSignUp": "Vajad kontot? Registreeru",
+    "or": "või",
+    "continueWithGoogle": "G  Jätka Google'iga",
+    "continueWithApple": "􀣺  Jätka Apple'iga",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "Loo konto, et alustada mängimist",
+    "onboardingSignInSubtitle": "Logi sisse, et jätkata",
+    "proBadge": "✨ Pro liige",
+    "upgradeToPro": "Uuenda Pro'ks"
+  },
+  "staticInfo": {
+    "lastUpdated": "Viimati uuendatud: {{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts on mälu- ja täringumängu hübriid — veereta täringut, et leida oma loom, ja jahi seda seejärel üle tahvli, enne kui pealuud (või mõne teise looma komplekt) sind tabavad.",
+    "howToPlayHeading": "Kuidas mängida",
+    "howToPlayBody": "Üksikmäng on ainult sina versus tahvel: veereta täringut fikseeritud sihtlooma jaoks, seejärel pööra kaarte, et koguda kõik selle koopiad, enne kui mõne teise looma komplekt saab esimesena täielikult avatud. Grupimäng sobitab 2-4 mängijat võrgus, kes võistlevad oma komplektide täitmisel — teel on boonuskivid ja iidolid, mis paljastavad koheselt lisakoopiaid nende leidjale.",
+    "builtWithHeading": "Ehitatud kasutades",
+    "builtWithBody": "Expo, React Native ja TypeScript kliendi peal; Colyseus võimaldab reaalajas grupimängu võrgus.",
+    "versionHeading": "Versioon",
+    "noteHeading": "Märkus",
+    "noteBody": "See on iseseisev, aktiivselt arendatav projekt — oota aja jooksul uusi funktsioone ja reeglite muudatusi. Aitäh, et mängid!"
+  },
+  "privacyPolicy": {
+    "intro": "See eeskiri selgitab, mis andmeid Bones & Beasts kogub ja kuidas neid kasutatakse. Reklaame ega analüütikat või jälgimist väljaspool allpool kirjeldatut ei toimu.",
+    "accountHeading": "Sinu konto",
+    "accountBody": "Mängimiseks on vajalik konto loomine (e-post/parool, Google või Sisselogimine Apple'iga). Sisselogimise haldamiseks kasutame Firebase Authenticationit, mis salvestab sinu e-posti aadressi ja näidatava nime (ning Google/Apple puhul mis tahes põhilise profiiliteabe, mille teenusepakkuja meiega jagab — tavaliselt lihtsalt nime ja e-posti). E-posti/parooli kontode puhul me ei näe ega salvesta sinu parooli; Firebase käitleb seda otse. Saad oma konto igal ajal kustutada profiili lehelt.",
+    "soloHeading": "Üksikmäng",
+    "soloBody": "Üksikmängud toimuvad täielikult sinu seadmes. Sinu mängude ajalugu vahekaardil Statistika (mängitud mängud, võidud, valminud komplektid, ajad) salvestatakse kohalikult seadmesse ja ei saadeta kunagi meile või kellelegi teisele, sõltumata sisselogimise staatusest.",
+    "groupHeading": "Grupimäng võrgus",
+    "groupBody": "Kui liitud grupimänguga, saadetakse sinu näidatav nimi ja mängutoimingud (täringuveeretused, kaartide keeramised) meie mänguserverisse, et see saaks hoida jagatud mängulauda kõigile mängus sünkroonis. Need andmed on olemas ainult mängusessiooni kestuse ajal — need ei jää pärast alles, neid ei müüda ega jagata kolmandate osapooltega.",
+    "childrenHeading": "Laste privaatsus",
+    "childrenBody": "Bones & Beasts ei ole suunatud alla 13-aastastele lastele ja me ei kogu neilt teadlikult andmeid.",
+    "changesHeading": "Selle eeskirja muudatused",
+    "changesBody": "Kui rakenduse andmehalduse viis muutub — näiteks kui lisatakse veateavitus, push-teavitused või tasuline tellimus — värskendatakse käesolevat lehte, et seda kirjeldada.",
+    "questionsHeading": "Küsimused",
+    "questionsBody": "Kui sul on selle eeskirja kohta küsimusi, võta palun ühendust selle kaudu, kust selle rakenduse alla laadisid."
+  },
+  "termsOfService": {
+    "intro": "Bones & Beasts'i kasutades nõustud käesolevate tingimustega. Kui ei nõustu, palun ära kasuta rakendust.",
+    "gameHeading": "Mäng",
+    "gameBody": "Bones & Beasts (vaata Teave lehte, mis see on ja kuidas mängitakse) on mõeldud ainult meelelahutuseks.",
+    "fairPlayHeading": "Aus mäng",
+    "fairPlayBody": "Grupimängudes palun mängi ausalt — ära kasuta ära vigu, automatiseeri käike ega häiri teiste mängijate mänge. Jätame endale õiguse eemaldada mängijad mängust või ootesaalist häiriva käitumise eest.",
+    "noWarrantyHeading": "Garantii puudub",
+    "noWarrantyBody": "Rakendus pakutakse \"nii nagu on\", ilma igasuguste garantiideta. Ei garanteeri, et see on katkematu, veatu või alati kättesaadav — eriti võrgus toimiv grupirežiim, mis sõltub mänguserverist, mida võidakse uuendada, taaskäivitada või ette teatamata võrguühenduseta viia.",
+    "liabilityHeading": "Vastutuse piiramine",
+    "liabilityBody": "Seaduses lubatud maksimaalses ulatuses ei vastuta me kahjude eest, mis tulenevad rakenduse kasutamisest või selle kasutamise võimatusest.",
+    "changesHeading": "Muudatused",
+    "changesBody": "Neid tingimusi võidakse rakenduse muutumisel uuendada. Rakenduse jätkuv kasutamine pärast uuendust tähendab, et nõustud muudetud tingimustega."
+  },
+  "settingsNav": {
+    "profile": "Profiil",
+    "appSettings": "Rakenduse seaded",
+    "privacyPolicy": "Privaatsuseeskirjad",
+    "termsOfService": "Kasutustingimused",
+    "about": "Teave",
+    "settings": "Seaded"
+  },
+  "stats": {
+    "title": "Statistika",
+    "gamesPlayed": "Mängitud mängud",
+    "yourWins": "Sinu võidud",
+    "setsCompleted": "Valminud komplektid",
+    "avgSetsPerGame": "Keskm. komplekte / mäng",
+    "bestSoloTime": "Parim üksikmängu aeg",
+    "noBestTime": "–",
+    "recentGames": "Viimased mängud",
+    "noGamesYet": "Veel ei ole mängitud — alusta ühte!",
+    "modeSolo": "Üksik",
+    "modeGroup": "Grupp ({{count}})",
+    "placeWin": "🏆 {{place}}. koht",
+    "place": "{{place}}. koht"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "Grupimäng on veel {{count}} päev tasuta — telli igal ajal, et pärast jätkata mängimist.",
+    "trialActiveSubtitle_other": "Grupimäng on veel {{count}} päeva tasuta — telli igal ajal, et pärast jätkata mängimist.",
+    "trialEndedSubtitle": "Sinu grupimängu tasuta prooviaeg on lõppenud. Telli, et jätkata teiste mängijatega võrgus võistlemist.",
+    "monthly": "Kuutellimus",
+    "yearly": "Aastatellimus",
+    "lifetime": "Eluaegne",
+    "restorePurchases": "Taasta ostud",
+    "notNow": "Mitte praegu"
+  },
+  "avatar": {
+    "pageTitle": "Avatar",
+    "subtitle": "Vali oma profiilile avatar"
+  }
+}

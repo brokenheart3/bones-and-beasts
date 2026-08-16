@@ -1,0 +1,257 @@
+{
+  "common": {
+    "cancel": "取消",
+    "save": "保存",
+    "back": "返回",
+    "delete": "删除",
+    "reset": "重置",
+    "you": "你",
+    "explorer": "探险者",
+    "didNotFinish": "未完成",
+    "or": "或",
+    "unknownPlayer": "？"
+  },
+  "faces": {
+    "lion": "狮子",
+    "elephant": "大象",
+    "monkey": "猴子",
+    "tiger": "老虎",
+    "giraffe": "长颈鹿",
+    "zebra": "斑马"
+  },
+  "tabs": {
+    "home": "主页",
+    "play": "游玩",
+    "stats": "统计",
+    "settings": "设置"
+  },
+  "home": {
+    "welcome": "欢迎，{{username}}！",
+    "promptReady": "准备好下注了吗？",
+    "promptWanna": "想玩吗？",
+    "soloTitle": "单人",
+    "soloBody": "掷骰子找到你的卡片，然后在棋盘上寻找全部六张副本，抢在别的野兽的一套先完成之前完成自己的。只有你、你的记忆力，还有骷髅。",
+    "playSolo": "单人游玩",
+    "groupTitle": "组队",
+    "groupBody": "与2-4名玩家组队，抢先完成你自己的一套。组队模式仅限在线 — 我们会在实时房间里为你匹配其他玩家。",
+    "trialActive_one": "免费试用 — 剩{{count}}天",
+    "trialActive_other": "免费试用 — 剩{{count}}天",
+    "trialEnded": "免费试用已结束 — 订阅以继续游玩",
+    "findGroup": "寻找组队"
+  },
+  "endScreen": {
+    "lossTitle": "被埋葬在神庙里了！",
+    "winTitle": "神庙已清空！",
+    "totalTime": "⏱ 总游戏时间：{{time}}",
+    "finalRanking": "最终排名",
+    "setCompletionOrder": "完成顺序",
+    "completionRow": "{{order}}. {{emoji}} {{faceName}} — {{playerName}}",
+    "playAgain": "再玩一次"
+  },
+  "bonus": {
+    "small": "一颗奖励宝石",
+    "big": "一座古老雕像",
+    "found": "你发现了{{label}}！"
+  },
+  "gameOnline": {
+    "connecting": "正在连接...",
+    "aPlayer": "一名玩家",
+    "huntingFor": "你将要寻找{{emoji}} {{faceName}}！",
+    "waiting": "等待中",
+    "waitingForMove": "正在等待对方行动...",
+    "disconnectedName": "{{name}}（已离开）"
+  },
+  "lobby": {
+    "couldNotReachServer": "无法连接到服务器。",
+    "couldntConnect": "无法连接",
+    "findingGroup": "正在寻找组队",
+    "you": "（你）",
+    "waitingForPlayer": "等待玩家加入...",
+    "cancel": "取消"
+  },
+  "authErrors": {
+    "emailAlreadyInUse": "该邮箱已被注册 — 请尝试登录。",
+    "invalidEmail": "这看起来不是一个有效的邮箱地址。",
+    "missingEmail": "请先输入你的邮箱地址。",
+    "weakPassword": "密码至少需要6个字符。",
+    "wrongPassword": "邮箱或密码不正确。",
+    "userNotFound": "未找到使用该邮箱的账户。",
+    "tooManyRequests": "尝试次数过多 — 请稍候再试。",
+    "networkError": "网络错误 — 请检查你的网络连接后重试。",
+    "requiresRecentLogin": "出于安全原因，请退出登录后重新登录，然后再试一次。",
+    "generic": "出了点问题，请重试。"
+  },
+  "purchaseErrors": {
+    "loadOfferingsFailed": "无法加载订阅选项。",
+    "purchaseFailed": "购买失败，请重试。",
+    "restoreFailed": "无法恢复购买。",
+    "notSignedIn": "请先登录。",
+    "notAvailableOnWeb": "订阅功能暂不支持网页版 — 请使用iOS或Android应用。",
+    "checkoutFailed": "无法开始结账。"
+  },
+  "gameSolo": {
+    "rollPrompt": "{{name}}，掷骰子找到你的卡片！",
+    "turnHuntFor": "{{name}}的回合 — 寻找{{faceName}} {{emoji}}！",
+    "foundProgress": "{{lead}}（{{collected}}/{{total}}）。继续翻牌！",
+    "completedSet": "🏆 {{name}}完成了{{faceName}}的一套 — 第{{place}}名！",
+    "skullSolo": "💀 {{name}}翻到了骷髅！暂时被冻住了...",
+    "skullGroup": "💀 {{name}}翻到了骷髅！失去本回合，下一回合也被跳过。{{nextTurn}}",
+    "bonusFoundLead": "{{glyph}} {{name}}发现了{{label}} — +{{count}} {{faceName}}！",
+    "bonusFoundNothingLead": "{{glyph}} {{name}}发现了{{label}}，但已经没有可以揭示的了！",
+    "bonusLabelSmall": "一颗奖励宝石",
+    "bonusLabelBig": "一座古老雕像",
+    "foundFaceLead": "{{name}}发现了{{faceName}}",
+    "wrongTileLoss": "💀 在你完成自己的{{targetFace}}一套之前，所有{{wrongFace}}的方块都被找到了 — 你输了！",
+    "wrongTilePass": "{{name}}翻到了错误的方块。{{nextTurn}}",
+    "everyoneFound": "所有人都找到了自己的卡片！游戏结束。",
+    "tabletCleared": "棋盘已清空！游戏结束。"
+  },
+  "skullPause": {
+    "title": "被冻住了！"
+  },
+  "specialTiles": {
+    "traps": "陷阱 {{found}}/{{total}}",
+    "gems": "宝石 {{found}}/{{total}}",
+    "idols": "雕像 {{found}}/{{total}}"
+  },
+  "yourTurn": {
+    "banner": "👉 你的回合！"
+  },
+  "playerFinished": {
+    "banner": "🏆 {{playerName}}完成了自己的一套（第{{place}}名）！{{status}}",
+    "othersRemaining_one": "还有{{count}}名玩家在游玩。",
+    "othersRemaining_other": "还有{{count}}名玩家在游玩。",
+    "everyoneDone": "所有人都完成了！"
+  },
+  "gameResult": {
+    "wonTitle": "你找到了全部{{count}}张{{cardName}}卡片！",
+    "lostTitle": "你输了！"
+  },
+  "dice": {
+    "rollPrompt": "{{playerName}}，掷骰子找到你的卡片！",
+    "rollingPrompt": "{{playerName}}正在掷骰子...",
+    "roll": "掷骰子",
+    "yourCardIs": "你的卡片是{{emoji}}"
+  },
+  "playScreen": {
+    "noGame": "当前没有进行中的游戏。从主页开始一局吧！"
+  },
+  "appSettings": {
+    "theme": "主题",
+    "themeDark": "深色",
+    "themeLight": "浅色",
+    "language": "语言",
+    "languageSystem": "系统",
+    "data": "数据",
+    "dataBody": "将退出登录并清除此设备上的统计历史记录。此操作无法撤销。",
+    "signOutReset": "退出登录并重置本地数据",
+    "confirmResetTitle": "退出登录并重置本地数据？",
+    "confirmResetBody": "这将清除此设备上的统计历史记录并退出登录。此操作无法撤销。",
+    "reset": "重置"
+  },
+  "profile": {
+    "displayNamePlaceholder": "显示名称",
+    "save": "保存",
+    "cancel": "取消",
+    "signOut": "退出登录",
+    "deleteAccount": "删除账户",
+    "confirmDeleteTitle": "删除你的账户？",
+    "confirmDeleteBody": "这将永久删除你的账户。此操作无法撤销。",
+    "delete": "删除",
+    "emailPlaceholder": "邮箱",
+    "passwordPlaceholder": "密码",
+    "forgotPassword": "忘记密码？",
+    "resetSent": "重置邮件已发送 — 请查看你的收件箱。",
+    "signUp": "注册",
+    "signIn": "登录",
+    "switchToSignIn": "已有账户？登录",
+    "switchToSignUp": "需要账户？注册",
+    "or": "或",
+    "continueWithGoogle": "G  使用Google继续",
+    "continueWithApple": "􀣺  使用Apple继续",
+    "onboardingTitle": "Bones & Beasts",
+    "onboardingSignUpSubtitle": "创建账户以开始游玩",
+    "onboardingSignInSubtitle": "登录以继续",
+    "proBadge": "✨ Pro 会员",
+    "upgradeToPro": "升级到 Pro"
+  },
+  "staticInfo": {
+    "lastUpdated": "最后更新：{{date}}"
+  },
+  "about": {
+    "intro": "Bones & Beasts是一款结合记忆与骰子的游戏 — 掷骰子找到你的野兽，然后在骷髅（或其他玩家的野兽）抓住你之前，在棋盘上寻找它。",
+    "howToPlayHeading": "玩法说明",
+    "howToPlayBody": "单人模式是你独自挑战棋盘：掷骰子获得一个固定的目标动物，然后翻开方块收集它的所有副本，抢在别的动物的一套被完全揭示之前完成。组队模式让2-4名玩家在线对战，争相完成各自的一套 — 途中的奖励宝石和雕像会立即为发现者揭示额外的副本。",
+    "builtWithHeading": "技术支持",
+    "builtWithBody": "客户端使用Expo、React Native和TypeScript构建；Colyseus支持实时在线组队游玩。",
+    "versionHeading": "版本",
+    "noteHeading": "说明",
+    "noteBody": "这是一个持续积极开发的独立项目 — 随着时间推移会有新功能和规则调整。感谢你的游玩！"
+  },
+  "privacyPolicy": {
+    "intro": "本政策说明了Bones & Beasts收集哪些信息以及如何使用这些信息。除下文所述之外，我们不进行广告投放，也不进行任何分析或跟踪。",
+    "accountHeading": "你的账户",
+    "accountBody": "游玩需要创建账户（邮箱/密码、Google，或使用Apple登录）。我们使用Firebase Authentication管理登录，该服务会存储你的邮箱地址和显示名称（对于Google/Apple登录，还包括该服务商与我们共享的基本资料信息 — 通常只是你的姓名和邮箱）。对于邮箱/密码账户，我们不会看到或存储你的密码本身；Firebase会直接处理该信息。你可以随时在个人资料页面删除你的账户。",
+    "soloHeading": "单人游玩",
+    "soloBody": "单人游戏完全在你的设备上运行。统计标签页中的游戏记录（游玩次数、胜利、完成的套数、用时）会存储在设备本地，无论是否登录，均不会传输给我们或任何其他人。",
+    "groupHeading": "在线组队游玩",
+    "groupBody": "当你加入组队游戏时，你的显示名称和游戏内操作（掷骰子、翻牌）会发送到我们的游戏服务器，以便为该游戏中的所有玩家同步共享棋盘。这些数据仅在该游戏会话期间存在 — 之后不会被保存、出售或与第三方共享。",
+    "childrenHeading": "儿童隐私",
+    "childrenBody": "Bones & Beasts并非面向13岁以下儿童，我们不会故意收集他们的信息。",
+    "changesHeading": "本政策的变更",
+    "changesBody": "如果应用处理数据的方式发生变化 — 例如新增崩溃报告、推送通知或付费订阅 — 本页面将更新以说明相关内容。",
+    "questionsHeading": "问题",
+    "questionsBody": "如果你对本政策有任何疑问，请通过你下载此应用的渠道与我们联系。"
+  },
+  "termsOfService": {
+    "intro": "使用Bones & Beasts即表示你同意这些条款。如果你不同意，请不要使用本应用。",
+    "gameHeading": "关于游戏",
+    "gameBody": "Bones & Beasts（关于游戏内容和玩法请参见“关于”页面）仅供娱乐用途。",
+    "fairPlayHeading": "公平游玩",
+    "fairPlayBody": "在组队游戏中，请公平游玩 — 不要利用漏洞、自动操作回合，或干扰其他玩家的游戏。我们保留因扰乱行为将玩家从游戏或房间中移除的权利。",
+    "noWarrantyHeading": "无保证",
+    "noWarrantyBody": "本应用按“现状”提供，不附带任何形式的保证。我们不保证其不间断、无错误或始终可用 — 尤其是在线组队模式，它依赖于一个可能会更新、重启或在无通知的情况下下线的游戏服务器。",
+    "liabilityHeading": "责任限制",
+    "liabilityBody": "在法律允许的最大范围内，我们不对因使用或无法使用本应用而产生的任何损害承担责任。",
+    "changesHeading": "变更",
+    "changesBody": "这些条款可能会随着应用的变化而更新。在更新后继续使用本应用即表示你接受修订后的条款。"
+  },
+  "settingsNav": {
+    "profile": "个人资料",
+    "appSettings": "应用设置",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "about": "关于",
+    "settings": "设置"
+  },
+  "stats": {
+    "title": "统计",
+    "gamesPlayed": "游玩次数",
+    "yourWins": "你的胜利数",
+    "setsCompleted": "已完成套数",
+    "avgSetsPerGame": "平均每局完成套数",
+    "bestSoloTime": "最佳单人用时",
+    "noBestTime": "–",
+    "recentGames": "最近游戏",
+    "noGamesYet": "还没有游玩记录 — 开始一局吧！",
+    "modeSolo": "单人",
+    "modeGroup": "组队（{{count}}人）",
+    "placeWin": "🏆 第{{place}}名",
+    "place": "第{{place}}名"
+  },
+  "paywall": {
+    "title": "Bones & Beasts Pro",
+    "trialActiveSubtitle_one": "组队模式还可免费使用{{count}}天 — 你可以随时订阅以在此之后继续游玩。",
+    "trialActiveSubtitle_other": "组队模式还可免费使用{{count}}天 — 你可以随时订阅以在此之后继续游玩。",
+    "trialEndedSubtitle": "你的组队模式免费试用已结束。订阅以继续与其他玩家在线对战。",
+    "monthly": "月付",
+    "yearly": "年付",
+    "lifetime": "终身",
+    "restorePurchases": "恢复购买",
+    "notNow": "暂不"
+  },
+  "avatar": {
+    "pageTitle": "头像",
+    "subtitle": "为你的个人资料选择一个头像"
+  }
+}

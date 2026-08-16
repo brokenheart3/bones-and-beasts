@@ -18,7 +18,7 @@ cd server
 npm install
 npm run dev
 ```
-This starts it at `ws://localhost:2567`. The client defaults to `EXPO_PUBLIC_SERVER_URL` from `.env` (copy `.env.example`) — set it to `ws://localhost:2567` for local dev, or your machine's LAN IP (e.g. `ws://192.168.1.20:2567`) when testing on a physical device that can't resolve "localhost". See `src/net/colyseusClient.ts`.
+This starts it at `ws://localhost:2567`. The client defaults to `EXPO_PUBLIC_SERVER_URL` from `.env` (copy `.env.example`) — set it to `ws://localhost:2567` for local dev, or your machine's LAN IP (e.g. `ws://192.168.1.20:2567`) when testing on a physical device that can't resolve "localhost". Leave it **unset** the rest of the time so every platform falls back to the shared deployed server — a `localhost` override left in `.env` means iOS/Android/web are each resolving "localhost" to a different device and can never find each other for Group play. See `src/net/colyseusClient.ts`.
 
 **Deployed server:** the server is also deployed to Railway at `wss://bones-and-beasts-server-production.up.railway.app` (project `bones-and-beasts-server` under the Railway account used to deploy it) — this is the client's default when `EXPO_PUBLIC_SERVER_URL` isn't set. To redeploy after server changes:
 ```bash
@@ -29,27 +29,30 @@ railway up
 
 ## App structure
 
-- **Onboarding:** first launch asks for a username (`Settings > Profile`), stored on-device (AsyncStorage). No accounts/sign-in yet — that's future work.
+- **Onboarding:** first launch requires signing in — email/password, Google, or (iOS) Sign in with Apple, via Firebase Auth. The app is gated on auth state (`App.tsx`), and the signed-in account's display name/email feeds `useProfileStore` for the name shown around the app. Email/password and Google sign-in work on web too, via the `firebase` JS SDK (`useAuthStore.web.ts`) — native (`useAuthStore.ts`) uses `@react-native-firebase` instead, since that package has no web support. Sign in with Apple stays iOS-only (its web version needs a separate Apple Services ID that hasn't been set up).
+- **Profile:** once signed in, Settings > Profile lets you edit your display name, sign out, or permanently delete your account (with a confirm step). No profile pictures — game data (Solo/Group history) and accounts are kept intentionally simple, with everything besides auth itself staying local to the device.
 - **Home tab:** welcomes the player by name, with two options — **Play Solo** (local, no networking) or **Find a Group** (online only, 2-4 players, matched into a live lobby by the Colyseus server in `server/`).
 - **Play tab:** the game itself — see rules below.
-- **Stats tab:** on-device history of completed local games (games played, your wins, sets completed, recent games list). Online games aren't recorded here yet.
+- **Stats tab:** on-device history of completed games — both Solo and online Group (recorded the moment a Group game ends, from each player's own client — see `GameScreenOnline.tsx`).
 - **Settings tab:** a stack with Profile, App Settings (theme + data reset, see below), Privacy Policy, Terms of Service, and About.
 
 ## Solo rules vs. online Group rules
 
-Solo play and online Group play currently run on **two different rule
-sets** — the server (`server/src/rooms/BeastsRoom.ts`) was ported from an
-earlier prototype as-is rather than rewritten to match Solo's rules, so
-they diverge until a later reconciliation pass:
+Solo and online Group now share the same core model — each player rolls
+once for a fixed personal target face, a direct match keeps your turn, and
+the game tracks a real finish order — but a few rules still genuinely
+differ, since Group has more than one player competing for turns and Solo
+doesn't:
 
-|                    | Solo (local)                                    | Group (online)                                  |
-|--------------------|--------------------------------------------------|--------------------------------------------------|
-| Target face        | Rolled once, fixed for the whole game             | Re-rolled every turn                              |
-| Wrong-face flip     | Not credited to anyone                            | Still credited to the flipping player's own tally |
-| Skull               | 5-second forced pause (no one else to skip to)    | Turn passes, that player skips their next turn    |
-| Bonus tiles         | Yes — instant, self-only progress (see below)     | Yes — same mechanic, credited to your current target |
-| Extra lose condition| Yes — see below                                   | No                                                |
-| Game end            | Everyone's completed their set, or board cleared  | All 6 sets completed by anyone                    |
+|                    | Solo (local)                                                | Group (online)                                                              |
+|--------------------|--------------------------------------------------------------|------------------------------------------------------------------------------|
+| Target face        | Rolled once, fixed for the whole game                         | Rolled once per player (in turn order) at the start, fixed for the whole game |
+| Wrong-face flip     | Not credited to anyone — just a revealed memory hint          | Credited to whichever *other* player has that face as their own target, if any; otherwise just a hint |
+| Skull               | 5-second forced pause (no one else to skip to)                | Turn passes, that player skips their next turn                               |
+| Bonus tiles         | Yes — instant, self-only progress, keeps your turn             | Credited the same way, but your turn ends afterward (unlike a direct match)  |
+| Finishing your set  | Ends the game (there's only one player)                       | You're done for the rest of the game — no more turns, everyone else keeps playing until they finish too |
+| Extra lose condition| Yes — see below                                                | No — since targets are unique per player, nobody can "lose" your card to you; everyone eventually finishes (or the board clears), ranked by finish order |
+| Game end            | You complete your set (win), a rival face gets fully revealed first (lose), or board cleared | Everyone's completed their own set, or the board gets cleared |
 
 ## Solo rules implemented
 
@@ -67,6 +70,21 @@ they diverge until a later reconciliation pass:
 - **Game end:** you complete your set (win), someone else's face gets fully revealed first (lose), or the whole board gets cleared without either happening.
 - **Win/loss announcement:** right before the ranking screen, a 5-second banner ("You found all 6 [Face] cards!" 🏆, or "You Lost!" 💀) appears over the board so you get a clear moment to see whether you won or lost — it waits for the deciding flip's own reveal (and any bonus popup it triggered) to be visible first, so you can see exactly which card ended the game. Applies the same way in online Group play, judged from each player's own completion (or lack of one) rather than a shared win/lose state.
 - **Game timer:** a live stopwatch (⏱, top-right of the board) starts the moment the game begins and freezes the instant it ends — shown ticking during play, then held on the win/loss banner and the ranking screen. Also applies to online Group play. Solo wins are logged to Stats (`durationMs` on each `GameRecord`), which surfaces a "Best solo time" tile and per-game times in the recent-games list.
+
+## Group rules implemented
+
+- **Setup roll:** each player rolls once, in turn order, for a fixed personal target face (excluding faces already claimed by an earlier roller) — up to 4 players, 6 faces, so there's always one to give out. Each player sees their own animated dice-roll reveal ("You'll be hunting for X") as they roll; once everyone has, the game announces every player's target together (e.g. "Alice: Lion, Bob: Tiger — Alice's turn — hunt for Lion!") before moving to flipping.
+- **Flipping:** on your turn, tap any tile.
+  - Matches your own target → stays revealed, added to your collection, **keep flipping** — unless it was your *last* needed copy, in which case you've completed your set (see below) and the turn passes instead.
+  - Matches a face that's some *other, still-playing* player's target → credited to **them**, not you (a message announces "X found Y for Z!"), and your turn passes — there's no reason to waste a real find just because it wasn't yours.
+  - Matches no one's target (an unclaimed face, since fewer than 6 players leaves some faces unassigned) → just a revealed memory hint, turn passes.
+  - Skull → revealed, turn passes to the next still-playing player, and you skip your own following turn. **Exception:** if you're the only player still actively playing (everyone else has already finished or disconnected), a skull instead freezes the board for 5 seconds — same as Solo's skull pause — since there's no one else to hand the turn to.
+  - Bonus gem/idol → auto-flips real hidden copies of *your own* target (never someone else's), capped by how many you still need — credited just like Solo, but unlike Solo (and unlike a direct match above), **your turn still ends** afterward. A bonus is a rewarding find, not a reason to keep the board to yourself.
+- **Turn order:** normally alternates strictly player-to-player. The only two ways the *same* player can get back-to-back turns: (1) a direct match on your own target that doesn't complete your set (the one "keep flipping" case left in Group — bonuses no longer grant it), or (2) with exactly 2 players, if the other player currently owes a skipped turn (from an earlier skull), it's bypassed once and comes right back — since there's no third player to fill that gap.
+- **Completing your set:** the moment your collection reaches every copy of your own target — whether from your own flips, a bonus, or another player finding one for you — you're **done for the game**. You drop out of the turn rotation permanently; play continues among whoever's left, narrowing down until the last remaining player finishes alone (who then plays every remaining turn solo, per the skull-pause exception above). The order everyone finishes in *is* the final ranking.
+- **Game end:** everyone's completed their own set, or (a fallback, same idea as Solo) the board gets fully cleared without that happening — e.g. a disconnected player's last copies never turn up. Unlike Solo, there's no "You found all N cards!" win banner — since players finish at different times, that read as a whole-game announcement it wasn't. Instead it goes straight to the ranking screen after a short beat to see the deciding flip.
+- **Ranking screen:** shows each player's own placement and their own personal finish time (computed from when *they* actually completed their set) — not a single shared time for everyone. A player who never finished shows "Did not finish."
+- **Stats:** each device records the game to its own local Stats history the moment it ends, capturing that player's own rank and finish time — not a shared "the game's winner" value copied to every device.
 
 ## Theming
 
@@ -109,10 +127,6 @@ These were reasonable defaults picked where the spec was open — flag anything 
 - Swap the emoji glyphs for real illustrated tile art (drop images into an `assets/` folder and reference them in `Card.tsx`).
 - Add sound effects on flip/skull/set-complete/dice-roll via `expo-av`.
 - Add a custom carved-stone display font via `@expo-google-fonts` (e.g. Cinzel) for the title and legend numbers.
-- Real accounts/sign-in, replacing the local-only username in `useProfileStore`.
-- Privacy Policy / Terms of Service / About now accurately describe the app's actual current behavior (see `src/screens/settings/`), but still haven't been reviewed by a lawyer — have one review them before a real release.
-- Reconcile online Group's rules with Solo's (fixed personal targets, no wrong-face banking, the solo lose condition) so both modes play the same game.
-- Record online games in Stats too.
+- Privacy Policy / Terms of Service / About now accurately describe the app's actual current behavior (see `src/screens/settings/`), but still haven't been reviewed by a lawyer — have one review them before a real release (especially now that real accounts exist).
+- Account deletion currently fails with a "please sign out and back in" message if Firebase considers the session stale (its `auth/requires-recent-login` check) — there's no in-app reauthentication flow (re-enter password / re-trigger Google or Apple) yet, so that edge case relies on the user manually signing back in first.
 - The Railway deployment is on whatever free/starter plan was active at setup time — check usage/billing before relying on it for real traffic, and consider a healthcheck path + custom domain for a production release.
-# bones-and-beasts
-# bones-and-beasts

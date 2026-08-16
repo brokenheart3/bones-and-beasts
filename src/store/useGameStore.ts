@@ -1,11 +1,11 @@
 import { create } from "zustand";
+import i18n, { getFaceName } from "../i18n";
 import { buildDeck, ordinal, totalCopiesForFace } from "../utils/gameSetup";
 import { useStatsStore } from "./useStatsStore";
 import {
   CardModel,
   FaceId,
   FACE_IDS,
-  FACE_NAMES,
   FACE_EMOJIS,
   BONUS_SMALL_AMOUNT,
   BONUS_BIG_AMOUNT,
@@ -16,6 +16,17 @@ import {
   Player,
   SetCompletion,
 } from "../types";
+
+// Builds the "{{name}}'s turn — hunt for X!" line reused across several
+// branches below (start of play, resuming from a skull pause, after a skull
+// forces a turn-skip, after a wrong-tile turn pass).
+function huntForMessage(player: Player): string {
+  return i18n.t("gameSolo.turnHuntFor", {
+    name: player.name,
+    faceName: getFaceName(player.targetFaceId!),
+    emoji: FACE_EMOJIS[player.targetFaceId!],
+  });
+}
 
 const PLAYER_COLORS = ["#C9A227", "#4C8B71", "#9C3B3B", "#6E8FB8"];
 
@@ -94,7 +105,7 @@ export const useGameStore = create<Store>((set, get) => ({
       targetFaceId: null,
       phase: "assigningTargets",
       completions: [],
-      message: `${players[0].name}, roll to find your card!`,
+      message: i18n.t("gameSolo.rollPrompt", { name: players[0].name }),
       didLose: false,
       startedAt: Date.now(),
       endedAt: null,
@@ -125,16 +136,14 @@ export const useGameStore = create<Store>((set, get) => ({
         currentPlayerIndex: 0,
         targetFaceId: first.targetFaceId,
         phase: "flipping",
-        message: `${first.name}'s turn — hunt for ${FACE_NAMES[first.targetFaceId!]} ${
-          FACE_EMOJIS[first.targetFaceId!]
-        }!`,
+        message: huntForMessage(first),
       });
     } else {
       const nextRoller = players[state.currentPlayerIndex + 1];
       set({
         players,
         currentPlayerIndex: state.currentPlayerIndex + 1,
-        message: `${nextRoller.name}, roll to find your card!`,
+        message: i18n.t("gameSolo.rollPrompt", { name: nextRoller.name }),
       });
     }
 
@@ -175,7 +184,11 @@ export const useGameStore = create<Store>((set, get) => ({
     const applyFound = (faceId: FaceId, amount: number, lead: string): string => {
       const total = totalCopiesForFace(board, faceId);
       currentPlayer.collected[faceId] = Math.min(currentPlayer.collected[faceId] + amount, total);
-      let msg = `${lead} (${currentPlayer.collected[faceId]}/${total}). Flip again!`;
+      let msg = i18n.t("gameSolo.foundProgress", {
+        lead,
+        collected: currentPlayer.collected[faceId],
+        total,
+      });
 
       if (
         currentPlayer.collected[faceId] === total &&
@@ -183,10 +196,15 @@ export const useGameStore = create<Store>((set, get) => ({
       ) {
         currentPlayer.completedSets.push(faceId);
         const order = completions.length + 1;
-        completions = [...completions, { faceId, playerId: currentPlayer.id, order }];
-        msg = `🏆 ${currentPlayer.name} completed the ${FACE_NAMES[faceId]} set — ${ordinal(
-          order
-        )} place!`;
+        completions = [
+          ...completions,
+          { faceId, playerId: currentPlayer.id, order, finishedAt: Date.now() },
+        ];
+        msg = i18n.t("gameSolo.completedSet", {
+          name: currentPlayer.name,
+          faceName: getFaceName(faceId),
+          place: ordinal(order),
+        });
       }
       return msg;
     };
@@ -195,16 +213,17 @@ export const useGameStore = create<Store>((set, get) => ({
       if (players.length === 1) {
         // Solo: there's no other player to hand the turn to, so the penalty
         // is a brief forced pause instead of a skipped turn.
-        message = `💀 ${currentPlayer.name} hit a skull! Frozen for a moment...`;
+        message = i18n.t("gameSolo.skullSolo", { name: currentPlayer.name });
         phaseOverride = "skullPause";
       } else {
         // Group: turn ends now, and this player also loses their following turn.
         currentPlayer.skipNextTurn = true;
         nextIndex = advanceTurn(players, state.currentPlayerIndex).nextIndex;
         const next = players[nextIndex];
-        message = `💀 ${currentPlayer.name} hit a skull! Turn lost, next turn skipped. ${
-          next.name
-        }'s turn — hunt for ${FACE_NAMES[next.targetFaceId!]} ${FACE_EMOJIS[next.targetFaceId!]}!`;
+        message = i18n.t("gameSolo.skullGroup", {
+          name: currentPlayer.name,
+          nextTurn: huntForMessage(next),
+        });
       }
     } else if (card.type === "bonusSmall" || card.type === "bonusBig") {
       // Bonus tiles don't just credit progress silently — they also flip
@@ -215,7 +234,7 @@ export const useGameStore = create<Store>((set, get) => ({
       const faceId = currentPlayer.targetFaceId as FaceId;
       const amount = card.type === "bonusSmall" ? BONUS_SMALL_AMOUNT : BONUS_BIG_AMOUNT;
       const glyph = card.type === "bonusSmall" ? BONUS_SMALL_EMOJI : BONUS_BIG_EMOJI;
-      const label = card.type === "bonusSmall" ? "a bonus gem" : "an ancient idol";
+      const label = i18n.t(card.type === "bonusSmall" ? "gameSolo.bonusLabelSmall" : "gameSolo.bonusLabelBig");
 
       const total = totalCopiesForFace(board, faceId);
       const remainingNeeded = total - currentPlayer.collected[faceId];
@@ -232,13 +251,23 @@ export const useGameStore = create<Store>((set, get) => ({
 
       const lead =
         toFlip > 0
-          ? `${glyph} ${currentPlayer.name} found ${label} — +${toFlip} ${FACE_NAMES[faceId]}!`
-          : `${glyph} ${currentPlayer.name} found ${label}, but had nothing left to reveal!`;
+          ? i18n.t("gameSolo.bonusFoundLead", {
+              glyph,
+              name: currentPlayer.name,
+              label,
+              count: toFlip,
+              faceName: getFaceName(faceId),
+            })
+          : i18n.t("gameSolo.bonusFoundNothingLead", { glyph, name: currentPlayer.name, label });
       message = applyFound(faceId, toFlip, lead);
     } else if (card.faceId === currentPlayer.targetFaceId) {
       // --- Correct face match ---
       const faceId = card.faceId as FaceId;
-      message = applyFound(faceId, 1, `${currentPlayer.name} found ${FACE_NAMES[faceId]}`);
+      message = applyFound(
+        faceId,
+        1,
+        i18n.t("gameSolo.foundFaceLead", { name: currentPlayer.name, faceName: getFaceName(faceId) })
+      );
     } else {
       // --- Wrong face ---
       const wrongFaceId = card.faceId as FaceId;
@@ -251,16 +280,18 @@ export const useGameStore = create<Store>((set, get) => ({
           .length === totalCopiesForFace(board, wrongFaceId);
 
       if (soloLoss) {
-        message = `💀 All ${FACE_NAMES[wrongFaceId]} tiles were found before you finished your own ${
-          FACE_NAMES[currentPlayer.targetFaceId!]
-        } set — you lose!`;
+        message = i18n.t("gameSolo.wrongTileLoss", {
+          wrongFace: getFaceName(wrongFaceId),
+          targetFace: getFaceName(currentPlayer.targetFaceId!),
+        });
       } else {
         // turn passes, no skip penalty
         nextIndex = advanceTurn(players, state.currentPlayerIndex).nextIndex;
         const next = players[nextIndex];
-        message = `${currentPlayer.name} revealed the wrong tile. ${next.name}'s turn — hunt for ${
-          FACE_NAMES[next.targetFaceId!]
-        } ${FACE_EMOJIS[next.targetFaceId!]}!`;
+        message = i18n.t("gameSolo.wrongTilePass", {
+          name: currentPlayer.name,
+          nextTurn: huntForMessage(next),
+        });
       }
     }
 
@@ -275,13 +306,12 @@ export const useGameStore = create<Store>((set, get) => ({
     const gameOver = soloLoss || completions.length === players.length || boardCleared;
     const now = Date.now();
     if (gameOver) {
-      const durationMs = state.startedAt ? now - state.startedAt : undefined;
-      useStatsStore.getState().recordGame(players, completions, durationMs);
+      useStatsStore.getState().recordGame(players, completions, currentPlayer.id, state.startedAt, now);
       if (!soloLoss) {
         message =
           completions.length === players.length
-            ? "Everyone found their card! Game over."
-            : "The tablet is cleared! Game over.";
+            ? i18n.t("gameSolo.everyoneFound")
+            : i18n.t("gameSolo.tabletCleared");
       }
     }
 
@@ -305,9 +335,7 @@ export const useGameStore = create<Store>((set, get) => ({
     const player = state.players[state.currentPlayerIndex];
     set({
       phase: "flipping",
-      message: `${player.name}'s turn — hunt for ${FACE_NAMES[player.targetFaceId!]} ${
-        FACE_EMOJIS[player.targetFaceId!]
-      }!`,
+      message: huntForMessage(player),
     });
   },
 
