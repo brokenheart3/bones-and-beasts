@@ -87,7 +87,8 @@
     "restoreFailed": "Satın alımlar geri yüklenemedi.",
     "notSignedIn": "Lütfen önce giriş yap.",
     "notAvailableOnWeb": "Abonelikler henüz web'de kullanılamıyor — lütfen iOS veya Android uygulamasını kullan.",
-    "checkoutFailed": "Ödeme başlatılamadı."
+    "checkoutFailed": "Ödeme başlatılamadı.",
+    "portalFailed": "Faturalandırma portalı açılamadı."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, kartını bulmak için zar at!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Sorumluluğun sınırlandırılması",
     "liabilityBody": "Yasaların izin verdiği en geniş ölçüde, uygulamayı kullanmandan veya kullanamamandan kaynaklanan zararlardan sorumlu değiliz.",
     "changesHeading": "Değişiklikler",
-    "changesBody": "Bu şartlar, uygulama değiştikçe güncellenebilir. Bir güncellemeden sonra uygulamayı kullanmaya devam etmen, revize edilmiş şartları kabul ettiğin anlamına gelir."
+    "changesBody": "Bu şartlar, uygulama değiştikçe güncellenebilir. Bir güncellemeden sonra uygulamayı kullanmaya devam etmen, revize edilmiş şartları kabul ettiğin anlamına gelir.",
+    "subscriptionsHeading": "Abonelikler",
+    "subscriptionsBody": "Bones & Beasts Pro, ücretsiz deneme süresinin ardından çevrimiçi Grup oyununun kilidini açan, otomatik yenilenen Aylık ve Yıllık abonelikler ile tek seferlik Ömür Boyu satın alma olarak sunulur. Aylık ve yıllık abonelikler, mevcut dönemin bitiminden en az 24 saat önce iptal edilmedikçe otomatik olarak yenilenir. Ödeme, satın alma onaylandığında Apple ID hesabınızdan (iOS) veya Google Play hesabınızdan (Android) tahsil edilir. Aboneliğinizi cihazınızın hesap ayarlarında istediğiniz zaman yönetebilir veya iptal edebilirsiniz — bu, her zaman ücretsiz olan Tek Kişilik oyuna erişimi etkilemez. Ömür Boyu satın alma tek seferlik bir ödemedir ve yenilenmez."
   },
   "settingsNav": {
     "profile": "Profil",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Gizlilik Politikası",
     "termsOfService": "Kullanım Şartları",
     "about": "Hakkında",
-    "settings": "Ayarlar"
+    "settings": "Ayarlar",
+    "subscription": "Abonelik"
   },
   "stats": {
     "title": "İstatistikler",
@@ -248,10 +252,43 @@
     "yearly": "Yıllık",
     "lifetime": "Ömür Boyu",
     "restorePurchases": "Satın Alımları Geri Yükle",
-    "notNow": "Şimdi değil"
+    "notNow": "Şimdi değil",
+    "subscriptionDisclosure": "Aylık ve yıllık planlar, mevcut dönemin bitiminden en az 24 saat önce iptal edilmedikçe otomatik olarak yenilenir. Ödeme, satın alma onaylandığında hesabınızdan tahsil edilir. Cihazınızın hesap ayarlarında istediğiniz zaman yönetin veya iptal edin. Ömür Boyu plan tek seferlik bir satın almadır ve yenilenmez.",
+    "termsOfUse": "Kullanım Koşulları",
+    "privacyPolicy": "Gizlilik Politikası"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Profilin için bir avatar seç"
+  },
+  "subscription": {
+    "title": "Abonelik",
+    "statusFree": "Ücretsiz",
+    "statusTrial": "Ücretsiz Deneme",
+    "statusPro": "Pro",
+    "statusLifetime": "Ömür Boyu Üye",
+    "planMonthly": "Aylık",
+    "planYearly": "Yıllık",
+    "planLifetime": "Ömür Boyu",
+    "planLabel": "Plan",
+    "priceLabel": "Fiyat",
+    "startedLabel": "Başladı",
+    "renewsLabel": "Yenilenecek",
+    "expiresLabel": "Sona erecek",
+    "autoRenewLabel": "Otomatik yenileme",
+    "autoRenewOn": "Açık",
+    "autoRenewOff": "Kapalı",
+    "billedViaLabel": "Faturalandırma",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Neler dahil",
+    "includedGroup": "Sınırsız çevrimiçi Grup oyunu",
+    "includedSolo": "Tek Kişilik oyun — Pro ile veya Pro olmadan her zaman ücretsiz",
+    "manageSubscription": "Aboneliği Yönet",
+    "manageNote": "Faturalandırma ve iptal {{platform}} tarafından yönetilir — yönetmek veya istediğiniz zaman iptal etmek için yukarıya dokunun.",
+    "lifetimeNote": "Desteğiniz için teşekkürler — Ömür Boyu erişiminiz asla sona ermez veya yenilenmez.",
+    "freeNote": "Tek Kişilik oyun her zaman ücretsizdir. Sınırsız çevrimiçi Grup oyununun kilidini açmak için abone olun.",
+    "upgradeToPro": "Pro'ya Yükselt"
   }
 }

@@ -87,7 +87,8 @@
     "restoreFailed": "Impossibile ripristinare gli acquisti.",
     "notSignedIn": "Accedi prima.",
     "notAvailableOnWeb": "Gli abbonamenti non sono ancora disponibili sul web — usa l'app iOS o Android.",
-    "checkoutFailed": "Impossibile avviare il pagamento."
+    "checkoutFailed": "Impossibile avviare il pagamento.",
+    "portalFailed": "Impossibile aprire il portale di fatturazione."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, tira il dado per trovare la tua carta!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Limitazione di responsabilità",
     "liabilityBody": "Nella massima misura consentita dalla legge, non siamo responsabili per eventuali danni derivanti dall'uso, o dall'impossibilità di utilizzo, dell'app.",
     "changesHeading": "Modifiche",
-    "changesBody": "Questi termini potrebbero essere aggiornati man mano che l'app cambia. Continuare a utilizzare l'app dopo un aggiornamento significa che accetti i termini rivisti."
+    "changesBody": "Questi termini potrebbero essere aggiornati man mano che l'app cambia. Continuare a utilizzare l'app dopo un aggiornamento significa che accetti i termini rivisti.",
+    "subscriptionsHeading": "Abbonamenti",
+    "subscriptionsBody": "Bones & Beasts Pro è offerto come abbonamenti Mensili e Annuali a rinnovo automatico, e come acquisto unico a Vita, che sblocca la modalità Gruppo online dopo il periodo di prova gratuito. Gli abbonamenti mensili e annuali si rinnovano automaticamente a meno che non vengano annullati almeno 24 ore prima della fine del periodo corrente. Il pagamento viene addebitato sul tuo account Apple ID (iOS) o account Google Play (Android) alla conferma dell'acquisto. Puoi gestire o annullare il tuo abbonamento in qualsiasi momento nelle impostazioni account del tuo dispositivo — ciò non influisce sull'accesso alla modalità Solo, che è sempre gratuita. L'acquisto a Vita è un pagamento unico e non si rinnova."
   },
   "settingsNav": {
     "profile": "Profilo",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Informativa sulla privacy",
     "termsOfService": "Termini di servizio",
     "about": "Info",
-    "settings": "Impostazioni"
+    "settings": "Impostazioni",
+    "subscription": "Abbonamento"
   },
   "stats": {
     "title": "Statistiche",
@@ -248,10 +252,43 @@
     "yearly": "Annuale",
     "lifetime": "A vita",
     "restorePurchases": "Ripristina acquisti",
-    "notNow": "Non ora"
+    "notNow": "Non ora",
+    "subscriptionDisclosure": "I piani mensili e annuali si rinnovano automaticamente a meno che non vengano annullati almeno 24 ore prima della fine del periodo corrente. Il pagamento viene addebitato sul tuo account alla conferma dell'acquisto. Gestisci o annulla in qualsiasi momento nelle impostazioni account del tuo dispositivo. Il piano a Vita è un acquisto unico e non si rinnova.",
+    "termsOfUse": "Termini di utilizzo",
+    "privacyPolicy": "Informativa sulla privacy"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Scegli un avatar per il tuo profilo"
+  },
+  "subscription": {
+    "title": "Abbonamento",
+    "statusFree": "Gratuito",
+    "statusTrial": "Prova gratuita",
+    "statusPro": "Pro",
+    "statusLifetime": "Membro a Vita",
+    "planMonthly": "Mensile",
+    "planYearly": "Annuale",
+    "planLifetime": "A vita",
+    "planLabel": "Piano",
+    "priceLabel": "Prezzo",
+    "startedLabel": "Iniziato",
+    "renewsLabel": "Si rinnova",
+    "expiresLabel": "Scade",
+    "autoRenewLabel": "Rinnovo automatico",
+    "autoRenewOn": "Attivo",
+    "autoRenewOff": "Disattivo",
+    "billedViaLabel": "Fatturato tramite",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Cosa è incluso",
+    "includedGroup": "Modalità Gruppo online illimitata",
+    "includedSolo": "Modalità Solo — sempre gratuita, con o senza Pro",
+    "manageSubscription": "Gestisci abbonamento",
+    "manageNote": "Fatturazione e annullamento sono gestiti da {{platform}} — tocca sopra per gestire o annullare in qualsiasi momento.",
+    "lifetimeNote": "Grazie per il tuo supporto — il tuo accesso a Vita non scade e non si rinnova mai.",
+    "freeNote": "La modalità Solo è sempre gratuita. Abbonati per sbloccare la modalità Gruppo online illimitata.",
+    "upgradeToPro": "Passa a Pro"
   }
 }

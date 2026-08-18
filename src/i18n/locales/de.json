@@ -87,7 +87,8 @@
     "restoreFailed": "Käufe konnten nicht wiederhergestellt werden.",
     "notSignedIn": "Bitte melde dich zuerst an.",
     "notAvailableOnWeb": "Abonnements sind im Web noch nicht verfügbar — nutze bitte die iOS- oder Android-App.",
-    "checkoutFailed": "Bezahlvorgang konnte nicht gestartet werden."
+    "checkoutFailed": "Bezahlvorgang konnte nicht gestartet werden.",
+    "portalFailed": "Das Abrechnungsportal konnte nicht geöffnet werden."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, wirf den Würfel, um deine Karte zu finden!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Haftungsbeschränkung",
     "liabilityBody": "Im größtmöglichen gesetzlich zulässigen Umfang haften wir nicht für Schäden, die aus deiner Nutzung der App oder der Unfähigkeit, sie zu nutzen, entstehen.",
     "changesHeading": "Änderungen",
-    "changesBody": "Diese Bedingungen können aktualisiert werden, wenn sich die App ändert. Die weitere Nutzung der App nach einer Aktualisierung bedeutet, dass du die überarbeiteten Bedingungen akzeptierst."
+    "changesBody": "Diese Bedingungen können aktualisiert werden, wenn sich die App ändert. Die weitere Nutzung der App nach einer Aktualisierung bedeutet, dass du die überarbeiteten Bedingungen akzeptierst.",
+    "subscriptionsHeading": "Abonnements",
+    "subscriptionsBody": "Bones & Beasts Pro wird als monatliches und jährliches automatisch verlängerndes Abonnement sowie als einmaliger Lebenszeit-Kauf angeboten, der den Online-Gruppenmodus nach der kostenlosen Testphase freischaltet. Monatliche und jährliche Abonnements verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor Ende des aktuellen Zeitraums gekündigt werden. Die Zahlung wird bei Bestätigung des Kaufs deinem Apple-ID-Konto (iOS) oder Google Play-Konto (Android) belastet. Du kannst dein Abonnement jederzeit in den Kontoeinstellungen deines Geräts verwalten oder kündigen — dies wirkt sich nicht auf den Zugang zum Solo-Modus aus, der immer kostenlos ist. Der Lebenszeit-Kauf ist eine einmalige Zahlung und verlängert sich nicht."
   },
   "settingsNav": {
     "profile": "Profil",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Datenschutzrichtlinie",
     "termsOfService": "Nutzungsbedingungen",
     "about": "Über",
-    "settings": "Einstellungen"
+    "settings": "Einstellungen",
+    "subscription": "Abonnement"
   },
   "stats": {
     "title": "Statistik",
@@ -248,10 +252,43 @@
     "yearly": "Jährlich",
     "lifetime": "Lebenslang",
     "restorePurchases": "Käufe wiederherstellen",
-    "notNow": "Jetzt nicht"
+    "notNow": "Jetzt nicht",
+    "subscriptionDisclosure": "Monatliche und jährliche Pläne verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor Ende des aktuellen Zeitraums gekündigt werden. Die Zahlung wird bei Bestätigung des Kaufs deinem Konto belastet. Verwalte oder kündige jederzeit in den Kontoeinstellungen deines Geräts. Lebenszeit ist ein einmaliger Kauf und verlängert sich nicht.",
+    "termsOfUse": "Nutzungsbedingungen",
+    "privacyPolicy": "Datenschutzrichtlinie"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Wähle einen Avatar für dein Profil"
+  },
+  "subscription": {
+    "title": "Abonnement",
+    "statusFree": "Kostenlos",
+    "statusTrial": "Kostenlose Testversion",
+    "statusPro": "Pro",
+    "statusLifetime": "Lebenszeit-Mitglied",
+    "planMonthly": "Monatlich",
+    "planYearly": "Jährlich",
+    "planLifetime": "Lebenszeit",
+    "planLabel": "Plan",
+    "priceLabel": "Preis",
+    "startedLabel": "Begonnen",
+    "renewsLabel": "Verlängert sich",
+    "expiresLabel": "Läuft ab",
+    "autoRenewLabel": "Automatische Verlängerung",
+    "autoRenewOn": "An",
+    "autoRenewOff": "Aus",
+    "billedViaLabel": "Abgerechnet über",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Was enthalten ist",
+    "includedGroup": "Unbegrenzter Online-Gruppenmodus",
+    "includedSolo": "Solo-Modus — immer kostenlos, mit oder ohne Pro",
+    "manageSubscription": "Abonnement verwalten",
+    "manageNote": "Abrechnung und Kündigung werden von {{platform}} verwaltet — tippe oben, um jederzeit zu verwalten oder zu kündigen.",
+    "lifetimeNote": "Danke für deine Unterstützung — dein Lebenszeit-Zugang läuft nie ab und verlängert sich nie.",
+    "freeNote": "Der Solo-Modus ist immer kostenlos. Abonniere, um unbegrenzten Online-Gruppenmodus freizuschalten.",
+    "upgradeToPro": "Auf Pro upgraden"
   }
 }

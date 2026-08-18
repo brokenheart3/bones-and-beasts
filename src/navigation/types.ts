@@ -5,6 +5,7 @@ export type SettingsStackParamList = {
   SettingsHome: undefined;
   Profile: undefined;
   Avatar: undefined;
+  Subscription: undefined;
   AppSettings: undefined;
   PrivacyPolicy: undefined;
   TermsOfService: undefined;

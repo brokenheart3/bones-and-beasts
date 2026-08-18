@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import {
   ActivityIndicator,
+  Linking,
   Pressable,
   SafeAreaView,
   ScrollView,
@@ -18,6 +19,9 @@ import { getCreationTime, isWithinTrial, trialDaysRemaining } from "../utils/tri
 import { PlayStackParamList } from "../navigation/types";
 
 type Props = NativeStackScreenProps<PlayStackParamList, "Paywall">;
+
+const TERMS_URL = "https://bonesandbeasts.sapient7.com/legal/terms.html";
+const PRIVACY_URL = "https://bonesandbeasts.sapient7.com/legal/privacy.html";
 
 export default function PaywallScreen({ navigation }: Props) {
   const theme = useTheme();
@@ -104,6 +108,18 @@ export default function PaywallScreen({ navigation }: Props) {
 
         {busy && <ActivityIndicator color={theme.colors.gold} style={{ marginTop: 16 }} />}
 
+        <Text style={styles.disclosure}>{t("paywall.subscriptionDisclosure")}</Text>
+
+        <View style={styles.legalRow}>
+          <Pressable onPress={() => Linking.openURL(TERMS_URL)}>
+            <Text style={styles.legalLink}>{t("paywall.termsOfUse")}</Text>
+          </Pressable>
+          <Text style={styles.legalSeparator}>•</Text>
+          <Pressable onPress={() => Linking.openURL(PRIVACY_URL)}>
+            <Text style={styles.legalLink}>{t("paywall.privacyPolicy")}</Text>
+          </Pressable>
+        </View>
+
         <Pressable onPress={handleRestore} style={styles.restoreBtn} disabled={busy}>
           <Text style={styles.restoreBtnText}>{t("paywall.restorePurchases")}</Text>
         </Pressable>
@@ -174,6 +190,30 @@ function getStyles(theme: Theme) {
       color: theme.colors.goldSoft,
       fontSize: 16,
       fontWeight: "800",
+    },
+    disclosure: {
+      marginTop: 20,
+      maxWidth: 420,
+      color: theme.colors.textMuted,
+      fontSize: 11,
+      lineHeight: 16,
+      textAlign: "center",
+    },
+    legalRow: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: 8,
+      marginTop: 10,
+    },
+    legalLink: {
+      color: theme.colors.goldSoft,
+      fontSize: 12,
+      fontWeight: "600",
+      textDecorationLine: "underline",
+    },
+    legalSeparator: {
+      color: theme.colors.textMuted,
+      fontSize: 12,
     },
     restoreBtn: {
       marginTop: 24,

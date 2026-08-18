@@ -87,7 +87,8 @@
     "restoreFailed": "購入内容を復元できませんでした。",
     "notSignedIn": "先にログインしてください。",
     "notAvailableOnWeb": "サブスクリプションはまだWebでは利用できません — iOSまたはAndroidアプリをご利用ください。",
-    "checkoutFailed": "決済を開始できませんでした。"
+    "checkoutFailed": "決済を開始できませんでした。",
+    "portalFailed": "請求ポータルを開けませんでした。"
   },
   "gameSolo": {
     "rollPrompt": "{{name}}さん、サイコロを振ってカードを見つけよう！",
@@ -214,7 +215,9 @@
     "liabilityHeading": "責任の制限",
     "liabilityBody": "法律で許容される最大限の範囲において、本アプリの使用または使用できないことから生じる損害について、当社は責任を負いません。",
     "changesHeading": "変更",
-    "changesBody": "本規約はアプリの変更に応じて更新される場合があります。更新後もアプリを使い続けることは、改定された規約に同意したことを意味します。"
+    "changesBody": "本規約はアプリの変更に応じて更新される場合があります。更新後もアプリを使い続けることは、改定された規約に同意したことを意味します。",
+    "subscriptionsHeading": "サブスクリプション",
+    "subscriptionsBody": "Bones & Beasts Proは、月額および年額の自動更新サブスクリプション、または1回限りの買い切り（ライフタイム）として提供され、無料トライアル期間終了後にオンラインのグループプレイをアンロックします。月額および年額サブスクリプションは、現在の期間終了の少なくとも24時間前にキャンセルしない限り自動的に更新されます。購入確認時に、お客様のApple ID アカウント（iOS）またはGoogle Play アカウント（Android）に料金が請求されます。サブスクリプションはいつでもデバイスのアカウント設定で管理またはキャンセルできます — これは常に無料のソロプレイへのアクセスには影響しません。ライフタイム購入は1回限りの支払いで、更新されません。"
   },
   "settingsNav": {
     "profile": "プロフィール",
@@ -222,7 +225,8 @@
     "privacyPolicy": "プライバシーポリシー",
     "termsOfService": "利用規約",
     "about": "アプリについて",
-    "settings": "設定"
+    "settings": "設定",
+    "subscription": "サブスクリプション"
   },
   "stats": {
     "title": "統計",
@@ -248,10 +252,43 @@
     "yearly": "年額",
     "lifetime": "永久ライセンス",
     "restorePurchases": "購入を復元",
-    "notNow": "今はしない"
+    "notNow": "今はしない",
+    "subscriptionDisclosure": "月額および年額プランは、現在の期間終了の少なくとも24時間前にキャンセルしない限り自動的に更新されます。購入確認時にお客様のアカウントに料金が請求されます。デバイスのアカウント設定でいつでも管理またはキャンセルできます。ライフタイムプランは1回限りの購入で、更新されません。",
+    "termsOfUse": "利用規約",
+    "privacyPolicy": "プライバシーポリシー"
   },
   "avatar": {
     "pageTitle": "アバター",
     "subtitle": "プロフィール用のアバターを選ぼう"
+  },
+  "subscription": {
+    "title": "サブスクリプション",
+    "statusFree": "無料",
+    "statusTrial": "無料トライアル",
+    "statusPro": "Pro",
+    "statusLifetime": "ライフタイムメンバー",
+    "planMonthly": "月額",
+    "planYearly": "年額",
+    "planLifetime": "ライフタイム",
+    "planLabel": "プラン",
+    "priceLabel": "価格",
+    "startedLabel": "開始日",
+    "renewsLabel": "更新日",
+    "expiresLabel": "終了日",
+    "autoRenewLabel": "自動更新",
+    "autoRenewOn": "オン",
+    "autoRenewOff": "オフ",
+    "billedViaLabel": "請求元",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "ウェブ",
+    "whatsIncludedHeading": "含まれるもの",
+    "includedGroup": "無制限のオンライングループプレイ",
+    "includedSolo": "ソロプレイ — Proの有無にかかわらず常に無料",
+    "manageSubscription": "サブスクリプションを管理",
+    "manageNote": "請求とキャンセルは{{platform}}によって管理されます — 上をタップしていつでも管理またはキャンセルできます。",
+    "lifetimeNote": "ご支援ありがとうございます — ライフタイムアクセスは期限切れになることも更新されることもありません。",
+    "freeNote": "ソロプレイは常に無料です。登録して無制限のオンライングループプレイをアンロックしましょう。",
+    "upgradeToPro": "Proにアップグレード"
   }
 }

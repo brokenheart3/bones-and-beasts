@@ -89,7 +89,8 @@
     "restoreFailed": "Nakupov ni bilo mogoče obnoviti.",
     "notSignedIn": "Najprej se prijavi.",
     "notAvailableOnWeb": "Naročnine na spletu še niso na voljo — uporabi aplikacijo za iOS ali Android.",
-    "checkoutFailed": "Postopka plačila ni bilo mogoče začeti."
+    "checkoutFailed": "Postopka plačila ni bilo mogoče začeti.",
+    "portalFailed": "Portala za zaračunavanje ni bilo mogoče odpreti."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, vrzi kocko in poišči svojo karto!",
@@ -218,7 +219,9 @@
     "liabilityHeading": "Omejitev odgovornosti",
     "liabilityBody": "V največji meri, ki jo dovoljuje zakon, ne odgovarjamo za kakršno koli škodo, ki izhaja iz uporabe ali nezmožnosti uporabe aplikacije.",
     "changesHeading": "Spremembe",
-    "changesBody": "Ti pogoji se lahko posodobijo skladno s spremembami aplikacije. Če aplikacijo še naprej uporabljaš po posodobitvi, to pomeni, da sprejemaš spremenjene pogoje."
+    "changesBody": "Ti pogoji se lahko posodobijo skladno s spremembami aplikacije. Če aplikacijo še naprej uporabljaš po posodobitvi, to pomeni, da sprejemaš spremenjene pogoje.",
+    "subscriptionsHeading": "Naročnine",
+    "subscriptionsBody": "Bones & Beasts Pro je na voljo kot mesečna in letna samodejno obnovljiva naročnina ter kot enkraten dosmrten nakup, ki po brezplačnem preizkusnem obdobju odklene spletno Skupinsko igro. Mesečne in letne naročnine se samodejno obnovijo, razen če jih prekličete vsaj 24 ur pred koncem trenutnega obdobja. Plačilo se zaračuna na vaš račun Apple ID (iOS) ali račun Google Play (Android) ob potrditvi nakupa. Naročnino lahko kadar koli upravljate ali prekličete v nastavitvah računa vaše naprave — to ne vpliva na dostop do igre Solo, ki je vedno brezplačna. Dosmrten nakup je enkratno plačilo in se ne obnavlja."
   },
   "settingsNav": {
     "profile": "Profil",
@@ -226,7 +229,8 @@
     "privacyPolicy": "Politika Zasebnosti",
     "termsOfService": "Pogoji Uporabe",
     "about": "O Aplikaciji",
-    "settings": "Nastavitve"
+    "settings": "Nastavitve",
+    "subscription": "Naročnina"
   },
   "stats": {
     "title": "Statistika",
@@ -254,10 +258,43 @@
     "yearly": "Letno",
     "lifetime": "Trajno",
     "restorePurchases": "Obnovi Nakupe",
-    "notNow": "Ne zdaj"
+    "notNow": "Ne zdaj",
+    "subscriptionDisclosure": "Mesečni in letni načrti se samodejno obnovijo, razen če jih prekličete vsaj 24 ur pred koncem trenutnega obdobja. Plačilo se zaračuna na vaš račun ob potrditvi nakupa. Kadar koli upravljajte ali prekličite v nastavitvah računa vaše naprave. Dosmrten načrt je enkraten nakup in se ne obnavlja.",
+    "termsOfUse": "Pogoji uporabe",
+    "privacyPolicy": "Politika zasebnosti"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Izberi avatar za svoj profil"
+  },
+  "subscription": {
+    "title": "Naročnina",
+    "statusFree": "Brezplačno",
+    "statusTrial": "Brezplačna preizkusna različica",
+    "statusPro": "Pro",
+    "statusLifetime": "Dosmrtni član",
+    "planMonthly": "Mesečno",
+    "planYearly": "Letno",
+    "planLifetime": "Dosmrtno",
+    "planLabel": "Načrt",
+    "priceLabel": "Cena",
+    "startedLabel": "Začeto",
+    "renewsLabel": "Se obnovi",
+    "expiresLabel": "Poteče",
+    "autoRenewLabel": "Samodejno obnavljanje",
+    "autoRenewOn": "Vklopljeno",
+    "autoRenewOff": "Izklopljeno",
+    "billedViaLabel": "Zaračunano preko",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Splet",
+    "whatsIncludedHeading": "Kaj je vključeno",
+    "includedGroup": "Neomejena spletna Skupinska igra",
+    "includedSolo": "Igra Solo — vedno brezplačna, s Pro ali brez",
+    "manageSubscription": "Upravljaj naročnino",
+    "manageNote": "Zaračunavanje in preklic upravlja {{platform}} — dotaknite se zgoraj za upravljanje ali preklic kadar koli.",
+    "lifetimeNote": "Hvala za vašo podporo — vaš dosmrtni dostop nikoli ne poteče ali se obnovi.",
+    "freeNote": "Igra Solo je vedno brezplačna. Naročite se za odklep neomejene spletne Skupinske igre.",
+    "upgradeToPro": "Nadgradi na Pro"
   }
 }

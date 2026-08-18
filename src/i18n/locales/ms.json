@@ -87,7 +87,8 @@
     "restoreFailed": "Tidak dapat memulihkan pembelian.",
     "notSignedIn": "Sila log masuk dahulu.",
     "notAvailableOnWeb": "Langganan belum tersedia di web — sila gunakan aplikasi iOS atau Android.",
-    "checkoutFailed": "Tidak dapat memulakan checkout."
+    "checkoutFailed": "Tidak dapat memulakan checkout.",
+    "portalFailed": "Tidak dapat membuka portal pengebilan."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, baling untuk mencari kad anda!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Had liabiliti",
     "liabilityBody": "Setakat yang dibenarkan oleh undang-undang, kami tidak bertanggungjawab atas sebarang kerosakan yang timbul daripada penggunaan anda, atau ketidakupayaan untuk menggunakan, aplikasi ini.",
     "changesHeading": "Perubahan",
-    "changesBody": "Terma ini boleh dikemas kini apabila aplikasi berubah. Terus menggunakan aplikasi selepas kemas kini bermakna anda menerima terma yang disemak semula."
+    "changesBody": "Terma ini boleh dikemas kini apabila aplikasi berubah. Terus menggunakan aplikasi selepas kemas kini bermakna anda menerima terma yang disemak semula.",
+    "subscriptionsHeading": "Langganan",
+    "subscriptionsBody": "Bones & Beasts Pro ditawarkan sebagai langganan Bulanan dan Tahunan yang diperbaharui secara automatik, dan sebagai pembelian sekali sahaja Seumur Hidup, membuka mod Kumpulan dalam talian selepas tempoh percubaan percuma. Langganan bulanan dan tahunan diperbaharui secara automatik melainkan dibatalkan sekurang-kurangnya 24 jam sebelum tamat tempoh semasa. Bayaran akan dicaj ke akaun Apple ID anda (iOS) atau akaun Google Play (Android) semasa pengesahan pembelian. Anda boleh menguruskan atau membatalkan langganan anda pada bila-bila masa dalam tetapan akaun peranti anda — ini tidak menjejaskan akses kepada mod Solo, yang sentiasa percuma. Pembelian Seumur Hidup adalah bayaran sekali sahaja dan tidak diperbaharui."
   },
   "settingsNav": {
     "profile": "Profil",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Dasar Privasi",
     "termsOfService": "Terma Perkhidmatan",
     "about": "Tentang",
-    "settings": "Tetapan"
+    "settings": "Tetapan",
+    "subscription": "Langganan"
   },
   "stats": {
     "title": "Statistik",
@@ -248,10 +252,43 @@
     "yearly": "Tahunan",
     "lifetime": "Seumur hidup",
     "restorePurchases": "Pulihkan Pembelian",
-    "notNow": "Bukan sekarang"
+    "notNow": "Bukan sekarang",
+    "subscriptionDisclosure": "Pelan bulanan dan tahunan diperbaharui secara automatik melainkan dibatalkan sekurang-kurangnya 24 jam sebelum tamat tempoh semasa. Bayaran akan dicaj ke akaun anda semasa pengesahan pembelian. Uruskan atau batalkan pada bila-bila masa dalam tetapan akaun peranti anda. Pelan Seumur Hidup adalah pembelian sekali sahaja dan tidak diperbaharui.",
+    "termsOfUse": "Syarat Penggunaan",
+    "privacyPolicy": "Dasar Privasi"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Pilih avatar untuk profil anda"
+  },
+  "subscription": {
+    "title": "Langganan",
+    "statusFree": "Percuma",
+    "statusTrial": "Percubaan Percuma",
+    "statusPro": "Pro",
+    "statusLifetime": "Ahli Seumur Hidup",
+    "planMonthly": "Bulanan",
+    "planYearly": "Tahunan",
+    "planLifetime": "Seumur Hidup",
+    "planLabel": "Pelan",
+    "priceLabel": "Harga",
+    "startedLabel": "Bermula",
+    "renewsLabel": "Diperbaharui",
+    "expiresLabel": "Tamat tempoh",
+    "autoRenewLabel": "Pembaharuan automatik",
+    "autoRenewOn": "Hidup",
+    "autoRenewOff": "Mati",
+    "billedViaLabel": "Dibil melalui",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Apa yang disertakan",
+    "includedGroup": "Mod Kumpulan dalam talian tanpa had",
+    "includedSolo": "Mod Solo — sentiasa percuma, dengan atau tanpa Pro",
+    "manageSubscription": "Urus Langganan",
+    "manageNote": "Pengebilan dan pembatalan diuruskan oleh {{platform}} — ketik di atas untuk menguruskan atau membatalkan pada bila-bila masa.",
+    "lifetimeNote": "Terima kasih atas sokongan anda — akses Seumur Hidup anda tidak akan tamat tempoh atau diperbaharui.",
+    "freeNote": "Mod Solo sentiasa percuma. Langgan untuk membuka mod Kumpulan dalam talian tanpa had.",
+    "upgradeToPro": "Naik taraf ke Pro"
   }
 }

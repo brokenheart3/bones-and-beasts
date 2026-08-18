@@ -89,7 +89,8 @@
     "restoreFailed": "Nepodařilo se obnovit nákupy.",
     "notSignedIn": "Nejprve se přihlas.",
     "notAvailableOnWeb": "Předplatné není na webu ještě dostupné — použij aplikaci pro iOS nebo Android.",
-    "checkoutFailed": "Nepodařilo se zahájit platbu."
+    "checkoutFailed": "Nepodařilo se zahájit platbu.",
+    "portalFailed": "Nepodařilo se otevřít portál pro fakturaci."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, hoď kostkou a najdi svou kartu!",
@@ -218,7 +219,9 @@
     "liabilityHeading": "Omezení odpovědnosti",
     "liabilityBody": "V maximálním rozsahu povoleném zákonem neneseme odpovědnost za jakékoli škody vzniklé z používání aplikace nebo z nemožnosti ji používat.",
     "changesHeading": "Změny",
-    "changesBody": "Tyto podmínky mohou být aktualizovány v souvislosti se změnami aplikace. Pokračování v používání aplikace po aktualizaci znamená, že přijímáš revidované podmínky."
+    "changesBody": "Tyto podmínky mohou být aktualizovány v souvislosti se změnami aplikace. Pokračování v používání aplikace po aktualizaci znamená, že přijímáš revidované podmínky.",
+    "subscriptionsHeading": "Předplatné",
+    "subscriptionsBody": "Bones & Beasts Pro je nabízeno jako měsíční a roční automaticky se obnovující předplatné a jako jednorázový doživotní nákup, který odemyká online skupinovou hru po skončení bezplatné zkušební doby. Měsíční a roční předplatné se automaticky obnovuje, pokud není zrušeno alespoň 24 hodin před koncem aktuálního období. Platba je účtována na váš účet Apple ID (iOS) nebo účet Google Play (Android) při potvrzení nákupu. Předplatné můžete kdykoli spravovat nebo zrušit v nastavení účtu svého zařízení — to neovlivňuje přístup k sólové hře, která je vždy zdarma. Doživotní nákup je jednorázová platba a neobnovuje se."
   },
   "settingsNav": {
     "profile": "Profil",
@@ -226,7 +229,8 @@
     "privacyPolicy": "Zásady ochrany soukromí",
     "termsOfService": "Podmínky služby",
     "about": "O aplikaci",
-    "settings": "Nastavení"
+    "settings": "Nastavení",
+    "subscription": "Předplatné"
   },
   "stats": {
     "title": "Statistiky",
@@ -254,10 +258,43 @@
     "yearly": "Ročně",
     "lifetime": "Trvalé",
     "restorePurchases": "Obnovit nákupy",
-    "notNow": "Teď ne"
+    "notNow": "Teď ne",
+    "subscriptionDisclosure": "Měsíční a roční plány se automaticky obnovují, pokud nejsou zrušeny alespoň 24 hodin před koncem aktuálního období. Platba je účtována na váš účet při potvrzení nákupu. Kdykoli spravujte nebo zrušte v nastavení účtu svého zařízení. Doživotní plán je jednorázový nákup a neobnovuje se.",
+    "termsOfUse": "Podmínky použití",
+    "privacyPolicy": "Zásady ochrany osobních údajů"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Vyber si avatar pro svůj profil"
+  },
+  "subscription": {
+    "title": "Předplatné",
+    "statusFree": "Zdarma",
+    "statusTrial": "Bezplatná zkušební verze",
+    "statusPro": "Pro",
+    "statusLifetime": "Doživotní člen",
+    "planMonthly": "Měsíční",
+    "planYearly": "Roční",
+    "planLifetime": "Doživotní",
+    "planLabel": "Plán",
+    "priceLabel": "Cena",
+    "startedLabel": "Zahájeno",
+    "renewsLabel": "Obnoví se",
+    "expiresLabel": "Vyprší",
+    "autoRenewLabel": "Automatické obnovení",
+    "autoRenewOn": "Zapnuto",
+    "autoRenewOff": "Vypnuto",
+    "billedViaLabel": "Fakturováno přes",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Co je zahrnuto",
+    "includedGroup": "Neomezená online skupinová hra",
+    "includedSolo": "Sólová hra — vždy zdarma, s Pro i bez něj",
+    "manageSubscription": "Spravovat předplatné",
+    "manageNote": "Fakturaci a zrušení spravuje {{platform}} — klepnutím výše spravujte nebo kdykoli zrušte.",
+    "lifetimeNote": "Děkujeme za vaši podporu — váš doživotní přístup nikdy nevyprší ani se neobnoví.",
+    "freeNote": "Sólová hra je vždy zdarma. Předplaťte si a odemkněte neomezenou online skupinovou hru.",
+    "upgradeToPro": "Přejít na Pro"
   }
 }

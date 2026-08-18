@@ -87,7 +87,8 @@
     "restoreFailed": "Kunde inte återställa köp.",
     "notSignedIn": "Logga in först.",
     "notAvailableOnWeb": "Prenumerationer är inte tillgängliga på webben än — använd iOS- eller Android-appen.",
-    "checkoutFailed": "Kunde inte starta kassan."
+    "checkoutFailed": "Kunde inte starta kassan.",
+    "portalFailed": "Det gick inte att öppna faktureringsportalen."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, kasta för att hitta ditt kort!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Ansvarsbegränsning",
     "liabilityBody": "I den fullständiga utsträckning som lagen tillåter är vi inte ansvariga för några skador som uppstår från din användning av, eller oförmåga att använda, appen.",
     "changesHeading": "Ändringar",
-    "changesBody": "Dessa villkor kan uppdateras när appen ändras. Att fortsätta använda appen efter en uppdatering innebär att du accepterar de reviderade villkoren."
+    "changesBody": "Dessa villkor kan uppdateras när appen ändras. Att fortsätta använda appen efter en uppdatering innebär att du accepterar de reviderade villkoren.",
+    "subscriptionsHeading": "Prenumerationer",
+    "subscriptionsBody": "Bones & Beasts Pro erbjuds som månatliga och årliga automatiskt förnyade prenumerationer, samt som ett engångsköp Livstid, som låser upp online Gruppspel efter den kostnadsfria provperioden. Månatliga och årliga prenumerationer förnyas automatiskt om de inte sägs upp minst 24 timmar innan den aktuella perioden slutar. Betalningen debiteras ditt Apple ID-konto (iOS) eller Google Play-konto (Android) vid bekräftelse av köpet. Du kan hantera eller säga upp din prenumeration när som helst i enhetens kontoinställningar — detta påverkar inte åtkomsten till Solo-läget, som alltid är gratis. Livstidsköpet är en engångsbetalning och förnyas inte."
   },
   "settingsNav": {
     "profile": "Profil",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Integritetspolicy",
     "termsOfService": "Användarvillkor",
     "about": "Om",
-    "settings": "Inställningar"
+    "settings": "Inställningar",
+    "subscription": "Prenumeration"
   },
   "stats": {
     "title": "Statistik",
@@ -248,10 +252,43 @@
     "yearly": "Årsvis",
     "lifetime": "Livstid",
     "restorePurchases": "Återställ köp",
-    "notNow": "Inte nu"
+    "notNow": "Inte nu",
+    "subscriptionDisclosure": "Månatliga och årliga planer förnyas automatiskt om de inte sägs upp minst 24 timmar innan den aktuella perioden slutar. Betalningen debiteras ditt konto vid bekräftelse av köpet. Hantera eller säg upp när som helst i enhetens kontoinställningar. Livstidsplanen är ett engångsköp och förnyas inte.",
+    "termsOfUse": "Användarvillkor",
+    "privacyPolicy": "Integritetspolicy"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Välj en avatar för din profil"
+  },
+  "subscription": {
+    "title": "Prenumeration",
+    "statusFree": "Gratis",
+    "statusTrial": "Kostnadsfri provperiod",
+    "statusPro": "Pro",
+    "statusLifetime": "Livstidsmedlem",
+    "planMonthly": "Månatlig",
+    "planYearly": "Årlig",
+    "planLifetime": "Livstid",
+    "planLabel": "Plan",
+    "priceLabel": "Pris",
+    "startedLabel": "Startad",
+    "renewsLabel": "Förnyas",
+    "expiresLabel": "Upphör",
+    "autoRenewLabel": "Automatisk förnyelse",
+    "autoRenewOn": "På",
+    "autoRenewOff": "Av",
+    "billedViaLabel": "Fakturerad via",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Webb",
+    "whatsIncludedHeading": "Vad som ingår",
+    "includedGroup": "Obegränsat online Gruppspel",
+    "includedSolo": "Solo-läge — alltid gratis, med eller utan Pro",
+    "manageSubscription": "Hantera prenumeration",
+    "manageNote": "Fakturering och uppsägning hanteras av {{platform}} — tryck ovan för att hantera eller säga upp när som helst.",
+    "lifetimeNote": "Tack för ditt stöd — din Livstidsåtkomst upphör eller förnyas aldrig.",
+    "freeNote": "Solo-läget är alltid gratis. Prenumerera för att låsa upp obegränsat online Gruppspel.",
+    "upgradeToPro": "Uppgradera till Pro"
   }
 }

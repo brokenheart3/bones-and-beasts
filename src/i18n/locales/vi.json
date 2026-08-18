@@ -87,7 +87,8 @@
     "restoreFailed": "Không thể khôi phục các giao dịch mua.",
     "notSignedIn": "Vui lòng đăng nhập trước.",
     "notAvailableOnWeb": "Đăng ký chưa khả dụng trên web — vui lòng dùng ứng dụng iOS hoặc Android.",
-    "checkoutFailed": "Không thể bắt đầu thanh toán."
+    "checkoutFailed": "Không thể bắt đầu thanh toán.",
+    "portalFailed": "Không thể mở cổng thanh toán."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, hãy đổ xúc xắc để tìm lá của bạn!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Giới hạn trách nhiệm",
     "liabilityBody": "Trong phạm vi tối đa được pháp luật cho phép, chúng tôi không chịu trách nhiệm về bất kỳ thiệt hại nào phát sinh từ việc bạn sử dụng, hoặc không thể sử dụng, ứng dụng.",
     "changesHeading": "Thay đổi",
-    "changesBody": "Các điều khoản này có thể được cập nhật khi ứng dụng thay đổi. Việc tiếp tục sử dụng ứng dụng sau khi cập nhật có nghĩa là bạn chấp nhận các điều khoản đã sửa đổi."
+    "changesBody": "Các điều khoản này có thể được cập nhật khi ứng dụng thay đổi. Việc tiếp tục sử dụng ứng dụng sau khi cập nhật có nghĩa là bạn chấp nhận các điều khoản đã sửa đổi.",
+    "subscriptionsHeading": "Đăng ký",
+    "subscriptionsBody": "Bones & Beasts Pro được cung cấp dưới dạng đăng ký Hàng tháng và Hàng năm tự động gia hạn, và dưới dạng mua một lần Trọn đời, mở khóa chế độ chơi Nhóm trực tuyến sau thời gian dùng thử miễn phí. Đăng ký hàng tháng và hàng năm sẽ tự động gia hạn trừ khi bị hủy ít nhất 24 giờ trước khi kết thúc kỳ hiện tại. Khoản thanh toán sẽ được tính vào tài khoản Apple ID (iOS) hoặc tài khoản Google Play (Android) của bạn khi xác nhận mua hàng. Bạn có thể quản lý hoặc hủy đăng ký bất cứ lúc nào trong cài đặt tài khoản trên thiết bị của mình — điều này không ảnh hưởng đến quyền truy cập chế độ chơi Đơn, luôn luôn miễn phí. Mua Trọn đời là khoản thanh toán một lần và không gia hạn."
   },
   "settingsNav": {
     "profile": "Hồ sơ",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Chính sách quyền riêng tư",
     "termsOfService": "Điều khoản dịch vụ",
     "about": "Giới thiệu",
-    "settings": "Cài đặt"
+    "settings": "Cài đặt",
+    "subscription": "Đăng ký"
   },
   "stats": {
     "title": "Thống kê",
@@ -248,10 +252,43 @@
     "yearly": "Hàng năm",
     "lifetime": "Vĩnh viễn",
     "restorePurchases": "Khôi phục giao dịch mua",
-    "notNow": "Chưa phải lúc này"
+    "notNow": "Chưa phải lúc này",
+    "subscriptionDisclosure": "Các gói hàng tháng và hàng năm sẽ tự động gia hạn trừ khi bị hủy ít nhất 24 giờ trước khi kết thúc kỳ hiện tại. Khoản thanh toán sẽ được tính vào tài khoản của bạn khi xác nhận mua hàng. Quản lý hoặc hủy bất cứ lúc nào trong cài đặt tài khoản trên thiết bị của bạn. Gói Trọn đời là mua một lần và không gia hạn.",
+    "termsOfUse": "Điều khoản Sử dụng",
+    "privacyPolicy": "Chính sách Quyền riêng tư"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Chọn một avatar cho hồ sơ của bạn"
+  },
+  "subscription": {
+    "title": "Đăng ký",
+    "statusFree": "Miễn phí",
+    "statusTrial": "Dùng thử Miễn phí",
+    "statusPro": "Pro",
+    "statusLifetime": "Thành viên Trọn đời",
+    "planMonthly": "Hàng tháng",
+    "planYearly": "Hàng năm",
+    "planLifetime": "Trọn đời",
+    "planLabel": "Gói",
+    "priceLabel": "Giá",
+    "startedLabel": "Bắt đầu",
+    "renewsLabel": "Gia hạn vào",
+    "expiresLabel": "Hết hạn vào",
+    "autoRenewLabel": "Tự động gia hạn",
+    "autoRenewOn": "Bật",
+    "autoRenewOff": "Tắt",
+    "billedViaLabel": "Thanh toán qua",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Bao gồm những gì",
+    "includedGroup": "Chế độ chơi Nhóm trực tuyến không giới hạn",
+    "includedSolo": "Chế độ chơi Đơn — luôn miễn phí, có hoặc không có Pro",
+    "manageSubscription": "Quản lý Đăng ký",
+    "manageNote": "Việc thanh toán và hủy được quản lý bởi {{platform}} — nhấn vào trên để quản lý hoặc hủy bất cứ lúc nào.",
+    "lifetimeNote": "Cảm ơn sự ủng hộ của bạn — quyền truy cập Trọn đời của bạn sẽ không bao giờ hết hạn hoặc gia hạn.",
+    "freeNote": "Chế độ chơi Đơn luôn miễn phí. Đăng ký để mở khóa chế độ chơi Nhóm trực tuyến không giới hạn.",
+    "upgradeToPro": "Nâng cấp lên Pro"
   }
 }

@@ -36,7 +36,12 @@ export async function billingWebhookHandler(req: Request, res: Response) {
         const custId = customerId(session.customer);
         if (uid) {
           if (session.mode === "payment") {
-            await setEntitlement(uid, { isPro: true, plan: "lifetime", stripeCustomerId: custId });
+            await setEntitlement(uid, {
+              isPro: true,
+              plan: "lifetime",
+              stripeCustomerId: custId,
+              startDate: Date.now(),
+            });
           } else if (custId) {
             await setEntitlement(uid, { stripeCustomerId: custId });
           }
@@ -52,11 +57,14 @@ export async function billingWebhookHandler(req: Request, res: Response) {
         const uid = subscription.metadata?.uid ?? (custId ? await findUidByStripeCustomerId(custId) : null);
         if (uid) {
           const isPro = subscription.status === "active" || subscription.status === "trialing";
-          const priceId = subscription.items.data[0]?.price?.id;
+          const item = subscription.items.data[0];
           await setEntitlement(uid, {
             isPro,
-            plan: planByPriceId(priceId)?.planKey ?? null,
+            plan: planByPriceId(item?.price?.id)?.planKey ?? null,
             stripeCustomerId: custId,
+            currentPeriodEnd: item?.current_period_end ? item.current_period_end * 1000 : null,
+            willRenew: isPro ? !subscription.cancel_at_period_end : null,
+            startDate: subscription.start_date ? subscription.start_date * 1000 : null,
           });
         }
         break;

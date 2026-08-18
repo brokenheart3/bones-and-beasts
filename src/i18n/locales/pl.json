@@ -89,7 +89,8 @@
     "restoreFailed": "Nie udało się przywrócić zakupów.",
     "notSignedIn": "Zaloguj się najpierw.",
     "notAvailableOnWeb": "Subskrypcje nie są jeszcze dostępne w wersji internetowej — użyj aplikacji na iOS lub Androida.",
-    "checkoutFailed": "Nie udało się rozpocząć płatności."
+    "checkoutFailed": "Nie udało się rozpocząć płatności.",
+    "portalFailed": "Nie udało się otworzyć portalu rozliczeniowego."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, rzuć kością, aby znaleźć swoją kartę!",
@@ -218,7 +219,9 @@
     "liabilityHeading": "Ograniczenie odpowiedzialności",
     "liabilityBody": "W maksymalnym zakresie dopuszczonym przez prawo nie odpowiadamy za żadne szkody wynikające z korzystania lub niemożności korzystania z aplikacji.",
     "changesHeading": "Zmiany",
-    "changesBody": "Te warunki mogą być aktualizowane w miarę zmian w aplikacji. Dalsze korzystanie z aplikacji po aktualizacji oznacza, że akceptujesz zmienione warunki."
+    "changesBody": "Te warunki mogą być aktualizowane w miarę zmian w aplikacji. Dalsze korzystanie z aplikacji po aktualizacji oznacza, że akceptujesz zmienione warunki.",
+    "subscriptionsHeading": "Subskrypcje",
+    "subscriptionsBody": "Bones & Beasts Pro jest oferowane jako miesięczne i roczne subskrypcje z automatycznym odnawianiem, a także jako jednorazowy zakup Dożywotni, odblokowujący tryb Grupowy online po zakończeniu bezpłatnego okresu próbnego. Subskrypcje miesięczne i roczne odnawiają się automatycznie, chyba że zostaną anulowane co najmniej 24 godziny przed końcem bieżącego okresu. Płatność jest pobierana z Twojego konta Apple ID (iOS) lub konta Google Play (Android) w momencie potwierdzenia zakupu. Możesz zarządzać lub anulować subskrypcję w dowolnym momencie w ustawieniach konta swojego urządzenia — nie wpływa to na dostęp do trybu Solo, który jest zawsze bezpłatny. Zakup Dożywotni to jednorazowa płatność, która się nie odnawia."
   },
   "settingsNav": {
     "profile": "Profil",
@@ -226,7 +229,8 @@
     "privacyPolicy": "Polityka Prywatności",
     "termsOfService": "Warunki Korzystania",
     "about": "O Aplikacji",
-    "settings": "Ustawienia"
+    "settings": "Ustawienia",
+    "subscription": "Subskrypcja"
   },
   "stats": {
     "title": "Statystyki",
@@ -254,10 +258,43 @@
     "yearly": "Rocznie",
     "lifetime": "Dożywotnio",
     "restorePurchases": "Przywróć Zakupy",
-    "notNow": "Nie teraz"
+    "notNow": "Nie teraz",
+    "subscriptionDisclosure": "Plany miesięczne i roczne odnawiają się automatycznie, chyba że zostaną anulowane co najmniej 24 godziny przed końcem bieżącego okresu. Płatność jest pobierana z Twojego konta w momencie potwierdzenia zakupu. Zarządzaj lub anuluj w dowolnym momencie w ustawieniach konta swojego urządzenia. Plan Dożywotni to jednorazowy zakup, który się nie odnawia.",
+    "termsOfUse": "Warunki użytkowania",
+    "privacyPolicy": "Polityka prywatności"
   },
   "avatar": {
     "pageTitle": "Awatar",
     "subtitle": "Wybierz awatar dla swojego profilu"
+  },
+  "subscription": {
+    "title": "Subskrypcja",
+    "statusFree": "Bezpłatne",
+    "statusTrial": "Bezpłatny okres próbny",
+    "statusPro": "Pro",
+    "statusLifetime": "Członek dożywotni",
+    "planMonthly": "Miesięczny",
+    "planYearly": "Roczny",
+    "planLifetime": "Dożywotni",
+    "planLabel": "Plan",
+    "priceLabel": "Cena",
+    "startedLabel": "Rozpoczęto",
+    "renewsLabel": "Odnowi się",
+    "expiresLabel": "Wygasa",
+    "autoRenewLabel": "Automatyczne odnawianie",
+    "autoRenewOn": "Włączone",
+    "autoRenewOff": "Wyłączone",
+    "billedViaLabel": "Rozliczane przez",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Co jest wliczone",
+    "includedGroup": "Nieograniczony tryb Grupowy online",
+    "includedSolo": "Tryb Solo — zawsze bezpłatny, z Pro lub bez",
+    "manageSubscription": "Zarządzaj subskrypcją",
+    "manageNote": "Rozliczeniami i anulowaniem zarządza {{platform}} — dotknij powyżej, aby zarządzać lub anulować w dowolnym momencie.",
+    "lifetimeNote": "Dziękujemy za wsparcie — Twój dożywotni dostęp nigdy nie wygasa ani się nie odnawia.",
+    "freeNote": "Tryb Solo jest zawsze bezpłatny. Subskrybuj, aby odblokować nieograniczony tryb Grupowy online.",
+    "upgradeToPro": "Ulepsz do Pro"
   }
 }

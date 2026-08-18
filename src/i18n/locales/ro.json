@@ -88,7 +88,8 @@
     "restoreFailed": "Nu s-au putut restaura achizițiile.",
     "notSignedIn": "Te rugăm să te autentifici mai întâi.",
     "notAvailableOnWeb": "Abonamentele nu sunt încă disponibile pe web — te rugăm să folosești aplicația pentru iOS sau Android.",
-    "checkoutFailed": "Nu s-a putut iniția plata."
+    "checkoutFailed": "Nu s-a putut iniția plata.",
+    "portalFailed": "Portalul de facturare nu a putut fi deschis."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, aruncă zarul pentru a-ți găsi cartea!",
@@ -216,7 +217,9 @@
     "liabilityHeading": "Limitarea răspunderii",
     "liabilityBody": "În limita maximă permisă de lege, nu suntem responsabili pentru niciun fel de daune rezultate din utilizarea sau incapacitatea de a utiliza aplicația.",
     "changesHeading": "Modificări",
-    "changesBody": "Acești termeni pot fi actualizați pe măsură ce aplicația se schimbă. Continuarea utilizării aplicației după o actualizare înseamnă că accepți termenii revizuiți."
+    "changesBody": "Acești termeni pot fi actualizați pe măsură ce aplicația se schimbă. Continuarea utilizării aplicației după o actualizare înseamnă că accepți termenii revizuiți.",
+    "subscriptionsHeading": "Abonamente",
+    "subscriptionsBody": "Bones & Beasts Pro este oferit ca abonamente Lunare și Anuale cu reînnoire automată, precum și ca achiziție unică Pe viață, deblocând jocul în Grup online după perioada de probă gratuită. Abonamentele lunare și anuale se reînnoiesc automat, cu excepția cazului în care sunt anulate cu cel puțin 24 de ore înainte de sfârșitul perioadei curente. Plata este taxată în contul dvs. Apple ID (iOS) sau contul Google Play (Android) la confirmarea achiziției. Puteți gestiona sau anula abonamentul oricând în setările contului dispozitivului dvs. — acest lucru nu afectează accesul la modul Solo, care este întotdeauna gratuit. Achiziția Pe viață este o plată unică și nu se reînnoiește."
   },
   "settingsNav": {
     "profile": "Profil",
@@ -224,7 +227,8 @@
     "privacyPolicy": "Politica de Confidențialitate",
     "termsOfService": "Termeni și Condiții",
     "about": "Despre",
-    "settings": "Setări"
+    "settings": "Setări",
+    "subscription": "Abonament"
   },
   "stats": {
     "title": "Statistici",
@@ -251,10 +255,43 @@
     "yearly": "Anual",
     "lifetime": "Pe viață",
     "restorePurchases": "Restaurează Achizițiile",
-    "notNow": "Nu acum"
+    "notNow": "Nu acum",
+    "subscriptionDisclosure": "Planurile lunare și anuale se reînnoiesc automat, cu excepția cazului în care sunt anulate cu cel puțin 24 de ore înainte de sfârșitul perioadei curente. Plata este taxată în contul dvs. la confirmarea achiziției. Gestionați sau anulați oricând în setările contului dispozitivului dvs. Planul Pe viață este o achiziție unică și nu se reînnoiește.",
+    "termsOfUse": "Termeni de utilizare",
+    "privacyPolicy": "Politica de confidențialitate"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Alege un avatar pentru profilul tău"
+  },
+  "subscription": {
+    "title": "Abonament",
+    "statusFree": "Gratuit",
+    "statusTrial": "Probă gratuită",
+    "statusPro": "Pro",
+    "statusLifetime": "Membru pe viață",
+    "planMonthly": "Lunar",
+    "planYearly": "Anual",
+    "planLifetime": "Pe viață",
+    "planLabel": "Plan",
+    "priceLabel": "Preț",
+    "startedLabel": "Început",
+    "renewsLabel": "Se reînnoiește",
+    "expiresLabel": "Expiră",
+    "autoRenewLabel": "Reînnoire automată",
+    "autoRenewOn": "Activă",
+    "autoRenewOff": "Inactivă",
+    "billedViaLabel": "Facturat prin",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Ce este inclus",
+    "includedGroup": "Joc în Grup online nelimitat",
+    "includedSolo": "Joc Solo — întotdeauna gratuit, cu sau fără Pro",
+    "manageSubscription": "Gestionează abonamentul",
+    "manageNote": "Facturarea și anularea sunt gestionate de {{platform}} — atinge mai sus pentru a gestiona sau anula oricând.",
+    "lifetimeNote": "Mulțumim pentru sprijinul acordat — accesul dvs. Pe viață nu expiră și nu se reînnoiește niciodată.",
+    "freeNote": "Jocul Solo este întotdeauna gratuit. Abonează-te pentru a debloca jocul în Grup online nelimitat.",
+    "upgradeToPro": "Fă upgrade la Pro"
   }
 }

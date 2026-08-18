@@ -2,6 +2,7 @@ import { create } from "zustand";
 import i18n from "../i18n";
 import { SERVER_URL } from "../net/colyseusClient";
 import { useAuthStore } from "./useAuthStore";
+import { SubscriptionInfo } from "../types/subscription";
 
 // The game server's own domain also hosts the Stripe billing endpoints —
 // same Railway service, just a plain REST route alongside the Colyseus
@@ -24,23 +25,39 @@ interface WebOffering {
 interface PurchasesState {
   isReady: boolean;
   isPro: boolean;
+  subscriptionInfo: SubscriptionInfo | null;
   offering: WebOffering | null;
   busy: boolean;
   error: string | null;
   fetchOfferings: () => Promise<void>;
   purchasePackage: (pkg: WebPackage) => Promise<void>;
   restorePurchases: () => Promise<void>;
+  manageSubscription: () => Promise<void>;
   clearError: () => void;
 }
 
-async function fetchEntitlement(uid: string): Promise<boolean> {
+async function fetchEntitlement(
+  uid: string
+): Promise<{ isPro: boolean; subscriptionInfo: SubscriptionInfo | null }> {
   try {
     const res = await fetch(`${HTTP_SERVER_URL}/billing/entitlement/${uid}`);
-    if (!res.ok) return false;
+    if (!res.ok) return { isPro: false, subscriptionInfo: null };
     const data = await res.json();
-    return !!data.isPro;
+    return {
+      isPro: !!data.isPro,
+      subscriptionInfo: data.isPro
+        ? {
+            productIdentifier: null,
+            plan: data.plan ?? null,
+            currentPeriodEnd: data.currentPeriodEnd ?? null,
+            willRenew: data.willRenew ?? null,
+            startDate: data.startDate ?? null,
+            store: "STRIPE",
+          }
+        : null,
+    };
   } catch {
-    return false;
+    return { isPro: false, subscriptionInfo: null };
   }
 }
 
@@ -48,8 +65,8 @@ async function fetchEntitlement(uid: string): Promise<boolean> {
 // entitlement can lag a second or two behind the browser landing back here
 // — poll briefly instead of trusting a single immediate check.
 function pollEntitlement(uid: string, attemptsLeft = 6) {
-  fetchEntitlement(uid).then((isPro) => {
-    usePurchasesStore.setState({ isPro });
+  fetchEntitlement(uid).then(({ isPro, subscriptionInfo }) => {
+    usePurchasesStore.setState({ isPro, subscriptionInfo });
     if (!isPro && attemptsLeft > 1) {
       setTimeout(() => pollEntitlement(uid, attemptsLeft - 1), 1500);
     }
@@ -59,6 +76,7 @@ function pollEntitlement(uid: string, attemptsLeft = 6) {
 export const usePurchasesStore = create<PurchasesState>((set) => ({
   isReady: true,
   isPro: false,
+  subscriptionInfo: null,
   offering: null,
   busy: false,
   error: null,
@@ -110,10 +128,37 @@ export const usePurchasesStore = create<PurchasesState>((set) => ({
     }
     set({ busy: true, error: null });
     try {
-      set({ isPro: await fetchEntitlement(uid) });
+      const { isPro, subscriptionInfo } = await fetchEntitlement(uid);
+      set({ isPro, subscriptionInfo });
     } catch {
       set({ error: i18n.t("purchaseErrors.restoreFailed") });
       throw new Error(i18n.t("purchaseErrors.restoreFailed"));
+    } finally {
+      set({ busy: false });
+    }
+  },
+
+  // Stripe's hosted Customer Portal — the web equivalent of Apple/Google's
+  // native subscription-management screens, same as the mobile deep-links.
+  manageSubscription: async () => {
+    const uid = useAuthStore.getState().user?.uid;
+    if (!uid) {
+      set({ error: i18n.t("purchaseErrors.notSignedIn") });
+      throw new Error(i18n.t("purchaseErrors.notSignedIn"));
+    }
+    set({ busy: true, error: null });
+    try {
+      const res = await fetch(`${HTTP_SERVER_URL}/billing/portal-session`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ uid }),
+      });
+      const data = await res.json();
+      if (!res.ok || !data.url) throw new Error(data.error ?? i18n.t("purchaseErrors.portalFailed"));
+      window.location.href = data.url;
+    } catch (err) {
+      set({ error: (err as Error).message ?? i18n.t("purchaseErrors.portalFailed") });
+      throw err;
     } finally {
       set({ busy: false });
     }
@@ -135,7 +180,9 @@ function syncEntitlementForUid(uid: string) {
     pendingCheckoutCheck = false;
     pollEntitlement(uid);
   } else {
-    fetchEntitlement(uid).then((isPro) => usePurchasesStore.setState({ isPro }));
+    fetchEntitlement(uid).then(({ isPro, subscriptionInfo }) =>
+      usePurchasesStore.setState({ isPro, subscriptionInfo })
+    );
   }
 }
 
@@ -146,7 +193,7 @@ useAuthStore.subscribe((state, prevState) => {
   if (state.user?.uid) {
     syncEntitlementForUid(state.user.uid);
   } else {
-    usePurchasesStore.setState({ isPro: false });
+    usePurchasesStore.setState({ isPro: false, subscriptionInfo: null });
   }
 });
 

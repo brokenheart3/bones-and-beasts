@@ -88,7 +88,8 @@
     "restoreFailed": "Neizdevās atjaunot pirkumus.",
     "notSignedIn": "Vispirms piesakies.",
     "notAvailableOnWeb": "Abonementi tīmeklī vēl nav pieejami — izmanto iOS vai Android lietotni.",
-    "checkoutFailed": "Neizdevās sākt norēķinu."
+    "checkoutFailed": "Neizdevās sākt norēķinu.",
+    "portalFailed": "Neizdevās atvērt rēķinu portālu."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, met kauliņu, lai atrastu savu kārti!",
@@ -216,7 +217,9 @@
     "liabilityHeading": "Atbildības ierobežojums",
     "liabilityBody": "Maksimālajā likumā atļautajā apmērā mēs neesam atbildīgi par jebkādiem zaudējumiem, kas izriet no lietotnes izmantošanas vai nespējas to izmantot.",
     "changesHeading": "Izmaiņas",
-    "changesBody": "Šie noteikumi var tikt atjaunināti, lietotnei mainoties. Lietotnes turpmāka izmantošana pēc atjauninājuma nozīmē, ka tu piekrīti pārskatītajiem noteikumiem."
+    "changesBody": "Šie noteikumi var tikt atjaunināti, lietotnei mainoties. Lietotnes turpmāka izmantošana pēc atjauninājuma nozīmē, ka tu piekrīti pārskatītajiem noteikumiem.",
+    "subscriptionsHeading": "Abonementi",
+    "subscriptionsBody": "Bones & Beasts Pro tiek piedāvāts kā ikmēneša un ikgadēji automātiski atjaunojami abonementi, kā arī kā vienreizējs Mūža pirkums, kas atbloķē tiešsaistes Grupas spēli pēc bezmaksas izmēģinājuma perioda. Ikmēneša un ikgadējie abonementi tiek automātiski atjaunoti, ja vien tie netiek atcelti vismaz 24 stundas pirms pašreizējā perioda beigām. Maksājums tiek iekasēts no jūsu Apple ID konta (iOS) vai Google Play konta (Android), apstiprinot pirkumu. Jūs varat pārvaldīt vai atcelt savu abonementu jebkurā laikā ierīces konta iestatījumos — tas neietekmē piekļuvi Solo spēlei, kas vienmēr ir bezmaksas. Mūža pirkums ir vienreizējs maksājums, un tas netiek atjaunots."
   },
   "settingsNav": {
     "profile": "Profils",
@@ -224,7 +227,8 @@
     "privacyPolicy": "Privātuma politika",
     "termsOfService": "Pakalpojuma sniegšanas noteikumi",
     "about": "Par",
-    "settings": "Iestatījumi"
+    "settings": "Iestatījumi",
+    "subscription": "Abonements"
   },
   "stats": {
     "title": "Statistika",
@@ -251,10 +255,43 @@
     "yearly": "Ikgadēja",
     "lifetime": "Mūža",
     "restorePurchases": "Atjaunot pirkumus",
-    "notNow": "Ne tagad"
+    "notNow": "Ne tagad",
+    "subscriptionDisclosure": "Ikmēneša un ikgadējie plāni tiek automātiski atjaunoti, ja vien tie netiek atcelti vismaz 24 stundas pirms pašreizējā perioda beigām. Maksājums tiek iekasēts no jūsu konta, apstiprinot pirkumu. Pārvaldiet vai atceliet jebkurā laikā ierīces konta iestatījumos. Mūža plāns ir vienreizējs pirkums, un tas netiek atjaunots.",
+    "termsOfUse": "Lietošanas noteikumi",
+    "privacyPolicy": "Privātuma politika"
   },
   "avatar": {
     "pageTitle": "Avatārs",
     "subtitle": "Izvēlies avatāru savam profilam"
+  },
+  "subscription": {
+    "title": "Abonements",
+    "statusFree": "Bezmaksas",
+    "statusTrial": "Bezmaksas izmēģinājums",
+    "statusPro": "Pro",
+    "statusLifetime": "Mūža biedrs",
+    "planMonthly": "Ikmēneša",
+    "planYearly": "Ikgadējs",
+    "planLifetime": "Mūža",
+    "planLabel": "Plāns",
+    "priceLabel": "Cena",
+    "startedLabel": "Sākts",
+    "renewsLabel": "Atjaunosies",
+    "expiresLabel": "Beigsies",
+    "autoRenewLabel": "Automātiska atjaunošana",
+    "autoRenewOn": "Ieslēgta",
+    "autoRenewOff": "Izslēgta",
+    "billedViaLabel": "Apmaksāts caur",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Kas ir iekļauts",
+    "includedGroup": "Neierobežota tiešsaistes Grupas spēle",
+    "includedSolo": "Solo spēle — vienmēr bezmaksas, ar Pro vai bez tā",
+    "manageSubscription": "Pārvaldīt abonementu",
+    "manageNote": "Norēķinus un atcelšanu pārvalda {{platform}} — pieskarieties iepriekš, lai pārvaldītu vai atceltu jebkurā laikā.",
+    "lifetimeNote": "Paldies par atbalstu — jūsu Mūža piekļuve nekad nebeidzas un netiek atjaunota.",
+    "freeNote": "Solo spēle vienmēr ir bezmaksas. Abonējiet, lai atbloķētu neierobežotu tiešsaistes Grupas spēli.",
+    "upgradeToPro": "Jaunināt uz Pro"
   }
 }

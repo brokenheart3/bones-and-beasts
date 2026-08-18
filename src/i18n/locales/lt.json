@@ -89,7 +89,8 @@
     "restoreFailed": "Nepavyko atkurti pirkinių.",
     "notSignedIn": "Pirmiausia prisijunk.",
     "notAvailableOnWeb": "Prenumeratos internete dar negalimos — naudok iOS arba Android programėlę.",
-    "checkoutFailed": "Nepavyko pradėti atsiskaitymo."
+    "checkoutFailed": "Nepavyko pradėti atsiskaitymo.",
+    "portalFailed": "Nepavyko atidaryti atsiskaitymo portalo."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, mesk kauliuką, kad rastum savo kortą!",
@@ -218,7 +219,9 @@
     "liabilityHeading": "Atsakomybės apribojimas",
     "liabilityBody": "Maksimalia įstatymų leidžiama apimtimi mes nesame atsakingi už jokią žalą, kylančią iš tavo programėlės naudojimo ar negalėjimo ja naudotis.",
     "changesHeading": "Pakeitimai",
-    "changesBody": "Šios sąlygos gali būti atnaujintos, keičiantis programėlei. Tolesnis programėlės naudojimas po atnaujinimo reiškia, kad sutinki su pataisytomis sąlygomis."
+    "changesBody": "Šios sąlygos gali būti atnaujintos, keičiantis programėlei. Tolesnis programėlės naudojimas po atnaujinimo reiškia, kad sutinki su pataisytomis sąlygomis.",
+    "subscriptionsHeading": "Prenumeratos",
+    "subscriptionsBody": "Bones & Beasts Pro siūlomas kaip mėnesinės ir metinės automatiškai atsinaujinančios prenumeratos, taip pat kaip vienkartinis Visą gyvenimą galiojantis pirkinys, atrakinantis internetinį Grupinį žaidimą po nemokamo bandomojo laikotarpio. Mėnesinės ir metinės prenumeratos automatiškai atsinaujina, jei jos neatšaukiamos likus bent 24 valandoms iki dabartinio laikotarpio pabaigos. Mokestis nuskaičiuojamas iš jūsų Apple ID paskyros (iOS) arba Google Play paskyros (Android) patvirtinus pirkinį. Prenumeratą galite tvarkyti arba atšaukti bet kada įrenginio paskyros nustatymuose — tai neturi įtakos prieigai prie Vieno žaidėjo režimo, kuris visada nemokamas. Visą gyvenimą galiojantis pirkinys yra vienkartinis mokėjimas ir neatsinaujina."
   },
   "settingsNav": {
     "profile": "Profilis",
@@ -226,7 +229,8 @@
     "privacyPolicy": "Privatumo politika",
     "termsOfService": "Paslaugų teikimo sąlygos",
     "about": "Apie",
-    "settings": "Nustatymai"
+    "settings": "Nustatymai",
+    "subscription": "Prenumerata"
   },
   "stats": {
     "title": "Statistika",
@@ -254,10 +258,43 @@
     "yearly": "Metinis",
     "lifetime": "Visam gyvenimui",
     "restorePurchases": "Atkurti pirkinius",
-    "notNow": "Ne dabar"
+    "notNow": "Ne dabar",
+    "subscriptionDisclosure": "Mėnesiniai ir metiniai planai automatiškai atsinaujina, jei jie neatšaukiami likus bent 24 valandoms iki dabartinio laikotarpio pabaigos. Mokestis nuskaičiuojamas iš jūsų paskyros patvirtinus pirkinį. Tvarkykite arba atšaukite bet kada įrenginio paskyros nustatymuose. Visą gyvenimą galiojantis planas yra vienkartinis pirkinys ir neatsinaujina.",
+    "termsOfUse": "Naudojimo sąlygos",
+    "privacyPolicy": "Privatumo politika"
   },
   "avatar": {
     "pageTitle": "Avataras",
     "subtitle": "Pasirink savo profilio avatarą"
+  },
+  "subscription": {
+    "title": "Prenumerata",
+    "statusFree": "Nemokama",
+    "statusTrial": "Nemokamas bandomasis laikotarpis",
+    "statusPro": "Pro",
+    "statusLifetime": "Visą gyvenimą narys",
+    "planMonthly": "Mėnesinis",
+    "planYearly": "Metinis",
+    "planLifetime": "Visą gyvenimą",
+    "planLabel": "Planas",
+    "priceLabel": "Kaina",
+    "startedLabel": "Pradėta",
+    "renewsLabel": "Atsinaujins",
+    "expiresLabel": "Baigsis",
+    "autoRenewLabel": "Automatinis atnaujinimas",
+    "autoRenewOn": "Įjungtas",
+    "autoRenewOff": "Išjungtas",
+    "billedViaLabel": "Apmokėta per",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Internetas",
+    "whatsIncludedHeading": "Kas įtraukta",
+    "includedGroup": "Neribotas internetinis Grupinis žaidimas",
+    "includedSolo": "Vieno žaidėjo režimas — visada nemokamas, su Pro arba be jo",
+    "manageSubscription": "Tvarkyti prenumeratą",
+    "manageNote": "Atsiskaitymą ir atšaukimą tvarko {{platform}} — bakstelėkite aukščiau, kad tvarkytumėte arba atšauktumėte bet kada.",
+    "lifetimeNote": "Ačiū už jūsų paramą — jūsų Visą gyvenimą galiojanti prieiga niekada nesibaigia ir neatsinaujina.",
+    "freeNote": "Vieno žaidėjo režimas visada nemokamas. Užsiprenumeruokite, kad atrakintumėte neribotą internetinį Grupinį žaidimą.",
+    "upgradeToPro": "Atnaujinti į Pro"
   }
 }

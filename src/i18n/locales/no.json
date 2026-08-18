@@ -87,7 +87,8 @@
     "restoreFailed": "Kunne ikke gjenopprette kjøp.",
     "notSignedIn": "Logg inn først.",
     "notAvailableOnWeb": "Abonnementer er ikke tilgjengelig på nett ennå — bruk iOS- eller Android-appen.",
-    "checkoutFailed": "Kunne ikke starte betaling."
+    "checkoutFailed": "Kunne ikke starte betaling.",
+    "portalFailed": "Kunne ikke åpne faktureringsportalen."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, kast terningen for å finne kortet ditt!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Ansvarsbegrensning",
     "liabilityBody": "I den grad loven tillater det, er vi ikke ansvarlige for skader som følge av din bruk av, eller manglende evne til å bruke, appen.",
     "changesHeading": "Endringer",
-    "changesBody": "Disse vilkårene kan oppdateres etter hvert som appen endres. Fortsatt bruk av appen etter en oppdatering betyr at du godtar de reviderte vilkårene."
+    "changesBody": "Disse vilkårene kan oppdateres etter hvert som appen endres. Fortsatt bruk av appen etter en oppdatering betyr at du godtar de reviderte vilkårene.",
+    "subscriptionsHeading": "Abonnementer",
+    "subscriptionsBody": "Bones & Beasts Pro tilbys som Månedlige og Årlige automatisk fornyende abonnementer, samt som et engangskjøp av Livstid, som låser opp online Gruppespill etter den gratis prøveperioden. Månedlige og årlige abonnementer fornyes automatisk med mindre de sies opp minst 24 timer før slutten av gjeldende periode. Betalingen belastes din Apple ID-konto (iOS) eller Google Play-konto (Android) ved bekreftelse av kjøpet. Du kan administrere eller si opp abonnementet ditt når som helst i kontoinnstillingene på enheten din — dette påvirker ikke tilgangen til Solo-spill, som alltid er gratis. Livstidskjøpet er en engangsbetaling og fornyes ikke."
   },
   "settingsNav": {
     "profile": "Profil",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Personvernerklæring",
     "termsOfService": "Vilkår for bruk",
     "about": "Om",
-    "settings": "Innstillinger"
+    "settings": "Innstillinger",
+    "subscription": "Abonnement"
   },
   "stats": {
     "title": "Statistikk",
@@ -248,10 +252,43 @@
     "yearly": "Årlig",
     "lifetime": "Livstid",
     "restorePurchases": "Gjenopprett kjøp",
-    "notNow": "Ikke nå"
+    "notNow": "Ikke nå",
+    "subscriptionDisclosure": "Månedlige og årlige planer fornyes automatisk med mindre de sies opp minst 24 timer før slutten av gjeldende periode. Betalingen belastes kontoen din ved bekreftelse av kjøpet. Administrer eller si opp når som helst i kontoinnstillingene på enheten din. Livstidsplanen er et engangskjøp og fornyes ikke.",
+    "termsOfUse": "Bruksvilkår",
+    "privacyPolicy": "Personvernerklæring"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Velg en avatar til profilen din"
+  },
+  "subscription": {
+    "title": "Abonnement",
+    "statusFree": "Gratis",
+    "statusTrial": "Gratis prøveperiode",
+    "statusPro": "Pro",
+    "statusLifetime": "Livstidsmedlem",
+    "planMonthly": "Månedlig",
+    "planYearly": "Årlig",
+    "planLifetime": "Livstid",
+    "planLabel": "Plan",
+    "priceLabel": "Pris",
+    "startedLabel": "Startet",
+    "renewsLabel": "Fornyes",
+    "expiresLabel": "Utløper",
+    "autoRenewLabel": "Automatisk fornyelse",
+    "autoRenewOn": "På",
+    "autoRenewOff": "Av",
+    "billedViaLabel": "Fakturert via",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Hva som er inkludert",
+    "includedGroup": "Ubegrenset online Gruppespill",
+    "includedSolo": "Solo-spill — alltid gratis, med eller uten Pro",
+    "manageSubscription": "Administrer abonnement",
+    "manageNote": "Fakturering og oppsigelse håndteres av {{platform}} — trykk over for å administrere eller si opp når som helst.",
+    "lifetimeNote": "Takk for din støtte — Livstidstilgangen din utløper eller fornyes aldri.",
+    "freeNote": "Solo-spill er alltid gratis. Abonner for å låse opp ubegrenset online Gruppespill.",
+    "upgradeToPro": "Oppgrader til Pro"
   }
 }

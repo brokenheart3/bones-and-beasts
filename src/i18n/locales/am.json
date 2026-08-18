@@ -87,7 +87,8 @@
     "restoreFailed": "ግዢዎችን መመለስ አልተቻለም።",
     "notSignedIn": "እባክዎ መጀመሪያ ይግቡ።",
     "notAvailableOnWeb": "የደንበኝነት ምዝገባዎች በዌብ ላይ እስካሁን አይገኙም — እባክዎ የiOS ወይም Android መተግበሪያውን ይጠቀሙ።",
-    "checkoutFailed": "ክፍያውን መጀመር አልተቻለም።"
+    "checkoutFailed": "ክፍያውን መጀመር አልተቻለም።",
+    "portalFailed": "የክፍያ በር መክፈት አልተቻለም።"
   },
   "gameSolo": {
     "rollPrompt": "{{name}}፣ ካርድዎን ለማግኘት ይንከባለሉ!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "የተጠያቂነት ገደብ",
     "liabilityBody": "በህግ በተፈቀደው ከፍተኛ መጠን፣ መተግበሪያውን ከመጠቀምዎ ወይም ካለመቻልዎ ለሚነሱ ጉዳቶች ተጠያቂ አይደለንም።",
     "changesHeading": "ለውጦች",
-    "changesBody": "እነዚህ ደንቦች መተግበሪያው እየተለወጠ ሲሄድ ሊዘመኑ ይችላሉ። ከዘመነ በኋላ መተግበሪያውን መጠቀም መቀጠል የተከለሱትን ደንቦች መቀበልን ያመለክታል።"
+    "changesBody": "እነዚህ ደንቦች መተግበሪያው እየተለወጠ ሲሄድ ሊዘመኑ ይችላሉ። ከዘመነ በኋላ መተግበሪያውን መጠቀም መቀጠል የተከለሱትን ደንቦች መቀበልን ያመለክታል።",
+    "subscriptionsHeading": "ደንበኝነት ምዝገባዎች",
+    "subscriptionsBody": "Bones & Beasts Pro እንደ ወርሃዊ እና ዓመታዊ ራስ-ሰር-የሚታደሱ ደንበኝነቶች፣ እና እንደ አንድ ጊዜ የሚከፈል የዕድሜ ልክ ግዢ ይቀርባል፣ ከነጻ ሙከራ ጊዜ በኋላ የመስመር ላይ የቡድን ጨዋታን ይከፍታል። ወርሃዊ እና ዓመታዊ ደንበኝነቶች ቢያንስ ከወቅቱ መጨረሻ 24 ሰዓት በፊት ካልተሰረዙ በራስ-ሰር ይታደሳሉ። ክፍያ ግዢው በተረጋገጠበት ጊዜ በእርስዎ Apple ID መለያ (iOS) ወይም Google Play መለያ (Android) ላይ ይከፈላል። ደንበኝነትዎን በማንኛውም ጊዜ በመሣሪያዎ የመለያ ቅንብሮች ውስጥ ማስተዳደር ወይም መሰረዝ ይችላሉ — ይህ ሁልጊዜ ነጻ በሆነው በብቻ ጨዋታ ላይ ተጽዕኖ አያደርግም። የዕድሜ ልክ ግዢ አንድ ጊዜ የሚከፈል ክፍያ ሲሆን አይታደስም።"
   },
   "settingsNav": {
     "profile": "መገለጫ",
@@ -222,7 +225,8 @@
     "privacyPolicy": "የግላዊነት ፖሊሲ",
     "termsOfService": "የአገልግሎት ደንቦች",
     "about": "ስለ",
-    "settings": "ማስተካከያዎች"
+    "settings": "ማስተካከያዎች",
+    "subscription": "ደንበኝነት"
   },
   "stats": {
     "title": "ስታትስቲክስ",
@@ -248,10 +252,43 @@
     "yearly": "ዓመታዊ",
     "lifetime": "የዘላለም",
     "restorePurchases": "ግዢዎችን መልስ",
-    "notNow": "አሁን አይደለም"
+    "notNow": "አሁን አይደለም",
+    "subscriptionDisclosure": "ወርሃዊ እና ዓመታዊ ዕቅዶች ቢያንስ ከወቅቱ መጨረሻ 24 ሰዓት በፊት ካልተሰረዙ በራስ-ሰር ይታደሳሉ። ክፍያ ግዢው በተረጋገጠበት ጊዜ በመለያዎ ላይ ይከፈላል። በማንኛውም ጊዜ በመሣሪያዎ የመለያ ቅንብሮች ውስጥ ያስተዳድሩ ወይም ይሰርዙ። የዕድሜ ልክ አንድ ጊዜ የሚከፈል ግዢ ሲሆን አይታደስም።",
+    "termsOfUse": "የአጠቃቀም ውሎች",
+    "privacyPolicy": "የግላዊነት ፖሊሲ"
   },
   "avatar": {
     "pageTitle": "አምሳያ",
     "subtitle": "ለመገለጫህ አምሳያ ምረጥ"
+  },
+  "subscription": {
+    "title": "ደንበኝነት",
+    "statusFree": "ነጻ",
+    "statusTrial": "ነጻ ሙከራ",
+    "statusPro": "Pro",
+    "statusLifetime": "የዕድሜ ልክ አባል",
+    "planMonthly": "ወርሃዊ",
+    "planYearly": "ዓመታዊ",
+    "planLifetime": "የዕድሜ ልክ",
+    "planLabel": "ዕቅድ",
+    "priceLabel": "ዋጋ",
+    "startedLabel": "ተጀመረ",
+    "renewsLabel": "ይታደሳል",
+    "expiresLabel": "ያበቃል",
+    "autoRenewLabel": "ራስ-ሰር-ማደስ",
+    "autoRenewOn": "በርቷል",
+    "autoRenewOff": "ጠፍቷል",
+    "billedViaLabel": "የተከፈለው በ",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "ድር",
+    "whatsIncludedHeading": "የተካተተው",
+    "includedGroup": "ያልተገደበ የመስመር ላይ የቡድን ጨዋታ",
+    "includedSolo": "ብቻ ጨዋታ — ከPro ጋር ወይም ያለ Pro ሁልጊዜ ነጻ",
+    "manageSubscription": "ደንበኝነት አስተዳድር",
+    "manageNote": "ክፍያ እና መሰረዝ በ{{platform}} ይተዳደራሉ — ከላይ ነካ ያድርጉ ለማስተዳደር ወይም በማንኛውም ጊዜ ለመሰረዝ።",
+    "lifetimeNote": "ስለ ድጋፍዎ እናመሰግናለን — የዕድሜ ልክ መዳረሻዎ በጭራሽ አያበቃም ወይም አይታደስም።",
+    "freeNote": "ብቻ ጨዋታ ሁልጊዜ ነጻ ነው። ያልተገደበ የመስመር ላይ የቡድን ጨዋታ ለመክፈት ይመዝገቡ።",
+    "upgradeToPro": "ወደ Pro ያሻሽሉ"
   }
 }

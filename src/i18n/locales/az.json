@@ -87,7 +87,8 @@
     "restoreFailed": "Alışlar bərpa edilə bilmədi.",
     "notSignedIn": "Zəhmət olmasa əvvəlcə daxil olun.",
     "notAvailableOnWeb": "Abunəliklər hələ veb versiyada mövcud deyil — zəhmət olmasa iOS və ya Android tətbiqini istifadə edin.",
-    "checkoutFailed": "Ödəniş başladıla bilmədi."
+    "checkoutFailed": "Ödəniş başladıla bilmədi.",
+    "portalFailed": "Ödəniş portalı açıla bilmədi."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, kartınızı tapmaq üçün zər atın!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Məsuliyyət məhdudiyyəti",
     "liabilityBody": "Qanunla icazə verilən ən yüksək dərəcədə, tətbiqi istifadə etməyinizdən və ya edə bilməməyinizdən yaranan hər hansı zərərə görə məsuliyyət daşımırıq.",
     "changesHeading": "Dəyişikliklər",
-    "changesBody": "Bu şərtlər tətbiq dəyişdikcə yenilənə bilər. Yeniləmədən sonra tətbiqi istifadə etməyə davam etmək yenilənmiş şərtləri qəbul etdiyiniz anlamına gəlir."
+    "changesBody": "Bu şərtlər tətbiq dəyişdikcə yenilənə bilər. Yeniləmədən sonra tətbiqi istifadə etməyə davam etmək yenilənmiş şərtləri qəbul etdiyiniz anlamına gəlir.",
+    "subscriptionsHeading": "Abunəliklər",
+    "subscriptionsBody": "Bones & Beasts Pro Aylıq və İllik avtomatik yenilənən abunəliklər, həmçinin birdəfəlik Ömürlük satın alma kimi təklif olunur və pulsuz sınaq müddətindən sonra onlayn Qrup oyununu açır. Aylıq və İllik abunəliklər cari dövrün bitməsinə ən azı 24 saat qalana qədər ləğv edilmədikdə avtomatik yenilənir. Ödəniş satın alma təsdiqləndikdə Apple ID hesabınızdan (iOS) və ya Google Play hesabınızdan (Android) tutulur. Abunəliyinizi istənilən vaxt cihazınızın hesab parametrlərində idarə edə və ya ləğv edə bilərsiniz — bu, həmişə pulsuz olan Tək oyun rejiminə təsir etmir. Ömürlük satın alma birdəfəlik ödənişdir və yenilənmir."
   },
   "settingsNav": {
     "profile": "Profil",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Məxfilik siyasəti",
     "termsOfService": "Xidmət şərtləri",
     "about": "Haqqında",
-    "settings": "Ayarlar"
+    "settings": "Ayarlar",
+    "subscription": "Abunəlik"
   },
   "stats": {
     "title": "Statistika",
@@ -248,10 +252,43 @@
     "yearly": "İllik",
     "lifetime": "Ömürlük",
     "restorePurchases": "Alışları bərpa et",
-    "notNow": "İndi yox"
+    "notNow": "İndi yox",
+    "subscriptionDisclosure": "Aylıq və İllik planlar cari dövrün bitməsinə ən azı 24 saat qalana qədər ləğv edilmədikdə avtomatik yenilənir. Ödəniş satın alma təsdiqləndikdə hesabınızdan tutulur. İstənilən vaxt cihazınızın hesab parametrlərində idarə edin və ya ləğv edin. Ömürlük birdəfəlik satın almadır və yenilənmir.",
+    "termsOfUse": "İstifadə Şərtləri",
+    "privacyPolicy": "Məxfilik Siyasəti"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Profiliniz üçün avatar seçin"
+  },
+  "subscription": {
+    "title": "Abunəlik",
+    "statusFree": "Pulsuz",
+    "statusTrial": "Pulsuz Sınaq",
+    "statusPro": "Pro",
+    "statusLifetime": "Ömürlük Üzv",
+    "planMonthly": "Aylıq",
+    "planYearly": "İllik",
+    "planLifetime": "Ömürlük",
+    "planLabel": "Plan",
+    "priceLabel": "Qiymət",
+    "startedLabel": "Başladı",
+    "renewsLabel": "Yenilənir",
+    "expiresLabel": "Bitir",
+    "autoRenewLabel": "Avtomatik yeniləmə",
+    "autoRenewOn": "Aktiv",
+    "autoRenewOff": "Deaktiv",
+    "billedViaLabel": "Ödəniş",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Veb",
+    "whatsIncludedHeading": "Nələr daxildir",
+    "includedGroup": "Limitsiz onlayn Qrup oyunu",
+    "includedSolo": "Tək oyun — Pro ilə və ya onsuz həmişə pulsuz",
+    "manageSubscription": "Abunəliyi İdarə Et",
+    "manageNote": "Ödəniş və ləğvetmə {{platform}} tərəfindən idarə olunur — idarə etmək və ya istənilən vaxt ləğv etmək üçün yuxarıya toxunun.",
+    "lifetimeNote": "Dəstəyinizə görə təşəkkürlər — Ömürlük girişiniz heç vaxt bitmir və ya yenilənmir.",
+    "freeNote": "Tək oyun həmişə pulsuzdur. Limitsiz onlayn Qrup oyununu açmaq üçün abunə olun.",
+    "upgradeToPro": "Pro-ya Yüksəlt"
   }
 }

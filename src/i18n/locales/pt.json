@@ -87,7 +87,8 @@
     "restoreFailed": "Não foi possível restaurar as compras.",
     "notSignedIn": "Entre na sua conta primeiro.",
     "notAvailableOnWeb": "As assinaturas ainda não estão disponíveis na web — use o app do iOS ou Android.",
-    "checkoutFailed": "Não foi possível iniciar o pagamento."
+    "checkoutFailed": "Não foi possível iniciar o pagamento.",
+    "portalFailed": "Não foi possível abrir o portal de faturamento."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, jogue o dado para encontrar sua carta!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Limitação de responsabilidade",
     "liabilityBody": "Na máxima extensão permitida por lei, não somos responsáveis por quaisquer danos decorrentes do seu uso, ou incapacidade de uso, do app.",
     "changesHeading": "Alterações",
-    "changesBody": "Estes termos podem ser atualizados conforme o app muda. Continuar usando o app após uma atualização significa que você aceita os termos revisados."
+    "changesBody": "Estes termos podem ser atualizados conforme o app muda. Continuar usando o app após uma atualização significa que você aceita os termos revisados.",
+    "subscriptionsHeading": "Assinaturas",
+    "subscriptionsBody": "O Bones & Beasts Pro é oferecido como assinaturas Mensais e Anuais de renovação automática, e como uma compra única Vitalícia, desbloqueando o modo Grupo online após o período de teste gratuito. As assinaturas mensais e anuais são renovadas automaticamente, a menos que sejam canceladas pelo menos 24 horas antes do fim do período atual. O pagamento é cobrado na sua conta Apple ID (iOS) ou conta Google Play (Android) na confirmação da compra. Você pode gerenciar ou cancelar sua assinatura a qualquer momento nas configurações de conta do seu dispositivo — isso não afeta o acesso ao modo Solo, que é sempre gratuito. A compra Vitalícia é um pagamento único e não é renovada."
   },
   "settingsNav": {
     "profile": "Perfil",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Política de privacidade",
     "termsOfService": "Termos de serviço",
     "about": "Sobre",
-    "settings": "Configurações"
+    "settings": "Configurações",
+    "subscription": "Assinatura"
   },
   "stats": {
     "title": "Estatísticas",
@@ -248,10 +252,43 @@
     "yearly": "Anual",
     "lifetime": "Vitalício",
     "restorePurchases": "Restaurar compras",
-    "notNow": "Agora não"
+    "notNow": "Agora não",
+    "subscriptionDisclosure": "Os planos mensais e anuais são renovados automaticamente, a menos que sejam cancelados pelo menos 24 horas antes do fim do período atual. O pagamento é cobrado na sua conta na confirmação da compra. Gerencie ou cancele a qualquer momento nas configurações de conta do seu dispositivo. O plano Vitalício é uma compra única e não é renovado.",
+    "termsOfUse": "Termos de Uso",
+    "privacyPolicy": "Política de Privacidade"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Escolha um avatar para o seu perfil"
+  },
+  "subscription": {
+    "title": "Assinatura",
+    "statusFree": "Grátis",
+    "statusTrial": "Teste Gratuito",
+    "statusPro": "Pro",
+    "statusLifetime": "Membro Vitalício",
+    "planMonthly": "Mensal",
+    "planYearly": "Anual",
+    "planLifetime": "Vitalício",
+    "planLabel": "Plano",
+    "priceLabel": "Preço",
+    "startedLabel": "Iniciado",
+    "renewsLabel": "Renova em",
+    "expiresLabel": "Expira em",
+    "autoRenewLabel": "Renovação automática",
+    "autoRenewOn": "Ativada",
+    "autoRenewOff": "Desativada",
+    "billedViaLabel": "Cobrado via",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "O que está incluído",
+    "includedGroup": "Modo Grupo online ilimitado",
+    "includedSolo": "Modo Solo — sempre gratuito, com ou sem Pro",
+    "manageSubscription": "Gerenciar Assinatura",
+    "manageNote": "A cobrança e o cancelamento são gerenciados por {{platform}} — toque acima para gerenciar ou cancelar a qualquer momento.",
+    "lifetimeNote": "Obrigado pelo seu apoio — seu acesso Vitalício nunca expira nem é renovado.",
+    "freeNote": "O modo Solo é sempre gratuito. Assine para desbloquear o modo Grupo online ilimitado.",
+    "upgradeToPro": "Atualizar para Pro"
   }
 }

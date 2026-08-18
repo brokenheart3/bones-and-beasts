@@ -87,7 +87,8 @@
     "restoreFailed": "Kon nie aankope herstel nie.",
     "notSignedIn": "Teken eers in.",
     "notAvailableOnWeb": "Intekeninge is nog nie op die web beskikbaar nie — gebruik die iOS- of Android-app.",
-    "checkoutFailed": "Kon nie betaling begin nie."
+    "checkoutFailed": "Kon nie betaling begin nie.",
+    "portalFailed": "Kon nie die faktureringsportaal oopmaak nie."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, rol die dobbelsteen om jou kaart te vind!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Beperking van aanspreeklikheid",
     "liabilityBody": "Tot die volste omvang toegelaat deur wet, is ons nie aanspreeklik vir enige skade wat voortspruit uit jou gebruik van, of onvermoë om te gebruik, die app nie.",
     "changesHeading": "Veranderinge",
-    "changesBody": "Dié voorwaardes kan opgedateer word soos die app verander. Om die app na 'n opdatering aan te hou gebruik beteken jy aanvaar die hersiene voorwaardes."
+    "changesBody": "Dié voorwaardes kan opgedateer word soos die app verander. Om die app na 'n opdatering aan te hou gebruik beteken jy aanvaar die hersiene voorwaardes.",
+    "subscriptionsHeading": "Abonnemente",
+    "subscriptionsBody": "Bones & Beasts Pro word aangebied as Maandelikse en Jaarlikse outo-hernuwende abonnemente, en as 'n eenmalige Lewenslange aankoop, wat aanlyn Groep-spel ontsluit ná die gratis proeftydperk. Maandelikse en Jaarlikse abonnemente hernu outomaties tensy dit minstens 24 uur voor die einde van die huidige tydperk gekanselleer word. Betaling word gehef teen jou Apple ID-rekening (iOS) of Google Play-rekening (Android) by bevestiging van aankoop. Jy kan jou abonnement enige tyd bestuur of kanselleer in jou toestel se rekeninginstellings — dit affekteer nie toegang tot Solo-spel nie, wat altyd gratis is. Die Lewenslange aankoop is 'n eenmalige betaling en hernu nie."
   },
   "settingsNav": {
     "profile": "Profiel",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Privaatheidsbeleid",
     "termsOfService": "Diensvoorwaardes",
     "about": "Aangaande",
-    "settings": "Instellings"
+    "settings": "Instellings",
+    "subscription": "Abonnement"
   },
   "stats": {
     "title": "Statistieke",
@@ -248,10 +252,43 @@
     "yearly": "Jaarliks",
     "lifetime": "Lewenslank",
     "restorePurchases": "Herstel aankope",
-    "notNow": "Nie nou nie"
+    "notNow": "Nie nou nie",
+    "subscriptionDisclosure": "Maandelikse en Jaarlikse planne hernu outomaties tensy minstens 24 uur voor die einde van die huidige tydperk gekanselleer. Betaling word gehef teen jou rekening by bevestiging van aankoop. Bestuur of kanselleer enige tyd in jou toestel se rekeninginstellings. Lewenslank is 'n eenmalige aankoop en hernu nie.",
+    "termsOfUse": "Gebruiksvoorwaardes",
+    "privacyPolicy": "Privaatheidsbeleid"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Kies 'n avatar vir jou profiel"
+  },
+  "subscription": {
+    "title": "Abonnement",
+    "statusFree": "Gratis",
+    "statusTrial": "Gratis Proeftydperk",
+    "statusPro": "Pro",
+    "statusLifetime": "Lewenslange Lid",
+    "planMonthly": "Maandeliks",
+    "planYearly": "Jaarliks",
+    "planLifetime": "Lewenslank",
+    "planLabel": "Plan",
+    "priceLabel": "Prys",
+    "startedLabel": "Begin",
+    "renewsLabel": "Hernu",
+    "expiresLabel": "Verval",
+    "autoRenewLabel": "Outo-hernu",
+    "autoRenewOn": "Aan",
+    "autoRenewOff": "Af",
+    "billedViaLabel": "Gefaktureer via",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Wat ingesluit is",
+    "includedGroup": "Onbeperkte aanlyn Groep-spel",
+    "includedSolo": "Solo-spel — altyd gratis, met of sonder Pro",
+    "manageSubscription": "Bestuur Abonnement",
+    "manageNote": "Fakturering en kansellasie word deur {{platform}} hanteer — tik hierbo om te bestuur of enige tyd te kanselleer.",
+    "lifetimeNote": "Dankie vir jou ondersteuning — jou Lewenslange toegang verval of hernu nooit nie.",
+    "freeNote": "Solo-spel is altyd gratis. Teken in om onbeperkte aanlyn Groep-spel te ontsluit.",
+    "upgradeToPro": "Gradeer op na Pro"
   }
 }

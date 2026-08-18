@@ -87,7 +87,8 @@
     "restoreFailed": "Nem sikerült helyreállítani a vásárlásokat.",
     "notSignedIn": "Először jelentkezz be.",
     "notAvailableOnWeb": "Az előfizetések még nem érhetők el a weben — használd az iOS vagy Android alkalmazást.",
-    "checkoutFailed": "Nem sikerült elindítani a fizetést."
+    "checkoutFailed": "Nem sikerült elindítani a fizetést.",
+    "portalFailed": "Nem sikerült megnyitni a számlázási portált."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, dobj a kockával, hogy megtaláld a lapodat!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Felelősség korlátozása",
     "liabilityBody": "A törvény által megengedett legteljesebb mértékben nem vállalunk felelősséget az alkalmazás használatából vagy használatának lehetetlenségéből eredő károkért.",
     "changesHeading": "Változások",
-    "changesBody": "Ezek a feltételek frissülhetnek, ahogy az alkalmazás változik. Az alkalmazás frissítés utáni további használata azt jelenti, hogy elfogadod a felülvizsgált feltételeket."
+    "changesBody": "Ezek a feltételek frissülhetnek, ahogy az alkalmazás változik. Az alkalmazás frissítés utáni további használata azt jelenti, hogy elfogadod a felülvizsgált feltételeket.",
+    "subscriptionsHeading": "Előfizetések",
+    "subscriptionsBody": "A Bones & Beasts Pro Havi és Éves, automatikusan megújuló előfizetésként, valamint egyszeri Élethosszig tartó vásárlásként kínált, amely a ingyenes próbaidőszak után feloldja az online Csoportos játékot. A havi és éves előfizetések automatikusan megújulnak, hacsak nem mondja le legalább 24 órával a jelenlegi időszak vége előtt. A fizetést a vásárlás megerősítésekor az Apple ID fiókjából (iOS) vagy Google Play fiókjából (Android) vonják le. Előfizetését bármikor kezelheti vagy lemondhatja eszköze fiókbeállításaiban — ez nem befolyásolja az Egyjátékos mód elérését, amely mindig ingyenes. Az Élethosszig tartó vásárlás egyszeri fizetés, és nem újul meg."
   },
   "settingsNav": {
     "profile": "Profil",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Adatvédelmi irányelv",
     "termsOfService": "Felhasználási feltételek",
     "about": "Az alkalmazásról",
-    "settings": "Beállítások"
+    "settings": "Beállítások",
+    "subscription": "Előfizetés"
   },
   "stats": {
     "title": "Statisztika",
@@ -248,10 +252,43 @@
     "yearly": "Éves",
     "lifetime": "Élethosszig tartó",
     "restorePurchases": "Vásárlások visszaállítása",
-    "notNow": "Most nem"
+    "notNow": "Most nem",
+    "subscriptionDisclosure": "A havi és éves csomagok automatikusan megújulnak, hacsak nem mondja le legalább 24 órával a jelenlegi időszak vége előtt. A fizetést a vásárlás megerősítésekor a fiókjából vonják le. Bármikor kezelheti vagy lemondhatja eszköze fiókbeállításaiban. Az élethosszig tartó csomag egyszeri vásárlás, és nem újul meg.",
+    "termsOfUse": "Felhasználási feltételek",
+    "privacyPolicy": "Adatvédelmi irányelvek"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Válassz avatart a profilodhoz"
+  },
+  "subscription": {
+    "title": "Előfizetés",
+    "statusFree": "Ingyenes",
+    "statusTrial": "Ingyenes próba",
+    "statusPro": "Pro",
+    "statusLifetime": "Élethosszig tartó tag",
+    "planMonthly": "Havi",
+    "planYearly": "Éves",
+    "planLifetime": "Élethosszig tartó",
+    "planLabel": "Csomag",
+    "priceLabel": "Ár",
+    "startedLabel": "Kezdve",
+    "renewsLabel": "Megújul",
+    "expiresLabel": "Lejár",
+    "autoRenewLabel": "Automatikus megújítás",
+    "autoRenewOn": "Bekapcsolva",
+    "autoRenewOff": "Kikapcsolva",
+    "billedViaLabel": "Számlázva",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Mit tartalmaz",
+    "includedGroup": "Korlátlan online Csoportos játék",
+    "includedSolo": "Egyjátékos mód — mindig ingyenes, Pro-val vagy anélkül",
+    "manageSubscription": "Előfizetés kezelése",
+    "manageNote": "A számlázást és a lemondást a {{platform}} kezeli — koppintson fentebb a kezeléshez vagy a bármikori lemondáshoz.",
+    "lifetimeNote": "Köszönjük a támogatását — Élethosszig tartó hozzáférése soha nem jár le és nem újul meg.",
+    "freeNote": "Az Egyjátékos mód mindig ingyenes. Fizessen elő a korlátlan online Csoportos játék feloldásához.",
+    "upgradeToPro": "Frissítés Pro-ra"
   }
 }

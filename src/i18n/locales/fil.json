@@ -87,7 +87,8 @@
     "restoreFailed": "Hindi na-restore ang mga binili.",
     "notSignedIn": "Mag-sign in muna.",
     "notAvailableOnWeb": "Hindi pa available ang subscriptions sa web — gamitin ang iOS o Android app.",
-    "checkoutFailed": "Hindi nasimulan ang checkout."
+    "checkoutFailed": "Hindi nasimulan ang checkout.",
+    "portalFailed": "Hindi mabuksan ang billing portal."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, magtapon para mahanap ang iyong card!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Limitasyon ng Pananagutan",
     "liabilityBody": "Sa pinakamataas na saklaw na pinapayagan ng batas, hindi kami mananagot para sa anumang pinsala na nagmumula sa paggamit mo, o sa hindi kakayahang gamitin, ang app.",
     "changesHeading": "Mga Pagbabago",
-    "changesBody": "Maaaring i-update ang mga tuntunin na ito habang nagbabago ang app. Ang patuloy na paggamit ng app pagkatapos ng update ay nangangahulugang tinatanggap mo ang binagong mga tuntunin."
+    "changesBody": "Maaaring i-update ang mga tuntunin na ito habang nagbabago ang app. Ang patuloy na paggamit ng app pagkatapos ng update ay nangangahulugang tinatanggap mo ang binagong mga tuntunin.",
+    "subscriptionsHeading": "Mga Subscription",
+    "subscriptionsBody": "Ang Bones & Beasts Pro ay inaalok bilang Buwanan at Taunang auto-renewing na mga subscription, at bilang isang beses na Lifetime na pagbili, na nag-a-unlock ng online na Group play pagkatapos ng libreng trial period. Ang Buwanan at Taunang subscription ay awtomatikong nagre-renew maliban kung kanselahin nang hindi bababa sa 24 oras bago matapos ang kasalukuyang period. Sisingilin ang bayad sa iyong Apple ID account (iOS) o Google Play account (Android) sa kumpirmasyon ng pagbili. Puwede mong pamahalaan o kanselahin ang iyong subscription anumang oras sa account settings ng iyong device — hindi ito nakakaapekto sa access sa Solo play, na palaging libre. Ang Lifetime na pagbili ay isang beses na bayad at hindi nagre-renew."
   },
   "settingsNav": {
     "profile": "Profile",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Patakaran sa Privacy",
     "termsOfService": "Mga Tuntunin ng Serbisyo",
     "about": "Tungkol",
-    "settings": "Mga Setting"
+    "settings": "Mga Setting",
+    "subscription": "Subscription"
   },
   "stats": {
     "title": "Stats",
@@ -248,10 +252,43 @@
     "yearly": "Taunan",
     "lifetime": "Panghabambuhay",
     "restorePurchases": "I-restore ang mga Binili",
-    "notNow": "Huwag Muna"
+    "notNow": "Huwag Muna",
+    "subscriptionDisclosure": "Ang Buwanan at Taunang plano ay awtomatikong nagre-renew maliban kung kanselahin nang hindi bababa sa 24 oras bago matapos ang kasalukuyang period. Sisingilin ang bayad sa iyong account sa kumpirmasyon ng pagbili. Pamahalaan o kanselahin anumang oras sa account settings ng iyong device. Ang Lifetime ay isang beses na pagbili at hindi nagre-renew.",
+    "termsOfUse": "Mga Tuntunin ng Paggamit",
+    "privacyPolicy": "Patakaran sa Privacy"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Pumili ng avatar para sa iyong profile"
+  },
+  "subscription": {
+    "title": "Subscription",
+    "statusFree": "Libre",
+    "statusTrial": "Libreng Trial",
+    "statusPro": "Pro",
+    "statusLifetime": "Lifetime Member",
+    "planMonthly": "Buwanan",
+    "planYearly": "Taunan",
+    "planLifetime": "Lifetime",
+    "planLabel": "Plano",
+    "priceLabel": "Presyo",
+    "startedLabel": "Nagsimula",
+    "renewsLabel": "Mare-renew",
+    "expiresLabel": "Mag-e-expire",
+    "autoRenewLabel": "Auto-renew",
+    "autoRenewOn": "Naka-on",
+    "autoRenewOff": "Naka-off",
+    "billedViaLabel": "Sinisingil sa pamamagitan ng",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Ano ang kasama",
+    "includedGroup": "Walang limitasyong online Group play",
+    "includedSolo": "Solo play — palaging libre, may Pro man o wala",
+    "manageSubscription": "Pamahalaan ang Subscription",
+    "manageNote": "Ang billing at pagkansela ay pinapangasiwaan ng {{platform}} — pindutin sa itaas para pamahalaan o kanselahin anumang oras.",
+    "lifetimeNote": "Salamat sa iyong suporta — ang iyong Lifetime access ay hindi kailanman mag-e-expire o mare-renew.",
+    "freeNote": "Ang Solo play ay palaging libre. Mag-subscribe para ma-unlock ang walang limitasyong online Group play.",
+    "upgradeToPro": "I-upgrade sa Pro"
   }
 }

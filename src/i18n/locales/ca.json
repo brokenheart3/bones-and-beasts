@@ -87,7 +87,8 @@
     "restoreFailed": "No s'han pogut restaurar les compres.",
     "notSignedIn": "Inicia sessió primer.",
     "notAvailableOnWeb": "Les subscripcions encara no estan disponibles al web — utilitza l'aplicació d'iOS o Android.",
-    "checkoutFailed": "No s'ha pogut iniciar el pagament."
+    "checkoutFailed": "No s'ha pogut iniciar el pagament.",
+    "portalFailed": "No s'ha pogut obrir el portal de facturació."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, llança els daus per trobar la teva carta!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Limitació de responsabilitat",
     "liabilityBody": "En la màxima mesura permesa per la llei, no som responsables de cap dany derivat de l'ús, o la impossibilitat d'ús, de l'aplicació.",
     "changesHeading": "Canvis",
-    "changesBody": "Aquests termes es poden actualitzar a mesura que canviï l'aplicació. Continuar utilitzant l'aplicació després d'una actualització significa que acceptes els termes revisats."
+    "changesBody": "Aquests termes es poden actualitzar a mesura que canviï l'aplicació. Continuar utilitzant l'aplicació després d'una actualització significa que acceptes els termes revisats.",
+    "subscriptionsHeading": "Subscripcions",
+    "subscriptionsBody": "Bones & Beasts Pro s'ofereix com a subscripcions mensuals i anuals de renovació automàtica, i com a compra única de per vida, que desbloqueja el joc en Grup en línia després del període de prova gratuït. Les subscripcions mensuals i anuals es renoven automàticament tret que es cancel·lin almenys 24 hores abans del final del període actual. El pagament es carrega al teu compte d'Apple ID (iOS) o compte de Google Play (Android) en confirmar la compra. Pots gestionar o cancel·lar la teva subscripció en qualsevol moment a la configuració del compte del teu dispositiu — això no afecta l'accés al joc en Solitari, que sempre és gratuït. La compra de per vida és un pagament únic i no es renova."
   },
   "settingsNav": {
     "profile": "Perfil",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Política de privacitat",
     "termsOfService": "Termes del servei",
     "about": "Sobre",
-    "settings": "Configuració"
+    "settings": "Configuració",
+    "subscription": "Subscripció"
   },
   "stats": {
     "title": "Estadístiques",
@@ -248,10 +252,43 @@
     "yearly": "Anual",
     "lifetime": "De per vida",
     "restorePurchases": "Restaura les compres",
-    "notNow": "Ara no"
+    "notNow": "Ara no",
+    "subscriptionDisclosure": "Els plans mensuals i anuals es renoven automàticament tret que es cancel·lin almenys 24 hores abans del final del període actual. El pagament es carrega al teu compte en confirmar la compra. Gestiona o cancel·la en qualsevol moment a la configuració del compte del teu dispositiu. El pla de per vida és una compra única i no es renova.",
+    "termsOfUse": "Condicions d'ús",
+    "privacyPolicy": "Política de privadesa"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Tria un avatar per al teu perfil"
+  },
+  "subscription": {
+    "title": "Subscripció",
+    "statusFree": "Gratuït",
+    "statusTrial": "Prova gratuïta",
+    "statusPro": "Pro",
+    "statusLifetime": "Membre de per vida",
+    "planMonthly": "Mensual",
+    "planYearly": "Anual",
+    "planLifetime": "De per vida",
+    "planLabel": "Pla",
+    "priceLabel": "Preu",
+    "startedLabel": "Iniciat",
+    "renewsLabel": "Es renova",
+    "expiresLabel": "Caduca",
+    "autoRenewLabel": "Renovació automàtica",
+    "autoRenewOn": "Activada",
+    "autoRenewOff": "Desactivada",
+    "billedViaLabel": "Facturat via",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Què inclou",
+    "includedGroup": "Joc en Grup en línia il·limitat",
+    "includedSolo": "Joc en Solitari — sempre gratuït, amb o sense Pro",
+    "manageSubscription": "Gestiona la subscripció",
+    "manageNote": "La facturació i la cancel·lació les gestiona {{platform}} — toca a dalt per gestionar o cancel·lar en qualsevol moment.",
+    "lifetimeNote": "Gràcies pel teu suport — el teu accés de per vida no caduca ni es renova mai.",
+    "freeNote": "El joc en Solitari sempre és gratuït. Subscriu-te per desbloquejar el joc en Grup en línia il·limitat.",
+    "upgradeToPro": "Millora a Pro"
   }
 }

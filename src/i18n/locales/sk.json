@@ -89,7 +89,8 @@
     "restoreFailed": "Nepodarilo sa obnoviť nákupy.",
     "notSignedIn": "Najprv sa prihlás.",
     "notAvailableOnWeb": "Predplatné ešte nie je dostupné na webe — použi aplikáciu pre iOS alebo Android.",
-    "checkoutFailed": "Nepodarilo sa spustiť platbu."
+    "checkoutFailed": "Nepodarilo sa spustiť platbu.",
+    "portalFailed": "Nepodarilo sa otvoriť portál pre fakturáciu."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, hoď kockou a nájdi svoju kartu!",
@@ -218,7 +219,9 @@
     "liabilityHeading": "Obmedzenie zodpovednosti",
     "liabilityBody": "V najväčšom rozsahu povolenom zákonom nezodpovedáme za žiadne škody vyplývajúce z používania alebo nemožnosti používať aplikáciu.",
     "changesHeading": "Zmeny",
-    "changesBody": "Tieto podmienky môžu byť aktualizované so zmenami aplikácie. Ďalšie používanie aplikácie po aktualizácii znamená, že akceptuješ upravené podmienky."
+    "changesBody": "Tieto podmienky môžu byť aktualizované so zmenami aplikácie. Ďalšie používanie aplikácie po aktualizácii znamená, že akceptuješ upravené podmienky.",
+    "subscriptionsHeading": "Predplatné",
+    "subscriptionsBody": "Bones & Beasts Pro sa ponúka ako mesačné a ročné automaticky sa obnovujúce predplatné a ako jednorazový celoživotný nákup, ktorý odomyká online skupinovú hru po skončení bezplatnej skúšobnej doby. Mesačné a ročné predplatné sa automaticky obnovuje, pokiaľ nie je zrušené aspoň 24 hodín pred koncom aktuálneho obdobia. Platba sa účtuje na váš účet Apple ID (iOS) alebo účet Google Play (Android) pri potvrdení nákupu. Predplatné môžete kedykoľvek spravovať alebo zrušiť v nastaveniach účtu vášho zariadenia — to neovplyvňuje prístup k sólovej hre, ktorá je vždy zadarmo. Celoživotný nákup je jednorazová platba a neobnovuje sa."
   },
   "settingsNav": {
     "profile": "Profil",
@@ -226,7 +229,8 @@
     "privacyPolicy": "Ochrana Osobných Údajov",
     "termsOfService": "Podmienky Používania",
     "about": "O Aplikácii",
-    "settings": "Nastavenia"
+    "settings": "Nastavenia",
+    "subscription": "Predplatné"
   },
   "stats": {
     "title": "Štatistiky",
@@ -254,10 +258,43 @@
     "yearly": "Ročne",
     "lifetime": "Doživotne",
     "restorePurchases": "Obnoviť Nákupy",
-    "notNow": "Teraz nie"
+    "notNow": "Teraz nie",
+    "subscriptionDisclosure": "Mesačné a ročné plány sa automaticky obnovujú, pokiaľ nie sú zrušené aspoň 24 hodín pred koncom aktuálneho obdobia. Platba sa účtuje na váš účet pri potvrdení nákupu. Kedykoľvek spravujte alebo zrušte v nastaveniach účtu vášho zariadenia. Celoživotný plán je jednorazový nákup a neobnovuje sa.",
+    "termsOfUse": "Podmienky používania",
+    "privacyPolicy": "Zásady ochrany osobných údajov"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Vyber si avatar pre svoj profil"
+  },
+  "subscription": {
+    "title": "Predplatné",
+    "statusFree": "Zadarmo",
+    "statusTrial": "Bezplatná skúšobná verzia",
+    "statusPro": "Pro",
+    "statusLifetime": "Celoživotný člen",
+    "planMonthly": "Mesačné",
+    "planYearly": "Ročné",
+    "planLifetime": "Celoživotné",
+    "planLabel": "Plán",
+    "priceLabel": "Cena",
+    "startedLabel": "Začaté",
+    "renewsLabel": "Obnoví sa",
+    "expiresLabel": "Skončí sa",
+    "autoRenewLabel": "Automatické obnovenie",
+    "autoRenewOn": "Zapnuté",
+    "autoRenewOff": "Vypnuté",
+    "billedViaLabel": "Fakturované cez",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Čo je zahrnuté",
+    "includedGroup": "Neobmedzená online skupinová hra",
+    "includedSolo": "Sólová hra — vždy zadarmo, s Pro aj bez neho",
+    "manageSubscription": "Spravovať predplatné",
+    "manageNote": "Fakturáciu a zrušenie spravuje {{platform}} — klepnutím vyššie spravujte alebo kedykoľvek zrušte.",
+    "lifetimeNote": "Ďakujeme za vašu podporu — váš celoživotný prístup nikdy nevyprší ani sa neobnoví.",
+    "freeNote": "Sólová hra je vždy zadarmo. Predplaťte si a odomknite neobmedzenú online skupinovú hru.",
+    "upgradeToPro": "Prejsť na Pro"
   }
 }

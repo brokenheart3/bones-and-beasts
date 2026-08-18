@@ -9,6 +9,7 @@ type Props = NativeStackScreenProps<SettingsStackParamList, "SettingsHome">;
 
 const LINKS: { labelKey: string; screen: keyof SettingsStackParamList; icon: string }[] = [
   { labelKey: "settingsNav.profile", screen: "Profile", icon: "👤" },
+  { labelKey: "settingsNav.subscription", screen: "Subscription", icon: "💳" },
   { labelKey: "settingsNav.appSettings", screen: "AppSettings", icon: "🎨" },
   { labelKey: "settingsNav.privacyPolicy", screen: "PrivacyPolicy", icon: "🔒" },
   { labelKey: "settingsNav.termsOfService", screen: "TermsOfService", icon: "📜" },

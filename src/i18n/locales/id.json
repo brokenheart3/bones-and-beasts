@@ -87,7 +87,8 @@
     "restoreFailed": "Tidak dapat memulihkan pembelian.",
     "notSignedIn": "Silakan masuk dulu.",
     "notAvailableOnWeb": "Berlangganan belum tersedia di web — gunakan aplikasi iOS atau Android.",
-    "checkoutFailed": "Tidak dapat memulai checkout."
+    "checkoutFailed": "Tidak dapat memulai checkout.",
+    "portalFailed": "Tidak dapat membuka portal penagihan."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, lempar dadu untuk menemukan kartumu!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Batasan tanggung jawab",
     "liabilityBody": "Sejauh yang diizinkan oleh hukum, kami tidak bertanggung jawab atas kerugian apa pun yang timbul dari penggunaanmu, atau ketidakmampuanmu menggunakan, aplikasi ini.",
     "changesHeading": "Perubahan",
-    "changesBody": "Ketentuan ini dapat diperbarui seiring perubahan aplikasi. Melanjutkan penggunaan aplikasi setelah pembaruan berarti kamu menyetujui ketentuan yang direvisi."
+    "changesBody": "Ketentuan ini dapat diperbarui seiring perubahan aplikasi. Melanjutkan penggunaan aplikasi setelah pembaruan berarti kamu menyetujui ketentuan yang direvisi.",
+    "subscriptionsHeading": "Langganan",
+    "subscriptionsBody": "Bones & Beasts Pro ditawarkan sebagai langganan Bulanan dan Tahunan yang diperpanjang otomatis, serta pembelian Seumur Hidup satu kali, yang membuka mode Grup online setelah masa uji coba gratis. Langganan Bulanan dan Tahunan diperpanjang otomatis kecuali dibatalkan setidaknya 24 jam sebelum akhir periode saat ini. Pembayaran dibebankan ke akun Apple ID Anda (iOS) atau akun Google Play (Android) saat konfirmasi pembelian. Anda dapat mengelola atau membatalkan langganan kapan saja di pengaturan akun perangkat Anda — ini tidak memengaruhi akses ke mode Solo, yang selalu gratis. Pembelian Seumur Hidup adalah pembayaran satu kali dan tidak diperpanjang."
   },
   "settingsNav": {
     "profile": "Profil",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Kebijakan Privasi",
     "termsOfService": "Ketentuan Layanan",
     "about": "Tentang",
-    "settings": "Pengaturan"
+    "settings": "Pengaturan",
+    "subscription": "Langganan"
   },
   "stats": {
     "title": "Statistik",
@@ -248,10 +252,43 @@
     "yearly": "Tahunan",
     "lifetime": "Selamanya",
     "restorePurchases": "Pulihkan Pembelian",
-    "notNow": "Nanti saja"
+    "notNow": "Nanti saja",
+    "subscriptionDisclosure": "Paket Bulanan dan Tahunan diperpanjang otomatis kecuali dibatalkan setidaknya 24 jam sebelum akhir periode saat ini. Pembayaran dibebankan ke akun Anda saat konfirmasi pembelian. Kelola atau batalkan kapan saja di pengaturan akun perangkat Anda. Paket Seumur Hidup adalah pembelian satu kali dan tidak diperpanjang.",
+    "termsOfUse": "Ketentuan Penggunaan",
+    "privacyPolicy": "Kebijakan Privasi"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Pilih avatar untuk profil Anda"
+  },
+  "subscription": {
+    "title": "Langganan",
+    "statusFree": "Gratis",
+    "statusTrial": "Uji Coba Gratis",
+    "statusPro": "Pro",
+    "statusLifetime": "Anggota Seumur Hidup",
+    "planMonthly": "Bulanan",
+    "planYearly": "Tahunan",
+    "planLifetime": "Seumur Hidup",
+    "planLabel": "Paket",
+    "priceLabel": "Harga",
+    "startedLabel": "Dimulai",
+    "renewsLabel": "Diperpanjang",
+    "expiresLabel": "Berakhir",
+    "autoRenewLabel": "Perpanjangan otomatis",
+    "autoRenewOn": "Aktif",
+    "autoRenewOff": "Nonaktif",
+    "billedViaLabel": "Ditagih melalui",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Apa yang termasuk",
+    "includedGroup": "Mode Grup online tanpa batas",
+    "includedSolo": "Mode Solo — selalu gratis, dengan atau tanpa Pro",
+    "manageSubscription": "Kelola Langganan",
+    "manageNote": "Penagihan dan pembatalan dikelola oleh {{platform}} — ketuk di atas untuk mengelola atau membatalkan kapan saja.",
+    "lifetimeNote": "Terima kasih atas dukungan Anda — akses Seumur Hidup Anda tidak akan pernah berakhir atau diperpanjang.",
+    "freeNote": "Mode Solo selalu gratis. Berlangganan untuk membuka mode Grup online tanpa batas.",
+    "upgradeToPro": "Tingkatkan ke Pro"
   }
 }

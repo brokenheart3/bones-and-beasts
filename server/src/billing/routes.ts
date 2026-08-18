@@ -15,7 +15,39 @@ billingRouter.get("/plans", (_req, res) => {
 
 billingRouter.get("/entitlement/:uid", async (req, res) => {
   const entitlement = await getEntitlement(req.params.uid);
-  res.json({ isPro: entitlement.isPro });
+  res.json({
+    isPro: entitlement.isPro,
+    plan: entitlement.plan,
+    currentPeriodEnd: entitlement.currentPeriodEnd,
+    willRenew: entitlement.willRenew,
+    startDate: entitlement.startDate,
+  });
+});
+
+// Stripe's hosted Customer Portal is the web equivalent of Apple/Google's
+// native subscription-management screens — cancellation itself has to
+// happen there, not in our own UI, same as the mobile deep-links do.
+billingRouter.post("/portal-session", async (req, res) => {
+  const { uid } = req.body as { uid?: string };
+  if (!uid) {
+    res.status(400).json({ error: "uid is required." });
+    return;
+  }
+  const webAppUrl = process.env.WEB_APP_URL ?? "http://localhost:19006";
+  try {
+    const entitlement = await getEntitlement(uid);
+    if (!entitlement.stripeCustomerId) {
+      res.status(400).json({ error: "No Stripe customer on file for this account." });
+      return;
+    }
+    const session = await stripe.billingPortal.sessions.create({
+      customer: entitlement.stripeCustomerId,
+      return_url: webAppUrl,
+    });
+    res.json({ url: session.url });
+  } catch (err) {
+    res.status(500).json({ error: (err as Error).message ?? "Couldn't open the billing portal." });
+  }
 });
 
 billingRouter.post("/create-checkout-session", async (req, res) => {

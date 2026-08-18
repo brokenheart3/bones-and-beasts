@@ -87,7 +87,8 @@
     "restoreFailed": "Nuk u arrit të rikthehen blerjet.",
     "notSignedIn": "Të lutem hyr në llogari së pari.",
     "notAvailableOnWeb": "Abonimet nuk janë ende të disponueshme në web — të lutem përdor aplikacionin për iOS ose Android.",
-    "checkoutFailed": "Nuk u arrit të fillojë pagesa."
+    "checkoutFailed": "Nuk u arrit të fillojë pagesa.",
+    "portalFailed": "Portali i faturimit nuk mund të hapej."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, hidh zarin për të gjetur kartën tënde!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Kufizimi i përgjegjësisë",
     "liabilityBody": "Në masën më të plotë të lejuar nga ligji, ne nuk jemi përgjegjës për asnjë dëm që rrjedh nga përdorimi, ose pamundësia e përdorimit, të aplikacionit.",
     "changesHeading": "Ndryshime",
-    "changesBody": "Këto kushte mund të përditësohen ndërkohë që aplikacioni ndryshon. Vazhdimi i përdorimit të aplikacionit pas një përditësimi do të thotë që pranon kushtet e rishikuara."
+    "changesBody": "Këto kushte mund të përditësohen ndërkohë që aplikacioni ndryshon. Vazhdimi i përdorimit të aplikacionit pas një përditësimi do të thotë që pranon kushtet e rishikuara.",
+    "subscriptionsHeading": "Abonimet",
+    "subscriptionsBody": "Bones & Beasts Pro ofrohet si abonime Mujore dhe Vjetore me rinovim automatik, dhe si një blerje një herë Përjetë, që zhbllokon lojën Grupore online pas periudhës së provës falas. Abonimet mujore dhe vjetore rinovohen automatikisht nëse nuk anulohen të paktën 24 orë para përfundimit të periudhës aktuale. Pagesa ngarkohet në llogarinë tuaj Apple ID (iOS) ose llogarinë Google Play (Android) në konfirmimin e blerjes. Ju mund të menaxhoni ose anuloni abonimin tuaj në çdo kohë në cilësimet e llogarisë së pajisjes suaj — kjo nuk ndikon në qasjen në lojën Solo, e cila është gjithmonë falas. Blerja Përjetë është një pagesë e vetme dhe nuk rinovohet."
   },
   "settingsNav": {
     "profile": "Profili",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Politika e Privatësisë",
     "termsOfService": "Kushtet e Shërbimit",
     "about": "Rreth Nesh",
-    "settings": "Cilësimet"
+    "settings": "Cilësimet",
+    "subscription": "Abonimi"
   },
   "stats": {
     "title": "Statistika",
@@ -248,10 +252,43 @@
     "yearly": "Vjetor",
     "lifetime": "Përjetë",
     "restorePurchases": "Rikthe Blerjet",
-    "notNow": "Jo tani"
+    "notNow": "Jo tani",
+    "subscriptionDisclosure": "Planet mujore dhe vjetore rinovohen automatikisht nëse nuk anulohen të paktën 24 orë para përfundimit të periudhës aktuale. Pagesa ngarkohet në llogarinë tuaj në konfirmimin e blerjes. Menaxhoni ose anuloni në çdo kohë në cilësimet e llogarisë së pajisjes suaj. Plani Përjetë është një blerje e vetme dhe nuk rinovohet.",
+    "termsOfUse": "Kushtet e Përdorimit",
+    "privacyPolicy": "Politika e Privatësisë"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Zgjidh një avatar për profilin tënd"
+  },
+  "subscription": {
+    "title": "Abonimi",
+    "statusFree": "Falas",
+    "statusTrial": "Provë Falas",
+    "statusPro": "Pro",
+    "statusLifetime": "Anëtar Përjetë",
+    "planMonthly": "Mujor",
+    "planYearly": "Vjetor",
+    "planLifetime": "Përjetë",
+    "planLabel": "Plani",
+    "priceLabel": "Çmimi",
+    "startedLabel": "Filluar",
+    "renewsLabel": "Rinovohet",
+    "expiresLabel": "Skadon",
+    "autoRenewLabel": "Rinovim automatik",
+    "autoRenewOn": "Aktiv",
+    "autoRenewOff": "Joaktiv",
+    "billedViaLabel": "Faturuar përmes",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Çfarë përfshihet",
+    "includedGroup": "Lojë Grupore online e pakufizuar",
+    "includedSolo": "Lojë Solo — gjithmonë falas, me ose pa Pro",
+    "manageSubscription": "Menaxho Abonimin",
+    "manageNote": "Faturimi dhe anulimi menaxhohen nga {{platform}} — prek më sipër për të menaxhuar ose anuluar në çdo kohë.",
+    "lifetimeNote": "Faleminderit për mbështetjen tuaj — qasja juaj Përjetë nuk skadon dhe nuk rinovohet kurrë.",
+    "freeNote": "Loja Solo është gjithmonë falas. Abonohu për të zhbllokuar lojën Grupore online të pakufizuar.",
+    "upgradeToPro": "Përditëso në Pro"
   }
 }

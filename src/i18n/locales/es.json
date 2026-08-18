@@ -87,7 +87,8 @@
     "restoreFailed": "No se pudieron restaurar las compras.",
     "notSignedIn": "Inicia sesión primero.",
     "notAvailableOnWeb": "Las suscripciones aún no están disponibles en la web — usa la app de iOS o Android.",
-    "checkoutFailed": "No se pudo iniciar el pago."
+    "checkoutFailed": "No se pudo iniciar el pago.",
+    "portalFailed": "No se pudo abrir el portal de facturación."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, tira el dado para encontrar tu carta!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Limitación de responsabilidad",
     "liabilityBody": "En la medida máxima permitida por la ley, no somos responsables de ningún daño derivado del uso, o la imposibilidad de uso, de la app.",
     "changesHeading": "Cambios",
-    "changesBody": "Estos términos pueden actualizarse a medida que la app cambia. Continuar usando la app después de una actualización significa que aceptas los términos revisados."
+    "changesBody": "Estos términos pueden actualizarse a medida que la app cambia. Continuar usando la app después de una actualización significa que aceptas los términos revisados.",
+    "subscriptionsHeading": "Suscripciones",
+    "subscriptionsBody": "Bones & Beasts Pro se ofrece como suscripciones mensuales y anuales de renovación automática, y como una compra única de por vida, que desbloquea el juego en Grupo en línea después del período de prueba gratuito. Las suscripciones mensuales y anuales se renuevan automáticamente a menos que se cancelen al menos 24 horas antes del final del período actual. El pago se carga a tu cuenta de Apple ID (iOS) o cuenta de Google Play (Android) al confirmar la compra. Puedes gestionar o cancelar tu suscripción en cualquier momento en la configuración de la cuenta de tu dispositivo — esto no afecta el acceso al juego en Solitario, que siempre es gratuito. La compra de por vida es un pago único y no se renueva."
   },
   "settingsNav": {
     "profile": "Perfil",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Política de privacidad",
     "termsOfService": "Términos de servicio",
     "about": "Acerca de",
-    "settings": "Ajustes"
+    "settings": "Ajustes",
+    "subscription": "Suscripción"
   },
   "stats": {
     "title": "Estadísticas",
@@ -248,10 +252,43 @@
     "yearly": "Anual",
     "lifetime": "De por vida",
     "restorePurchases": "Restaurar compras",
-    "notNow": "Ahora no"
+    "notNow": "Ahora no",
+    "subscriptionDisclosure": "Los planes mensuales y anuales se renuevan automáticamente a menos que se cancelen al menos 24 horas antes del final del período actual. El pago se carga a tu cuenta al confirmar la compra. Gestiona o cancela en cualquier momento en la configuración de la cuenta de tu dispositivo. El plan de por vida es una compra única y no se renueva.",
+    "termsOfUse": "Términos de Uso",
+    "privacyPolicy": "Política de Privacidad"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Elige un avatar para tu perfil"
+  },
+  "subscription": {
+    "title": "Suscripción",
+    "statusFree": "Gratis",
+    "statusTrial": "Prueba Gratuita",
+    "statusPro": "Pro",
+    "statusLifetime": "Miembro de por Vida",
+    "planMonthly": "Mensual",
+    "planYearly": "Anual",
+    "planLifetime": "De por vida",
+    "planLabel": "Plan",
+    "priceLabel": "Precio",
+    "startedLabel": "Iniciado",
+    "renewsLabel": "Se renueva",
+    "expiresLabel": "Vence",
+    "autoRenewLabel": "Renovación automática",
+    "autoRenewOn": "Activada",
+    "autoRenewOff": "Desactivada",
+    "billedViaLabel": "Facturado vía",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Qué incluye",
+    "includedGroup": "Juego en Grupo en línea ilimitado",
+    "includedSolo": "Juego en Solitario — siempre gratis, con o sin Pro",
+    "manageSubscription": "Gestionar suscripción",
+    "manageNote": "La facturación y cancelación las gestiona {{platform}} — toca arriba para gestionar o cancelar en cualquier momento.",
+    "lifetimeNote": "Gracias por tu apoyo — tu acceso de por vida nunca vence ni se renueva.",
+    "freeNote": "El juego en Solitario siempre es gratis. Suscríbete para desbloquear el juego en Grupo en línea ilimitado.",
+    "upgradeToPro": "Mejorar a Pro"
   }
 }

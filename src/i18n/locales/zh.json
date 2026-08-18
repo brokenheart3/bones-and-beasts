@@ -87,7 +87,8 @@
     "restoreFailed": "无法恢复购买。",
     "notSignedIn": "请先登录。",
     "notAvailableOnWeb": "订阅功能暂不支持网页版 — 请使用iOS或Android应用。",
-    "checkoutFailed": "无法开始结账。"
+    "checkoutFailed": "无法开始结账。",
+    "portalFailed": "无法打开账单门户。"
   },
   "gameSolo": {
     "rollPrompt": "{{name}}，掷骰子找到你的卡片！",
@@ -214,7 +215,9 @@
     "liabilityHeading": "责任限制",
     "liabilityBody": "在法律允许的最大范围内，我们不对因使用或无法使用本应用而产生的任何损害承担责任。",
     "changesHeading": "变更",
-    "changesBody": "这些条款可能会随着应用的变化而更新。在更新后继续使用本应用即表示你接受修订后的条款。"
+    "changesBody": "这些条款可能会随着应用的变化而更新。在更新后继续使用本应用即表示你接受修订后的条款。",
+    "subscriptionsHeading": "订阅",
+    "subscriptionsBody": "Bones & Beasts Pro 提供按月和按年自动续订的订阅，以及一次性的终身购买，在免费试用期结束后解锁在线组队模式。除非在当前周期结束前至少24小时取消，否则月度和年度订阅将自动续订。购买确认后，费用将从您的 Apple ID 账户（iOS）或 Google Play 账户（Android）中扣除。您可以随时在设备的账户设置中管理或取消订阅——这不会影响始终免费的单人模式的访问权限。终身购买是一次性付款，不会续订。"
   },
   "settingsNav": {
     "profile": "个人资料",
@@ -222,7 +225,8 @@
     "privacyPolicy": "隐私政策",
     "termsOfService": "服务条款",
     "about": "关于",
-    "settings": "设置"
+    "settings": "设置",
+    "subscription": "订阅"
   },
   "stats": {
     "title": "统计",
@@ -248,10 +252,43 @@
     "yearly": "年付",
     "lifetime": "终身",
     "restorePurchases": "恢复购买",
-    "notNow": "暂不"
+    "notNow": "暂不",
+    "subscriptionDisclosure": "除非在当前周期结束前至少24小时取消，否则月度和年度套餐将自动续订。购买确认后，费用将从您的账户中扣除。您可以随时在设备的账户设置中管理或取消。终身套餐是一次性购买，不会续订。",
+    "termsOfUse": "使用条款",
+    "privacyPolicy": "隐私政策"
   },
   "avatar": {
     "pageTitle": "头像",
     "subtitle": "为你的个人资料选择一个头像"
+  },
+  "subscription": {
+    "title": "订阅",
+    "statusFree": "免费",
+    "statusTrial": "免费试用",
+    "statusPro": "Pro",
+    "statusLifetime": "终身会员",
+    "planMonthly": "月度",
+    "planYearly": "年度",
+    "planLifetime": "终身",
+    "planLabel": "套餐",
+    "priceLabel": "价格",
+    "startedLabel": "开始日期",
+    "renewsLabel": "续订日期",
+    "expiresLabel": "到期日期",
+    "autoRenewLabel": "自动续订",
+    "autoRenewOn": "开启",
+    "autoRenewOff": "关闭",
+    "billedViaLabel": "付款方式",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "网页",
+    "whatsIncludedHeading": "包含内容",
+    "includedGroup": "无限在线组队模式",
+    "includedSolo": "单人模式——无论是否有 Pro，始终免费",
+    "manageSubscription": "管理订阅",
+    "manageNote": "账单和取消由 {{platform}} 管理——点击上方即可随时管理或取消。",
+    "lifetimeNote": "感谢您的支持——您的终身访问权限永远不会到期或续订。",
+    "freeNote": "单人模式始终免费。订阅以解锁无限在线组队模式。",
+    "upgradeToPro": "升级到 Pro"
   }
 }

@@ -87,7 +87,8 @@
     "restoreFailed": "Impossible de restaurer les achats.",
     "notSignedIn": "Connecte-toi d'abord.",
     "notAvailableOnWeb": "Les abonnements ne sont pas encore disponibles sur le web — utilise l'app iOS ou Android.",
-    "checkoutFailed": "Impossible de démarrer le paiement."
+    "checkoutFailed": "Impossible de démarrer le paiement.",
+    "portalFailed": "Impossible d'ouvrir le portail de facturation."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, lance le dé pour trouver ta carte !",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Limitation de responsabilité",
     "liabilityBody": "Dans toute la mesure permise par la loi, nous ne sommes pas responsables des dommages découlant de ton utilisation, ou de ton incapacité à utiliser, l'app.",
     "changesHeading": "Modifications",
-    "changesBody": "Ces conditions peuvent être mises à jour à mesure que l'app évolue. Continuer à utiliser l'app après une mise à jour signifie que tu acceptes les conditions révisées."
+    "changesBody": "Ces conditions peuvent être mises à jour à mesure que l'app évolue. Continuer à utiliser l'app après une mise à jour signifie que tu acceptes les conditions révisées.",
+    "subscriptionsHeading": "Abonnements",
+    "subscriptionsBody": "Bones & Beasts Pro est proposé sous forme d'abonnements Mensuel et Annuel à renouvellement automatique, ainsi qu'un achat unique à Vie, débloquant le mode Groupe en ligne après la période d'essai gratuite. Les abonnements mensuels et annuels se renouvellent automatiquement sauf annulation au moins 24 heures avant la fin de la période en cours. Le paiement est facturé sur votre compte Apple ID (iOS) ou Google Play (Android) à la confirmation de l'achat. Vous pouvez gérer ou annuler votre abonnement à tout moment dans les paramètres de compte de votre appareil — cela n'affecte pas l'accès au mode Solo, qui est toujours gratuit. L'achat à Vie est un paiement unique et ne se renouvelle pas."
   },
   "settingsNav": {
     "profile": "Profil",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Politique de confidentialité",
     "termsOfService": "Conditions d'utilisation",
     "about": "À propos",
-    "settings": "Réglages"
+    "settings": "Réglages",
+    "subscription": "Abonnement"
   },
   "stats": {
     "title": "Statistiques",
@@ -248,10 +252,43 @@
     "yearly": "Annuel",
     "lifetime": "À vie",
     "restorePurchases": "Restaurer les achats",
-    "notNow": "Pas maintenant"
+    "notNow": "Pas maintenant",
+    "subscriptionDisclosure": "Les forfaits mensuels et annuels se renouvellent automatiquement sauf annulation au moins 24 heures avant la fin de la période en cours. Le paiement est facturé sur votre compte à la confirmation de l'achat. Gérez ou annulez à tout moment dans les paramètres de compte de votre appareil. Le forfait à Vie est un achat unique et ne se renouvelle pas.",
+    "termsOfUse": "Conditions d'utilisation",
+    "privacyPolicy": "Politique de confidentialité"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Choisis un avatar pour ton profil"
+  },
+  "subscription": {
+    "title": "Abonnement",
+    "statusFree": "Gratuit",
+    "statusTrial": "Essai gratuit",
+    "statusPro": "Pro",
+    "statusLifetime": "Membre à Vie",
+    "planMonthly": "Mensuel",
+    "planYearly": "Annuel",
+    "planLifetime": "À vie",
+    "planLabel": "Forfait",
+    "priceLabel": "Prix",
+    "startedLabel": "Débuté",
+    "renewsLabel": "Se renouvelle",
+    "expiresLabel": "Expire",
+    "autoRenewLabel": "Renouvellement automatique",
+    "autoRenewOn": "Activé",
+    "autoRenewOff": "Désactivé",
+    "billedViaLabel": "Facturé via",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Ce qui est inclus",
+    "includedGroup": "Mode Groupe en ligne illimité",
+    "includedSolo": "Mode Solo — toujours gratuit, avec ou sans Pro",
+    "manageSubscription": "Gérer l'abonnement",
+    "manageNote": "La facturation et l'annulation sont gérées par {{platform}} — appuyez ci-dessus pour gérer ou annuler à tout moment.",
+    "lifetimeNote": "Merci pour votre soutien — votre accès à Vie n'expire et ne se renouvelle jamais.",
+    "freeNote": "Le mode Solo est toujours gratuit. Abonnez-vous pour débloquer le mode Groupe en ligne illimité.",
+    "upgradeToPro": "Passer à Pro"
   }
 }

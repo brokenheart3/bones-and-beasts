@@ -87,7 +87,38 @@
     "restoreFailed": "Couldn't restore purchases.",
     "notSignedIn": "Please sign in first.",
     "notAvailableOnWeb": "Subscriptions aren't available on web yet — please use the iOS or Android app.",
-    "checkoutFailed": "Couldn't start checkout."
+    "checkoutFailed": "Couldn't start checkout.",
+    "portalFailed": "Couldn't open the billing portal."
+  },
+  "subscription": {
+    "title": "Subscription",
+    "statusFree": "Free",
+    "statusTrial": "Free Trial",
+    "statusPro": "Pro",
+    "statusLifetime": "Lifetime Member",
+    "planMonthly": "Monthly",
+    "planYearly": "Yearly",
+    "planLifetime": "Lifetime",
+    "planLabel": "Plan",
+    "priceLabel": "Price",
+    "startedLabel": "Started",
+    "renewsLabel": "Renews",
+    "expiresLabel": "Expires",
+    "autoRenewLabel": "Auto-renew",
+    "autoRenewOn": "On",
+    "autoRenewOff": "Off",
+    "billedViaLabel": "Billed via",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "What's included",
+    "includedGroup": "Unlimited online Group play",
+    "includedSolo": "Solo play — always free, with or without Pro",
+    "manageSubscription": "Manage Subscription",
+    "manageNote": "Billing and cancellation are handled by {{platform}} — tap above to manage or cancel anytime.",
+    "lifetimeNote": "Thanks for your support — your Lifetime access never expires or renews.",
+    "freeNote": "Solo play is always free. Subscribe to unlock unlimited online Group play.",
+    "upgradeToPro": "Upgrade to Pro"
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, roll to find your card!",
@@ -213,6 +244,8 @@
     "gameBody": "Bones & Beasts (see the About page for what it is and how it plays) is offered for entertainment purposes only.",
     "fairPlayHeading": "Fair play",
     "fairPlayBody": "In Group games, please play fairly — no exploiting bugs, automating your turns, or disrupting other players' games. We reserve the right to remove players from a game or lobby for disruptive behavior.",
+    "subscriptionsHeading": "Subscriptions",
+    "subscriptionsBody": "Bones & Beasts Pro is offered as Monthly and Yearly auto-renewing subscriptions, and as a one-time Lifetime purchase, unlocking online Group play beyond the free trial period. Monthly and Yearly subscriptions automatically renew unless canceled at least 24 hours before the end of the current period. Payment is charged to your Apple ID account (iOS) or Google Play account (Android) at confirmation of purchase. You can manage or cancel your subscription anytime in your device's account settings — this doesn't affect access to Solo play, which is always free. The Lifetime purchase is a one-time payment and does not renew.",
     "noWarrantyHeading": "No warranty",
     "noWarrantyBody": "The app is provided \"as is,\" without warranties of any kind. We don't guarantee it will be uninterrupted, error-free, or available at all times — especially the online Group mode, which depends on a game server that may be updated, restarted, or taken offline without notice.",
     "liabilityHeading": "Limitation of liability",
@@ -222,6 +255,7 @@
   },
   "settingsNav": {
     "profile": "Profile",
+    "subscription": "Subscription",
     "appSettings": "App Settings",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
@@ -252,6 +286,9 @@
     "yearly": "Yearly",
     "lifetime": "Lifetime",
     "restorePurchases": "Restore Purchases",
-    "notNow": "Not now"
+    "notNow": "Not now",
+    "subscriptionDisclosure": "Monthly and Yearly plans auto-renew unless canceled at least 24 hours before the end of the current period. Payment is charged to your account at confirmation of purchase. Manage or cancel anytime in your device's account settings. Lifetime is a one-time purchase and does not renew.",
+    "termsOfUse": "Terms of Use",
+    "privacyPolicy": "Privacy Policy"
   }
 }

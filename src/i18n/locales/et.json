@@ -87,7 +87,8 @@
     "restoreFailed": "Ostude taastamine ebaõnnestus.",
     "notSignedIn": "Logi palun esmalt sisse.",
     "notAvailableOnWeb": "Tellimused ei ole veebis veel saadaval — kasuta palun iOS- või Android-rakendust.",
-    "checkoutFailed": "Ostu alustamine ebaõnnestus."
+    "checkoutFailed": "Ostu alustamine ebaõnnestus.",
+    "portalFailed": "Arveldusportaali avamine ebaõnnestus."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, veereta täringut, et leida oma kaart!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Vastutuse piiramine",
     "liabilityBody": "Seaduses lubatud maksimaalses ulatuses ei vastuta me kahjude eest, mis tulenevad rakenduse kasutamisest või selle kasutamise võimatusest.",
     "changesHeading": "Muudatused",
-    "changesBody": "Neid tingimusi võidakse rakenduse muutumisel uuendada. Rakenduse jätkuv kasutamine pärast uuendust tähendab, et nõustud muudetud tingimustega."
+    "changesBody": "Neid tingimusi võidakse rakenduse muutumisel uuendada. Rakenduse jätkuv kasutamine pärast uuendust tähendab, et nõustud muudetud tingimustega.",
+    "subscriptionsHeading": "Tellimused",
+    "subscriptionsBody": "Bones & Beasts Pro pakutakse Kuu- ja Aastatellimustena, mis uuenevad automaatselt, ning ühekordse Eluaegse ostuna, mis avab veebipõhise Rühmamängu pärast tasuta prooviperioodi. Kuu- ja aastatellimused uuenevad automaatselt, kui neid ei tühistata vähemalt 24 tundi enne praeguse perioodi lõppu. Makse debiteeritakse teie Apple ID kontolt (iOS) või Google Play kontolt (Android) ostu kinnitamisel. Saate oma tellimust igal ajal hallata või tühistada oma seadme konto seadetes — see ei mõjuta juurdepääsu Üksikmängule, mis on alati tasuta. Eluaegne ost on ühekordne makse ega uuene."
   },
   "settingsNav": {
     "profile": "Profiil",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Privaatsuseeskirjad",
     "termsOfService": "Kasutustingimused",
     "about": "Teave",
-    "settings": "Seaded"
+    "settings": "Seaded",
+    "subscription": "Tellimus"
   },
   "stats": {
     "title": "Statistika",
@@ -248,10 +252,43 @@
     "yearly": "Aastatellimus",
     "lifetime": "Eluaegne",
     "restorePurchases": "Taasta ostud",
-    "notNow": "Mitte praegu"
+    "notNow": "Mitte praegu",
+    "subscriptionDisclosure": "Kuu- ja aastaplaanid uuenevad automaatselt, kui neid ei tühistata vähemalt 24 tundi enne praeguse perioodi lõppu. Makse debiteeritakse teie kontolt ostu kinnitamisel. Hallake või tühistage igal ajal oma seadme konto seadetes. Eluaegne plaan on ühekordne ost ega uuene.",
+    "termsOfUse": "Kasutustingimused",
+    "privacyPolicy": "Privaatsuspoliitika"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Vali oma profiilile avatar"
+  },
+  "subscription": {
+    "title": "Tellimus",
+    "statusFree": "Tasuta",
+    "statusTrial": "Tasuta prooviperiood",
+    "statusPro": "Pro",
+    "statusLifetime": "Eluaegne liige",
+    "planMonthly": "Kuutellimus",
+    "planYearly": "Aastatellimus",
+    "planLifetime": "Eluaegne",
+    "planLabel": "Plaan",
+    "priceLabel": "Hind",
+    "startedLabel": "Algas",
+    "renewsLabel": "Uueneb",
+    "expiresLabel": "Aegub",
+    "autoRenewLabel": "Automaatne uuendamine",
+    "autoRenewOn": "Sees",
+    "autoRenewOff": "Väljas",
+    "billedViaLabel": "Arveldatud",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Veeb",
+    "whatsIncludedHeading": "Mis on kaasas",
+    "includedGroup": "Piiramatu veebipõhine Rühmamäng",
+    "includedSolo": "Üksikmäng — alati tasuta, Pro-ga või ilma",
+    "manageSubscription": "Halda tellimust",
+    "manageNote": "Arveldust ja tühistamist haldab {{platform}} — puudutage ülal, et hallata või igal ajal tühistada.",
+    "lifetimeNote": "Täname toetuse eest — teie Eluaegne juurdepääs ei aegu ega uuene kunagi.",
+    "freeNote": "Üksikmäng on alati tasuta. Telli, et avada piiramatu veebipõhine Rühmamäng.",
+    "upgradeToPro": "Uuenda Pro-le"
   }
 }

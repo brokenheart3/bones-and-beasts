@@ -87,7 +87,8 @@
     "restoreFailed": "Imeshindwa kurejesha ununuzi.",
     "notSignedIn": "Tafadhali ingia kwanza.",
     "notAvailableOnWeb": "Usajili haupatikani kwenye wavuti bado — tafadhali tumia programu ya iOS au Android.",
-    "checkoutFailed": "Imeshindwa kuanzisha malipo."
+    "checkoutFailed": "Imeshindwa kuanzisha malipo.",
+    "portalFailed": "Imeshindwa kufungua lango la malipo."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, piga kete kupata kadi yako!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Kikomo cha Dhima",
     "liabilityBody": "Kwa kiwango kikubwa kinachoruhusiwa na sheria, hatuwajibiki kwa uharibifu wowote unaotokana na matumizi yako ya, au kutokuwa na uwezo wa kutumia, programu.",
     "changesHeading": "Mabadiliko",
-    "changesBody": "Masharti haya yanaweza kusasishwa programu ikibadilika. Kuendelea kutumia programu baada ya sasisho kunamaanisha unakubali masharti yaliyorekebishwa."
+    "changesBody": "Masharti haya yanaweza kusasishwa programu ikibadilika. Kuendelea kutumia programu baada ya sasisho kunamaanisha unakubali masharti yaliyorekebishwa.",
+    "subscriptionsHeading": "Usajili",
+    "subscriptionsBody": "Bones & Beasts Pro inatolewa kama usajili wa Kila Mwezi na wa Kila Mwaka unaojifanya upya kiotomatiki, na kama ununuzi wa mara moja wa Maisha, unaofungua mchezo wa Kikundi mtandaoni baada ya kipindi cha jaribio la bure. Usajili wa kila mwezi na wa kila mwaka hujifanya upya kiotomatiki isipokuwa ukighairiwa angalau saa 24 kabla ya mwisho wa kipindi cha sasa. Malipo hutozwa kwenye akaunti yako ya Apple ID (iOS) au akaunti ya Google Play (Android) wakati wa uthibitisho wa ununuzi. Unaweza kusimamia au kughairi usajili wako wakati wowote katika mipangilio ya akaunti ya kifaa chako — hii haiathiri ufikiaji wa mchezo wa Peke Yako, ambao daima ni wa bure. Ununuzi wa Maisha ni malipo ya mara moja na hauwi upya."
   },
   "settingsNav": {
     "profile": "Wasifu",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Sera ya Faragha",
     "termsOfService": "Masharti ya Huduma",
     "about": "Kuhusu",
-    "settings": "Mipangilio"
+    "settings": "Mipangilio",
+    "subscription": "Usajili"
   },
   "stats": {
     "title": "Takwimu",
@@ -248,10 +252,43 @@
     "yearly": "Kila Mwaka",
     "lifetime": "Maisha Yote",
     "restorePurchases": "Rejesha Ununuzi",
-    "notNow": "Sio Sasa"
+    "notNow": "Sio Sasa",
+    "subscriptionDisclosure": "Mipango ya kila mwezi na ya kila mwaka hujifanya upya kiotomatiki isipokuwa ighairiwe angalau saa 24 kabla ya mwisho wa kipindi cha sasa. Malipo hutozwa kwenye akaunti yako wakati wa uthibitisho wa ununuzi. Simamia au ghairi wakati wowote katika mipangilio ya akaunti ya kifaa chako. Mpango wa Maisha ni ununuzi wa mara moja na hauwi upya.",
+    "termsOfUse": "Masharti ya Matumizi",
+    "privacyPolicy": "Sera ya Faragha"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Chagua avatar kwa wasifu wako"
+  },
+  "subscription": {
+    "title": "Usajili",
+    "statusFree": "Bure",
+    "statusTrial": "Jaribio la Bure",
+    "statusPro": "Pro",
+    "statusLifetime": "Mwanachama wa Maisha",
+    "planMonthly": "Kila Mwezi",
+    "planYearly": "Kila Mwaka",
+    "planLifetime": "Maisha",
+    "planLabel": "Mpango",
+    "priceLabel": "Bei",
+    "startedLabel": "Ilianza",
+    "renewsLabel": "Itajifanya upya",
+    "expiresLabel": "Itaisha",
+    "autoRenewLabel": "Ufanyaji upya kiotomatiki",
+    "autoRenewOn": "Imewashwa",
+    "autoRenewOff": "Imezimwa",
+    "billedViaLabel": "Ililipiwa kupitia",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Wavuti",
+    "whatsIncludedHeading": "Kilichojumuishwa",
+    "includedGroup": "Mchezo wa Kikundi mtandaoni usio na kikomo",
+    "includedSolo": "Mchezo wa Peke Yako — daima wa bure, ukiwa na Pro au bila",
+    "manageSubscription": "Simamia Usajili",
+    "manageNote": "Malipo na kughairi vinasimamiwa na {{platform}} — gusa juu ili kusimamia au kughairi wakati wowote.",
+    "lifetimeNote": "Asante kwa msaada wako — ufikiaji wako wa Maisha hautaisha au kujifanya upya kamwe.",
+    "freeNote": "Mchezo wa Peke Yako daima ni wa bure. Jisajili ili kufungua mchezo wa Kikundi mtandaoni usio na kikomo.",
+    "upgradeToPro": "Boresha hadi Pro"
   }
 }

@@ -88,7 +88,8 @@
     "restoreFailed": "Nije moguće vratiti kupnje.",
     "notSignedIn": "Prvo se prijavi.",
     "notAvailableOnWeb": "Pretplate još nisu dostupne na webu — koristi iOS ili Android aplikaciju.",
-    "checkoutFailed": "Nije moguće pokrenuti plaćanje."
+    "checkoutFailed": "Nije moguće pokrenuti plaćanje.",
+    "portalFailed": "Nije moguće otvoriti portal za naplatu."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, baci kocku da pronađeš svoju kartu!",
@@ -216,7 +217,9 @@
     "liabilityHeading": "Ograničenje odgovornosti",
     "liabilityBody": "U najvećoj mjeri dopuštenoj zakonom, nismo odgovorni za bilo kakvu štetu proizašlu iz tvog korištenja aplikacije ili nemogućnosti korištenja iste.",
     "changesHeading": "Promjene",
-    "changesBody": "Ovi uvjeti mogu se ažurirati kako se aplikacija mijenja. Nastavak korištenja aplikacije nakon ažuriranja znači da prihvaćaš revidirane uvjete."
+    "changesBody": "Ovi uvjeti mogu se ažurirati kako se aplikacija mijenja. Nastavak korištenja aplikacije nakon ažuriranja znači da prihvaćaš revidirane uvjete.",
+    "subscriptionsHeading": "Pretplate",
+    "subscriptionsBody": "Bones & Beasts Pro nudi se kao mjesečne i godišnje automatski obnovljive pretplate, te kao jednokratna Doživotna kupnja, koja otključava online Grupnu igru nakon besplatnog probnog razdoblja. Mjesečne i godišnje pretplate automatski se obnavljaju osim ako se ne otkažu najmanje 24 sata prije kraja trenutnog razdoblja. Plaćanje se naplaćuje na vaš Apple ID račun (iOS) ili Google Play račun (Android) prilikom potvrde kupnje. Pretplatu možete upravljati ili otkazati u bilo kojem trenutku u postavkama računa vašeg uređaja — to ne utječe na pristup Solo igri, koja je uvijek besplatna. Doživotna kupnja jednokratno je plaćanje i ne obnavlja se."
   },
   "settingsNav": {
     "profile": "Profil",
@@ -224,7 +227,8 @@
     "privacyPolicy": "Politika privatnosti",
     "termsOfService": "Uvjeti korištenja",
     "about": "O aplikaciji",
-    "settings": "Postavke"
+    "settings": "Postavke",
+    "subscription": "Pretplata"
   },
   "stats": {
     "title": "Statistika",
@@ -251,10 +255,43 @@
     "yearly": "Godišnje",
     "lifetime": "Doživotno",
     "restorePurchases": "Vrati kupnje",
-    "notNow": "Ne sada"
+    "notNow": "Ne sada",
+    "subscriptionDisclosure": "Mjesečni i godišnji planovi automatski se obnavljaju osim ako se ne otkažu najmanje 24 sata prije kraja trenutnog razdoblja. Plaćanje se naplaćuje na vaš račun prilikom potvrde kupnje. Upravljajte ili otkažite u bilo kojem trenutku u postavkama računa vašeg uređaja. Doživotni plan jednokratna je kupnja i ne obnavlja se.",
+    "termsOfUse": "Uvjeti korištenja",
+    "privacyPolicy": "Pravila privatnosti"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Odaberi avatar za svoj profil"
+  },
+  "subscription": {
+    "title": "Pretplata",
+    "statusFree": "Besplatno",
+    "statusTrial": "Besplatno probno razdoblje",
+    "statusPro": "Pro",
+    "statusLifetime": "Doživotni član",
+    "planMonthly": "Mjesečno",
+    "planYearly": "Godišnje",
+    "planLifetime": "Doživotno",
+    "planLabel": "Plan",
+    "priceLabel": "Cijena",
+    "startedLabel": "Započeto",
+    "renewsLabel": "Obnavlja se",
+    "expiresLabel": "Ističe",
+    "autoRenewLabel": "Automatsko obnavljanje",
+    "autoRenewOn": "Uključeno",
+    "autoRenewOff": "Isključeno",
+    "billedViaLabel": "Naplaćeno putem",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Web",
+    "whatsIncludedHeading": "Što je uključeno",
+    "includedGroup": "Neograničena online Grupna igra",
+    "includedSolo": "Solo igra — uvijek besplatna, s Pro ili bez",
+    "manageSubscription": "Upravljanje pretplatom",
+    "manageNote": "Naplatu i otkazivanje upravlja {{platform}} — dodirnite iznad za upravljanje ili otkazivanje u bilo kojem trenutku.",
+    "lifetimeNote": "Hvala na podršci — vaš Doživotni pristup nikada ne ističe niti se obnavlja.",
+    "freeNote": "Solo igra uvijek je besplatna. Pretplatite se za otključavanje neograničene online Grupne igre.",
+    "upgradeToPro": "Nadogradi na Pro"
   }
 }

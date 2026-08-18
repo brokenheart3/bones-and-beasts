@@ -87,7 +87,8 @@
     "restoreFailed": "Ostojen palauttaminen epäonnistui.",
     "notSignedIn": "Kirjaudu ensin sisään.",
     "notAvailableOnWeb": "Tilaukset eivät ole vielä käytettävissä verkossa — käytä iOS- tai Android-sovellusta.",
-    "checkoutFailed": "Kassalle siirtyminen epäonnistui."
+    "checkoutFailed": "Kassalle siirtyminen epäonnistui.",
+    "portalFailed": "Laskutusportaalin avaaminen epäonnistui."
   },
   "gameSolo": {
     "rollPrompt": "{{name}}, heitä noppaa löytääksesi korttisi!",
@@ -214,7 +215,9 @@
     "liabilityHeading": "Vastuunrajoitus",
     "liabilityBody": "Lain sallimissa täysimääräisissä rajoissa emme ole vastuussa vahingoista, jotka johtuvat sovelluksen käytöstä tai kyvyttömyydestä käyttää sitä.",
     "changesHeading": "Muutokset",
-    "changesBody": "Näitä ehtoja voidaan päivittää sovelluksen muuttuessa. Sovelluksen käytön jatkaminen päivityksen jälkeen tarkoittaa, että hyväksyt tarkistetut ehdot."
+    "changesBody": "Näitä ehtoja voidaan päivittää sovelluksen muuttuessa. Sovelluksen käytön jatkaminen päivityksen jälkeen tarkoittaa, että hyväksyt tarkistetut ehdot.",
+    "subscriptionsHeading": "Tilaukset",
+    "subscriptionsBody": "Bones & Beasts Pro tarjotaan Kuukausi- ja Vuositilauksina, jotka uusiutuvat automaattisesti, sekä kertaluonteisena Elinikäisenä ostona, joka avaa verkossa pelattavan Ryhmätilan ilmaisen kokeilujakson jälkeen. Kuukausi- ja vuositilaukset uusiutuvat automaattisesti, ellei niitä peruuteta vähintään 24 tuntia ennen kuluvan jakson päättymistä. Maksu veloitetaan Apple ID -tililtäsi (iOS) tai Google Play -tililtäsi (Android) oston vahvistamisen yhteydessä. Voit hallita tai peruuttaa tilauksesi milloin tahansa laitteesi tilin asetuksista — tämä ei vaikuta Yksinpelin käyttöön, joka on aina ilmainen. Elinikäinen osto on kertamaksu eikä uusiudu."
   },
   "settingsNav": {
     "profile": "Profiili",
@@ -222,7 +225,8 @@
     "privacyPolicy": "Tietosuojakäytäntö",
     "termsOfService": "Käyttöehdot",
     "about": "Tietoja",
-    "settings": "Asetukset"
+    "settings": "Asetukset",
+    "subscription": "Tilaus"
   },
   "stats": {
     "title": "Tilastot",
@@ -248,10 +252,43 @@
     "yearly": "Vuosittainen",
     "lifetime": "Elinikäinen",
     "restorePurchases": "Palauta ostokset",
-    "notNow": "Ei nyt"
+    "notNow": "Ei nyt",
+    "subscriptionDisclosure": "Kuukausi- ja vuosisuunnitelmat uusiutuvat automaattisesti, ellei niitä peruuteta vähintään 24 tuntia ennen kuluvan jakson päättymistä. Maksu veloitetaan tililtäsi oston vahvistamisen yhteydessä. Hallitse tai peruuta milloin tahansa laitteesi tilin asetuksista. Elinikäinen suunnitelma on kertaluonteinen osto eikä uusiudu.",
+    "termsOfUse": "Käyttöehdot",
+    "privacyPolicy": "Tietosuojakäytäntö"
   },
   "avatar": {
     "pageTitle": "Avatar",
     "subtitle": "Valitse profiilillesi avatar"
+  },
+  "subscription": {
+    "title": "Tilaus",
+    "statusFree": "Ilmainen",
+    "statusTrial": "Ilmainen kokeilu",
+    "statusPro": "Pro",
+    "statusLifetime": "Elinikäinen jäsen",
+    "planMonthly": "Kuukausittainen",
+    "planYearly": "Vuosittainen",
+    "planLifetime": "Elinikäinen",
+    "planLabel": "Suunnitelma",
+    "priceLabel": "Hinta",
+    "startedLabel": "Aloitettu",
+    "renewsLabel": "Uusiutuu",
+    "expiresLabel": "Vanhenee",
+    "autoRenewLabel": "Automaattinen uusiminen",
+    "autoRenewOn": "Päällä",
+    "autoRenewOff": "Pois",
+    "billedViaLabel": "Laskutettu",
+    "billedViaAppStore": "App Store",
+    "billedViaPlayStore": "Google Play",
+    "billedViaWeb": "Verkko",
+    "whatsIncludedHeading": "Mitä sisältyy",
+    "includedGroup": "Rajoittamaton verkossa pelattava Ryhmätila",
+    "includedSolo": "Yksinpeli — aina ilmainen, Pro:n kanssa tai ilman",
+    "manageSubscription": "Hallitse tilausta",
+    "manageNote": "Laskutusta ja peruutusta hallinnoi {{platform}} — napauta yllä hallitaksesi tai peruuttaaksesi milloin tahansa.",
+    "lifetimeNote": "Kiitos tuestasi — Elinikäinen käyttöoikeutesi ei koskaan vanhene eikä uusiudu.",
+    "freeNote": "Yksinpeli on aina ilmainen. Tilaa avataksesi rajoittamattoman verkossa pelattavan Ryhmätilan.",
+    "upgradeToPro": "Päivitä Pro-versioon"
   }
 }

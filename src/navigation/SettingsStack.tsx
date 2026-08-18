@@ -6,6 +6,7 @@ import { SettingsStackParamList } from "./types";
 import SettingsHomeScreen from "../screens/settings/SettingsHomeScreen";
 import ProfileScreen from "../screens/settings/ProfileScreen";
 import AvatarScreen from "../screens/settings/AvatarScreen";
+import SubscriptionScreen from "../screens/settings/SubscriptionScreen";
 import PrivacyPolicyScreen from "../screens/settings/PrivacyPolicyScreen";
 import TermsOfServiceScreen from "../screens/settings/TermsOfServiceScreen";
 import AboutScreen from "../screens/settings/AboutScreen";
@@ -41,6 +42,11 @@ export default function SettingsStack() {
       <Stack.Screen name="Avatar" options={{ title: t("avatar.pageTitle") }}>
         {({ navigation }) => <AvatarScreen onDone={() => navigation.goBack()} />}
       </Stack.Screen>
+      <Stack.Screen
+        name="Subscription"
+        component={SubscriptionScreen}
+        options={{ title: t("subscription.title") }}
+      />
       <Stack.Screen
         name="AppSettings"
         component={AppSettingsScreen}

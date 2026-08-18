@@ -24,6 +24,12 @@ export interface Entitlement {
   isPro: boolean;
   plan: Plan;
   stripeCustomerId: string | null;
+  // Unix ms; null for the Lifetime plan (payment mode has no renewal).
+  currentPeriodEnd: number | null;
+  // False once the user has canceled but is still within a paid period.
+  willRenew: boolean | null;
+  // Unix ms; when the subscription (or Lifetime purchase) first started.
+  startDate: number | null;
   updatedAt: number;
 }
 
@@ -34,6 +40,9 @@ export async function getEntitlement(uid: string): Promise<Entitlement> {
     isPro: data?.isPro ?? false,
     plan: data?.plan ?? null,
     stripeCustomerId: data?.stripeCustomerId ?? null,
+    currentPeriodEnd: data?.currentPeriodEnd ?? null,
+    willRenew: data?.willRenew ?? null,
+    startDate: data?.startDate ?? null,
     updatedAt: data?.updatedAt ?? 0,
   };
 }

@@ -14,6 +14,7 @@ export default function TermsOfServiceScreen() {
         { body: t("termsOfService.intro") },
         { heading: t("termsOfService.gameHeading"), body: t("termsOfService.gameBody") },
         { heading: t("termsOfService.fairPlayHeading"), body: t("termsOfService.fairPlayBody") },
+        { heading: t("termsOfService.subscriptionsHeading"), body: t("termsOfService.subscriptionsBody") },
         { heading: t("termsOfService.noWarrantyHeading"), body: t("termsOfService.noWarrantyBody") },
         { heading: t("termsOfService.liabilityHeading"), body: t("termsOfService.liabilityBody") },
         { heading: t("termsOfService.changesHeading"), body: t("termsOfService.changesBody") },
